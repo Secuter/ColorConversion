@@ -32,10 +32,10 @@
         </div>
       </section>
 
-      <!-- Source Manufacturer Section -->
+      <!-- Source Paint Line -->
       <section class="section">
         <div class="section-header">
-          <h2>2. Source Manufacturer / Series</h2>
+          <h2>2. Source Paint Line</h2>
           <label class="checkbox">
             <input type="checkbox" v-model="autoDetectEnabled" />
             Auto-detect
@@ -44,9 +44,9 @@
 
         <div v-if="!autoDetectEnabled" class="select-grid">
           <div class="form-group">
-            <label>Manufacturer</label>
+            <label>Brand</label>
             <select v-model="selectedManufacturer">
-              <option value="">-- Select Manufacturer --</option>
+              <option value="">-- Select Brand --</option>
               <option v-for="mfr in manufacturerList" :key="mfr" :value="mfr">
                 {{ mfr }}
               </option>
@@ -54,9 +54,9 @@
           </div>
 
           <div class="form-group">
-            <label>Series</label>
+            <label>Paint Line</label>
             <select v-model="selectedSourceSeries">
-              <option value="">-- Select Series --</option>
+              <option value="">-- Select Paint Line --</option>
               <option v-for="series in filteredSeries" :key="series.series" :value="series" >
                 {{ series.series }}
               </option>
@@ -65,7 +65,7 @@
         </div>
 
         <div v-if="(selectedSourceSeries || (autoDetectEnabled && !ALLOW_MULTIPLE_SERIES)) && !ALLOW_MULTIPLE_SERIES" class="info-box">
-          <strong>Source Series:</strong>
+          <strong>Source Paint Line:</strong>
           {{
             selectedSourceSeries?.series ||
             detectedPaintSeries?.series ||
@@ -74,10 +74,10 @@
         </div>
       </section>
 
-      <!-- Target Manufacturer Section -->
+      <!-- Target Paint Line(s) Section -->
       <section class="section">
         <div class="section-header">
-          <h2>3. Target Manufacturer(s)</h2>
+          <h2>3. Target Paint Line(s)</h2>
         </div>
 
         <div class="checkbox-list">
