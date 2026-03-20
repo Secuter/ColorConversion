@@ -38,11 +38,11 @@
           <h2>2. Source Manufacturer / Series</h2>
           <label class="checkbox">
             <input type="checkbox" v-model="autoDetectEnabled" />
-            Auto-detect from input
+            Auto-detect
           </label>
         </div>
 
-        <div v-if="!autoDetectEnabled" class="select-grid">
+        <div v-if="!autoDetectEnabled && !ALLOW_MULTIPLE_SERIES" class="select-grid">
           <div class="form-group">
             <label>Manufacturer</label>
             <select v-model="selectedManufacturer" @change="selectedSourceSeries = null">
@@ -64,7 +64,7 @@
           </div>
         </div>
 
-        <div v-if="selectedSourceSeries || autoDetectEnabled" class="info-box">
+        <div v-if="(selectedSourceSeries || (autoDetectEnabled && !ALLOW_MULTIPLE_SERIES)) && !ALLOW_MULTIPLE_SERIES" class="info-box">
           <strong>Source Series:</strong>
           {{
             selectedSourceSeries?.series ||
@@ -116,12 +116,13 @@ import { computed, ref } from 'vue'
 import type { PaintSeries } from './types'
 import { allSeries, allManufacturers } from './data/index'
 import { autoDetectFromInput, detectSeries } from './composables/useColorDetection'
-import { convertColors } from './composables/useConversion'
+import { convertColors, convertColorsMultipleSeries } from './composables/useConversion'
 import ConversionResults from './components/ConversionResults.vue'
 import type { ConversionResult } from './types'
 
 const SHOW_RGB_SWATCHES = false
 const SHOW_TARGET_COLOR_DESCRIPTION = false
+const ALLOW_MULTIPLE_SERIES = true
 
 const inputText = ref('')
 const autoDetectEnabled = ref(true)
@@ -148,6 +149,7 @@ const detectedSeriesObject = computed(() => {
 })
 
 const multipleSeriesDetected = computed(() => {
+  if (ALLOW_MULTIPLE_SERIES) return false // Hide warning when multiple series are allowed
   if (!autoDetectEnabled.value || !inputText.value.trim()) return false
 
   const lines = inputText.value
@@ -173,10 +175,16 @@ const canConvert = computed(() => {
   const codes = inputText.value.trim().split('\n').filter(l => l.trim())
   if (codes.length === 0) return false
 
-  const source = selectedSourceSeries.value || (autoDetectEnabled.value && detectedPaintSeries.value)
-  if (!source) return false
+  if (ALLOW_MULTIPLE_SERIES) {
+    // In multi-series mode, we just need auto-detect + codes
+    return selectedTargetManufacturers.value.length > 0
+  } else {
+    // In single-series mode, we need a selected source series
+    const source = selectedSourceSeries.value || (autoDetectEnabled.value && detectedPaintSeries.value)
+    if (!source) return false
 
-  return selectedTargetManufacturers.value.length > 0
+    return selectedTargetManufacturers.value.length > 0
+  }
 })
 
 function toggleSelectAll() {
@@ -195,12 +203,18 @@ function performConversion() {
 
   if (!codes.length) return
 
-  const sourceSeries = selectedSourceSeries.value || (autoDetectEnabled.value ? detectedPaintSeries.value : null)
+  if (ALLOW_MULTIPLE_SERIES) {
+    // Convert with automatic series detection per code
+    conversionResults.value = convertColorsMultipleSeries(codes, selectedTargetManufacturers.value)
+  } else {
+    // Convert with a single source series
+    const sourceSeries = selectedSourceSeries.value || (autoDetectEnabled.value ? detectedPaintSeries.value : null)
 
-  if (!sourceSeries) return
+    if (!sourceSeries) return
 
-  // Convert with target filter
-  conversionResults.value = convertColors(codes, sourceSeries, selectedTargetManufacturers.value)
+    // Convert with target filter
+    conversionResults.value = convertColors(codes, sourceSeries, selectedTargetManufacturers.value)
+  }
 }
 </script>
 

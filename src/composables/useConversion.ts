@@ -1,6 +1,6 @@
 import type { ConversionResult, MatchedCorrespondence, PaintColor, PaintSeries } from '../types.ts'
 import { allSeries } from '../data/index.ts'
-import { normalizeId } from './useColorDetection.ts'
+import { normalizeId, detectSeries } from './useColorDetection.ts'
 
 /**
  * Find a color by id within a series.
@@ -115,4 +115,51 @@ export function convertColors(
       correspondences: uniqueMatches,
     }
   })
+}
+
+/**
+ * Convert a list of color codes with automatic series detection per code.
+ * Each code is detected individually, allowing mixed series in a single input.
+ *
+ * @param codes              Raw input codes (one per line)
+ * @param targetManufacturers Optional manufacturer filter
+ */
+export function convertColorsMultipleSeries(
+  codes: string[],
+  targetManufacturers?: string[],
+): ConversionResult[] {
+  const results: ConversionResult[] = []
+
+  for (const code of codes) {
+    const trimmed = code.trim()
+    if (!trimmed) {
+      results.push({
+        inputCode: trimmed,
+        normalizedId: '',
+        sourceColor: null,
+        sourceSeries: null,
+        correspondences: [],
+      })
+      continue
+    }
+
+    // Detect the series for this specific code
+    const detected = detectSeries(trimmed)
+    if (!detected.series) {
+      results.push({
+        inputCode: trimmed,
+        normalizedId: '',
+        sourceColor: null,
+        sourceSeries: null,
+        correspondences: [],
+      })
+      continue
+    }
+
+    // Convert using the detected series
+    const converted = convertColors([trimmed], detected.series, targetManufacturers)
+    results.push(...converted)
+  }
+
+  return results
 }
