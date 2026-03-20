@@ -9,7 +9,7 @@
       <section class="section">
         <div class="section-header">
           <h2>1. Paint Codes</h2>
-          <p>One code per line. Include manufacturer prefix if not auto-detected.</p>
+          <p>One code per line. Auto-detected color series if prefix is included.</p>
         </div>
 
         <textarea

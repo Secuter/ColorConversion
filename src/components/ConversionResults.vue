@@ -8,21 +8,21 @@
       <table class="results-table">
         <thead>
           <tr>
-            <th class="col-input">
+            <th :class="['col-input', layoutClass]">
               <code>{{ inputSeriesName }}</code>
             </th>
-            <th v-for="series in uniqueTargetSeries" :key="series" :class="`col-target col-target-${series}`">
+            <th v-for="series in uniqueTargetSeries" :key="series" :class="['col-target', `col-target-${series}`, layoutClass]">
               {{ series }}
             </th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="(result, idx) in results" :key="idx" :class="{ 'row-no-match': result.correspondences.length === 0 }">
-            <td class="col-input">
+            <td :class="['col-input', layoutClass]">
               <div class="color-info">
                 <div class="input-item">
                   <div class="color-code">
-                    <code>{{ result.inputCode }}</code>
+                    <code>{{ result.inputCode.toUpperCase() }}</code>
                   </div>
                   <div class="color-name">
                     <span v-if="result.sourceColor">
@@ -36,17 +36,16 @@
                     :style="{ backgroundColor: result.sourceColor.rgb }"
                     :title="result.sourceColor.rgb"
                   ></div>
-                  <span v-else class="text-not-found">—</span>
                 </div>
               </div>
             </td>
 
             <!-- Target columns -->
-            <td v-for="series in uniqueTargetSeries" :key="series" :class="`col-target col-target-${series}`">
+            <td v-for="series in uniqueTargetSeries" :key="series" :class="['col-target', `col-target-${series}`, layoutClass]">
               <div v-if="getMatchesForSeries(result, series).length > 0" class="color-info">
                 <div v-for="(match, midx) in getMatchesForSeries(result, series)" :key="midx" class="match-item">
-                  <div class="color-code">
-                    <code>{{ match.id }}</code>
+                  <div :class="['color-code', { 'code-center': !showTargetDescription }]">
+                    <code>{{ formatMatchId(match) }}</code>
                   </div>
                   <div v-if="showTargetDescription" class="color-name">{{ match.name }}</div>
                   <div v-if="showRgbSwatches" class="swatch-small" :style="{ backgroundColor: match.rgb }" :title="match.rgb"></div>
@@ -64,6 +63,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { ConversionResult, MatchedCorrespondence } from '../types'
+import { allSeries } from '../data/index'
 
 interface Props {
   results: ConversionResult[]
@@ -80,6 +80,11 @@ const props = withDefaults(defineProps<Props>(), {
 
 const showRgbSwatches = computed(() => props.showRgbSwatches)
 const showTargetDescription = computed(() => props.showTargetDescription)
+
+const layoutClass = computed(() => {
+  const hasVisualElements = showRgbSwatches.value || showTargetDescription.value
+  return hasVisualElements ? 'layout-expanded' : 'layout-compact'
+})
 
 const uniqueTargetSeries = computed(() => {
   const targets = new Set<string>()
@@ -101,6 +106,27 @@ const inputSeriesName = computed(() => {
 
 function getMatchesForSeries(result: ConversionResult, series: string): MatchedCorrespondence[] {
   return result.correspondences.filter(m => m.series === series)
+}
+
+function getSeriesData(manufacturer: string, series: string) {
+  return allSeries.find(s => s.manufacturer === manufacturer && s.series === series)
+}
+
+function formatMatchId(match: MatchedCorrespondence): string {
+  const seriesData = getSeriesData(match.manufacturer, match.series)
+  if (!seriesData || seriesData.prefixes.length === 0) {
+    return match.id
+  }
+  
+  // Check if the ID already has a prefix
+  const hasPrefix = seriesData.prefixes.some(prefix => match.id.startsWith(prefix))
+  
+  // If no prefix, add the first (default) prefix
+  if (!hasPrefix) {
+    return seriesData.prefixes[0] + match.id
+  }
+  
+  return match.id
 }
 </script>
 
@@ -153,8 +179,16 @@ function getMatchesForSeries(result: ConversionResult, series: string): MatchedC
   min-width: 180px;
 }
 
+.col-input.layout-compact {
+  min-width: 120px;
+}
+
 .col-target {
   min-width: 180px;
+}
+
+.col-target.layout-compact {
+  min-width: 100px;
 }
 
 .swatch {
@@ -215,6 +249,10 @@ code {
   font-size: 0.85rem;
 }
 
+.color-info > .match-item:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+
 .color-code {
   flex: 0 0 auto;
 }
@@ -222,6 +260,13 @@ code {
 .color-code code {
   background: white;
   font-weight: 500;
+}
+
+.color-code.code-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .color-name {
