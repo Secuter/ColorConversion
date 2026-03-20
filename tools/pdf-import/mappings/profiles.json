@@ -1,0 +1,27 @@
+{
+  "defaults": {
+    "include_pages": [],
+    "exclude_pages": [],
+    "force_table_types": []
+  },
+  "profiles": [
+    {
+      "match": "AK Real Colors",
+      "force_table_types": [
+        { "page": 1, "table_index": 1, "type": "color_list" }
+      ]
+    },
+    {
+      "match": "Italeri",
+      "force_table_types": []
+    },
+    {
+      "match": "Model Color",
+      "force_table_types": []
+    },
+    {
+      "match": "Model Air",
+      "force_table_types": []
+    }
+  ]
+}
