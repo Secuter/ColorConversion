@@ -2,9 +2,10 @@
   "series": "Mr. Color",
   "manufacturer": "Gunze",
   "prefixes": ["C", "GX"],
+  "default_prefix": "C",
   "colors": [
     {
-      "id": "C1",
+      "id": "1",
       "name": "Red",
       "rgb": "#B80000",
       "correspondences": [
@@ -14,7 +15,7 @@
       ]
     },
     {
-      "id": "C2",
+      "id": "2",
       "name": "Black",
       "rgb": "#050505",
       "correspondences": [
@@ -22,7 +23,7 @@
       ]
     },
     {
-      "id": "C4",
+      "id": "4",
       "name": "Yellow",
       "rgb": "#E8C800",
       "correspondences": [
@@ -30,7 +31,7 @@
       ]
     },
     {
-      "id": "C5",
+      "id": "5",
       "name": "Blue",
       "rgb": "#2040A0",
       "correspondences": [
@@ -38,7 +39,7 @@
       ]
     },
     {
-      "id": "C6",
+      "id": "6",
       "name": "Green",
       "rgb": "#3C8A3C",
       "correspondences": [
@@ -48,7 +49,7 @@
       ]
     },
     {
-      "id": "C11",
+      "id": "11",
       "name": "White",
       "rgb": "#F0F0F0",
       "correspondences": [
@@ -59,7 +60,7 @@
       ]
     },
     {
-      "id": "C12",
+      "id": "12",
       "name": "Flat Black",
       "rgb": "#0A0A0A",
       "correspondences": [
@@ -70,7 +71,7 @@
       ]
     },
     {
-      "id": "C13",
+      "id": "13",
       "name": "Neutral Grey",
       "rgb": "#787888",
       "correspondences": [
@@ -80,7 +81,7 @@
       ]
     },
     {
-      "id": "C14",
+      "id": "14",
       "name": "Navy Blue",
       "rgb": "#181828",
       "correspondences": [
@@ -88,7 +89,7 @@
       ]
     },
     {
-      "id": "C17",
+      "id": "17",
       "name": "RLM71 Dark Green",
       "rgb": "#3A5030",
       "correspondences": [
@@ -98,7 +99,7 @@
       ]
     },
     {
-      "id": "C18",
+      "id": "18",
       "name": "RLM70 Black Green",
       "rgb": "#1A2818",
       "correspondences": [
@@ -106,7 +107,7 @@
       ]
     },
     {
-      "id": "C25",
+      "id": "25",
       "name": "Cowling Color",
       "rgb": "#2A2820",
       "correspondences": [
@@ -115,7 +116,7 @@
       ]
     },
     {
-      "id": "C27",
+      "id": "27",
       "name": "Interior Green",
       "rgb": "#6A9048",
       "correspondences": [
@@ -125,7 +126,7 @@
       ]
     },
     {
-      "id": "C35",
+      "id": "35",
       "name": "Sail Color",
       "rgb": "#C0C8D0",
       "correspondences": [
@@ -134,7 +135,7 @@
       ]
     },
     {
-      "id": "C39",
+      "id": "39",
       "name": "Dark Yellow",
       "rgb": "#B09050",
       "correspondences": [
@@ -143,7 +144,7 @@
       ]
     },
     {
-      "id": "C40",
+      "id": "40",
       "name": "German Grey",
       "rgb": "#3A3A3A",
       "correspondences": [
@@ -152,7 +153,7 @@
       ]
     },
     {
-      "id": "C42",
+      "id": "42",
       "name": "Mahogany",
       "rgb": "#3A2010",
       "correspondences": [
@@ -160,7 +161,7 @@
       ]
     },
     {
-      "id": "C55",
+      "id": "55",
       "name": "Khaki",
       "rgb": "#8A8050",
       "correspondences": [
@@ -169,7 +170,7 @@
       ]
     },
     {
-      "id": "C56",
+      "id": "56",
       "name": "IJN Green D1",
       "rgb": "#3C5430",
       "correspondences": [
@@ -178,7 +179,7 @@
       ]
     },
     {
-      "id": "C65",
+      "id": "65",
       "name": "Intermediate Blue",
       "rgb": "#485090",
       "correspondences": [
@@ -187,7 +188,7 @@
       ]
     },
     {
-      "id": "C107",
+      "id": "107",
       "name": "Character Grey",
       "rgb": "#484840",
       "correspondences": [
@@ -195,7 +196,7 @@
       ]
     },
     {
-      "id": "C116",
+      "id": "116",
       "name": "RLM75 Grey Violet",
       "rgb": "#6A6878",
       "correspondences": [
@@ -205,7 +206,7 @@
       ]
     },
     {
-      "id": "C117",
+      "id": "117",
       "name": "RLM76 Light Blue",
       "rgb": "#8898A8",
       "correspondences": [
@@ -215,7 +216,7 @@
       ]
     },
     {
-      "id": "C118",
+      "id": "118",
       "name": "RLM74 Grey Green",
       "rgb": "#5A6050",
       "correspondences": [
@@ -225,7 +226,7 @@
       ]
     },
     {
-      "id": "C128",
+      "id": "128",
       "name": "Olive Drab",
       "rgb": "#4A4A28",
       "correspondences": [
@@ -235,7 +236,7 @@
       ]
     },
     {
-      "id": "C136",
+      "id": "136",
       "name": "Russian Green",
       "rgb": "#3A5028",
       "correspondences": [
@@ -244,7 +245,7 @@
       ]
     },
     {
-      "id": "C362",
+      "id": "362",
       "name": "Dark Grey",
       "rgb": "#606060",
       "correspondences": [

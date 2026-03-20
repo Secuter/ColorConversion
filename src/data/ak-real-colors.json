@@ -2,9 +2,10 @@
   "series": "AK Real Colors",
   "manufacturer": "AK Interactive",
   "prefixes": ["RC"],
+  "default_prefix": "RC",
   "colors": [
     {
-      "id": "RC001",
+      "id": "001",
       "name": "Flat Black",
       "rgb": "#0A0A0A",
       "correspondences": [
@@ -15,7 +16,7 @@
       ]
     },
     {
-      "id": "RC002",
+      "id": "002",
       "name": "Flat White",
       "rgb": "#F5F5F5",
       "correspondences": [
@@ -26,7 +27,7 @@
       ]
     },
     {
-      "id": "RC003",
+      "id": "003",
       "name": "IJA Green",
       "rgb": "#4A5A38",
       "correspondences": [
@@ -35,7 +36,7 @@
       ]
     },
     {
-      "id": "RC004",
+      "id": "004",
       "name": "US Olive Drab",
       "rgb": "#504C30",
       "correspondences": [
@@ -45,7 +46,7 @@
       ]
     },
     {
-      "id": "RC005",
+      "id": "005",
       "name": "Dark Tan",
       "rgb": "#9A7850",
       "correspondences": [
@@ -54,7 +55,7 @@
       ]
     },
     {
-      "id": "RC006",
+      "id": "006",
       "name": "US Field Drab",
       "rgb": "#7A6848",
       "correspondences": [
@@ -63,7 +64,7 @@
       ]
     },
     {
-      "id": "RC007",
+      "id": "007",
       "name": "Earth",
       "rgb": "#7A5030",
       "correspondences": [
@@ -72,7 +73,7 @@
       ]
     },
     {
-      "id": "RC008",
+      "id": "008",
       "name": "Panzer Olive",
       "rgb": "#4A4A28",
       "correspondences": [
@@ -81,7 +82,7 @@
       ]
     },
     {
-      "id": "RC009",
+      "id": "009",
       "name": "NATO Green",
       "rgb": "#404C38",
       "correspondences": [
@@ -92,7 +93,7 @@
       ]
     },
     {
-      "id": "RC010",
+      "id": "010",
       "name": "Dark Yellow",
       "rgb": "#B09050",
       "correspondences": [
@@ -103,7 +104,7 @@
       ]
     },
     {
-      "id": "RC011",
+      "id": "011",
       "name": "Dunkelgelb WWII",
       "rgb": "#C0A050",
       "correspondences": [
@@ -113,7 +114,7 @@
       ]
     },
     {
-      "id": "RC012",
+      "id": "012",
       "name": "Feldgrau",
       "rgb": "#606850",
       "correspondences": [
@@ -122,7 +123,7 @@
       ]
     },
     {
-      "id": "RC013",
+      "id": "013",
       "name": "Khaki",
       "rgb": "#8A8050",
       "correspondences": [
@@ -131,7 +132,7 @@
       ]
     },
     {
-      "id": "RC014",
+      "id": "014",
       "name": "Dark Khaki",
       "rgb": "#707048",
       "correspondences": [
@@ -139,7 +140,7 @@
       ]
     },
     {
-      "id": "RC015",
+      "id": "015",
       "name": "Flat Red",
       "rgb": "#A02020",
       "correspondences": [
@@ -150,7 +151,7 @@
       ]
     },
     {
-      "id": "RC016",
+      "id": "016",
       "name": "Russian Armor Green",
       "rgb": "#3A5028",
       "correspondences": [
@@ -160,7 +161,7 @@
       ]
     },
     {
-      "id": "RC017",
+      "id": "017",
       "name": "USMC Tank Green",
       "rgb": "#3A4A28",
       "correspondences": [
@@ -168,7 +169,7 @@
       ]
     },
     {
-      "id": "RC018",
+      "id": "018",
       "name": "German Grey",
       "rgb": "#3A3A3A",
       "correspondences": [
@@ -177,7 +178,7 @@
       ]
     },
     {
-      "id": "RC019",
+      "id": "019",
       "name": "Steel Grey",
       "rgb": "#686878",
       "correspondences": [
@@ -188,7 +189,7 @@
       ]
     },
     {
-      "id": "RC020",
+      "id": "020",
       "name": "Anthracite",
       "rgb": "#2A2A30",
       "correspondences": [
@@ -197,7 +198,7 @@
       ]
     },
     {
-      "id": "RC023",
+      "id": "023",
       "name": "Sand",
       "rgb": "#C0B070",
       "correspondences": [
@@ -207,7 +208,7 @@
       ]
     },
     {
-      "id": "RC225",
+      "id": "225",
       "name": "RLM74 Grey Green",
       "rgb": "#5A6050",
       "correspondences": [
@@ -217,7 +218,7 @@
       ]
     },
     {
-      "id": "RC226",
+      "id": "226",
       "name": "RLM75 Grey Violet",
       "rgb": "#6A6878",
       "correspondences": [
@@ -227,7 +228,7 @@
       ]
     },
     {
-      "id": "RC227",
+      "id": "227",
       "name": "RLM76 Light Blue",
       "rgb": "#8898A8",
       "correspondences": [
@@ -237,7 +238,7 @@
       ]
     },
     {
-      "id": "RC242",
+      "id": "242",
       "name": "US Interior Green",
       "rgb": "#7A8A70",
       "correspondences": [

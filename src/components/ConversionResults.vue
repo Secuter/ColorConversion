@@ -1,8 +1,8 @@
 <template>
   <section class="section results-section">
-    <div class="section-header">
+    <!-- <div class="section-header">
       <h2>Conversion Results</h2>
-    </div>
+    </div> -->
 
     <div class="results-table-wrapper">
       <table class="results-table">
@@ -17,43 +17,60 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(result, idx) in results" :key="idx" :class="{ 'row-no-match': result.correspondences.length === 0 }">
-            <td :class="['col-input', layoutClass]">
-              <div class="color-info">
-                <div class="input-item">
-                  <div class="color-code">
-                    <code>{{ result.inputCode.toUpperCase() }}</code>
+          <template v-for="[manufacturer, groupResults] in groupedAndSortedResults" :key="manufacturer">
+            <!-- Manufacturer header row -->
+            <tr v-if="hasMultipleManufacturers" class="manufacturer-header-row">
+              <td :colspan="1 + uniqueTargetSeries.length" class="manufacturer-header">
+                {{ manufacturer }}
+              </td>
+            </tr>
+            <!-- Result rows for this manufacturer -->
+            <tr v-for="(result, idx) in groupResults" :key="`${manufacturer}-${idx}`" :class="{ 'row-no-match': result.correspondences.length === 0 }">
+              <td :class="['col-input', layoutClass]">
+                <div class="color-info">
+                  <div class="input-item">
+                    <div class="color-code">
+                      <code>{{ formatInputCode(result) }}</code>
+                    </div>
+                    <div class="color-name">
+                      <span v-if="result.sourceColor">
+                        {{ result.sourceColor.name }}
+                      </span>
+                      <span v-else class="text-not-found">Not found</span>
+                    </div>
+                    <div
+                      v-if="showRgbSwatches && result.sourceColor"
+                      class="swatch-small"
+                      :style="{ backgroundColor: result.sourceColor.rgb }"
+                      :title="result.sourceColor.rgb"
+                    ></div>
                   </div>
-                  <div class="color-name">
-                    <span v-if="result.sourceColor">
-                      {{ result.sourceColor.name }}
-                    </span>
-                    <span v-else class="text-not-found">Not found</span>
-                  </div>
-                  <div
-                    v-if="showRgbSwatches && result.sourceColor"
-                    class="swatch-small"
-                    :style="{ backgroundColor: result.sourceColor.rgb }"
-                    :title="result.sourceColor.rgb"
-                  ></div>
                 </div>
-              </div>
-            </td>
+              </td>
 
-            <!-- Target columns -->
-            <td v-for="series in uniqueTargetSeries" :key="series" :class="['col-target', `col-target-${series}`, layoutClass]">
-              <div v-if="getMatchesForSeries(result, series).length > 0" class="color-info">
-                <div v-for="(match, midx) in getMatchesForSeries(result, series)" :key="midx" class="match-item">
-                  <div :class="['color-code', { 'code-center': !showTargetDescription }]">
-                    <code>{{ formatMatchId(match) }}</code>
+              <!-- Target columns -->
+              <td v-for="series in uniqueTargetSeries" :key="series" :class="['col-target', `col-target-${series}`, layoutClass]">
+                <div v-if="getMatchesForSeries(result, series).length > 0" class="color-info">
+                  <div
+                    v-if="useCombinedCompactMatch && getMatchesForSeries(result, series).length > 1"
+                    class="match-item"
+                  >
+                    <div class="color-code code-combined">
+                      <code>{{ formatCombinedMatchIds(result, series) }}</code>
+                    </div>
                   </div>
-                  <div v-if="showTargetDescription" class="color-name">{{ match.name }}</div>
-                  <div v-if="showRgbSwatches" class="swatch-small" :style="{ backgroundColor: match.rgb }" :title="match.rgb"></div>
+                  <div v-else v-for="(match, midx) in getMatchesForSeries(result, series)" :key="midx" class="match-item">
+                    <div :class="['color-code', { 'code-center': !showTargetDescription }]">
+                      <code>{{ formatMatchId(match) }}</code>
+                    </div>
+                    <div v-if="showTargetDescription" class="color-name">{{ match.name }}</div>
+                    <div v-if="showRgbSwatches" class="swatch-small" :style="{ backgroundColor: match.rgb }" :title="match.rgb"></div>
+                  </div>
                 </div>
-              </div>
-              <span v-else class="text-not-found">—</span>
-            </td>
-          </tr>
+                <span v-else class="text-not-found">—</span>
+              </td>
+            </tr>
+          </template>
         </tbody>
       </table>
     </div>
@@ -70,12 +87,14 @@ interface Props {
   targetFilter?: string[]
   showRgbSwatches?: boolean
   showTargetDescription?: boolean
+  allowMultipleSeries?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
   targetFilter: () => [],
   showRgbSwatches: true,
   showTargetDescription: true,
+  allowMultipleSeries: false,
 })
 
 const showRgbSwatches = computed(() => props.showRgbSwatches)
@@ -84,6 +103,49 @@ const showTargetDescription = computed(() => props.showTargetDescription)
 const layoutClass = computed(() => {
   const hasVisualElements = showRgbSwatches.value || showTargetDescription.value
   return hasVisualElements ? 'layout-expanded' : 'layout-compact'
+})
+
+const useCombinedCompactMatch = computed(() => {
+  return !showRgbSwatches.value && !showTargetDescription.value
+})
+
+const hasMultipleManufacturers = computed(() => {
+  const manufacturers = new Set(
+    props.results
+      .map(r => r.sourceSeries?.manufacturer)
+      .filter(Boolean),
+  )
+  return manufacturers.size > 1
+})
+
+const groupedAndSortedResults = computed(() => {
+  const groups = new Map<string, ConversionResult[]>()
+
+  // Group by source manufacturer
+  for (const result of props.results) {
+    const mfr = result.sourceSeries?.manufacturer || 'Not Found'
+    if (!groups.has(mfr)) {
+      groups.set(mfr, [])
+    }
+    groups.get(mfr)!.push(result)
+  }
+
+  // Sort manufacturers (Not Found last in multi-series mode), and results within each group by input code
+  const sorted: [string, ConversionResult[]][] = []
+  const sortedEntries = Array.from(groups.entries()).sort((a, b) => {
+    if (props.allowMultipleSeries) {
+      if (a[0] === 'Not Found' && b[0] !== 'Not Found') return 1
+      if (a[0] !== 'Not Found' && b[0] === 'Not Found') return -1
+    }
+    return a[0].localeCompare(b[0])
+  })
+
+  for (const [mfr, results] of sortedEntries) {
+    results.sort((a, b) => formatInputCode(a).localeCompare(formatInputCode(b), undefined, { numeric: true, sensitivity: 'base' }))
+    sorted.push([mfr, results])
+  }
+
+  return sorted
 })
 
 const uniqueTargetSeries = computed(() => {
@@ -101,32 +163,61 @@ const matchCount = computed(() => {
 })
 
 const inputSeriesName = computed(() => {
-  return props.results[0]?.sourceSeries?.series ?? 'Input / Origin Series'
+  if (props.allowMultipleSeries) {
+    return ''
+  }
+  return props.results[0]?.sourceSeries?.series ?? 'Not Found'
 })
 
 function getMatchesForSeries(result: ConversionResult, series: string): MatchedCorrespondence[] {
-  return result.correspondences.filter(m => m.series === series)
+  return result.correspondences
+    .filter(m => m.series === series)
+    .sort((a, b) => formatMatchId(a).localeCompare(formatMatchId(b), undefined, { numeric: true, sensitivity: 'base' }))
+}
+
+function formatCombinedMatchIds(result: ConversionResult, series: string): string {
+  return getMatchesForSeries(result, series)
+    .map(match => formatMatchId(match))
+    .join(' / ')
 }
 
 function getSeriesData(manufacturer: string, series: string) {
   return allSeries.find(s => s.manufacturer === manufacturer && s.series === series)
 }
 
+function formatCodeForSeries(rawCode: string, seriesData: { prefixes: string[]; default_prefix?: string }): string {
+  const trimmed = rawCode.trim()
+  const sortedPrefixes = [...seriesData.prefixes].sort((a, b) => b.length - a.length)
+
+  let coreCode = trimmed
+  const upperCode = trimmed.toUpperCase()
+  for (const prefix of sortedPrefixes) {
+    if (upperCode.startsWith(prefix.toUpperCase())) {
+      coreCode = trimmed.slice(prefix.length)
+      break
+    }
+  }
+
+  const defaultPrefix = seriesData.default_prefix ?? seriesData.prefixes[0] ?? ''
+  return `${defaultPrefix}${coreCode}`.toUpperCase()
+}
+
+function formatInputCode(result: ConversionResult): string {
+  if (!result.sourceSeries) {
+    return result.inputCode.toUpperCase()
+  }
+
+  const sourceCode = result.sourceColor?.id ?? result.inputCode
+  return formatCodeForSeries(sourceCode, result.sourceSeries)
+}
+
 function formatMatchId(match: MatchedCorrespondence): string {
   const seriesData = getSeriesData(match.manufacturer, match.series)
   if (!seriesData || seriesData.prefixes.length === 0) {
-    return match.id
+    return match.id.toUpperCase()
   }
-  
-  // Check if the ID already has a prefix
-  const hasPrefix = seriesData.prefixes.some(prefix => match.id.startsWith(prefix))
-  
-  // If no prefix, add the first (default) prefix
-  if (!hasPrefix) {
-    return seriesData.prefixes[0] + match.id
-  }
-  
-  return match.id
+
+  return formatCodeForSeries(match.id, seriesData)
 }
 </script>
 
@@ -173,6 +264,22 @@ function formatMatchId(match: MatchedCorrespondence): string {
 
 .results-table tbody tr.row-no-match {
   background: #fff3f3;
+}
+
+.manufacturer-header-row {
+  background: #f0f0f0 !important;
+}
+
+.manufacturer-header-row:hover {
+  background: #f0f0f0 !important;
+}
+
+.manufacturer-header {
+  font-weight: 600;
+  color: #333;
+  padding: 0.75rem 1rem !important;
+  font-size: 0.95rem;
+  text-align: left;
 }
 
 .col-input {
@@ -260,6 +367,18 @@ code {
 .color-code code {
   background: white;
   font-weight: 500;
+}
+
+.code-inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.code-combined code {
+  padding: 0.2rem 0.45rem;
+  font-size: 0.82em;
+  white-space: nowrap;
 }
 
 .color-code.code-center {

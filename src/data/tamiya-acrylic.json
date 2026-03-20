@@ -2,6 +2,7 @@
   "series": "Tamiya Acrylic",
   "manufacturer": "Tamiya",
   "prefixes": ["XF-", "X-", "TS-"],
+  "default_prefix": "XF-",
   "colors": [
     {
       "id": "1",

@@ -16,6 +16,7 @@ export interface PaintSeries {
   series: string
   manufacturer: string
   prefixes: string[]
+  default_prefix?: string
   colors: PaintColor[]
 }
 

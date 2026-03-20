@@ -9,7 +9,7 @@
       <section class="section">
         <div class="section-header">
           <h2>1. Paint Codes</h2>
-          <p>One code per line. Auto-detected color series if prefix is included.</p>
+          <!-- <p>One color per line. Auto-detected color series if prefix is included.</p> -->
         </div>
 
         <textarea
@@ -18,7 +18,7 @@
           placeholder="70.950&#10;71.126&#10;XF-1&#10;RC001"
         />
 
-        <div class="detection-box">
+        <div class="detection-box" v-if="!ALLOW_MULTIPLE_SERIES">
           <div class="detection-status">
             <span v-if="detectedSeriesObject"
               ><strong>Detected:</strong> {{ detectedSeriesObject.series }}
@@ -42,10 +42,10 @@
           </label>
         </div>
 
-        <div v-if="!autoDetectEnabled && !ALLOW_MULTIPLE_SERIES" class="select-grid">
+        <div v-if="!autoDetectEnabled" class="select-grid">
           <div class="form-group">
             <label>Manufacturer</label>
-            <select v-model="selectedManufacturer" @change="selectedSourceSeries = null">
+            <select v-model="selectedManufacturer">
               <option value="">-- Select Manufacturer --</option>
               <option v-for="mfr in manufacturerList" :key="mfr" :value="mfr">
                 {{ mfr }}
@@ -106,13 +106,14 @@
         :target-filter="selectedTargetManufacturers"
         :show-rgb-swatches="SHOW_RGB_SWATCHES"
         :show-target-description="SHOW_TARGET_COLOR_DESCRIPTION"
+        :allow-multiple-series="ALLOW_MULTIPLE_SERIES && autoDetectEnabled"
       />
     </main>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import type { PaintSeries } from './types'
 import { allSeries, allManufacturers } from './data/index'
 import { autoDetectFromInput, detectSeries } from './composables/useColorDetection'
@@ -171,15 +172,25 @@ const filteredSeries = computed(() => {
   return allSeries.filter(s => s.manufacturer === selectedManufacturer.value)
 })
 
+// Auto-select series if manufacturer has only 1 series
+watch(selectedManufacturer, (newMfr) => {
+  const seriesForMfr = allSeries.filter(s => s.manufacturer === newMfr)
+  if (seriesForMfr.length === 1) {
+    selectedSourceSeries.value = seriesForMfr[0]
+  } else {
+    selectedSourceSeries.value = null
+  }
+})
+
 const canConvert = computed(() => {
   const codes = inputText.value.trim().split('\n').filter(l => l.trim())
   if (codes.length === 0) return false
 
-  if (ALLOW_MULTIPLE_SERIES) {
-    // In multi-series mode, we just need auto-detect + codes
+  if (ALLOW_MULTIPLE_SERIES && autoDetectEnabled.value) {
+    // In multi-series mode with auto-detect, we just need codes
     return selectedTargetManufacturers.value.length > 0
   } else {
-    // In single-series mode, we need a selected source series
+    // In single-series mode or manual selection, we need a selected source series
     const source = selectedSourceSeries.value || (autoDetectEnabled.value && detectedPaintSeries.value)
     if (!source) return false
 
@@ -203,8 +214,8 @@ function performConversion() {
 
   if (!codes.length) return
 
-  if (ALLOW_MULTIPLE_SERIES) {
-    // Convert with automatic series detection per code
+  if (ALLOW_MULTIPLE_SERIES && autoDetectEnabled.value) {
+    // Convert with automatic series detection per code (only if auto-detect is enabled)
     conversionResults.value = convertColorsMultipleSeries(codes, selectedTargetManufacturers.value)
   } else {
     // Convert with a single source series

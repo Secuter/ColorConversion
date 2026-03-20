@@ -2,6 +2,7 @@
   "series": "Vallejo Model Air",
   "manufacturer": "Vallejo",
   "prefixes": ["71."],
+  "default_prefix": "71.",
   "colors": [
     {
       "id": "001",

@@ -2,6 +2,7 @@
   "series": "Vallejo Model Color",
   "manufacturer": "Vallejo",
   "prefixes": ["70."],
+  "default_prefix": "70.",
   "colors": [
     {
       "id": "950",

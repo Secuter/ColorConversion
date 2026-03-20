@@ -50,7 +50,20 @@ export function convertColors(
   sourceSeries: PaintSeries,
   targetManufacturers?: string[],
 ): ConversionResult[] {
-  return codes.map(rawCode => {
+  const uniqueCodes: string[] = []
+  const seenInputs = new Set<string>()
+
+  for (const rawCode of codes) {
+    const code = rawCode.trim()
+    if (!code) continue
+
+    const dedupeKey = normalizeId(code, sourceSeries).trim().toUpperCase()
+    if (seenInputs.has(dedupeKey)) continue
+    seenInputs.add(dedupeKey)
+    uniqueCodes.push(code)
+  }
+
+  return uniqueCodes.map(rawCode => {
     const code = rawCode.trim()
     if (!code)
       return { inputCode: code, normalizedId: '', sourceColor: null, sourceSeries, correspondences: [] }
@@ -129,22 +142,27 @@ export function convertColorsMultipleSeries(
   targetManufacturers?: string[],
 ): ConversionResult[] {
   const results: ConversionResult[] = []
+  const seenInputs = new Set<string>()
 
   for (const code of codes) {
     const trimmed = code.trim()
     if (!trimmed) {
-      results.push({
-        inputCode: trimmed,
-        normalizedId: '',
-        sourceColor: null,
-        sourceSeries: null,
-        correspondences: [],
-      })
       continue
     }
 
     // Detect the series for this specific code
     const detected = detectSeries(trimmed)
+
+    if (detected.series) {
+      const dedupeKey = `${detected.series.manufacturer}|${detected.series.series}|${normalizeId(trimmed, detected.series).trim().toUpperCase()}`
+      if (seenInputs.has(dedupeKey)) continue
+      seenInputs.add(dedupeKey)
+    } else {
+      const dedupeKey = `unknown|${trimmed.toUpperCase()}`
+      if (seenInputs.has(dedupeKey)) continue
+      seenInputs.add(dedupeKey)
+    }
+
     if (!detected.series) {
       results.push({
         inputCode: trimmed,
