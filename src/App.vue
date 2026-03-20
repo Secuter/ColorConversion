@@ -86,6 +86,7 @@
             <input type="checkbox" v-model="selectAllTargets" @change="toggleSelectAll" />
             <strong>Select All</strong>
           </label>
+          <br v-if="manufacturerList.length > 0" />
           <label v-for="mfr in manufacturerList" :key="mfr" class="checkbox">
             <input type="checkbox" :value="mfr" v-model="selectedTargetManufacturers" />
             {{ mfr }}

@@ -4,7 +4,7 @@
   "prefixes": ["XF-", "X-", "TS-"],
   "colors": [
     {
-      "id": "XF-1",
+      "id": "1",
       "name": "Flat Black",
       "rgb": "#0A0A0A",
       "correspondences": [
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "id": "XF-2",
+      "id": "2",
       "name": "Flat White",
       "rgb": "#F0F0F0",
       "correspondences": [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "id": "XF-3",
+      "id": "3",
       "name": "Flat Yellow",
       "rgb": "#D4B800",
       "correspondences": [
@@ -34,13 +34,13 @@
       ]
     },
     {
-      "id": "XF-4",
+      "id": "4",
       "name": "Yellow Green",
       "rgb": "#8A9A20",
       "correspondences": []
     },
     {
-      "id": "XF-5",
+      "id": "5",
       "name": "Flat Green",
       "rgb": "#3C7A3C",
       "correspondences": [
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "XF-7",
+      "id": "7",
       "name": "Flat Red",
       "rgb": "#A82020",
       "correspondences": [
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "id": "XF-8",
+      "id": "8",
       "name": "Flat Blue",
       "rgb": "#2040A0",
       "correspondences": [
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": "XF-10",
+      "id": "10",
       "name": "Flat Brown",
       "rgb": "#6A4030",
       "correspondences": [
@@ -81,13 +81,13 @@
       ]
     },
     {
-      "id": "XF-11",
+      "id": "11",
       "name": "JN Grey",
       "rgb": "#6A7080",
       "correspondences": []
     },
     {
-      "id": "XF-13",
+      "id": "13",
       "name": "JN Green",
       "rgb": "#3A5A38",
       "correspondences": [
@@ -96,19 +96,19 @@
       ]
     },
     {
-      "id": "XF-15",
+      "id": "15",
       "name": "Flat Flesh",
       "rgb": "#D4A878",
       "correspondences": []
     },
     {
-      "id": "XF-16",
+      "id": "16",
       "name": "Flat Aluminum",
       "rgb": "#A0A0A0",
       "correspondences": []
     },
     {
-      "id": "XF-17",
+      "id": "17",
       "name": "Sea Blue",
       "rgb": "#0A3054",
       "correspondences": [
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "id": "XF-19",
+      "id": "19",
       "name": "Sky Grey",
       "rgb": "#A0A8B0",
       "correspondences": [
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "id": "XF-22",
+      "id": "22",
       "name": "RLM Grey",
       "rgb": "#9A9A9A",
       "correspondences": [
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "id": "XF-23",
+      "id": "23",
       "name": "Light Blue",
       "rgb": "#8090B0",
       "correspondences": [
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": "XF-24",
+      "id": "24",
       "name": "Dark Grey",
       "rgb": "#505050",
       "correspondences": [
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "id": "XF-27",
+      "id": "27",
       "name": "Black Green",
       "rgb": "#1A2818",
       "correspondences": [
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": "XF-49",
+      "id": "49",
       "name": "Khaki",
       "rgb": "#7A6848",
       "correspondences": [
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "id": "XF-51",
+      "id": "51",
       "name": "Khaki Drab",
       "rgb": "#7A7250",
       "correspondences": [
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "id": "XF-52",
+      "id": "52",
       "name": "Flat Earth",
       "rgb": "#8A6840",
       "correspondences": [
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": "XF-53",
+      "id": "53",
       "name": "Neutral Grey",
       "rgb": "#706870",
       "correspondences": [
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "id": "XF-55",
+      "id": "55",
       "name": "Deck Tan",
       "rgb": "#C8B880",
       "correspondences": [
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "id": "XF-57",
+      "id": "57",
       "name": "Buff",
       "rgb": "#C4B070",
       "correspondences": [
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "id": "XF-58",
+      "id": "58",
       "name": "Olive Green",
       "rgb": "#5A6040",
       "correspondences": [
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "id": "XF-60",
+      "id": "60",
       "name": "Dark Yellow",
       "rgb": "#C0A050",
       "correspondences": [
@@ -239,13 +239,13 @@
       ]
     },
     {
-      "id": "XF-61",
+      "id": "61",
       "name": "Dark Green",
       "rgb": "#3A4A30",
       "correspondences": []
     },
     {
-      "id": "XF-62",
+      "id": "62",
       "name": "Olive Drab",
       "rgb": "#4A4A28",
       "correspondences": [
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "id": "XF-63",
+      "id": "63",
       "name": "German Grey",
       "rgb": "#3A3A3A",
       "correspondences": [
@@ -264,13 +264,13 @@
       ]
     },
     {
-      "id": "XF-64",
+      "id": "64",
       "name": "Red Brown",
       "rgb": "#7A3020",
       "correspondences": []
     },
     {
-      "id": "XF-65",
+      "id": "65",
       "name": "Field Grey",
       "rgb": "#507040",
       "correspondences": [
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": "XF-66",
+      "id": "66",
       "name": "Light Grey",
       "rgb": "#B0B8C0",
       "correspondences": [
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "id": "XF-67",
+      "id": "67",
       "name": "NATO Green",
       "rgb": "#3A4A30",
       "correspondences": [
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "id": "XF-69",
+      "id": "69",
       "name": "NATO Black",
       "rgb": "#1A1A1A",
       "correspondences": [
@@ -307,25 +307,25 @@
       ]
     },
     {
-      "id": "XF-72",
+      "id": "72",
       "name": "JGSDF Brown",
       "rgb": "#7A5838",
       "correspondences": []
     },
     {
-      "id": "XF-74",
+      "id": "74",
       "name": "JGSDF OD",
       "rgb": "#505838",
       "correspondences": []
     },
     {
-      "id": "XF-75",
+      "id": "75",
       "name": "IJN Grey Green",
       "rgb": "#6A7460",
       "correspondences": []
     },
     {
-      "id": "XF-78",
+      "id": "78",
       "name": "Wooden Deck Tan",
       "rgb": "#C0A060",
       "correspondences": [
@@ -333,13 +333,13 @@
       ]
     },
     {
-      "id": "XF-80",
+      "id": "80",
       "name": "Royal Light Grey",
       "rgb": "#8C8880",
       "correspondences": []
     },
     {
-      "id": "XF-84",
+      "id": "84",
       "name": "Dark Iron",
       "rgb": "#4A4A4A",
       "correspondences": []

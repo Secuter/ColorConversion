@@ -8,9 +8,9 @@
       <table class="results-table">
         <thead>
           <tr>
-            <th class="col-input">Input Code</th>
-            <th class="col-source-name">Source Color</th>
-            <th class="col-swatch">RGB Swatch</th>
+            <th class="col-input">
+              <code>{{ inputSeriesName }}</code>
+            </th>
             <th v-for="series in uniqueTargetSeries" :key="series" :class="`col-target col-target-${series}`">
               {{ series }}
             </th>
@@ -19,29 +19,36 @@
         <tbody>
           <tr v-for="(result, idx) in results" :key="idx" :class="{ 'row-no-match': result.correspondences.length === 0 }">
             <td class="col-input">
-              <code>{{ result.inputCode }}</code>
-            </td>
-
-            <td class="col-source-name">
-              <span v-if="result.sourceColor">
-                {{ result.sourceColor.name }}
-              </span>
-              <span v-else class="text-not-found">Not found</span>
-            </td>
-
-            <td class="col-swatch">
-              <div v-if="result.sourceColor" class="swatch" :style="{ backgroundColor: result.sourceColor.rgb }" :title="result.sourceColor.rgb"></div>
-              <span v-else class="text-not-found">—</span>
+              <div class="color-info">
+                <div class="input-item">
+                  <div class="color-code">
+                    <code>{{ result.inputCode }}</code>
+                  </div>
+                  <div class="color-name">
+                    <span v-if="result.sourceColor">
+                      {{ result.sourceColor.name }}
+                    </span>
+                    <span v-else class="text-not-found">Not found</span>
+                  </div>
+                  <div
+                    v-if="result.sourceColor"
+                    class="swatch-small"
+                    :style="{ backgroundColor: result.sourceColor.rgb }"
+                    :title="result.sourceColor.rgb"
+                  ></div>
+                  <span v-else class="text-not-found">—</span>
+                </div>
+              </div>
             </td>
 
             <!-- Target columns -->
             <td v-for="series in uniqueTargetSeries" :key="series" :class="`col-target col-target-${series}`">
-              <div v-if="getMatchesForSeries(result, series).length > 0" class="target-matches">
+              <div v-if="getMatchesForSeries(result, series).length > 0" class="color-info">
                 <div v-for="(match, midx) in getMatchesForSeries(result, series)" :key="midx" class="match-item">
-                  <div class="match-code">
+                  <div class="color-code">
                     <code>{{ match.id }}</code>
                   </div>
-                  <div class="match-name">{{ match.name }}</div>
+                  <div class="color-name">{{ match.name }}</div>
                   <div class="swatch-small" :style="{ backgroundColor: match.rgb }" :title="match.rgb"></div>
                   <span v-if="match.source === 'reverse'" class="badge badge-reverse">reverse</span>
                 </div>
@@ -51,10 +58,6 @@
           </tr>
         </tbody>
       </table>
-    </div>
-
-    <div class="results-summary">
-      <p><strong>{{ matchCount }}</strong> matches found across <strong>{{ uniqueTargetSeries.length }}</strong> target paint series</p>
     </div>
   </section>
 </template>
@@ -84,6 +87,10 @@ const uniqueTargetSeries = computed(() => {
 
 const matchCount = computed(() => {
   return props.results.reduce((sum, r) => sum + r.correspondences.length, 0)
+})
+
+const inputSeriesName = computed(() => {
+  return props.results[0]?.sourceSeries?.series ?? 'Input / Origin Series'
 })
 
 function getMatchesForSeries(result: ConversionResult, series: string): MatchedCorrespondence[] {
@@ -137,18 +144,7 @@ function getMatchesForSeries(result: ConversionResult, series: string): MatchedC
 }
 
 .col-input {
-  min-width: 100px;
-  font-family: monospace;
-  font-weight: 500;
-}
-
-.col-source-name {
-  min-width: 150px;
-  color: #555;
-}
-
-.col-swatch {
-  width: 60px;
+  min-width: 180px;
 }
 
 .col-target {
@@ -185,10 +181,21 @@ code {
   font-size: 0.9em;
 }
 
-.target-matches {
+.color-info {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.input-item {
+  padding: 0.5rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+  border-left: 3px solid #2f9e44;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
 }
 
 .match-item {
@@ -202,16 +209,16 @@ code {
   font-size: 0.85rem;
 }
 
-.match-code {
+.color-code {
   flex: 0 0 auto;
 }
 
-.match-code code {
+.color-code code {
   background: white;
   font-weight: 500;
 }
 
-.match-name {
+.color-name {
   flex: 1;
   color: #555;
   min-width: 100px;
@@ -237,22 +244,6 @@ code {
   color: #6f42c1;
 }
 
-.results-summary {
-  padding: 1.5rem;
-  background: #f9f9f9;
-  border-top: 1px solid #e0e0e0;
-  text-align: center;
-  color: #666;
-}
-
-.results-summary p {
-  margin: 0;
-}
-
-.results-summary strong {
-  color: #333;
-}
-
 @media (max-width: 768px) {
   .results-table {
     font-size: 0.8rem;
@@ -267,7 +258,7 @@ code {
     flex-wrap: wrap;
   }
 
-  .match-name {
+  .color-name {
     min-width: 80px;
   }
 }
