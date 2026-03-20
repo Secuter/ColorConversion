@@ -21,11 +21,14 @@
 
         <div class="detection-box">
           <div class="detection-status">
-            <span v-if="detectedSeries"
-              ><strong>Detected:</strong> {{ detectedSeries.series }}
-              ({{ detectedSeries.manufacturer }})
+            <span v-if="detectedSeriesObject"
+              ><strong>Detected:</strong> {{ detectedSeriesObject.series }}
+              ({{ detectedSeriesObject.manufacturer }})
             </span>
             <span v-else class="text-muted">No series detected. Select manually below.</span>
+          </div>
+          <div v-if="multipleSeriesDetected" class="detection-warning">
+            Warning: Multiple paint series were detected in the input. Auto-detection may be inaccurate.
           </div>
         </div>
       </section>
@@ -66,7 +69,7 @@
           <strong>Source Series:</strong>
           {{
             selectedSourceSeries?.series ||
-            detectedSeries?.series ||
+            detectedPaintSeries?.series ||
             'Not selected'
           }}
         </div>
@@ -79,13 +82,13 @@
         </div>
 
         <div class="checkbox-list">
-          <label v-for="mfr in manufacturerList" :key="mfr" class="checkbox">
-            <input type="checkbox" :value="mfr" v-model="selectedTargetManufacturers" />
-            {{ mfr }}
-          </label>
           <label class="checkbox">
             <input type="checkbox" v-model="selectAllTargets" @change="toggleSelectAll" />
             <strong>Select All</strong>
+          </label>
+          <label v-for="mfr in manufacturerList" :key="mfr" class="checkbox">
+            <input type="checkbox" :value="mfr" v-model="selectedTargetManufacturers" />
+            {{ mfr }}
           </label>
         </div>
       </section>
@@ -111,7 +114,7 @@
 import { computed, ref } from 'vue'
 import type { PaintSeries } from './types'
 import { allSeries, allManufacturers } from './data/index'
-import { autoDetectFromInput } from './composables/useColorDetection'
+import { autoDetectFromInput, detectSeries } from './composables/useColorDetection'
 import { convertColors } from './composables/useConversion'
 import ConversionResults from './components/ConversionResults.vue'
 import type { ConversionResult } from './types'
@@ -120,16 +123,41 @@ const inputText = ref('')
 const autoDetectEnabled = ref(true)
 const selectedManufacturer = ref('')
 const selectedSourceSeries = ref<PaintSeries | null>(null)
-const selectedTargetManufacturers = ref<string[]>([])
-const selectAllTargets = ref(false)
+const selectedTargetManufacturers = ref<string[]>([...allManufacturers])
+const selectAllTargets = ref(true)
 const conversionResults = ref<ConversionResult[]>([])
 
 const manufacturerList = computed(() => allManufacturers)
 
-const detectedSeries = computed(() => {
+const detectedPaintSeries = computed(() => {
   if (!autoDetectEnabled.value || !inputText.value.trim()) return null
   const detection = autoDetectFromInput(inputText.value)
-  return detection.series ? { series: detection.series.series, manufacturer: detection.series.manufacturer } : null
+  return detection.series
+})
+
+const detectedSeriesObject = computed(() => {
+  if (!detectedPaintSeries.value) return null
+  return {
+    series: detectedPaintSeries.value.series,
+    manufacturer: detectedPaintSeries.value.manufacturer,
+  }
+})
+
+const multipleSeriesDetected = computed(() => {
+  if (!autoDetectEnabled.value || !inputText.value.trim()) return false
+
+  const lines = inputText.value
+    .split('\n')
+    .map(l => l.trim())
+    .filter(l => l.length > 0)
+
+  const detectedSeriesNames = new Set(
+    lines
+      .map(line => detectSeries(line).series?.series)
+      .filter((seriesName): seriesName is string => Boolean(seriesName)),
+  )
+
+  return detectedSeriesNames.size > 1
 })
 
 const filteredSeries = computed(() => {
@@ -141,7 +169,7 @@ const canConvert = computed(() => {
   const codes = inputText.value.trim().split('\n').filter(l => l.trim())
   if (codes.length === 0) return false
 
-  const source = selectedSourceSeries.value || (autoDetectEnabled.value && detectedSeries.value)
+  const source = selectedSourceSeries.value || (autoDetectEnabled.value && detectedPaintSeries.value)
   if (!source) return false
 
   return selectedTargetManufacturers.value.length > 0
@@ -163,14 +191,7 @@ function performConversion() {
 
   if (!codes.length) return
 
-  const source = selectedSourceSeries.value || (autoDetectEnabled.value && detectedSeries.value && selectedSourceSeries.value)
-  if (!source) return
-
-  // Auto-detect source if enabled and not manually selected
-  let sourceSeries = selectedSourceSeries.value
-  if (!sourceSeries && autoDetectEnabled.value && detectedSeries.value) {
-    sourceSeries = allSeries.find(s => s.series === detectedSeries.value?.series) || null
-  }
+  const sourceSeries = selectedSourceSeries.value || (autoDetectEnabled.value ? detectedPaintSeries.value : null)
 
   if (!sourceSeries) return
 
@@ -264,6 +285,12 @@ function performConversion() {
 .detection-status {
   font-size: 0.95rem;
   color: #333;
+}
+
+.detection-warning {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #b26a00;
 }
 
 .text-muted {

@@ -11,8 +11,8 @@
             <th class="col-input">Input Code</th>
             <th class="col-source-name">Source Color</th>
             <th class="col-swatch">RGB Swatch</th>
-            <th v-for="manufacturer in uniqueTargets" :key="manufacturer" :class="`col-target col-target-${manufacturer}`">
-              {{ manufacturer }}
+            <th v-for="series in uniqueTargetSeries" :key="series" :class="`col-target col-target-${series}`">
+              {{ series }}
             </th>
           </tr>
         </thead>
@@ -35,9 +35,9 @@
             </td>
 
             <!-- Target columns -->
-            <td v-for="manufacturer in uniqueTargets" :key="manufacturer" :class="`col-target col-target-${manufacturer}`">
-              <div v-if="getMatchesForManufacturer(result, manufacturer).length > 0" class="target-matches">
-                <div v-for="(match, midx) in getMatchesForManufacturer(result, manufacturer)" :key="midx" class="match-item">
+            <td v-for="series in uniqueTargetSeries" :key="series" :class="`col-target col-target-${series}`">
+              <div v-if="getMatchesForSeries(result, series).length > 0" class="target-matches">
+                <div v-for="(match, midx) in getMatchesForSeries(result, series)" :key="midx" class="match-item">
                   <div class="match-code">
                     <code>{{ match.id }}</code>
                   </div>
@@ -54,7 +54,7 @@
     </div>
 
     <div class="results-summary">
-      <p><strong>{{ matchCount }}</strong> matches found across <strong>{{ uniqueTargets.length }}</strong> target manufacturers</p>
+      <p><strong>{{ matchCount }}</strong> matches found across <strong>{{ uniqueTargetSeries.length }}</strong> target paint series</p>
     </div>
   </section>
 </template>
@@ -72,11 +72,11 @@ const props = withDefaults(defineProps<Props>(), {
   targetFilter: () => [],
 })
 
-const uniqueTargets = computed(() => {
+const uniqueTargetSeries = computed(() => {
   const targets = new Set<string>()
   for (const result of props.results) {
     for (const match of result.correspondences) {
-      targets.add(match.manufacturer)
+      targets.add(match.series)
     }
   }
   return Array.from(targets).sort()
@@ -86,8 +86,8 @@ const matchCount = computed(() => {
   return props.results.reduce((sum, r) => sum + r.correspondences.length, 0)
 })
 
-function getMatchesForManufacturer(result: ConversionResult, manufacturer: string): MatchedCorrespondence[] {
-  return result.correspondences.filter(m => m.manufacturer === manufacturer)
+function getMatchesForSeries(result: ConversionResult, series: string): MatchedCorrespondence[] {
+  return result.correspondences.filter(m => m.series === series)
 }
 </script>
 
