@@ -31,7 +31,7 @@
                     <span v-else class="text-not-found">Not found</span>
                   </div>
                   <div
-                    v-if="result.sourceColor"
+                    v-if="showRgbSwatches && result.sourceColor"
                     class="swatch-small"
                     :style="{ backgroundColor: result.sourceColor.rgb }"
                     :title="result.sourceColor.rgb"
@@ -48,9 +48,8 @@
                   <div class="color-code">
                     <code>{{ match.id }}</code>
                   </div>
-                  <div class="color-name">{{ match.name }}</div>
-                  <div class="swatch-small" :style="{ backgroundColor: match.rgb }" :title="match.rgb"></div>
-                  <span v-if="match.source === 'reverse'" class="badge badge-reverse">reverse</span>
+                  <div v-if="showTargetDescription" class="color-name">{{ match.name }}</div>
+                  <div v-if="showRgbSwatches" class="swatch-small" :style="{ backgroundColor: match.rgb }" :title="match.rgb"></div>
                 </div>
               </div>
               <span v-else class="text-not-found">—</span>
@@ -69,11 +68,18 @@ import type { ConversionResult, MatchedCorrespondence } from '../types'
 interface Props {
   results: ConversionResult[]
   targetFilter?: string[]
+  showRgbSwatches?: boolean
+  showTargetDescription?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
   targetFilter: () => [],
+  showRgbSwatches: true,
+  showTargetDescription: true,
 })
+
+const showRgbSwatches = computed(() => props.showRgbSwatches)
+const showTargetDescription = computed(() => props.showTargetDescription)
 
 const uniqueTargetSeries = computed(() => {
   const targets = new Set<string>()
@@ -225,23 +231,6 @@ code {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.badge {
-  display: inline-block;
-  padding: 0.2rem 0.5rem;
-  background: #fff3cd;
-  color: #856404;
-  border-radius: 3px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  white-space: nowrap;
-  flex: 0 0 auto;
-}
-
-.badge-reverse {
-  background: #e7d4f5;
-  color: #6f42c1;
 }
 
 @media (max-width: 768px) {

@@ -104,6 +104,8 @@
         v-if="conversionResults.length > 0"
         :results="conversionResults"
         :target-filter="selectedTargetManufacturers"
+        :show-rgb-swatches="SHOW_RGB_SWATCHES"
+        :show-target-description="SHOW_TARGET_COLOR_DESCRIPTION"
       />
     </main>
   </div>
@@ -117,6 +119,9 @@ import { autoDetectFromInput, detectSeries } from './composables/useColorDetecti
 import { convertColors } from './composables/useConversion'
 import ConversionResults from './components/ConversionResults.vue'
 import type { ConversionResult } from './types'
+
+const SHOW_RGB_SWATCHES = false
+const SHOW_TARGET_COLOR_DESCRIPTION = false
 
 const inputText = ref('')
 const autoDetectEnabled = ref(true)

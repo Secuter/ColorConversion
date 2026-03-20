@@ -75,7 +75,7 @@ export function convertColors(
       if (!targetSeries) continue
       const targetColor = findColorInSeries(corr.id, targetSeries)
       if (!targetColor) continue
-      const key = `${corr.series}:${corr.id}`
+      const key = `${targetSeries.manufacturer}|${targetSeries.series}|${normalizeId(targetColor.id, targetSeries).toUpperCase()}`
       if (seen.has(key)) continue
       seen.add(key)
       matches.push(toMatch(targetColor, targetSeries, 'direct', corr.note))
@@ -93,7 +93,7 @@ export function convertColors(
             corr.manufacturer === sourceSeries.manufacturer
           const corrNormUpper = normalizeId(corr.id, sourceSeries).toUpperCase()
           if (matchesSeries && corrNormUpper === normalizedIdUpper) {
-            const key = `${series.series}:${color.id}`
+            const key = `${series.manufacturer}|${series.series}|${normalizeId(color.id, series).toUpperCase()}`
             if (seen.has(key)) continue
             seen.add(key)
             matches.push(toMatch(color, series, 'reverse'))
@@ -102,12 +102,17 @@ export function convertColors(
       }
     }
 
+    const uniqueMatches = matches.filter((match, index, list) => {
+      const matchKey = `${match.manufacturer}|${match.series}|${match.id.toUpperCase()}`
+      return index === list.findIndex(item => `${item.manufacturer}|${item.series}|${item.id.toUpperCase()}` === matchKey)
+    })
+
     return {
       inputCode: code,
       normalizedId,
       sourceColor,
       sourceSeries,
-      correspondences: matches,
+      correspondences: uniqueMatches,
     }
   })
 }
