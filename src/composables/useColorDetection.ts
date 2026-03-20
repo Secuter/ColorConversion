@@ -70,13 +70,11 @@ export function autoDetectFromInput(input: string): DetectionResult {
  */
 export function normalizeId(code: string, series: PaintSeries): string {
   const trimmed = code.trim()
-  const seriesUsesPrefixedIds = series.colors.some(color =>
-    series.prefixes.some(prefix => color.id.toLowerCase().startsWith(prefix.toLowerCase())),
-  )
+  const sortedPrefixes = [...series.prefixes].sort((a, b) => b.length - a.length)
 
-  for (const prefix of series.prefixes) {
+  for (const prefix of sortedPrefixes) {
     if (trimmed.toLowerCase().startsWith(prefix.toLowerCase())) {
-      return seriesUsesPrefixedIds ? trimmed : trimmed.slice(prefix.length)
+      return trimmed.slice(prefix.length)
     }
   }
   return trimmed

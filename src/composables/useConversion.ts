@@ -7,9 +7,13 @@ import { normalizeId } from './useColorDetection.ts'
  * Handles prefix-stripped and full-code lookups.
  */
 function findColorInSeries(id: string, series: PaintSeries): PaintColor | null {
-  const upper = id.trim().toUpperCase()
+  const rawUpper = id.trim().toUpperCase()
+  const exact = series.colors.find(c => c.id.trim().toUpperCase() === rawUpper)
+  if (exact) return exact
+
+  const normalized = normalizeId(id, series).trim().toUpperCase()
   return (
-    series.colors.find(c => c.id.toUpperCase() === upper) ??
+    series.colors.find(c => normalizeId(c.id, series).trim().toUpperCase() === normalized) ??
     null
   )
 }
@@ -44,7 +48,7 @@ function toMatch(
 export function convertColors(
   codes: string[],
   sourceSeries: PaintSeries,
-  targetFilter?: string,
+  targetManufacturers?: string[],
 ): ConversionResult[] {
   return codes.map(rawCode => {
     const code = rawCode.trim()
@@ -53,8 +57,9 @@ export function convertColors(
 
     // Normalize: strip leading prefix (e.g. "70.") so we match against bare id "950"
     const normalizedId = normalizeId(code, sourceSeries)
+    const normalizedIdUpper = normalizedId.toUpperCase()
 
-    const sourceColor = findColorInSeries(normalizedId, sourceSeries)
+    const sourceColor = findColorInSeries(code, sourceSeries)
 
     if (!sourceColor) {
       return { inputCode: code, normalizedId, sourceColor: null, sourceSeries, correspondences: [] }
@@ -65,7 +70,7 @@ export function convertColors(
 
     // 1. Direct correspondences from the source color
     for (const corr of sourceColor.correspondences) {
-      if (targetFilter && corr.manufacturer !== targetFilter) continue
+      if (targetManufacturers?.length && !targetManufacturers.includes(corr.manufacturer)) continue
       const targetSeries = allSeries.find(s => s.series === corr.series)
       if (!targetSeries) continue
       const targetColor = findColorInSeries(corr.id, targetSeries)
@@ -79,15 +84,15 @@ export function convertColors(
     // 2. Reverse lookup: find colors in OTHER series that list this source as a correspondence
     for (const series of allSeries) {
       if (series.series === sourceSeries.series) continue
-      if (targetFilter && series.manufacturer !== targetFilter) continue
+      if (targetManufacturers?.length && !targetManufacturers.includes(series.manufacturer)) continue
 
       for (const color of series.colors) {
         for (const corr of color.correspondences) {
           const matchesSeries =
             corr.series === sourceSeries.series ||
             corr.manufacturer === sourceSeries.manufacturer
-          const corrNorm = normalizeId(corr.id, sourceSeries)
-          if (matchesSeries && (corr.id === normalizedId || corrNorm === normalizedId)) {
+          const corrNormUpper = normalizeId(corr.id, sourceSeries).toUpperCase()
+          if (matchesSeries && corrNormUpper === normalizedIdUpper) {
             const key = `${series.series}:${color.id}`
             if (seen.has(key)) continue
             seen.add(key)

@@ -1,22 +1,21 @@
 <template>
   <div class="container">
     <header class="header">
-      <h1>🎨 Model Kit Paint Converter</h1>
-      <p>Convert paint colors between different manufacturers</p>
+      <h1>🎨 Paint Colors Converter</h1>
     </header>
 
     <main class="main">
       <!-- Input Section -->
       <section class="section">
         <div class="section-header">
-          <h2>1. Enter Paint Codes</h2>
+          <h2>1. Paint Codes</h2>
           <p>One code per line. Include manufacturer prefix if not auto-detected.</p>
         </div>
 
         <textarea
           v-model="inputText"
           class="input-textarea"
-          placeholder="70.950&#10;70.951&#10;XF-1&#10;RC001"
+          placeholder="70.950&#10;71.126&#10;XF-1&#10;RC001"
         />
 
         <div class="detection-box">
@@ -82,11 +81,10 @@
         </div>
 
         <div class="checkbox-list">
-          <label class="checkbox">
+          <label class="checkbox checkbox-all">
             <input type="checkbox" v-model="selectAllTargets" @change="toggleSelectAll" />
             <strong>Select All</strong>
           </label>
-          <br v-if="manufacturerList.length > 0" />
           <label v-for="mfr in manufacturerList" :key="mfr" class="checkbox">
             <input type="checkbox" :value="mfr" v-model="selectedTargetManufacturers" />
             {{ mfr }}
@@ -197,8 +195,7 @@ function performConversion() {
   if (!sourceSeries) return
 
   // Convert with target filter
-  const targetFilter = selectedTargetManufacturers.value.length > 0 ? undefined : undefined
-  conversionResults.value = convertColors(codes, sourceSeries, targetFilter)
+  conversionResults.value = convertColors(codes, sourceSeries, selectedTargetManufacturers.value)
 }
 </script>
 
@@ -350,6 +347,11 @@ function performConversion() {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
+}
+
+.checkbox-all {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
 }
 
 .info-box {
