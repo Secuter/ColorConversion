@@ -1,0 +1,255 @@
+{
+  "series": "Mr. Color",
+  "manufacturer": "Gunze",
+  "prefixes": ["C", "GX"],
+  "colors": [
+    {
+      "id": "C1",
+      "name": "Red",
+      "rgb": "#B80000",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-7" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC015" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "947" }
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "Black",
+      "rgb": "#050505",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "X-1" }
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Yellow",
+      "rgb": "#E8C800",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-3" }
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "Blue",
+      "rgb": "#2040A0",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-8" }
+      ]
+    },
+    {
+      "id": "C6",
+      "name": "Green",
+      "rgb": "#3C8A3C",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-5" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "971" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "039" }
+      ]
+    },
+    {
+      "id": "C11",
+      "name": "White",
+      "rgb": "#F0F0F0",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-2" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC002" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "951" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "001" }
+      ]
+    },
+    {
+      "id": "C12",
+      "name": "Flat Black",
+      "rgb": "#0A0A0A",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-1" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC001" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "950" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "057" }
+      ]
+    },
+    {
+      "id": "C13",
+      "name": "Neutral Grey",
+      "rgb": "#787888",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-53" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC019" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "836" }
+      ]
+    },
+    {
+      "id": "C14",
+      "name": "Navy Blue",
+      "rgb": "#181828",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-24" }
+      ]
+    },
+    {
+      "id": "C17",
+      "name": "RLM71 Dark Green",
+      "rgb": "#3A5030",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-58" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC009" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "979" }
+      ]
+    },
+    {
+      "id": "C18",
+      "name": "RLM70 Black Green",
+      "rgb": "#1A2818",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-27" }
+      ]
+    },
+    {
+      "id": "C25",
+      "name": "Cowling Color",
+      "rgb": "#2A2820",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-69" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "862" }
+      ]
+    },
+    {
+      "id": "C27",
+      "name": "Interior Green",
+      "rgb": "#6A9048",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-5" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC242" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "044" }
+      ]
+    },
+    {
+      "id": "C35",
+      "name": "Sail Color",
+      "rgb": "#C0C8D0",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-66" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "052" }
+      ]
+    },
+    {
+      "id": "C39",
+      "name": "Dark Yellow",
+      "rgb": "#B09050",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-60" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC010" }
+      ]
+    },
+    {
+      "id": "C40",
+      "name": "German Grey",
+      "rgb": "#3A3A3A",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-63" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC018" }
+      ]
+    },
+    {
+      "id": "C42",
+      "name": "Mahogany",
+      "rgb": "#3A2010",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-10" }
+      ]
+    },
+    {
+      "id": "C55",
+      "name": "Khaki",
+      "rgb": "#8A8050",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-51" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC013" }
+      ]
+    },
+    {
+      "id": "C56",
+      "name": "IJN Green D1",
+      "rgb": "#3C5430",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-13" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC003" }
+      ]
+    },
+    {
+      "id": "C65",
+      "name": "Intermediate Blue",
+      "rgb": "#485090",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-8" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "011" }
+      ]
+    },
+    {
+      "id": "C107",
+      "name": "Character Grey",
+      "rgb": "#484840",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-24" }
+      ]
+    },
+    {
+      "id": "C116",
+      "name": "RLM75 Grey Violet",
+      "rgb": "#6A6878",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-22" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC226" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "034" }
+      ]
+    },
+    {
+      "id": "C117",
+      "name": "RLM76 Light Blue",
+      "rgb": "#8898A8",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-23" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC227" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "035" }
+      ]
+    },
+    {
+      "id": "C118",
+      "name": "RLM74 Grey Green",
+      "rgb": "#5A6050",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-65" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC225" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "038" }
+      ]
+    },
+    {
+      "id": "C128",
+      "name": "Olive Drab",
+      "rgb": "#4A4A28",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-62" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC004" },
+        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "892" }
+      ]
+    },
+    {
+      "id": "C136",
+      "name": "Russian Green",
+      "rgb": "#3A5028",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-58" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC016" }
+      ]
+    },
+    {
+      "id": "C362",
+      "name": "Dark Grey",
+      "rgb": "#606060",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-24" }
+      ]
+    }
+  ]
+}

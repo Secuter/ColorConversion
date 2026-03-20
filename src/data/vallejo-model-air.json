@@ -1,0 +1,181 @@
+{
+  "series": "Vallejo Model Air",
+  "manufacturer": "Vallejo",
+  "prefixes": ["71."],
+  "colors": [
+    {
+      "id": "001",
+      "name": "White",
+      "rgb": "#F5F5F5",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-2" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C11" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC002" }
+      ]
+    },
+    {
+      "id": "057",
+      "name": "Black",
+      "rgb": "#050505",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-1" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C12" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC001" }
+      ]
+    },
+    {
+      "id": "010",
+      "name": "Signal Yellow",
+      "rgb": "#E8C800",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-3" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C4" }
+      ]
+    },
+    {
+      "id": "011",
+      "name": "Intermediate Blue",
+      "rgb": "#485090",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-8" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C65" }
+      ]
+    },
+    {
+      "id": "028",
+      "name": "Dark Sea Blue",
+      "rgb": "#0A3054",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-17" }
+      ]
+    },
+    {
+      "id": "034",
+      "name": "RLM75 Grey Violet",
+      "rgb": "#6A6878",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-22" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C116" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC226" }
+      ]
+    },
+    {
+      "id": "035",
+      "name": "RLM76 Light Blue",
+      "rgb": "#8898A8",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-23" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C117" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC227" }
+      ]
+    },
+    {
+      "id": "038",
+      "name": "RLM74 Grey Green",
+      "rgb": "#5A6050",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-65" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C118" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC225" }
+      ]
+    },
+    {
+      "id": "039",
+      "name": "Green",
+      "rgb": "#3A7A3A",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-5" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C6" }
+      ]
+    },
+    {
+      "id": "052",
+      "name": "Light Grey",
+      "rgb": "#B8C0C8",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-66" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C35" }
+      ]
+    },
+    {
+      "id": "053",
+      "name": "Grey",
+      "rgb": "#687080",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-53" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC019" }
+      ]
+    },
+    {
+      "id": "054",
+      "name": "Dark Grey",
+      "rgb": "#404858",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-24" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C14" }
+      ]
+    },
+    {
+      "id": "055",
+      "name": "Olive Green",
+      "rgb": "#606440",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-58" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC009" }
+      ]
+    },
+    {
+      "id": "023",
+      "name": "Hemp",
+      "rgb": "#D4B870",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-57" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC010" }
+      ]
+    },
+    {
+      "id": "012",
+      "name": "Tire Black",
+      "rgb": "#181818",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-69" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C12" }
+      ]
+    },
+    {
+      "id": "044",
+      "name": "US Interior Grey Green",
+      "rgb": "#7A8A70",
+      "correspondences": [
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C27" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC242" }
+      ]
+    },
+    {
+      "id": "004",
+      "name": "Yellow",
+      "rgb": "#E8B800",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-3" }
+      ]
+    },
+    {
+      "id": "016",
+      "name": "Aged White",
+      "rgb": "#D8D0B8",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-55" }
+      ]
+    },
+    {
+      "id": "047",
+      "name": "Red",
+      "rgb": "#B00000",
+      "correspondences": [
+        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-7" },
+        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C1" },
+        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC015" }
+      ]
+    }
+  ]
+}
