@@ -1,0 +1,146 @@
+[
+  {
+    "id": "vallejo-model-color",
+    "series": "Vallejo Model Color",
+    "manufacturer": "Vallejo",
+    "prefixes": ["70."],
+    "default_prefix": "70.",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "vallejo-model-air",
+    "series": "Vallejo Model Air",
+    "manufacturer": "Vallejo",
+    "prefixes": ["71."],
+    "default_prefix": "71.",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "ak-real-colors",
+    "series": "AK Real Colors",
+    "manufacturer": "AK Interactive",
+    "prefixes": ["RC"],
+    "default_prefix": "RC",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "ak-acrylic",
+    "series": "AK Acrylic",
+    "manufacturer": "AK Interactive",
+    "prefixes": ["AK"],
+    "default_prefix": "AK",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "ammo-mig",
+    "series": "Ammo by Mig",
+    "manufacturer": "Ammo",
+    "prefixes": ["AMIG"],
+    "default_prefix": "AMIG",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "ammo-mig-atom",
+    "series": "Ammo Mig Atom",
+    "manufacturer": "Ammo",
+    "prefixes": ["AMT"],
+    "default_prefix": "AMT",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "italeri-acrylic",
+    "series": "Italeri Acrylic",
+    "manufacturer": "Italeri",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": ["AP"],
+    "default_suffix": "AP"
+  },
+  {
+    "id": "humbrol-enamel",
+    "series": "Humbrol Enamel",
+    "manufacturer": "Humbrol",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "revell-acrylic",
+    "series": "Revell Acrylic",
+    "manufacturer": "Revell",
+    "prefixes": ["36"],
+    "default_prefix": "36",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "revell-enamel",
+    "series": "Revell Enamel",
+    "manufacturer": "Revell",
+    "prefixes": ["32"],
+    "default_prefix": "32",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "federal-standard",
+    "series": "Federal Standard",
+    "manufacturer": "Color Standard",
+    "prefixes": ["FS"],
+    "default_prefix": "FS",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "ral",
+    "series": "RAL",
+    "manufacturer": "Color Standard",
+    "prefixes": ["RAL"],
+    "default_prefix": "RAL",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "british-standard",
+    "series": "British Standard",
+    "manufacturer": "Color Standard",
+    "prefixes": ["BS"],
+    "default_prefix": "BS",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "mr-color",
+    "series": "Mr. Color",
+    "manufacturer": "GSI Creos",
+    "prefixes": ["C"],
+    "default_prefix": "C",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "mr-color-aqueous",
+    "series": "Mr. Color Aqueous",
+    "manufacturer": "GSI Creos",
+    "prefixes": ["H"],
+    "default_prefix": "H",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "tamiya-acrylic",
+    "series": "Tamiya Acrylic",
+    "manufacturer": "Tamiya",
+    "prefixes": ["XF-", "X-", "XF", "X"],
+    "default_prefix": "XF-",
+    "suffixes": [],
+    "default_suffix": ""
+  }
+]

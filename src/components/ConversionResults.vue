@@ -185,12 +185,13 @@ function getSeriesData(manufacturer: string, series: string) {
   return allSeries.find(s => s.manufacturer === manufacturer && s.series === series)
 }
 
-function formatCodeForSeries(rawCode: string, seriesData: { prefixes: string[]; default_prefix?: string }): string {
+function formatCodeForSeries(rawCode: string, seriesData: { prefixes: string[]; default_prefix?: string; suffixes?: string[]; default_suffix?: string }): string {
   const trimmed = rawCode.trim()
-  const sortedPrefixes = [...seriesData.prefixes].sort((a, b) => b.length - a.length)
+  const sortedPrefixes = [...(seriesData.prefixes ?? [])].sort((a, b) => b.length - a.length)
+  const sortedSuffixes = [...(seriesData.suffixes ?? [])].sort((a, b) => b.length - a.length)
 
   let coreCode = trimmed
-  const upperCode = trimmed.toUpperCase()
+  let upperCode = trimmed.toUpperCase()
   for (const prefix of sortedPrefixes) {
     if (upperCode.startsWith(prefix.toUpperCase())) {
       coreCode = trimmed.slice(prefix.length)
@@ -198,8 +199,17 @@ function formatCodeForSeries(rawCode: string, seriesData: { prefixes: string[]; 
     }
   }
 
+  upperCode = coreCode.toUpperCase()
+  for (const suffix of sortedSuffixes) {
+    if (upperCode.endsWith(suffix.toUpperCase())) {
+      coreCode = coreCode.slice(0, coreCode.length - suffix.length)
+      break
+    }
+  }
+
   const defaultPrefix = seriesData.default_prefix ?? seriesData.prefixes[0] ?? ''
-  return `${defaultPrefix}${coreCode}`.toUpperCase()
+  const defaultSuffix = seriesData.default_suffix ?? seriesData.suffixes?.[0] ?? ''
+  return `${defaultPrefix}${coreCode}${defaultSuffix}`.toUpperCase()
 }
 
 function formatInputCode(result: ConversionResult): string {
@@ -213,7 +223,7 @@ function formatInputCode(result: ConversionResult): string {
 
 function formatMatchId(match: MatchedCorrespondence): string {
   const seriesData = getSeriesData(match.manufacturer, match.series)
-  if (!seriesData || seriesData.prefixes.length === 0) {
+  if (!seriesData || ((seriesData.prefixes?.length ?? 0) === 0 && (seriesData.suffixes?.length ?? 0) === 0)) {
     return match.id.toUpperCase()
   }
 

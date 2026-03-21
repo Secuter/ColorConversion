@@ -8,17 +8,23 @@ import { allSeries } from '../data/index.ts'
 export function detectSeries(code: string): DetectionResult {
   const trimmed = code.trim().toUpperCase()
 
-  // Try longest prefix first so "XF-" wins over "X-"
+  // Try longest affix first so more specific matches win.
   const sorted = [...allSeries].sort(
     (a, b) =>
-      Math.max(...b.prefixes.map(p => p.length)) -
-      Math.max(...a.prefixes.map(p => p.length)),
+      Math.max(...[...(b.prefixes ?? []), ...(b.suffixes ?? []), ''].map(v => v.length)) -
+      Math.max(...[...(a.prefixes ?? []), ...(a.suffixes ?? []), ''].map(v => v.length)),
   )
 
   for (const series of sorted) {
-    for (const prefix of series.prefixes) {
-      if (trimmed.startsWith(prefix.toUpperCase())) {
+    for (const prefix of series.prefixes ?? []) {
+      if (prefix && trimmed.startsWith(prefix.toUpperCase())) {
         return { series, confidence: 'certain', matchingPrefix: prefix }
+      }
+    }
+
+    for (const suffix of series.suffixes ?? []) {
+      if (suffix && trimmed.endsWith(suffix.toUpperCase())) {
+        return { series, confidence: 'certain', matchingPrefix: suffix }
       }
     }
   }
@@ -70,12 +76,24 @@ export function autoDetectFromInput(input: string): DetectionResult {
  */
 export function normalizeId(code: string, series: PaintSeries): string {
   const trimmed = code.trim()
-  const sortedPrefixes = [...series.prefixes].sort((a, b) => b.length - a.length)
+  const sortedPrefixes = [...(series.prefixes ?? [])].sort((a, b) => b.length - a.length)
+  const sortedSuffixes = [...(series.suffixes ?? [])].sort((a, b) => b.length - a.length)
+
+  let normalized = trimmed
 
   for (const prefix of sortedPrefixes) {
-    if (trimmed.toLowerCase().startsWith(prefix.toLowerCase())) {
-      return trimmed.slice(prefix.length)
+    if (prefix && normalized.toLowerCase().startsWith(prefix.toLowerCase())) {
+      normalized = normalized.slice(prefix.length)
+      break
     }
   }
-  return trimmed
+
+  for (const suffix of sortedSuffixes) {
+    if (suffix && normalized.toLowerCase().endsWith(suffix.toLowerCase())) {
+      normalized = normalized.slice(0, normalized.length - suffix.length)
+      break
+    }
+  }
+
+  return normalized
 }
