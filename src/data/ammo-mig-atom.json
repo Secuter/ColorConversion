@@ -1,562 +1,556 @@
 {
-  "series": "Vallejo Model Color",
-  "manufacturer": "Vallejo",
+  "series": "Ammo Mig Atom",
+  "manufacturer": "Ammo",
   "prefixes": [
-    "70."
+    "AMT"
   ],
-  "default_prefix": "70.",
+  "default_prefix": "AMT",
   "suffixes": [],
   "default_suffix": "",
   "colors": [
     {
-      "id": "MC",
-      "name": "Name",
+      "id": "C-62",
+      "name": "XF-2",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "951",
-      "name": "White",
+      "id": "H-1",
+      "name": "C-1",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "820",
-      "name": "Offwhite",
+      "id": "70.918",
+      "name": "71.270",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "766",
-      "name": "Cream White",
+      "id": "70819",
+      "name": "71140",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "915",
-      "name": "Deep Yellow",
+      "id": "H-85",
+      "name": "C-45",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "953",
-      "name": "Flat Yellow",
+      "id": "H-403",
+      "name": "XF-60",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "956",
-      "name": "Clear Orange",
+      "id": "H-58",
+      "name": "C-27",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "908",
-      "name": "Carmine Red",
+      "id": "H-318",
+      "name": "C-318",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "947",
-      "name": "Dark Vermilion",
+      "id": "H-4",
+      "name": "C-4",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "957",
-      "name": "Flat Red",
+      "id": "H-459",
+      "name": "71143",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "859",
-      "name": "Black Red",
+      "id": "H-413",
+      "name": "C-113",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "965",
-      "name": "Prussian Blue",
+      "id": "H-24",
+      "name": "C-58",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "899",
-      "name": "Dark Prussian Blue",
+      "id": "H-66",
+      "name": "C-119",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "901",
-      "name": "Pastel Blue",
+      "id": "H-14",
+      "name": "C-59",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "925",
-      "name": "Blue",
+      "id": "XF-7",
+      "name": "70909",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "752",
-      "name": "Infantry Blue",
+      "id": "H-327",
+      "name": "C-327",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "961",
-      "name": "Sky Blue",
+      "id": "H-453",
+      "name": "70981",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "898",
-      "name": "Dark Sea Blue",
+      "id": "C-41",
+      "name": "XF-64",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "980",
-      "name": "Black Green",
+      "id": "H-7",
+      "name": "C-7",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "895",
-      "name": "Gunship Green",
+      "id": "H-37",
+      "name": "C-43",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "920",
-      "name": "German Uniform",
+      "id": "H-457",
+      "name": "XF-52",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "897",
-      "name": "Bronze Green",
+      "id": "70303",
+      "name": "71037",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "979",
-      "name": "Cam. Dark Green",
+      "id": "C-131",
+      "name": "70343",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "967",
-      "name": "Olive Green",
+      "id": "H-341",
+      "name": "70312",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "850",
-      "name": "Medium Olive",
+      "id": "H-17",
+      "name": "C-29",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "823",
-      "name": "Luftwaffe Green",
+      "id": "H-421",
+      "name": "C-121",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "975",
-      "name": "Military Green",
+      "id": "XF-68",
+      "name": "70871",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "885",
-      "name": "Pastel Green",
+      "id": "H-406",
+      "name": "XF-10",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "886",
-      "name": "Green Grey",
+      "id": "H-84",
+      "name": "C-42",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "830",
-      "name": "Ger. Fieldgrey WWII",
+      "id": "H-78",
+      "name": "C-38",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "759",
-      "name": "German Tank Crew",
+      "id": "H-80",
+      "name": "C-54",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "896",
-      "name": "Extra Dark Green",
+      "id": "XF-61",
+      "name": "70888",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "760",
-      "name": "Light Mud",
+      "id": "H-60",
+      "name": "C-130",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "893",
-      "name": "US Dark Green",
+      "id": "H-304",
+      "name": "C-304",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "890",
-      "name": "Refractive Green",
+      "id": "H-320",
+      "name": "C-136",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "888",
-      "name": "Olive Grey",
+      "id": "H-340",
+      "name": "C-340",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "894",
-      "name": "Cam. Olive Green",
+      "id": "H-422",
+      "name": "C-122",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "987",
-      "name": "Medium Grey",
+      "id": "H-303",
+      "name": "C-129",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "821",
-      "name": "German Beige WWII",
+      "id": "70893",
+      "name": "71294",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "988",
-      "name": "Khaki",
+      "id": "H-70",
+      "name": "C-60",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "762",
-      "name": "Grey Brown",
+      "id": "H-48",
+      "name": "C-52",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "763",
-      "name": "Canvas",
+      "id": "H-312",
+      "name": "C-312",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "941",
-      "name": "Burnt Umber",
+      "id": "H-74",
+      "name": "C-26",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "806",
-      "name": "German Yellow",
+      "id": "H-26",
+      "name": "C-66",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "881",
-      "name": "Green Yellow",
+      "id": "70970",
+      "name": "71007",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "887",
-      "name": "US Olive Drab",
+      "id": "C-124",
+      "name": "XF-70",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "976",
-      "name": "Buff",
+      "id": "H-65",
+      "name": "C-18",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "764",
-      "name": "Military Yellow",
+      "id": "H-54",
+      "name": "C-14",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "879",
-      "name": "Green Brown",
+      "id": "H-42",
+      "name": "C-72",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "921",
-      "name": "English Uniform",
+      "id": "H-15",
+      "name": "C-65",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "889",
-      "name": "Olive Brown",
+      "id": "H-323",
+      "name": "C-323",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "917",
-      "name": "Beige",
+      "id": "H-45",
+      "name": "70961",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "914",
-      "name": "Green Ochre",
+      "id": "C-370",
+      "name": "70902",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "847",
-      "name": "Dark Sand",
+      "id": "H-31",
+      "name": "70885",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "767",
-      "name": "Desert Brown",
+      "id": "H-418",
+      "name": "C-118",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "761",
-      "name": "Old Wood",
+      "id": "H-67",
+      "name": "C-115",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "765",
-      "name": "Desert Tan",
+      "id": "H-308",
+      "name": "C-308",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "874",
-      "name": "Tan Earth",
+      "id": "H-417",
+      "name": "C-117",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "873",
-      "name": "US Field Drab",
+      "id": "H-334",
+      "name": "C-334",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "768",
-      "name": "BC Dark Brown",
+      "id": "H-307",
+      "name": "C-307",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "871",
-      "name": "Leather Brown",
+      "id": "H-337",
+      "name": "C-337",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "822",
-      "name": "Cam. Black Brown",
+      "id": "H-22",
+      "name": "71050",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "977",
-      "name": "Desert Yellow",
+      "id": "H-56",
+      "name": "XF-66",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "769",
-      "name": "Mustard Brown",
+      "id": "XF-82",
+      "name": "71273",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "875",
-      "name": "Beige Brown",
+      "id": "H-311",
+      "name": "C-127",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "940",
-      "name": "Saddle Brown",
+      "id": "XF-21",
+      "name": "71302",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "913",
-      "name": "Yellow Ochre",
+      "id": "XF-12",
+      "name": "71311",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "856",
-      "name": "Ochre Brown",
+      "id": "70986",
+      "name": "71121",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "818",
-      "name": "Red Leather",
+      "id": "XF-55",
+      "name": "70315",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "982",
-      "name": "Cavalry Brown",
+      "id": "H-53",
+      "name": "C-13",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "814",
-      "name": "Burnt Red",
+      "id": "H-83",
+      "name": "C-32",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "985",
-      "name": "Hull Red",
+      "id": "H-69",
+      "name": "C-37",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "883",
-      "name": "Silver Grey",
+      "id": "H-305",
+      "name": "C-305",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "971",
-      "name": "Light Green Grey",
+      "id": "H-49",
+      "name": "70960",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "906",
-      "name": "Pale Blue",
+      "id": "H-39",
+      "name": "C-67",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "972",
-      "name": "Light Green Blue",
+      "id": "H-68",
+      "name": "C-36",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "772",
-      "name": "Medium Grey Blue",
+      "id": "H-416",
+      "name": "C-116",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "816",
-      "name": "Luftwaffe Uniform",
+      "id": "H-77",
+      "name": "C-137",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "994",
-      "name": "Dark Grey",
+      "id": "H-401",
+      "name": "70862",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "989",
-      "name": "Sky Grey",
+      "id": "H-2",
+      "name": "70861",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "990",
-      "name": "Light Grey",
+      "id": "H-12",
+      "name": "C-33",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "905",
-      "name": "Blue Grey Pale",
+      "id": "XF-16",
+      "name": "71062",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "867",
-      "name": "Dark Blue Grey",
+      "id": "H-8",
+      "name": "70997",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "870",
-      "name": "Medium Sea Grey",
+      "id": "H-18",
+      "name": "C-28",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "773",
-      "name": "Violet Grey",
+      "id": "70863",
+      "name": "71072",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "866",
-      "name": "Grey Green",
+      "id": "H-76",
+      "name": "C-61",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "869",
-      "name": "Basalt Grey",
+      "id": "H-10",
+      "name": "C-10",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "868",
-      "name": "Dark Sea Green",
+      "id": "70996",
+      "name": "71066",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "995",
-      "name": "German Grey",
+      "id": "H-9",
+      "name": "C-9",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "950",
-      "name": "Black",
+      "id": "H-87",
+      "name": "C-75",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "861",
-      "name": "Gloss Black",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "997",
-      "name": "Silver",
+      "id": "H-63",
+      "name": "C-57",
       "rgb": "",
       "correspondences": []
     }

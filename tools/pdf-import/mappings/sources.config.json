@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "lines": [
+    {
+      "line_id": "ak-acrylic",
+      "sources": [
+        {
+          "file": "AK Acrylics Conversion.csv",
+          "type": "csv"
+        }
+      ]
+    },
+    {
+      "line_id": "ak-real-colors",
+      "sources": [
+        {
+          "file": "AK Real Colors Conversion.csv",
+          "type": "csv"
+        }
+      ]
+    },
+    {
+      "line_id": "ammo-mig",
+      "sources": [
+        {
+          "file": "Ammo Mig.pdf",
+          "type": "pdf-image"
+        }
+      ]
+    },
+    {
+      "line_id": "ammo-mig-atom",
+      "sources": [
+        {
+          "file": "Atom Ammo Mig.pdf",
+          "type": "pdf-table"
+        }
+      ]
+    },
+    {
+      "line_id": "humbrol-enamel",
+      "sources": [
+        {
+          "file": "Humbrol.csv",
+          "type": "csv"
+        },
+        {
+          "file": "Humbrol Color Conversion.pdf",
+          "type": "pdf-image"
+        }
+      ]
+    },
+    {
+      "line_id": "italeri-acrylic",
+      "sources": [
+        {
+          "file": "Italeri Conversion.csv",
+          "type": "csv"
+        },
+        {
+          "file": "Italeri.csv",
+          "type": "csv"
+        }
+      ]
+    },
+    {
+      "line_id": "vallejo-model-air",
+      "sources": [
+        {
+          "file": "Model Air.pdf",
+          "type": "pdf-table"
+        },
+        {
+          "file": "Vallejo Model Air.pdf",
+          "type": "pdf-table"
+        }
+      ]
+    },
+    {
+      "line_id": "mr-color-aqueous",
+      "sources": [
+        {
+          "file": "MrColor Aqueous Conversion.csv",
+          "type": "csv"
+        },
+        {
+          "file": "MrColor Aqueous.csv",
+          "type": "csv"
+        }
+      ]
+    },
+    {
+      "line_id": "mr-color",
+      "sources": [
+        {
+          "file": "MrColor Laquer Conversion.html",
+          "type": "html-table"
+        }
+      ]
+    },
+    {
+      "line_id": "revell-acrylic",
+      "sources": [
+        {
+          "file": "Revell Conversion.csv",
+          "type": "csv"
+        },
+        {
+          "file": "Revell.csv",
+          "type": "csv"
+        }
+      ]
+    },
+    {
+      "line_id": "tamiya-acrylic",
+      "sources": [
+        {
+          "file": "Tamiya.csv",
+          "type": "csv"
+        },
+        {
+          "file": "Tamiya Conversion.html",
+          "type": "html-table"
+        }
+      ]
+    },
+    {
+      "line_id": "vallejo-model-color",
+      "sources": [
+        {
+          "file": "Vallejo Model Color Conversion.csv",
+          "type": "csv"
+        }
+      ]
+    },
+    {
+      "line_id": "federal-standard",
+      "sources": [
+        {
+          "file": "Federal Standard.csv",
+          "type": "csv"
+        }
+      ]
+    },
+    {
+      "line_id": "british-standard",
+      "sources": [
+        {
+          "file": "British Standard.csv",
+          "type": "csv"
+        }
+      ]
+    },
+    {
+      "line_id": "ana-standard",
+      "sources": [
+        {
+          "file": "ANA Standard.html",
+          "type": "html-table"
+        }
+      ]
+    },
+    {
+      "line_id": "rlm",
+      "sources": [
+        {
+          "file": "RLM Conversion.pdf",
+          "type": "pdf-table"
+        }
+      ]
+    }
+  ]
+}

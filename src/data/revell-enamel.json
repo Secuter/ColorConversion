@@ -1,0 +1,1266 @@
+{
+  "series": "Revell Enamel",
+  "manufacturer": "Revell",
+  "prefixes": [
+    "32"
+  ],
+  "default_prefix": "32",
+  "suffixes": [],
+  "default_suffix": "",
+  "colors": [
+    {
+      "id": "Id;Type;Name;RAL;Revell;Humbrol;Vallejo;Tamiya",
+      "name": "Id;Type;Name;RAL;Revell;Humbrol;Vallejo;Tamiya",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32101;Enamel Paint 'Email';Solid Gloss Clear;;01;35;510;X22",
+      "name": "RL32101;Enamel Paint 'Email';Solid Gloss Clear;;01;35;510;X22",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32102;Enamel Paint 'Email';Solid Matt Clear;;02;49;520;X21",
+      "name": "RL32102;Enamel Paint 'Email';Solid Matt Clear;;02;49;520;X21",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32104;Enamel Paint 'Email';Solid Gloss White;RAL9010;04;22;842;-",
+      "name": "RL32104;Enamel Paint 'Email';Solid Gloss White;RAL9010;04;22;842;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32105;Enamel Paint 'Email';Solid Matt White;RAL9001;05;34;951;XF2",
+      "name": "RL32105;Enamel Paint 'Email';Solid Matt White;RAL9001;05;34;951;XF2",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32106;Enamel Paint 'Email';Solid Matt Tar Black;RAL9021;06;-;-;-",
+      "name": "RL32106;Enamel Paint 'Email';Solid Matt Tar Black;RAL9021;06;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32107;Enamel Paint 'Email';Solid Gloss Black;RAL9005;07;21;861;X1",
+      "name": "RL32107;Enamel Paint 'Email';Solid Gloss Black;RAL9005;07;21;861;X1",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32108;Enamel Paint 'Email';Solid Matt Black;RAL9011;08;22;-;X2",
+      "name": "RL32108;Enamel Paint 'Email';Solid Matt Black;RAL9011;08;22;-;X2",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32109;Enamel Paint 'Email';Solid Matt Anthracite;RAL7021;09;862;-;XF63",
+      "name": "RL32109;Enamel Paint 'Email';Solid Matt Anthracite;RAL7021;09;862;-;XF63",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32112;Enamel Paint 'Email';Solid Gloss Yellow;RAL1018;12;69;953;X8",
+      "name": "RL32112;Enamel Paint 'Email';Solid Gloss Yellow;RAL1018;12;69;953;X8",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32115;Enamel Paint 'Email';Solid Matt Yellow;RAL1017;15;24/154;953;-",
+      "name": "RL32115;Enamel Paint 'Email';Solid Matt Yellow;RAL1017;15;24/154;953;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32116;Enamel Paint 'Email';Solid Matt Sandy Yellow;RAL1024;16;-;821;XF60",
+      "name": "RL32116;Enamel Paint 'Email';Solid Matt Sandy Yellow;RAL1024;16;-;821;XF60",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32117;Enamel Paint 'Email';Solid Matt Africa Brown;;17;-;-;-",
+      "name": "RL32117;Enamel Paint 'Email';Solid Matt Africa Brown;;17;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32125;Enamel Paint 'Email';Solid Matt Luminous Orange;;25;-;-;-",
+      "name": "RL32125;Enamel Paint 'Email';Solid Matt Luminous Orange;;25;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32130;Enamel Paint 'Email';Solid Gloss Orange;RAL2004;30;18;956;X6",
+      "name": "RL32130;Enamel Paint 'Email';Solid Gloss Orange;RAL2004;30;18;956;X6",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32131;Enamel Paint 'Email';Solid Gloss Fiery Red;RAL3000;31;19;908;X7",
+      "name": "RL32131;Enamel Paint 'Email';Solid Gloss Fiery Red;RAL3000;31;19;908;X7",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32134;Enamel Paint 'Email';Solid Gloss Ferrari Red;;34;-;-;-",
+      "name": "RL32134;Enamel Paint 'Email';Solid Gloss Ferrari Red;;34;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32135;Enamel Paint 'Email';Solid Matt Flesh;;35;61/148;927;XF15",
+      "name": "RL32135;Enamel Paint 'Email';Solid Matt Flesh;;35;61/148;927;XF15",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32136;Enamel Paint 'Email';Solid Matt Carmine Red;RAL3002;36;60;817;XF07",
+      "name": "RL32136;Enamel Paint 'Email';Solid Matt Carmine Red;RAL3002;36;60;817;XF07",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32137;Enamel Paint 'Email';Solid Matt Reddy Brown;RAL3009;37;70;953;-",
+      "name": "RL32137;Enamel Paint 'Email';Solid Matt Reddy Brown;RAL3009;37;70;953;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32139;Enamel Paint 'Email';Solid Matt Dark Green;;39;-;982;-",
+      "name": "RL32139;Enamel Paint 'Email';Solid Matt Dark Green;;39;-;982;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32140;Enamel Paint 'Email';Solid Matt Black Green;;40;-;-;-",
+      "name": "RL32140;Enamel Paint 'Email';Solid Matt Black Green;;40;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32142;Enamel Paint 'Email';Solid Matt Yellowish Olive;;42;-;894;XF65",
+      "name": "RL32142;Enamel Paint 'Email';Solid Matt Yellowish Olive;;42;-;894;XF65",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32143;Enamel Paint 'Email';Solid Matt Medium Grey USAF;;43;-;989;XF19",
+      "name": "RL32143;Enamel Paint 'Email';Solid Matt Medium Grey USAF;;43;-;989;XF19",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32145;Enamel Paint 'Email';Solid Matt Light Olive;RAL7003;45;86/102;890;XF58",
+      "name": "RL32145;Enamel Paint 'Email';Solid Matt Light Olive;RAL7003;45;86/102;890;XF58",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32146;Enamel Paint 'Email';Solid Matt NATO Olive;RAL7013;46;-;-;XF51",
+      "name": "RL32146;Enamel Paint 'Email';Solid Matt NATO Olive;RAL7013;46;-;-;XF51",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32147;Enamel Paint 'Email';Solid Matt Mouse Grey;RAL7005;47;106;869;XF66",
+      "name": "RL32147;Enamel Paint 'Email';Solid Matt Mouse Grey;RAL7005;47;106;869;XF66",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32148;Enamel Paint 'Email';Solid Matt Sea Green;RAL6028;48;88/149;855/895;XF26",
+      "name": "RL32148;Enamel Paint 'Email';Solid Matt Sea Green;RAL6028;48;88/149;855/895;XF26",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32149;Enamel Paint 'Email';Solid Matt Light Blue;;49;-;-;-",
+      "name": "RL32149;Enamel Paint 'Email';Solid Matt Light Blue;;49;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32150;Enamel Paint 'Email';Solid Gloss Light;RAL5012;50;47;961;-",
+      "name": "RL32150;Enamel Paint 'Email';Solid Gloss Light;RAL5012;50;47;961;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32151;Enamel Paint 'Email';Solid Gloss Ultramarine;RAL5002;51;48;961;X14",
+      "name": "RL32151;Enamel Paint 'Email';Solid Gloss Ultramarine;RAL5002;51;48;961;X14",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32152;Enamel Paint 'Email';Solid Gloss Blue;RAL5005;52;14;930;X4",
+      "name": "RL32152;Enamel Paint 'Email';Solid Gloss Blue;RAL5005;52;14;930;X4",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32154;Enamel Paint 'Email';Solid Gloss Night Blue;RAL5022;54;15;899;X3",
+      "name": "RL32154;Enamel Paint 'Email';Solid Gloss Night Blue;RAL5022;54;15;899;X3",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32155;Enamel Paint 'Email';Solid Matt Light Green;RAL6027;55;65;971;XF21/XF23",
+      "name": "RL32155;Enamel Paint 'Email';Solid Matt Light Green;RAL6027;55;65;971;XF21/XF23",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32156;Enamel Paint 'Email';Solid Matt Blue;RAL5000;56;25;925;XF8",
+      "name": "RL32156;Enamel Paint 'Email';Solid Matt Blue;RAL5000;56;25;925;XF8",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32157;Enamel Paint 'Email';Solid Matt Grey;RAL7000;57;87;821;XF20",
+      "name": "RL32157;Enamel Paint 'Email';Solid Matt Grey;RAL7000;57;87;821;XF20",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32159;Enamel Paint 'Email';Solid Matt Sky RAF;;59;-;-;-",
+      "name": "RL32159;Enamel Paint 'Email';Solid Matt Sky RAF;;59;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32161;Enamel Paint 'Email';Solid Gloss Emerald Grn;RAL6029;61;2;970;-",
+      "name": "RL32161;Enamel Paint 'Email';Solid Gloss Emerald Grn;RAL6029;61;2;970;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32162;Enamel Paint 'Email';Solid Gloss Sea Green;RAL6005;62;-;895;XF26",
+      "name": "RL32162;Enamel Paint 'Email';Solid Gloss Sea Green;RAL6005;62;-;895;XF26",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32165;Enamel Paint 'Email';Solid Matt Bronze Green;RAL6031;65;75;893;XF11",
+      "name": "RL32165;Enamel Paint 'Email';Solid Matt Bronze Green;RAL6031;65;75;893;XF11",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32166;Enamel Paint 'Email';Solid Matt Olive Grey;RAL7010;66;66/155;887/889;XF62",
+      "name": "RL32166;Enamel Paint 'Email';Solid Matt Olive Grey;RAL7010;66;66/155;887/889;XF62",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32167;Enamel Paint 'Email';Solid Matt Greeny Grey;RAL7009;67;91/116;893/970;XF13/XF27/XF65",
+      "name": "RL32167;Enamel Paint 'Email';Solid Matt Greeny Grey;RAL7009;67;91/116;893/970;XF13/XF27/XF65",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32168;Enamel Paint 'Email';Solid Matt Dark Green RAF;;68;-;-;-",
+      "name": "RL32168;Enamel Paint 'Email';Solid Matt Dark Green RAF;;68;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32169;Enamel Paint 'Email';Solid Matt Granite Grey;;69;-;-;-",
+      "name": "RL32169;Enamel Paint 'Email';Solid Matt Granite Grey;;69;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32174;Enamel Paint 'Email';Solid Matt Gunship Grey;;74;-;-;-",
+      "name": "RL32174;Enamel Paint 'Email';Solid Matt Gunship Grey;;74;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32175;Enamel Paint 'Email';Solid Matt Stone Grey;RAL7030;75;64/140;870;X19/XF12/XF54",
+      "name": "RL32175;Enamel Paint 'Email';Solid Matt Stone Grey;RAL7030;75;64/140;870;X19/XF12/XF54",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32176;Enamel Paint 'Email';Solid Matt Light Grey USAF;;76;-;-;-",
+      "name": "RL32176;Enamel Paint 'Email';Solid Matt Light Grey USAF;;76;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32177;Enamel Paint 'Email';Solid Matt Dust Grey;RAL7012;77;79/125;870/898;XF24",
+      "name": "RL32177;Enamel Paint 'Email';Solid Matt Dust Grey;RAL7012;77;79/125;870/898;XF24",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32178;Enamel Paint 'Email';Solid Matt Tank Grey;RAL7024;78;67;995;XF63",
+      "name": "RL32178;Enamel Paint 'Email';Solid Matt Tank Grey;RAL7024;78;67;995;XF63",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32179;Enamel Paint 'Email';Solid Matt Greyiah Blue;RAL7031;79;92/96/144;830/903/964;XF18",
+      "name": "RL32179;Enamel Paint 'Email';Solid Matt Greyiah Blue;RAL7031;79;92/96/144;830/903/964;XF18",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32180;Enamel Paint 'Email';Solid Gloss Mud ;RAL8003;80;9;981;-",
+      "name": "RL32180;Enamel Paint 'Email';Solid Gloss Mud ;RAL8003;80;9;981;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32182;Enamel Paint 'Email';Solid Matt Dark Earth RAF;;82;-;-;-",
+      "name": "RL32182;Enamel Paint 'Email';Solid Matt Dark Earth RAF;;82;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32183;Enamel Paint 'Email';Solid Matt Rust;;83;113;846;-",
+      "name": "RL32183;Enamel Paint 'Email';Solid Matt Rust;;83;113;846;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32184;Enamel Paint 'Email';Solid Matt Leathr Brown;RAL8027;84;-;-;-",
+      "name": "RL32184;Enamel Paint 'Email';Solid Matt Leathr Brown;RAL8027;84;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32185;Enamel Paint 'Email';Solid Matt Brown;RAL8023;85;62;843;-",
+      "name": "RL32185;Enamel Paint 'Email';Solid Matt Brown;RAL8023;85;62;843;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32186;Enamel Paint 'Email';Solid Matt Olive Brown;RAL7008;86;26;879;XF49",
+      "name": "RL32186;Enamel Paint 'Email';Solid Matt Olive Brown;RAL7008;86;26;879;XF49",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32187;Enamel Paint 'Email';Solid Matt Earth Brown;RAL7006;87;29;921;XF52",
+      "name": "RL32187;Enamel Paint 'Email';Solid Matt Earth Brown;RAL7006;87;29;921;XF52",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32188;Enamel Paint 'Email';Solid Matt Ochre Brown;RAL1011;88;94;914;XF59",
+      "name": "RL32188;Enamel Paint 'Email';Solid Matt Ochre Brown;RAL1011;88;94;914;XF59",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32189;Enamel Paint 'Email';Solid Matt Beige;RAL1019;89;63/72;913;XF59",
+      "name": "RL32189;Enamel Paint 'Email';Solid Matt Beige;RAL1019;89;63/72;913;XF59",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32190;Enamel Paint 'Email';Solid Metallic Silver;;90;11;997;X11/XF16",
+      "name": "RL32190;Enamel Paint 'Email';Solid Metallic Silver;;90;11;997;X11/XF16",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32191;Enamel Paint 'Email';Solid Metallic Steel;;91;191/27003;864/997;XF56",
+      "name": "RL32191;Enamel Paint 'Email';Solid Metallic Steel;;91;191/27003;864/997;XF56",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32192;Enamel Paint 'Email';Solid Metallic Brass;;92;54;801;-",
+      "name": "RL32192;Enamel Paint 'Email';Solid Metallic Brass;;92;54;801;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32193;Enamel Paint 'Email';Solid Metallic Copper;;93;12;999;XF6",
+      "name": "RL32193;Enamel Paint 'Email';Solid Metallic Copper;;93;12;999;XF6",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32194;Enamel Paint 'Email';Solid Metallic Gold;;94;16;996;X12",
+      "name": "RL32194;Enamel Paint 'Email';Solid Metallic Gold;;94;16;996;X12",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32195;Enamel Paint 'Email';Solid Metallic Bronze;;95;55;998;-",
+      "name": "RL32195;Enamel Paint 'Email';Solid Metallic Bronze;;95;55;998;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32199;Enamel Paint 'Email';Solid Metallic Aluminium;;99;56;864;XF56",
+      "name": "RL32199;Enamel Paint 'Email';Solid Metallic Aluminium;;99;56;864;XF56",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32301;Enamel Paint 'Email';Solid Silk Matt White;;301;129;820;XF1",
+      "name": "RL32301;Enamel Paint 'Email';Solid Silk Matt White;;301;129;820;XF1",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32302;Enamel Paint 'Email';Solid Silk Matt Black;;302;85;994;X18",
+      "name": "RL32302;Enamel Paint 'Email';Solid Silk Matt Black;;302;85;994;X18",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32310;Enamel Paint 'Email';Solid Silk Matt Lufthansa Ylw;;310;-;-;-",
+      "name": "RL32310;Enamel Paint 'Email';Solid Silk Matt Lufthansa Ylw;;310;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32312;Enamel Paint 'Email';Solid Silk Matt Luminous Ylw;;312;-;-;-",
+      "name": "RL32312;Enamel Paint 'Email';Solid Silk Matt Luminous Ylw;;312;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32314;Enamel Paint 'Email';Solid Silk Matt Beige;;314;-;976;-",
+      "name": "RL32314;Enamel Paint 'Email';Solid Silk Matt Beige;;314;-;976;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32330;Enamel Paint 'Email';Solid Silk Matt Fiery Red;;330;174;909;XF7",
+      "name": "RL32330;Enamel Paint 'Email';Solid Silk Matt Fiery Red;;330;174;909;XF7",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32331;Enamel Paint 'Email';Solid Silk Matt Purple Red;;331;73;982;XF9",
+      "name": "RL32331;Enamel Paint 'Email';Solid Silk Matt Purple Red;;331;73;982;XF9",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32332;Enamel Paint 'Email';Solid Silk Matt Luminous Red;;332;209;-;-",
+      "name": "RL32332;Enamel Paint 'Email';Solid Silk Matt Luminous Red;;332;209;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32350;Enamel Paint 'Email';Solid Silk Matt Lufthansa Blue;;350;104;807;XF17",
+      "name": "RL32350;Enamel Paint 'Email';Solid Silk Matt Lufthansa Blue;;350;104;807;XF17",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32360;Enamel Paint 'Email';Solid Silk Matt Fern Green;;360;80;920;X28",
+      "name": "RL32360;Enamel Paint 'Email';Solid Silk Matt Fern Green;;360;80;920;X28",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32361;Enamel Paint 'Email';Solid Silk Matt Olive Green;;361;105;895;XF5",
+      "name": "RL32361;Enamel Paint 'Email';Solid Silk Matt Olive Green;;361;105;895;XF5",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32362;Enamel Paint 'Email';Solid Silk Matt Greyish Green;;362;-;-;-",
+      "name": "RL32362;Enamel Paint 'Email';Solid Silk Matt Greyish Green;;362;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32363;Enamel Paint 'Email';Solid Silk Matt Dark Green;;363;195;975;-",
+      "name": "RL32363;Enamel Paint 'Email';Solid Silk Matt Dark Green;;363;195;975;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32364;Enamel Paint 'Email';Solid Silk Matt Leaf Green;;364;101;942;XF5",
+      "name": "RL32364;Enamel Paint 'Email';Solid Silk Matt Leaf Green;;364;101;942;XF5",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32365;Enamel Paint 'Email';Solid Silk Matt Patina Green;;365;-;-;-",
+      "name": "RL32365;Enamel Paint 'Email';Solid Silk Matt Patina Green;;365;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32371;Enamel Paint 'Email';Solid Silk Matt Light Grey;;371;196;989;XF66",
+      "name": "RL32371;Enamel Paint 'Email';Solid Silk Matt Light Grey;;371;196;989;XF66",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32374;Enamel Paint 'Email';Solid Silk Matt Grey;;374;128;986;XF53",
+      "name": "RL32374;Enamel Paint 'Email';Solid Silk Matt Grey;;374;128;986;XF53",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32378;Enamel Paint 'Email';Solid Silk Matt Dark Grey;;378;-;867;-",
+      "name": "RL32378;Enamel Paint 'Email';Solid Silk Matt Dark Grey;;378;-;867;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32381;Enamel Paint 'Email';Solid Silk Matt Brown;;381;186;983;XF52",
+      "name": "RL32381;Enamel Paint 'Email';Solid Silk Matt Brown;;381;186;983;XF52",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32382;Enamel Paint 'Email';Solid Silk Matt Wood Brown;;382;118;876;-",
+      "name": "RL32382;Enamel Paint 'Email';Solid Silk Matt Wood Brown;;382;118;876;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32730;Enamel Paint 'Email';Clear Orange;;730;-;874;XF52",
+      "name": "RL32730;Enamel Paint 'Email';Clear Orange;;730;-;874;XF52",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32731;Enamel Paint 'Email';Clear Red;;731;-;-;-",
+      "name": "RL32731;Enamel Paint 'Email';Clear Red;;731;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL32752;Enamel Paint 'Email';Clear Blue;;752;-;-;-",
+      "name": "RL32752;Enamel Paint 'Email';Clear Blue;;752;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34101;Spray Colour;Solid Gloss Clear;;01;35;510;X22",
+      "name": "RL34101;Spray Colour;Solid Gloss Clear;;01;35;510;X22",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34102;Spray Colour;Solid Matt Clear;;02;49;520;X21",
+      "name": "RL34102;Spray Colour;Solid Matt Clear;;02;49;520;X21",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34104;Spray Colour;Solid Gloss White;RAL9010;04;22;842;-",
+      "name": "RL34104;Spray Colour;Solid Gloss White;RAL9010;04;22;842;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34105;Spray Colour;Solid Matt White;RAL9001;05;34;951;XF2",
+      "name": "RL34105;Spray Colour;Solid Matt White;RAL9001;05;34;951;XF2",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34107;Spray Colour;Solid Gloss Black;RAL9005;07;21;861;X1",
+      "name": "RL34107;Spray Colour;Solid Gloss Black;RAL9005;07;21;861;X1",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34108;Spray Colour;Solid Matt Black;RAL9011;08;22;-;X2",
+      "name": "RL34108;Spray Colour;Solid Matt Black;RAL9011;08;22;-;X2",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34109;Spray Colour;Solid Matt Anthracite;RAL7021;09;-;-;-",
+      "name": "RL34109;Spray Colour;Solid Matt Anthracite;RAL7021;09;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34112;Spray Colour;Solid Gloss Yellow;RAL1018;12;69;953;X8",
+      "name": "RL34112;Spray Colour;Solid Gloss Yellow;RAL1018;12;69;953;X8",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34115;Spray Colour;Solid Matt Yellow;RAL1017;15;24/154;953;-",
+      "name": "RL34115;Spray Colour;Solid Matt Yellow;RAL1017;15;24/154;953;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34116;Spray Colour;Solid Matt Sandy Yellow;RAL1024;16;-;821;XF60",
+      "name": "RL34116;Spray Colour;Solid Matt Sandy Yellow;RAL1024;16;-;821;XF60",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34125;Spray Colour;Solid Matt Luminous Orange;;25;-;-;-",
+      "name": "RL34125;Spray Colour;Solid Matt Luminous Orange;;25;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34131;Spray Colour;Solid Gloss Fiery Red;RAL3000;31;19;908;X7",
+      "name": "RL34131;Spray Colour;Solid Gloss Fiery Red;RAL3000;31;19;908;X7",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34134;Spray Colour;Solid Gloss Ferrari Red;;34;-;-;-",
+      "name": "RL34134;Spray Colour;Solid Gloss Ferrari Red;;34;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34136;Spray Colour;Solid Matt Carmine Red;RAL3002;36;60;817;XF07",
+      "name": "RL34136;Spray Colour;Solid Matt Carmine Red;RAL3002;36;60;817;XF07",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34146;Spray Colour;Solid Matt NATO Olive;RAL7013;46;-;-;XF51",
+      "name": "RL34146;Spray Colour;Solid Matt NATO Olive;RAL7013;46;-;-;XF51",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34152;Spray Colour;Solid Gloss Blue;RAL5005;52;14;930;X4",
+      "name": "RL34152;Spray Colour;Solid Gloss Blue;RAL5005;52;14;930;X4",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34156;Spray Colour;Solid Matt Blue;RAL5000;56;25;925;XF8",
+      "name": "RL34156;Spray Colour;Solid Matt Blue;RAL5000;56;25;925;XF8",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34157;Spray Colour;Solid Matt Grey;RAL7000;57;87;821;XF20",
+      "name": "RL34157;Spray Colour;Solid Matt Grey;RAL7000;57;87;821;XF20",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34176;Spray Colour;Solid Matt Light Grey USAF;;76;-;-;-",
+      "name": "RL34176;Spray Colour;Solid Matt Light Grey USAF;;76;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34178;Spray Colour;Solid Matt Tank Grey;RAL7024;78;67;995;XF63",
+      "name": "RL34178;Spray Colour;Solid Matt Tank Grey;RAL7024;78;67;995;XF63",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34185;Spray Colour;Solid Matt Brown;RAL8023;85;62;843;-",
+      "name": "RL34185;Spray Colour;Solid Matt Brown;RAL8023;85;62;843;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34188;Spray Colour;Solid Matt Ochre Brown;RAL1011;88;94;914;XF59",
+      "name": "RL34188;Spray Colour;Solid Matt Ochre Brown;RAL1011;88;94;914;XF59",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34190;Spray Colour;Solid Metallic Silver;;90;11;997;X11/XF16",
+      "name": "RL34190;Spray Colour;Solid Metallic Silver;;90;11;997;X11/XF16",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34191;Spray Colour;Solid Metallic Steel;;91;191/27003;864/997;XF56",
+      "name": "RL34191;Spray Colour;Solid Metallic Steel;;91;191/27003;864/997;XF56",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34194;Spray Colour;Solid Metallic Gold;;94;16;996;X12",
+      "name": "RL34194;Spray Colour;Solid Metallic Gold;;94;16;996;X12",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34199;Spray Colour;Solid Metallic Aluminium;;99;56;864;XF56",
+      "name": "RL34199;Spray Colour;Solid Metallic Aluminium;;99;56;864;XF56",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34200;Spray Colour;Solid Metallic RBR Blue;;200;-;-;-",
+      "name": "RL34200;Spray Colour;Solid Metallic RBR Blue;;200;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34301;Spray Colour;Solid Silk Matt White;RAL9010;301;129;820;XF1",
+      "name": "RL34301;Spray Colour;Solid Silk Matt White;RAL9010;301;129;820;XF1",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34302;Spray Colour;Solid Silk Matt Black;RAL9005;302;85;994;X18",
+      "name": "RL34302;Spray Colour;Solid Silk Matt Black;RAL9005;302;85;994;X18",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34330;Spray Colour;Solid Silk Matt Fiery Red;RAL3000;330;174;909;XF7",
+      "name": "RL34330;Spray Colour;Solid Silk Matt Fiery Red;RAL3000;330;174;909;XF7",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34371;Spray Colour;Solid Silk Matt Light Grey;RAL7035;371;196;989;XF66",
+      "name": "RL34371;Spray Colour;Solid Silk Matt Light Grey;RAL7035;371;196;989;XF66",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL34374;Spray Colour;Solid Silk Matt Grey;RAL7001;374;-;128;XF53",
+      "name": "RL34374;Spray Colour;Solid Silk Matt Grey;RAL7001;374;-;128;XF53",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36101;Acrylic Paint 'Aqua';Solid Gloss Clear;;01;35;510;X22",
+      "name": "RL36101;Acrylic Paint 'Aqua';Solid Gloss Clear;;01;35;510;X22",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36102;Acrylic Paint 'Aqua';Solid Matt Clear;;02;49;520;X21",
+      "name": "RL36102;Acrylic Paint 'Aqua';Solid Matt Clear;;02;49;520;X21",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36104;Acrylic Paint 'Aqua';Solid Gloss White;RAL9010;04;22;842;-",
+      "name": "RL36104;Acrylic Paint 'Aqua';Solid Gloss White;RAL9010;04;22;842;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36105;Acrylic Paint 'Aqua';Solid Matt White;RAL9001;05;34;951;XF2",
+      "name": "RL36105;Acrylic Paint 'Aqua';Solid Matt White;RAL9001;05;34;951;XF2",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36106;Acrylic Paint 'Aqua';Solid Matt Tar Black;RAL9021;06;-;-;-",
+      "name": "RL36106;Acrylic Paint 'Aqua';Solid Matt Tar Black;RAL9021;06;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36107;Acrylic Paint 'Aqua';Solid Gloss Black;RAL9005;07;21;861;X1",
+      "name": "RL36107;Acrylic Paint 'Aqua';Solid Gloss Black;RAL9005;07;21;861;X1",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36108;Acrylic Paint 'Aqua';Solid Matt Black;RAL9011;08;22;-;X2",
+      "name": "RL36108;Acrylic Paint 'Aqua';Solid Matt Black;RAL9011;08;22;-;X2",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36109;Acrylic Paint 'Aqua';Solid Matt Anthracite;RAL7021;09;-;-;-",
+      "name": "RL36109;Acrylic Paint 'Aqua';Solid Matt Anthracite;RAL7021;09;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36112;Acrylic Paint 'Aqua';Solid Gloss Yellow;RAL1018;12;69;953;X8",
+      "name": "RL36112;Acrylic Paint 'Aqua';Solid Gloss Yellow;RAL1018;12;69;953;X8",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36115;Acrylic Paint 'Aqua';Solid Matt Yellow;RAL1017;15;24/154;953;-",
+      "name": "RL36115;Acrylic Paint 'Aqua';Solid Matt Yellow;RAL1017;15;24/154;953;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36116;Acrylic Paint 'Aqua';Solid Matt Sandy Yellow;RAL1024;16;-;821;XF60",
+      "name": "RL36116;Acrylic Paint 'Aqua';Solid Matt Sandy Yellow;RAL1024;16;-;821;XF60",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36117;Acrylic Paint 'Aqua';Solid Matt Africa Brown;;17;-;-;-",
+      "name": "RL36117;Acrylic Paint 'Aqua';Solid Matt Africa Brown;;17;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36125;Acrylic Paint 'Aqua';Solid Matt Luminous Orange;;25;-;-;-",
+      "name": "RL36125;Acrylic Paint 'Aqua';Solid Matt Luminous Orange;;25;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36130;Acrylic Paint 'Aqua';Solid Gloss Orange;RAL2004;30;18;956;X6",
+      "name": "RL36130;Acrylic Paint 'Aqua';Solid Gloss Orange;RAL2004;30;18;956;X6",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36131;Acrylic Paint 'Aqua';Solid Gloss Fiery Red;RAL3000;31;19;908;X7",
+      "name": "RL36131;Acrylic Paint 'Aqua';Solid Gloss Fiery Red;RAL3000;31;19;908;X7",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36134;Acrylic Paint 'Aqua';Solid Gloss Ferrari Red;;34;-;-;-",
+      "name": "RL36134;Acrylic Paint 'Aqua';Solid Gloss Ferrari Red;;34;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36135;Acrylic Paint 'Aqua';Solid Matt Flesh;;35;61/148;927;XF15",
+      "name": "RL36135;Acrylic Paint 'Aqua';Solid Matt Flesh;;35;61/148;927;XF15",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36136;Acrylic Paint 'Aqua';Solid Matt Carmine Red;RAL3002;36;60;817;XF07",
+      "name": "RL36136;Acrylic Paint 'Aqua';Solid Matt Carmine Red;RAL3002;36;60;817;XF07",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36137;Acrylic Paint 'Aqua';Solid Matt Reddy Brown;RAL3009;37;70;953;-",
+      "name": "RL36137;Acrylic Paint 'Aqua';Solid Matt Reddy Brown;RAL3009;37;70;953;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36139;Acrylic Paint 'Aqua';Solid Matt Dark Green;;39;-;982;-",
+      "name": "RL36139;Acrylic Paint 'Aqua';Solid Matt Dark Green;;39;-;982;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36140;Acrylic Paint 'Aqua';Solid Matt Black Green;;40;-;-;-",
+      "name": "RL36140;Acrylic Paint 'Aqua';Solid Matt Black Green;;40;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36142;Acrylic Paint 'Aqua';Solid Matt Yellowish Olive;;42;-;894;XF65",
+      "name": "RL36142;Acrylic Paint 'Aqua';Solid Matt Yellowish Olive;;42;-;894;XF65",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36143;Acrylic Paint 'Aqua';Solid Matt Medium Grey USAF;;43;-;989;XF19",
+      "name": "RL36143;Acrylic Paint 'Aqua';Solid Matt Medium Grey USAF;;43;-;989;XF19",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36145;Acrylic Paint 'Aqua';Solid Matt Light Olive;RAL7003;45;86/102;890;XF58",
+      "name": "RL36145;Acrylic Paint 'Aqua';Solid Matt Light Olive;RAL7003;45;86/102;890;XF58",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36146;Acrylic Paint 'Aqua';Solid Matt NATO Olive;RAL7013;46;-;-;XF51",
+      "name": "RL36146;Acrylic Paint 'Aqua';Solid Matt NATO Olive;RAL7013;46;-;-;XF51",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36147;Acrylic Paint 'Aqua';Solid Matt Mouse Grey;RAL7005;47;106;869;XF66",
+      "name": "RL36147;Acrylic Paint 'Aqua';Solid Matt Mouse Grey;RAL7005;47;106;869;XF66",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36148;Acrylic Paint 'Aqua';Solid Matt Sea Green;RAL6028;48;88/149;855/895;XF26",
+      "name": "RL36148;Acrylic Paint 'Aqua';Solid Matt Sea Green;RAL6028;48;88/149;855/895;XF26",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36149;Acrylic Paint 'Aqua';Solid Matt Light Blue;;49;-;-;-",
+      "name": "RL36149;Acrylic Paint 'Aqua';Solid Matt Light Blue;;49;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36150;Acrylic Paint 'Aqua';Solid Gloss Light;RAL5012;50;47;961;-",
+      "name": "RL36150;Acrylic Paint 'Aqua';Solid Gloss Light;RAL5012;50;47;961;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36151;Acrylic Paint 'Aqua';Solid Gloss Ultramarine;RAL5002;51;48;961;X14",
+      "name": "RL36151;Acrylic Paint 'Aqua';Solid Gloss Ultramarine;RAL5002;51;48;961;X14",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36152;Acrylic Paint 'Aqua';Solid Gloss Blue;RAL5005;52;14;930;X4",
+      "name": "RL36152;Acrylic Paint 'Aqua';Solid Gloss Blue;RAL5005;52;14;930;X4",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36154;Acrylic Paint 'Aqua';Solid Gloss Night Blue;RAL5022;54;15;899;X3",
+      "name": "RL36154;Acrylic Paint 'Aqua';Solid Gloss Night Blue;RAL5022;54;15;899;X3",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36155;Acrylic Paint 'Aqua';Solid Matt Light Green;RAL6027;55;65;971;XF21/XF23",
+      "name": "RL36155;Acrylic Paint 'Aqua';Solid Matt Light Green;RAL6027;55;65;971;XF21/XF23",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36156;Acrylic Paint 'Aqua';Solid Matt Blue;RAL5000;56;25;925;XF8",
+      "name": "RL36156;Acrylic Paint 'Aqua';Solid Matt Blue;RAL5000;56;25;925;XF8",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36157;Acrylic Paint 'Aqua';Solid Matt Grey;RAL7000;57;87;821;XF20",
+      "name": "RL36157;Acrylic Paint 'Aqua';Solid Matt Grey;RAL7000;57;87;821;XF20",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36159;Acrylic Paint 'Aqua';Solid Matt Sky RAF;;59;-;-;-",
+      "name": "RL36159;Acrylic Paint 'Aqua';Solid Matt Sky RAF;;59;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36161;Acrylic Paint 'Aqua';Solid Gloss Emerald Grn;RAL6029;61;2;970;-",
+      "name": "RL36161;Acrylic Paint 'Aqua';Solid Gloss Emerald Grn;RAL6029;61;2;970;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36162;Acrylic Paint 'Aqua';Solid Gloss Sea Green;RAL6005;62;-;895;XF26",
+      "name": "RL36162;Acrylic Paint 'Aqua';Solid Gloss Sea Green;RAL6005;62;-;895;XF26",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36165;Acrylic Paint 'Aqua';Solid Matt Bronze Green;RAL6031;65;75;-;XF11",
+      "name": "RL36165;Acrylic Paint 'Aqua';Solid Matt Bronze Green;RAL6031;65;75;-;XF11",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36166;Acrylic Paint 'Aqua';Solid Matt Olive Grey;RAL7010;66;66/155;887/889;XF62",
+      "name": "RL36166;Acrylic Paint 'Aqua';Solid Matt Olive Grey;RAL7010;66;66/155;887/889;XF62",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36167;Acrylic Paint 'Aqua';Solid Matt Greeny Grey;RAL7009;67;91/116;893/970;XF13/XF27/XF65",
+      "name": "RL36167;Acrylic Paint 'Aqua';Solid Matt Greeny Grey;RAL7009;67;91/116;893/970;XF13/XF27/XF65",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36168;Acrylic Paint 'Aqua';Solid Matt Dark Green RAF;;68;-;-;-",
+      "name": "RL36168;Acrylic Paint 'Aqua';Solid Matt Dark Green RAF;;68;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36169;Acrylic Paint 'Aqua';Solid Matt Granite Grey;RAL7026;69;-;-;-",
+      "name": "RL36169;Acrylic Paint 'Aqua';Solid Matt Granite Grey;RAL7026;69;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36174;Acrylic Paint 'Aqua';Solid Matt Gunship Grey;;74;-;-;-",
+      "name": "RL36174;Acrylic Paint 'Aqua';Solid Matt Gunship Grey;;74;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36175;Acrylic Paint 'Aqua';Solid Matt Stone Grey;RAL7030;75;64/140;870;X19/XF12/XF54",
+      "name": "RL36175;Acrylic Paint 'Aqua';Solid Matt Stone Grey;RAL7030;75;64/140;870;X19/XF12/XF54",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36176;Acrylic Paint 'Aqua';Solid Matt Light Grey USAF;;76;-;-;-",
+      "name": "RL36176;Acrylic Paint 'Aqua';Solid Matt Light Grey USAF;;76;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36177;Acrylic Paint 'Aqua';Solid Matt Dust Grey;RAL7012;77;79/125;870/898;XF24",
+      "name": "RL36177;Acrylic Paint 'Aqua';Solid Matt Dust Grey;RAL7012;77;79/125;870/898;XF24",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36178;Acrylic Paint 'Aqua';Solid Matt Tank Grey;RAL7024;78;67;995;XF63",
+      "name": "RL36178;Acrylic Paint 'Aqua';Solid Matt Tank Grey;RAL7024;78;67;995;XF63",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36179;Acrylic Paint 'Aqua';Solid Matt Greyish Blue;RAL7031;79;92/96/144;830/903/964;XF18",
+      "name": "RL36179;Acrylic Paint 'Aqua';Solid Matt Greyish Blue;RAL7031;79;92/96/144;830/903/964;XF18",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36180;Acrylic Paint 'Aqua';Solid Gloss Mud ;RAL8003;80;9;981;-",
+      "name": "RL36180;Acrylic Paint 'Aqua';Solid Gloss Mud ;RAL8003;80;9;981;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36182;Acrylic Paint 'Aqua';Solid Matt Dark Earth RAF;;82;-;-;-",
+      "name": "RL36182;Acrylic Paint 'Aqua';Solid Matt Dark Earth RAF;;82;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36183;Acrylic Paint 'Aqua';Solid Matt Rust;;83;113;846;-",
+      "name": "RL36183;Acrylic Paint 'Aqua';Solid Matt Rust;;83;113;846;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36184;Acrylic Paint 'Aqua';Solid Matt Leather Brwn;RAL8027;84;-;-;-",
+      "name": "RL36184;Acrylic Paint 'Aqua';Solid Matt Leather Brwn;RAL8027;84;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36185;Acrylic Paint 'Aqua';Solid Matt Brown;RAL8023;85;62;843;-",
+      "name": "RL36185;Acrylic Paint 'Aqua';Solid Matt Brown;RAL8023;85;62;843;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36186;Acrylic Paint 'Aqua';Solid Matt Olive Brown;RAL7008;86;26;879;XF49",
+      "name": "RL36186;Acrylic Paint 'Aqua';Solid Matt Olive Brown;RAL7008;86;26;879;XF49",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36187;Acrylic Paint 'Aqua';Solid Matt Earth Brown;RAL7006;87;29;921;XF52",
+      "name": "RL36187;Acrylic Paint 'Aqua';Solid Matt Earth Brown;RAL7006;87;29;921;XF52",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36188;Acrylic Paint 'Aqua';Solid Matt Ochre Brown;RAL1011;88;94;914;XF59",
+      "name": "RL36188;Acrylic Paint 'Aqua';Solid Matt Ochre Brown;RAL1011;88;94;914;XF59",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36189;Acrylic Paint 'Aqua';Solid Matt Beige;RAL1019;89;63/72;913;XF59",
+      "name": "RL36189;Acrylic Paint 'Aqua';Solid Matt Beige;RAL1019;89;63/72;913;XF59",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36190;Acrylic Paint 'Aqua';Solid Metallic Silver;;90;11;997;X11/XF16",
+      "name": "RL36190;Acrylic Paint 'Aqua';Solid Metallic Silver;;90;11;997;X11/XF16",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36191;Acrylic Paint 'Aqua';Solid Metallic Steel;;91;191/27003;864/997;XF56",
+      "name": "RL36191;Acrylic Paint 'Aqua';Solid Metallic Steel;;91;191/27003;864/997;XF56",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36192;Acrylic Paint 'Aqua';Solid Metallic Brass;;92;54;801;-",
+      "name": "RL36192;Acrylic Paint 'Aqua';Solid Metallic Brass;;92;54;801;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36193;Acrylic Paint 'Aqua';Solid Metallic Copper;;93;12;999;XF6",
+      "name": "RL36193;Acrylic Paint 'Aqua';Solid Metallic Copper;;93;12;999;XF6",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36194;Acrylic Paint 'Aqua';Solid Metallic Gold;;94;16;996;X12",
+      "name": "RL36194;Acrylic Paint 'Aqua';Solid Metallic Gold;;94;16;996;X12",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36195;Acrylic Paint 'Aqua';Solid Metallic Bronze;;95;55;998;-",
+      "name": "RL36195;Acrylic Paint 'Aqua';Solid Metallic Bronze;;95;55;998;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36199;Acrylic Paint 'Aqua';Solid Metallic Aluminium;;99;56;864;XF56",
+      "name": "RL36199;Acrylic Paint 'Aqua';Solid Metallic Aluminium;;99;56;864;XF56",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36301;Acrylic Paint 'Aqua';Solid Silk Matt White;;301;129;820;XF1",
+      "name": "RL36301;Acrylic Paint 'Aqua';Solid Silk Matt White;;301;129;820;XF1",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36302;Acrylic Paint 'Aqua';Solid Silk Matt Black;;302;85;994;X18",
+      "name": "RL36302;Acrylic Paint 'Aqua';Solid Silk Matt Black;;302;85;994;X18",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36310;Acrylic Paint 'Aqua';Solid Silk Matt Lufthansa Ylw;;310;-;-;-",
+      "name": "RL36310;Acrylic Paint 'Aqua';Solid Silk Matt Lufthansa Ylw;;310;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36312;Acrylic Paint 'Aqua';Solid Silk Matt Luminous Ylw;;312;-;-;-",
+      "name": "RL36312;Acrylic Paint 'Aqua';Solid Silk Matt Luminous Ylw;;312;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36314;Acrylic Paint 'Aqua';Solid Silk Matt Beige;;314;-;976;-",
+      "name": "RL36314;Acrylic Paint 'Aqua';Solid Silk Matt Beige;;314;-;976;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36330;Acrylic Paint 'Aqua';Solid Silk Matt Fiery Red;;330;174;909;XF7",
+      "name": "RL36330;Acrylic Paint 'Aqua';Solid Silk Matt Fiery Red;;330;174;909;XF7",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36331;Acrylic Paint 'Aqua';Solid Silk Matt Purple Red;;331;73;982;XF9",
+      "name": "RL36331;Acrylic Paint 'Aqua';Solid Silk Matt Purple Red;;331;73;982;XF9",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36332;Acrylic Paint 'Aqua';Solid Silk Matt Luminous Red;;332;209;-;-",
+      "name": "RL36332;Acrylic Paint 'Aqua';Solid Silk Matt Luminous Red;;332;209;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36350;Acrylic Paint 'Aqua';Solid Silk Matt Lufthansa Blue;;350;104;807;XF17",
+      "name": "RL36350;Acrylic Paint 'Aqua';Solid Silk Matt Lufthansa Blue;;350;104;807;XF17",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36360;Acrylic Paint 'Aqua';Solid Silk Matt Fern Green;;360;80;920;X28",
+      "name": "RL36360;Acrylic Paint 'Aqua';Solid Silk Matt Fern Green;;360;80;920;X28",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36361;Acrylic Paint 'Aqua';Solid Silk Matt Olive Green;;361;105;895;XF5",
+      "name": "RL36361;Acrylic Paint 'Aqua';Solid Silk Matt Olive Green;;361;105;895;XF5",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36362;Acrylic Paint 'Aqua';Solid Silk Matt Greyish Green;;362;-;-;-",
+      "name": "RL36362;Acrylic Paint 'Aqua';Solid Silk Matt Greyish Green;;362;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36363;Acrylic Paint 'Aqua';Solid Silk Matt Dark Green;;363;195;975;-",
+      "name": "RL36363;Acrylic Paint 'Aqua';Solid Silk Matt Dark Green;;363;195;975;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36364;Acrylic Paint 'Aqua';Solid Silk Matt Leaf Green 364;;101;-;942;XF5",
+      "name": "RL36364;Acrylic Paint 'Aqua';Solid Silk Matt Leaf Green 364;;101;-;942;XF5",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36365;Acrylic Paint 'Aqua';Solid Silk Matt Patina Green;;365;-;-;-",
+      "name": "RL36365;Acrylic Paint 'Aqua';Solid Silk Matt Patina Green;;365;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36371;Acrylic Paint 'Aqua';Solid Silk Matt Light Grey;;371;196;989;XF66",
+      "name": "RL36371;Acrylic Paint 'Aqua';Solid Silk Matt Light Grey;;371;196;989;XF66",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36374;Acrylic Paint 'Aqua';Solid Silk Matt Grey;;374;128;986;XF53",
+      "name": "RL36374;Acrylic Paint 'Aqua';Solid Silk Matt Grey;;374;128;986;XF53",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36378;Acrylic Paint 'Aqua';Solid Silk Matt Dark Grey;;378;-;867;-",
+      "name": "RL36378;Acrylic Paint 'Aqua';Solid Silk Matt Dark Grey;;378;-;867;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36381;Acrylic Paint 'Aqua';Solid Silk Matt Brown;;381;186;983;XF52",
+      "name": "RL36381;Acrylic Paint 'Aqua';Solid Silk Matt Brown;;381;186;983;XF52",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36382;Acrylic Paint 'Aqua';Solid Silk Matt Wood Brown;;382;118;876;-",
+      "name": "RL36382;Acrylic Paint 'Aqua';Solid Silk Matt Wood Brown;;382;118;876;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36730;Acrylic Paint 'Aqua';Clear Orange;;730;-;874;XF52",
+      "name": "RL36730;Acrylic Paint 'Aqua';Clear Orange;;730;-;874;XF52",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36731;Acrylic Paint 'Aqua';Clear Red;;731;-;-;-",
+      "name": "RL36731;Acrylic Paint 'Aqua';Clear Red;;731;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RL36752;Acrylic Paint 'Aqua';Clear Blue;;735;-;-;-",
+      "name": "RL36752;Acrylic Paint 'Aqua';Clear Blue;;735;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    }
+  ]
+}

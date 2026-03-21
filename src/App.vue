@@ -135,9 +135,20 @@ const conversionResults = ref<ConversionResult[]>([])
 
 const manufacturerList = computed(() => allManufacturers)
 
+function sanitizeInputCode(code: string): string {
+  return code.replace(/\s+/g, '').trim()
+}
+
+const normalizedInputCodes = computed(() => {
+  return inputText.value
+    .split('\n')
+    .map(sanitizeInputCode)
+    .filter(code => code.length > 0)
+})
+
 const detectedPaintSeries = computed(() => {
   if (!autoDetectEnabled.value || !inputText.value.trim()) return null
-  const detection = autoDetectFromInput(inputText.value)
+  const detection = autoDetectFromInput(normalizedInputCodes.value.join('\n'))
   return detection.series
 })
 
@@ -153,10 +164,7 @@ const multipleSeriesDetected = computed(() => {
   if (ALLOW_MULTIPLE_SERIES) return false // Hide warning when multiple series are allowed
   if (!autoDetectEnabled.value || !inputText.value.trim()) return false
 
-  const lines = inputText.value
-    .split('\n')
-    .map(l => l.trim())
-    .filter(l => l.length > 0)
+  const lines = normalizedInputCodes.value
 
   const detectedSeriesNames = new Set(
     lines
@@ -183,7 +191,7 @@ watch(selectedManufacturer, (newMfr) => {
 })
 
 const canConvert = computed(() => {
-  const codes = inputText.value.trim().split('\n').filter(l => l.trim())
+  const codes = normalizedInputCodes.value
   if (codes.length === 0) return false
 
   if (ALLOW_MULTIPLE_SERIES && autoDetectEnabled.value) {
@@ -207,10 +215,7 @@ function toggleSelectAll() {
 }
 
 function performConversion() {
-  const codes = inputText.value
-    .split('\n')
-    .map(l => l.trim())
-    .filter(l => l.length > 0)
+  const codes = normalizedInputCodes.value
 
   if (!codes.length) return
 

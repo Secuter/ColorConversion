@@ -22,6 +22,18 @@ from pathlib import Path
 from functools import lru_cache
 from typing import Any
 
+try:
+    import easyocr
+    HAS_EASYOCR = True
+except ImportError:
+    HAS_EASYOCR = False
+
+try:
+    import pdfplumber
+    HAS_PDFPLUMBER = True
+except ImportError:
+    HAS_PDFPLUMBER = False
+
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
@@ -35,13 +47,14 @@ MAPPINGS_DIR = SCRIPT_DIR.parent / "mappings"
 PIPELINE_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
 NORMALIZED_DIR = PIPELINE_OUTPUT_DIR / "normalized"
 SOURCE_RESOLUTION_PATH = MAPPINGS_DIR / "source_resolution.json"
+PIPELINE_SOURCES_CONFIG_PATH = MAPPINGS_DIR / "sources.config.json"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 MAPPINGS_DIR.mkdir(parents=True, exist_ok=True)
 NORMALIZED_DIR.mkdir(parents=True, exist_ok=True)
 
 
-PIPELINE_SOURCES: list[dict[str, Any]] = [
+DEFAULT_PIPELINE_SOURCES: list[dict[str, Any]] = [
     {
         "line_id": "ak-acrylic",
         "sources": [{"file": "AK Acrylics Conversion.csv", "type": "csv"}],
@@ -89,7 +102,7 @@ PIPELINE_SOURCES: list[dict[str, Any]] = [
     },
     {
         "line_id": "mr-color",
-        "sources": [{"file": "Mr Color Laquer Conversion.html", "type": "html-table"}],
+        "sources": [{"file": "MrColor Laquer Conversion.html", "type": "html-table"}],
     },
     {
         "line_id": "revell-acrylic",
@@ -119,18 +132,92 @@ PIPELINE_SOURCES: list[dict[str, Any]] = [
 ]
 
 
+def _load_pipeline_sources() -> list[dict[str, Any]]:
+    if not PIPELINE_SOURCES_CONFIG_PATH.exists():
+        return DEFAULT_PIPELINE_SOURCES
+
+    try:
+        payload = json.loads(PIPELINE_SOURCES_CONFIG_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return DEFAULT_PIPELINE_SOURCES
+
+    lines = payload.get("lines", []) if isinstance(payload, dict) else []
+    if not isinstance(lines, list):
+        return DEFAULT_PIPELINE_SOURCES
+
+    valid_lines: list[dict[str, Any]] = []
+    for line in lines:
+        if not isinstance(line, dict):
+            continue
+        line_id = line.get("line_id")
+        sources = line.get("sources")
+        if not isinstance(line_id, str) or not line_id.strip() or not isinstance(sources, list):
+            continue
+
+        valid_sources: list[dict[str, str]] = []
+        for source in sources:
+            if not isinstance(source, dict):
+                continue
+            source_file = source.get("file")
+            source_type = source.get("type")
+            if not isinstance(source_file, str) or not source_file.strip():
+                continue
+            if not isinstance(source_type, str) or not source_type.strip():
+                continue
+            valid_sources.append({"file": source_file, "type": source_type})
+
+        if valid_sources:
+            valid_lines.append({"line_id": line_id, "sources": valid_sources})
+
+    return valid_lines or DEFAULT_PIPELINE_SOURCES
+
+
+PIPELINE_SOURCES: list[dict[str, Any]] = _load_pipeline_sources()
+
+OUTPUT_FILENAME_OVERRIDES: dict[str, str] = {
+    "italeri-acrylic": "italeri.json",
+}
+
+LEGACY_FILE_ALIASES: dict[str, list[str]] = {
+    "VMC_Colors.csv": ["Vallejo Model Colors.csv"],
+    "VMC_Conversion.csv": ["Vallejo Model Color Conversion.csv"],
+    "VMA_Colors.csv": ["Vallejo Model AirColors.csv"],
+    "AK_Conversion.csv": ["AK Real Colors Conversion.csv"],
+    "Italeri_Colors.csv": ["Italeri Colors.csv", "Italeri.csv"],
+    "Italeri_Conversion.csv": ["Italeri Conversion.csv"],
+}
+
+
 # ---------------------------------------------------------------------------
 # Generic CSV helpers
 # ---------------------------------------------------------------------------
 
 def _read_tsv(filename: str) -> list[list[str]]:
-    """Read a tab-separated file from the examples directory."""
-    path = EXAMPLES_DIR / filename
+    """Read a CSV/TSV file from examples/ or input/ with legacy alias fallback."""
+    candidates = [EXAMPLES_DIR / filename, INPUT_DIR / filename]
+    for alias in LEGACY_FILE_ALIASES.get(filename, []):
+        candidates.append(INPUT_DIR / alias)
+
+    path = next((p for p in candidates if p.exists()), candidates[0])
     rows: list[list[str]] = []
-    with path.open(encoding="utf-8") as f:
-        reader = csv.reader(f, delimiter="\t")
-        for row in reader:
-            rows.append([c.strip() for c in row])
+    text = ""
+    for encoding in ("utf-8", "utf-8-sig", "cp1252", "latin-1"):
+        try:
+            text = path.read_text(encoding=encoding)
+            break
+        except UnicodeDecodeError:
+            continue
+    if not text:
+        text = path.read_text(encoding="utf-8", errors="replace")
+
+    sample = text[:8192]
+    delimiter = "\t"
+    if "," in sample and sample.count(",") > sample.count("\t"):
+        delimiter = ","
+
+    reader = csv.reader(text.splitlines(), delimiter=delimiter)
+    for row in reader:
+        rows.append([c.strip() for c in row])
     return rows
 
 
@@ -159,17 +246,27 @@ def _slug(name: str) -> str:
 
 def _normalize_delimited_file(path: Path) -> list[list[str]]:
     rows: list[list[str]] = []
-    with path.open(encoding="utf-8") as f:
-        sample = f.read(8192)
-        f.seek(0)
-        delimiter = "\t"
-        if "," in sample and sample.count(",") > sample.count("\t"):
-            delimiter = ","
-        reader = csv.reader(f, delimiter=delimiter)
-        for row in reader:
-            cleaned = [c.strip() for c in row]
-            if any(cleaned):
-                rows.append(cleaned)
+    text = ""
+    for encoding in ("utf-8", "utf-8-sig", "cp1252", "latin-1"):
+        try:
+            text = path.read_text(encoding=encoding)
+            break
+        except UnicodeDecodeError:
+            continue
+
+    if not text:
+        text = path.read_text(encoding="utf-8", errors="replace")
+
+    sample = text[:8192]
+    delimiter = "\t"
+    if "," in sample and sample.count(",") > sample.count("\t"):
+        delimiter = ","
+
+    reader = csv.reader(text.splitlines(), delimiter=delimiter)
+    for row in reader:
+        cleaned = [c.strip() for c in row]
+        if any(cleaned):
+            rows.append(cleaned)
     return rows
 
 
@@ -207,6 +304,83 @@ def _write_normalized_csv(target: Path, rows: list[list[str]]) -> None:
         writer = csv.writer(f)
         for row in rows:
             writer.writerow(row)
+
+
+def _extract_pdf_with_ocr(pdf_path: Path) -> list[list[str]]:
+    """
+    Extract text from a PDF using OCR (easyocr).
+    Attempts to parse the OCR output into table rows.
+    
+    Returns a list of rows (each row is a list of strings).
+    """
+    if not HAS_EASYOCR:
+        return []
+    
+    try:
+        import pdfplumber as pdf_lib
+        import numpy as np
+        if not HAS_PDFPLUMBER:
+            return []
+    except ImportError:
+        return []
+    
+    rows: list[list[str]] = []
+    
+    try:
+        # Initialize OCR reader (English only for performance)
+        reader = easyocr.Reader(['en'], gpu=False)
+        
+        with pdf_lib.open(pdf_path) as pdf:
+            for page_num, page in enumerate(pdf.pages):
+                print(f"  OCR: Processing page {page_num + 1}/{len(pdf.pages)}...")
+                
+                # Get page image as numpy array
+                pil_image = page.to_image(resolution=150).original
+                image_array = np.array(pil_image)
+                
+                # Run OCR
+                results = reader.readtext(image_array)
+                
+                # Parse OCR results into rows
+                # Results are in format: [[bbox], text, confidence]
+                # Group by y-coordinate to form rows
+                if results:
+                    text_blocks: list[tuple[float, str]] = []
+                    for (bbox, text, confidence) in results:
+                        if confidence > 0.4:  # Filter low-confidence results
+                            # Get y-coordinate of center of text
+                            y_coords = [b[1] for b in bbox]
+                            y_center = (min(y_coords) + max(y_coords)) / 2
+                            text_blocks.append((y_center, text.strip()))
+                    
+                    if text_blocks:
+                        # Sort by y-coordinate
+                        text_blocks.sort()
+                        
+                        # Group by row (similar y-coordinates)
+                        current_row: list[str] = []
+                        last_y = -1
+                        row_threshold = 20  # pixels
+                        
+                        for y, text in text_blocks:
+                            if last_y >= 0 and (y - last_y) > row_threshold:
+                                # New row
+                                if current_row and any(current_row):
+                                    rows.append(current_row)
+                                current_row = [text]
+                            else:
+                                # Same row, add to current
+                                current_row.append(text)
+                            last_y = y
+                        
+                        # Don't forget the last row
+                        if current_row and any(current_row):
+                            rows.append(current_row)
+    except Exception as e:
+        print(f"  OCR failed for {pdf_path.name}: {e}")
+        return []
+    
+    return rows
 
 
 def _normalize_source(source_file: str, source_type: str) -> dict[str, Any]:
@@ -252,7 +426,28 @@ def _normalize_source(source_file: str, source_type: str) -> dict[str, Any]:
             _write_normalized_csv(out_path, rows)
             result["rows"] = len(rows)
             if not rows and source_type == "pdf-image":
+                # Try OCR as fallback for image-based PDFs
+                print(f"  No tables extracted from {source_file}, attempting OCR...")
+                ocr_rows = _extract_pdf_with_ocr(source_path)
+                if ocr_rows:
+                    _write_normalized_csv(out_path, ocr_rows)
+                    result["rows"] = len(ocr_rows)
+                    result["status"] = "ocr-extracted"
+                    return result
                 result["status"] = "needs-manual-ocr"
+            return result
+        
+        # No per_pdf file found
+        if source_type == "pdf-image":
+            # Try OCR for image-based PDFs
+            print(f"  No extracted tables found for {source_file}, attempting OCR...")
+            ocr_rows = _extract_pdf_with_ocr(source_path)
+            if ocr_rows:
+                _write_normalized_csv(out_path, ocr_rows)
+                result["rows"] = len(ocr_rows)
+                result["status"] = "ocr-extracted"
+                return result
+            result["status"] = "needs-manual-ocr"
             return result
 
         result["status"] = "not-extracted"
@@ -948,6 +1143,108 @@ def build_italeri() -> dict:
     }
 
 
+def _paint_line_item(line_id: str) -> dict[str, Any] | None:
+    for item in _paint_lines_by_id().values():
+        if item.get("id") == line_id:
+            return item
+    return None
+
+
+def _preferred_normalized_source(line_id: str, resolution: dict[str, Any]) -> Path | None:
+    line_cfg = resolution.get("lines", {}).get(line_id, {})
+    preferred = line_cfg.get("preferred_source", "")
+    if preferred:
+        p = NORMALIZED_DIR / preferred
+        if p.exists():
+            return p
+
+    for cfg in PIPELINE_SOURCES:
+        if cfg["line_id"] != line_id:
+            continue
+        for src in cfg["sources"]:
+            p = NORMALIZED_DIR / f"{_slug(src['file'])}.csv"
+            if p.exists():
+                return p
+    return None
+
+
+def _build_simple_series_from_source(line_id: str, resolution: dict[str, Any]) -> dict[str, Any] | None:
+    meta = _line_meta(line_id)
+    line = _paint_line_item(line_id)
+    src = _preferred_normalized_source(line_id, resolution)
+    if not line or src is None:
+        return None
+
+    rows = _read_normalized_csv(src)
+    colors: list[dict[str, Any]] = []
+    seen_ids: set[str] = set()
+
+    for row in rows:
+        if not row:
+            continue
+
+        raw_id = row[0].strip()
+        if not raw_id or raw_id.lower() in {"id", "code", "colour", "color", "name"}:
+            continue
+
+        if not _matches_line_affix(raw_id, line_id, meta.get("default_prefix", ""), meta.get("default_suffix", "")):
+            # standards/humbrol can be plain numbers (no prefixes)
+            if meta.get("prefixes") or meta.get("suffixes"):
+                # Keep rows that contain obvious matching prefixed IDs (anywhere in row)
+                candidates = [c for c in row if _matches_line_affix(c, line_id, meta.get("default_prefix", ""), meta.get("default_suffix", ""))]
+                if candidates:
+                    raw_id = candidates[0]
+
+        norm_id = _remove_line_affixes(raw_id, line_id, meta.get("default_prefix", ""), meta.get("default_suffix", ""))
+        norm_id = norm_id.strip()
+        if not norm_id or norm_id in seen_ids:
+            continue
+
+        name = row[1].strip() if len(row) > 1 else ""
+        if not name:
+            name = raw_id
+
+        colors.append({
+            "id": norm_id,
+            "name": name,
+            "rgb": "",
+            "correspondences": [],
+        })
+        seen_ids.add(norm_id)
+
+    return {
+        "series": line.get("series", line_id),
+        "manufacturer": line.get("manufacturer", ""),
+        "prefixes": meta["prefixes"],
+        "default_prefix": meta["default_prefix"],
+        "suffixes": meta["suffixes"],
+        "default_suffix": meta["default_suffix"],
+        "colors": colors,
+    }
+
+
+def _build_mr_color_from_html() -> dict | None:
+    try:
+        from parse_mr_color_html import parse_html, INPUT_HTML  # type: ignore
+    except Exception:
+        return None
+
+    if not INPUT_HTML.exists():
+        return None
+
+    meta = _line_meta("mr-color", "C")
+    colors = parse_html(INPUT_HTML)
+    return {
+        "series": "Mr. Color",
+        "manufacturer": "GSI Creos",
+        "prefixes": meta["prefixes"],
+        "default_prefix": meta["default_prefix"],
+        "suffixes": meta["suffixes"],
+        "default_suffix": meta["default_suffix"],
+        "colors": colors,
+    }
+
+
 # ---------------------------------------------------------------------------
 # Writer
 # ---------------------------------------------------------------------------
@@ -963,22 +1260,51 @@ def write_json(data: dict, filename: str) -> None:
 # Main
 # ---------------------------------------------------------------------------
 
-def main() -> None:
+def step_build() -> None:
     print("Building paint-series JSON files...")
+    resolution = _load_resolution()
 
-    print("  Vallejo Model Color")
-    write_json(build_vmc(), "vallejo-model-color.json")
+    for config in PIPELINE_SOURCES:
+        line_id = config.get("line_id", "")
+        if not line_id:
+            continue
 
-    print("  Vallejo Model Air")
-    write_json(build_vma(), "vallejo-model-air.json")
+        if line_id == "mr-color":
+            data = _build_mr_color_from_html()
+        else:
+            data = _build_simple_series_from_source(line_id, resolution)
 
-    print("  AK Real Colors")
-    write_json(build_ak(), "ak-real-colors.json")
+        if not data:
+            continue
 
-    print("  Italeri Acrylic")
-    write_json(build_italeri(), "italeri.json")
+        filename = OUTPUT_FILENAME_OVERRIDES.get(line_id, f"{line_id}.json")
+        print(f"  {data.get('series', line_id)}")
+        write_json(data, filename)
 
     print("Done.")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Build website paint JSON data pipeline")
+    parser.add_argument(
+        "--step",
+        choices=["extract", "compare", "build", "all"],
+        default="build",
+        help="Pipeline step to run",
+    )
+    args = parser.parse_args()
+
+    if args.step in {"extract", "all"}:
+        print("[1/3] Extracting/normalizing sources → CSV")
+        step_extract()
+
+    if args.step in {"compare", "all"}:
+        print("[2/3] Comparing multi-source paint lines and persisting resolution choices")
+        step_compare()
+
+    if args.step in {"build", "all"}:
+        print("[3/3] Building website JSON files")
+        step_build()
 
 
 if __name__ == "__main__":

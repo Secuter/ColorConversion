@@ -1,0 +1,898 @@
+{
+  "series": "Humbrol Enamel",
+  "manufacturer": "Humbrol",
+  "prefixes": [],
+  "default_prefix": "",
+  "suffixes": [],
+  "default_suffix": "",
+  "colors": [
+    {
+      "id": "﻿HUMBROL ENAMEL 14 ml PAINTS; COLOUR ; HUMBROL ; Tamiya ;Revell;Testor;Gunze; R.A.L. ;Humbrol Authentic;",
+      "name": "﻿HUMBROL ENAMEL 14 ml PAINTS; COLOUR ; HUMBROL ; Tamiya ;Revell;Testor;Gunze; R.A.L. ;Humbrol Authentic;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Grey Primer;;1;-;-;-;-;-;;",
+      "name": "Humbrol Matt Grey Primer;;1;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Emerald;;2;-;-;1524;H26/H46;-;;",
+      "name": "Humbrol Gloss Emerald;;2;-;-;1524;H26/H46;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Brunswick Green;;3;X-5;-;-;H6;-;;",
+      "name": "Humbrol Gloss Brunswick Green;;3;X-5;-;-;H6;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Dark Admiralty Grey;;5;-;-;-;H22;-;;",
+      "name": "Humbrol Gloss Dark Admiralty Grey;;5;-;-;-;H22;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Light Buff;;7;-;-;-;-;-;;",
+      "name": "Humbrol Gloss Light Buff;;7;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Tan;;9;-;-;-;H27/H37;-;;",
+      "name": "Humbrol Gloss Tan;;9;-;-;-;H27/H37;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Service Brown;;10;X-9;81;1540;H7/H17;8017;;",
+      "name": "Humbrol Gloss Service Brown;;10;X-9;81;1540;H7/H17;8017;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Silver;;11;X-11;90;2734;H8;-;;",
+      "name": "Humbrol Metallic Silver;;11;X-11;90;2734;H8;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Copper;;12;XF-6;-;1551;H10;-;;",
+      "name": "Humbrol Metallic Copper;;12;XF-6;-;1551;H10;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss French Blue;;14;X-4;52;2715;H15;-;;",
+      "name": "Humbrol Gloss French Blue;;14;X-4;52;2715;H15;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Midnight Blue;;15;X-3;-;1511;H5;-;;",
+      "name": "Humbrol Gloss Midnight Blue;;15;X-3;-;1511;H5;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Gold;;16;X-12;94;1744;H9;-;;",
+      "name": "Humbrol Metallic Gold;;16;X-12;94;1744;H9;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Orange;;18;X-6;30;1527;H14;2004;;",
+      "name": "Humbrol Gloss Orange;;18;X-6;30;1527;H14;2004;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Bright Red;;19;X-7;31;1503;H3;3000;;",
+      "name": "Humbrol Gloss Bright Red;;19;X-7;31;1503;H3;3000;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Crimson;;20;-;-;1501;H43;3004;;",
+      "name": "Humbrol Gloss Crimson;;20;-;-;1501;H43;3004;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Black;;21;X-1;7;1747;H2;9005;;",
+      "name": "Humbrol Gloss Black;;21;X-1;7;1747;H2;9005;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss White;;22;X-2;4;1745;H1/H316;9010;;",
+      "name": "Humbrol Gloss White;;22;X-2;4;1745;H1/H316;9010;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Duck Egg Blue;;23;-;-;-;H74;-;;",
+      "name": "Humbrol Matt Duck Egg Blue;;23;-;-;-;H74;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Trainer Yellow;;24;-;15/311;1569;H34;-;;",
+      "name": "Humbrol Matt Trainer Yellow;;24;-;15/311;1569;H34;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Blue;;25;XF-8 ;56 ;-;H35 ;-;;",
+      "name": "Humbrol Matt Blue;;25;XF-8 ;56 ;-;H35 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Khaki;;26;XF-49;86 ;-;H81 ;-;;",
+      "name": "Humbrol Matt Khaki;;26;XF-49;86 ;-;H81 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Sea Grey;;27;XF-54 ;-;-;H68/H75 ;7031;;",
+      "name": "Humbrol Matt Sea Grey;;27;XF-54 ;-;-;H68/H75 ;7031;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Camouflage Grey;;28;XF-55 ;1733 ;-;H311 ;-;;",
+      "name": "Humbrol Matt Camouflage Grey;;28;XF-55 ;1733 ;-;H311 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Dark Earth;;29;XF-52;87 ;-;H72 ;-;HB2;",
+      "name": "Humbrol Matt Dark Earth;;29;XF-52;87 ;-;H72 ;-;HB2;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Dark Green;;30;XF-61;-;-;H73 / H320;-;HB1;",
+      "name": "Humbrol Matt Dark Green;;30;XF-61;-;-;H73 / H320;-;HB1;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Slate Grey;;31;XF;-;-;-;-;;",
+      "name": "Humbrol Matt Slate Grey;;31;XF;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Dark Grey;;32;-;-;-;H301 ;-;;",
+      "name": "Humbrol Matt Dark Grey;;32;-;-;-;H301 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Black;;33;XF-1;8;1583/1749;H12/H343;9011;;",
+      "name": "Humbrol Matt Black;;33;XF-1;8;1583/1749;H12/H343;9011;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt White;;34;XF-2;5;1768;H11;9001;;",
+      "name": "Humbrol Matt White;;34;XF-2;5;1768;H11;9001;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Varnish;;35;X-22;1;-;H30;-;;",
+      "name": "Humbrol Gloss Varnish;;35;X-22;1;-;H30;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Lime;;38;X-15;-;-;H16/H50;-;;",
+      "name": "Humbrol Gloss Lime;;38;X-15;-;-;H16/H50;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Pale Grey;;40;-;-;-;-;-;;",
+      "name": "Humbrol Gloss Pale Grey;;40;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Ivory;;41;-;10;2709;-;-;;",
+      "name": "Humbrol Gloss Ivory;;41;-;10;2709;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Sea Blue;;47;-;-;1508;H45;-;;",
+      "name": "Humbrol Gloss Sea Blue;;47;-;-;1508;H45;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Mediterranean Blue;;48;X-14;51;-;-;-;;",
+      "name": "Humbrol Gloss Mediterranean Blue;;48;X-14;51;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Varnish;;49;-;2;-;H20 ;-;;",
+      "name": "Humbrol Matt Varnish;;49;-;2;-;H20 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Gloss Green Mist;;50;-;97;-;H89;-;;",
+      "name": "Humbrol Metallic Gloss Green Mist;;50;-;97;-;H89;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Gloss Sunset Red;;51;-;96;1502;H87;-;;",
+      "name": "Humbrol Metallic Gloss Sunset Red;;51;-;96;1502;H87;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Gloss Baltic Blue;;52;X-13;98;2702;H88;-;;",
+      "name": "Humbrol Metallic Gloss Baltic Blue;;52;X-13;98;2702;H88;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Gloss Gunmetal;;53;X-10;-;-;H18/H76 ;-;;",
+      "name": "Humbrol Metallic Gloss Gunmetal;;53;X-10;-;-;H18/H76 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Gloss Brass;;54;-;93;1582 ;-;-;;",
+      "name": "Humbrol Metallic Gloss Brass;;54;-;93;1582 ;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Gloss Bronze;;55;-;95;-;-;-;;",
+      "name": "Humbrol Metallic Gloss Bronze;;55;-;95;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Gloss Aluminium;;56;XF-56;99;1781 ;-;-;;",
+      "name": "Humbrol Metallic Gloss Aluminium;;56;XF-56;99;1781 ;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Scarlet;;60;XF-7;36/330;-;H13 / H23;-;;",
+      "name": "Humbrol Matt Scarlet;;60;XF-7;36/330;-;H13 / H23;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Flesh;;61;XF-15;35;-;H44;-;;",
+      "name": "Humbrol Matt Flesh;;61;XF-15;35;-;H44;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Leather;;62;XF-66;85 ;1736;-;8023;;",
+      "name": "Humbrol Matt Leather;;62;XF-66;85 ;1736;-;8023;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Sand;;63;XF-59;-;1706/1735;H66;-;;",
+      "name": "Humbrol Matt Sand;;63;XF-59;-;1706/1735;H66;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Light Grey;;64;XF-12;75;-;H51;-;;",
+      "name": "Humbrol Matt Light Grey;;64;XF-12;75;-;H51;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Aircraft Blue;;65;XF-23;55 ;-;H67 ;-;;",
+      "name": "Humbrol Matt Aircraft Blue;;65;XF-23;55 ;-;H67 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Olive Drab;;66;XF-62;66 ;-;H78 ;-;;",
+      "name": "Humbrol Matt Olive Drab;;66;XF-62;66 ;-;H78 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Tank Grey;;67;XF-63;78 ;-;H32;-;;",
+      "name": "Humbrol Matt Tank Grey;;67;XF-63;78 ;-;H32;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Purple;;68;X-16;53 ;-;H39;-;;",
+      "name": "Humbrol Gloss Purple;;68;X-16;53 ;-;H39;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Yellow;;69;X-8;12 ;1514 ;H4;-;;",
+      "name": "Humbrol Gloss Yellow;;69;X-8;12 ;1514 ;H4;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Brick Red;;70;-;37;-;-;-;;",
+      "name": "Humbrol Matt Brick Red;;70;-;37;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Oak;;71;-;-;-;-;-;;",
+      "name": "Humbrol Satin Oak;;71;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Khaki Drill;;72;-;-;-;-;-;;",
+      "name": "Humbrol Matt Khaki Drill;;72;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Wine;;73;XF-9;-;-;H47 ;-;;",
+      "name": "Humbrol Matt Wine;;73;XF-9;-;-;H47 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Linen;;74;-;-;-;-;-;;",
+      "name": "Humbrol Matt Linen;;74;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Bronze Green;;75;XF-11;-;-;H36 / H59;-;;",
+      "name": "Humbrol Matt Bronze Green;;75;XF-11;-;-;H36 / H59;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Uniform Green;;76;-;-;-;-;-;;",
+      "name": "Humbrol Matt Uniform Green;;76;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Navy Blue;;77;-;-;-;-;-;;",
+      "name": "Humbrol Matt Navy Blue;;77;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Cockpit Green;;78;-;-;-;-;-;;",
+      "name": "Humbrol Matt Cockpit Green;;78;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Blue Grey;;79;-;77/378;;;7012;;",
+      "name": "Humbrol Matt Blue Grey;;79;-;77/378;;;7012;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Grass Green;;80;-;-;-;-;-;;",
+      "name": "Humbrol Matt Grass Green;;80;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Pale Yellow;;81;XF-4;-;-;-;-;;",
+      "name": "Humbrol Matt Pale Yellow;;81;XF-4;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Orange Lining;;82;-;-;-;-;-;;",
+      "name": "Humbrol Matt Orange Lining;;82;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Ocher;;83;XF-57;;-;-;-;;",
+      "name": "Humbrol Matt Ocher;;83;XF-57;;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Mid Stone;;84;XF-60;-;-;-;-;;",
+      "name": "Humbrol Matt Mid Stone;;84;XF-60;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Coal Black;;85;X-18;9/302;-;H77 ;9005;;",
+      "name": "Humbrol Satin Coal Black;;85;X-18;9/302;-;H77 ;9005;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Light Olive;;86;-;45 ;-;-;-;;",
+      "name": "Humbrol Matt Light Olive;;86;-;45 ;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Steel Grey;;87;XF-25;-;-;-;-;;",
+      "name": "Humbrol Matt Steel Grey;;87;XF-25;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Deck Green;;88;-;48;-;-;-;;",
+      "name": "Humbrol Matt Deck Green;;88;-;48;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Middle Blue;;89;-;-;-;-;-;;",
+      "name": "Humbrol Matt Middle Blue;;89;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Beige Green;;90;XF-21;-;-;H31;-;;",
+      "name": "Humbrol Matt Beige Green;;90;XF-21;-;-;H31;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Black Green;;91;XF-27;67;;;7009;;",
+      "name": "Humbrol Matt Black Green;;91;XF-27;67;;;7009;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Iron Grey;;92;XF-22;79 ;-;-;-;;",
+      "name": "Humbrol Matt Iron Grey;;92;XF-22;79 ;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Desert Yellow;;93;-;-;-;H79/H346;-;;",
+      "name": "Humbrol Matt Desert Yellow;;93;-;-;-;H79/H346;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Brown Yellow;;94;-;16/88;-;H71 ;-;;",
+      "name": "Humbrol Matt Brown Yellow;;94;-;16/88;-;H71 ;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt RAF Blue;;96;XF-18;-;-;-;-;;",
+      "name": "Humbrol Matt RAF Blue;;96;XF-18;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Chocolate;;98;XF-10;-;-;-;-;;",
+      "name": "Humbrol Matt Chocolate;;98;XF-10;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Lemon;;99;XF-3;-;-;-;-;;",
+      "name": "Humbrol Matt Lemon;;99;XF-3;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Red Brown;;100;-;-;-;-;-;;",
+      "name": "Humbrol Matt Red Brown;;100;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Mid Green;;101;XF-5;364;-;-;-;;",
+      "name": "Humbrol Matt Mid Green;;101;XF-5;364;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Army Green;;102;-;-;-;-;-;;",
+      "name": "Humbrol Matt Army Green;;102;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Cream;;103;-;-;-;-;-;;",
+      "name": "Humbrol Matt Cream;;103;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Oxford Blue;;104;XF-17;-;-;H54;-;;",
+      "name": "Humbrol Matt Oxford Blue;;104;XF-17;-;-;H54;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Marine Green;;105;-;361;1712;H340;-;;",
+      "name": "Humbrol Matt Marine Green;;105;-;361;1712;H340;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Ocean Green;;106;-;47/57;-;-;-;HB3;",
+      "name": "Humbrol Matt Ocean Green;;106;-;47/57;-;-;-;HB3;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt WWI Blue;;109;-;-;-;-;-;;",
+      "name": "Humbrol Matt WWI Blue;;109;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Natural Wood;;110;-;-;-;-;-;;",
+      "name": "Humbrol Matt Natural Wood;;110;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Tarmac Grey;;112;XF-24;71;-;H83;-;;",
+      "name": "Humbrol Matt Tarmac Grey;;112;XF-24;71;-;H83;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Rust;;113;-;-;-;H344;-;;",
+      "name": "Humbrol Matt Rust;;113;-;-;-;H344;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt US Dark Green;;116;XF-13;-;1710;H64/H309;-;;",
+      "name": "Humbrol Matt US Dark Green;;116;XF-13;-;1710;H64/H309;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt US Light Green;;117;-;-;1713;-;6003;;",
+      "name": "Humbrol Matt US Light Green;;117;-;-;1713;-;6003;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt US Tan;;118;-;382;1742;-;-;;",
+      "name": "Humbrol Matt US Tan;;118;-;382;1742;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt US Light Earth;;119;-;-;-;H310;-;;",
+      "name": "Humbrol Matt US Light Earth;;119;-;-;-;H310;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Light Green;;120;-;-;1716;H312;-;;",
+      "name": "Humbrol Matt Light Green;;120;-;-;1716;H312;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Pale Stone;;121;-;-;-;H313;-;;",
+      "name": "Humbrol Matt Pale Stone;;121;-;-;-;H313;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Extra Dark Sea Grey;;123;XF-58;-;-;H333;-;;",
+      "name": "Humbrol Satin Extra Dark Sea Grey;;123;XF-58;-;-;H333;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin US Dark Grey;;125;-;-;1723;H305;-;;",
+      "name": "Humbrol Satin US Dark Grey;;125;-;-;1723;H305;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin US Medium Grey;;126;XF-20;-;1725;H82/H306;-;;",
+      "name": "Humbrol Satin US Medium Grey;;126;XF-20;-;1725;H82/H306;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin US Ghost Grey;;127;-;-;1728;H308;-;;",
+      "name": "Humbrol Satin US Ghost Grey;;127;-;-;1728;H308;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin US Compass Grey;;128;-;374;1741;H53/H307;-;;",
+      "name": "Humbrol Satin US Compass Grey;;128;-;374;1741;H53/H307;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin US Gull Grey;;129;-;-;1730;H325;-;;",
+      "name": "Humbrol Satin US Gull Grey;;129;-;-;1730;H325;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin White;;130;-;301;-;-;9010;;",
+      "name": "Humbrol Satin White;;130;-;301;-;-;9010;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Mid Green;;131;-;-;-;-;-;;",
+      "name": "Humbrol Satin Mid Green;;131;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Red;;132;-;-;-;-;-;;",
+      "name": "Humbrol Satin Red;;132;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Brown;;133;-;-;-;-;-;;",
+      "name": "Humbrol Satin Brown;;133;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Varnish;;135;-;-;-;-;-;;",
+      "name": "Humbrol Satin Varnish;;135;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Gull Grey;;140;-;-;1740;H317;-;;",
+      "name": "Humbrol Matt Gull Grey;;140;-;-;1740;H317;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Intermediate Blue;;144;-;-;1720;H42/H56;-;;",
+      "name": "Humbrol Matt Intermediate Blue;;144;-;-;1720;H42/H56;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Medium Grey;;145;-;-;1721;H337;7000;;",
+      "name": "Humbrol Matt Medium Grey;;145;-;-;1721;H337;7000;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Light Grey;;147;XF-14;-;1732;H57/H62;-;;",
+      "name": "Humbrol Matt Light Grey;;147;XF-14;-;1732;H57/H62;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Radome Tan;;148;-;-;1709;H318;-;;",
+      "name": "Humbrol Matt Radome Tan;;148;-;-;1709;H318;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Dark Green;;149;XF-26;-;1764;H302;-;;",
+      "name": "Humbrol Matt Dark Green;;149;XF-26;-;1764;H302;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Forest Green;;150;-;-;1714;-;-;;",
+      "name": "Humbrol Matt Forest Green;;150;-;-;1714;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Insignia Red;;153;-;-;1705;H327;-;;",
+      "name": "Humbrol Matt Insignia Red;;153;-;-;1705;H327;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Insignia Yellow;;154;-;-;1708;H329;-;;",
+      "name": "Humbrol Matt Insignia Yellow;;154;-;-;1708;H329;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Olive Drab;;155;-;-;1711;H52/H304;-;;",
+      "name": "Humbrol Matt Olive Drab;;155;-;-;1711;H52/H304;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Dark Camouflage Grey;;156;XF-53;-;-;-;-;;",
+      "name": "Humbrol Satin Dark Camouflage Grey;;156;XF-53;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Azure Blue;;157;-;-;-;-;-;;",
+      "name": "Humbrol Matt Azure Blue;;157;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Khaki Drab;;159;-;-;-;-;-;;",
+      "name": "Humbrol Matt Khaki Drab;;159;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt German Camouflage Red Brown;;160;XF-64;-;-;-;-;;",
+      "name": "Humbrol Matt German Camouflage Red Brown;;160;XF-64;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Dark Green;;163;-;-;-;H330;-;;",
+      "name": "Humbrol Satin Dark Green;;163;-;-;-;H330;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Dark Sea Grey;;164;-;-;-;H331;-;;",
+      "name": "Humbrol Satin Dark Sea Grey;;164;-;-;-;H331;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Medium Sea Grey;;165;-;-;-;-;-;;",
+      "name": "Humbrol Satin Medium Sea Grey;;165;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Light Aircraft Grey;;166;-;-;-;H332;-;;",
+      "name": "Humbrol Satin Light Aircraft Grey;;166;-;-;-;H332;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin RAF Barley Grey;;167;-;-;-;H334;-;;",
+      "name": "Humbrol Satin RAF Barley Grey;;167;-;-;-;H334;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Signal Red;;174;-;-;-;-;-;;",
+      "name": "Humbrol Satin Signal Red;;174;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Brown;;186;-;-;1701;-;-;;",
+      "name": "Humbrol Matt Brown;;186;-;-;1701;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Dark Stone;;187;-;-;1704;-;-;;",
+      "name": "Humbrol Matt Dark Stone;;187;-;-;1704;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Chrome Silver;;191;-;-;1707;-;-;;",
+      "name": "Humbrol Metallic Chrome Silver;;191;-;-;1707;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Dark Green;;195;XF-13;363;-;H60;6020;;",
+      "name": "Humbrol Satin Dark Green;;195;XF-13;363;-;H60;6020;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Satin Light Grey;;196;-;371;-;-;7035;;",
+      "name": "Humbrol Satin Light Grey;;196;-;371;-;-;7035;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Pink;;200;X-17;-;-;H19;-;;",
+      "name": "Humbrol Gloss Pink;;200;X-17;-;-;H19;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Black;;201;-;-;2713;H28;-;;",
+      "name": "Humbrol Metallic Black;;201;-;-;2713;H28;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Fluo Signal Green;;208;-;-;-;-;-;;",
+      "name": "Humbrol Gloss Fluo Signal Green;;208;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Fluo Fire Orange;;209;-;-;-;H98;3026;;",
+      "name": "Humbrol Gloss Fluo Fire Orange;;209;-;-;-;H98;3026;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Gloss Ferrari Red;;220;-;-;-;-;-;;",
+      "name": "Humbrol Gloss Ferrari Red;;220;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Metallic Moonlight Blue;;222;-;-;-;-;-;;",
+      "name": "Humbrol Metallic Moonlight Blue;;222;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Dark Slate Grey;;224;-;-;-;-;-;;",
+      "name": "Humbrol Matt Dark Slate Grey;;224;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Middle Stone;;225;-;-;-;-;-;;",
+      "name": "Humbrol Matt Middle Stone;;225;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Intérior Green;;226;-;-;-;-;-;;",
+      "name": "Humbrol Matt Intérior Green;;226;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Matt Desert Sand;;250;-;-;-;-;-;;",
+      "name": "Humbrol Matt Desert Sand;;250;-;-;-;-;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Clear Red;;1321;X-27;731;-;H90;-;;",
+      "name": "Humbrol Clear Red;;1321;X-27;731;-;H90;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Clear Orange;;1322;X-26;730;-;H92;-;;",
+      "name": "Humbrol Clear Orange;;1322;X-26;730;-;H92;-;;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Humbrol Clear Green;;1325;X-25;-;-;H94;-;;",
+      "name": "Humbrol Clear Green;;1325;X-25;-;-;H94;-;;",
+      "rgb": "",
+      "correspondences": []
+    }
+  ]
+}

@@ -12,650 +12,133 @@
       "id": "4301",
       "name": "Flat Interior Grey Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34151"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.833"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "6025"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "058"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36360"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0226"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4302",
       "name": "Flat Orange",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "32197"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.956"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF7"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36125"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4303",
       "name": "Flat Dark Earth",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30118"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.873"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "072"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36182"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0029"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4304",
       "name": "Flat Middle Stone",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30266"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.824"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "079"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF59"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36116"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0094"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4305",
       "name": "Flat Light Brown",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30219"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.874"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "310"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0118"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4306",
       "name": "Flat Medium Brown",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30111"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.940"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF52"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36137"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0186"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4307",
       "name": "Flat Medium Blue",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "35095"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.809"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0025"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4308",
       "name": "Flat Azure Blue",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "35231"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.902"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF25"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0157"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4309",
       "name": "Flat Light Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34230"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.857"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4311",
       "name": "Flat Dark Slate Grey",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34096"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.892"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "6008"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "60"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "H-330"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0163"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4312",
       "name": "Flat Extra Dark Sea Grey",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36118"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.868"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "305"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF54"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0125"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4313",
       "name": "Flat Medium Sea Grey",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36270"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.870"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "306"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF12"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0064"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4314",
-      "name": "Flat Medium Green (I)",
+      "name": "Flat Medium Green I",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34092"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.895"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "302"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF62"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36167"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0030"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4315",
       "name": "Flat Olive Drab",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34088"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.887"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "052"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF58"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36146"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0066"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4390",
       "name": "Flat Light Flesh",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "33695"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "31575"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.917"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "044"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF15"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36135"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0148"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4601",
-      "name": "Flat Skin Tone Tint Base - Light",
+      "name": "Flat Skin Tone Tint Base Light",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "31575"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.815"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4603",
       "name": "Flat Skin Tone Warm Tint",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "31433"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.955"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4604",
       "name": "Flat Non Specular Sea Blue",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "35042"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.898"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "054"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36179"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0230"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4605",
       "name": "Gloss Red",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "11302"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36134"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0132"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4606",
       "name": "Flat Red",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "31400"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.817"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "414"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF7"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0060"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4632",
       "name": "Flat Guards Red",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "31350"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.947"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "3000"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "013"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36136"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0060"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4636",
       "name": "Flat Clear Acryl",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "020"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36102"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4637",
@@ -667,2384 +150,469 @@
       "id": "4638",
       "name": "Gloss Clear Acryl",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.510"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "030"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X22"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36101"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0035"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4639",
       "name": "Flat Non Specular Interm. Blue",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "35164"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.903"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "042"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36179"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4640",
-      "name": "Flat Marrone Mimetico 1",
+      "name": "Flat Marrone Mimetico",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30109"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.982"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF9"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36137"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0073"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4641",
       "name": "Flat Marrone Mimetico 2",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30118"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.873"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "072"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36187"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0029"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4642",
       "name": "Gloss Yellow",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "13538"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "004"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X8"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4643",
       "name": "Flat Nocciola Chiaro",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30219"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.874"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "310"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36185"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0119"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4644",
       "name": "Flat Bruno Mimetico",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30140"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.825"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF55"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0110"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4645",
-      "name": "Flat Giallo Mimetico 3",
+      "name": "Flat Giallo Mimetico",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "33434"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.913"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF59"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36116"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0063"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4646",
       "name": "Flat Giallo Mimetico 4",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30266"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.824"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "079"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF59"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36116"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0094"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4650",
       "name": "Gloss Light Blue",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "15200"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X14"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4659",
       "name": "Gloss French Blue",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "15180"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "015"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X23"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36150"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4669",
       "name": "Gloss Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "14090"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4671",
       "name": "Metal. Gloss Gold",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "17043"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.996"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "009"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X12"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36194"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0016"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4672",
       "name": "Metal. Gloss Brass",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.801"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36192"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0054"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4673",
       "name": "Flat Wood",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30257"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.977"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "037"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36185"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0110"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4674",
       "name": "Flat Leather",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30100"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.818"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "007"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0062"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4675",
       "name": "Flat Rust",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30109"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.982"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "453"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF9"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36183"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0113"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4677",
       "name": "Metal. Flat Aluminum",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "37178"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.864"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF56"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "32199"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0056"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4678",
       "name": "Metal. Gloss Silver",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "17178"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.997"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "008"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X11"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "32190"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0011"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4679",
-      "name": "Metal. Flat Steel",
+      "name": "Metal.Flat Steel",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "37178"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.865"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "018"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0087"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4681",
       "name": "Flat Gun Metal",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "37200"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.863"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "076"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X10"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0053"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4682",
       "name": "Gloss Orange",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "12197"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "014"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36130"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4687",
-      "name": "Gloss (Blue Angels) Blue",
+      "name": "Gloss(Blu Angels) Blue",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "15050"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36150"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4695",
       "name": "Gloss Black",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "17038"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.861"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "002"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X1"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36107"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0021"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4696",
       "name": "Gloss White",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "17875"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.842"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "001"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X2"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36104"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0022"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4707",
       "name": "Flat Earth Red",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30117"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.983"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "047"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36185"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0186"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4708",
       "name": "Flat Field Drab",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30118"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.873"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "072"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36187"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0029"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4709",
       "name": "Flat Dark Tan",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30219"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.874"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "310"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36185"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0119"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4711",
       "name": "Flat Armor Sand",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30277"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.988"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "459"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0063"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4714",
       "name": "Flat Insignia Red",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "31136"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.957"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "327"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF7"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0153"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4720",
       "name": "Flat Sand",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30475"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "Sand"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "70.819"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "H-313"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0121"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4721",
       "name": "Flat Insignia Yellow",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "33538"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.915"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "329"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF3"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36115"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0099"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4723",
       "name": "Flat Verde Mimetico 2",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34092"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.895"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "302"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF73"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0030"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4726",
       "name": "Flat Dark Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34079"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.893"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "309"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF13"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36167"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0116"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4728",
       "name": "Flat Olive Drab",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34084"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.889"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "405"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF62"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36166"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0066"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4729",
       "name": "Flat Euro I Dark Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34092"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.895"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "302"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF57"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0030"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4734",
-      "name": "Flat Medium Green (II)",
+      "name": "Flat Medium Green II",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34082"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.890"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "6003"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "303"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36145"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0102"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4736",
       "name": "Flat Interior Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34151"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.881"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0226"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4739",
       "name": "Flat Pale Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34272"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.974"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "312"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0120"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4746",
       "name": "Flat Medium Gray",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36270"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.870"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "306"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF12"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36175"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0064"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4752",
       "name": "Flat Gunship Gray",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36118"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.868"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "305"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF54"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36177"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0125"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4754",
       "name": "Flat Dark Gray",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36173"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.992"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "513"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0027"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4755",
       "name": "Flat Dark Gull Gray",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36231"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.991"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Mr. Color",
-          "id": "317"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36157"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0040"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4761",
       "name": "Flat Dark Ghost Gray",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "35237"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.905"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "337"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0127"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4762",
       "name": "Flat Light Ghost Gray",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36300"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.990"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "7001"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "308"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF19"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0126"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4763",
       "name": "Flat Gull Gray",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36622"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.883"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "9002"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "325"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0028"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4765",
       "name": "Flat Light Gray",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36495"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.993"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "308"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "X21"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0049"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4766",
       "name": "Flat Non Specular Blue Grey",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "35189"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.904"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0157"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4768",
       "name": "Flat Black",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "37038"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.950"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "9005"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "012"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF1"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36108"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0033"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4769",
       "name": "Flat White",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "37875"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.951"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "9016"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "011"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF2"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36105"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0034"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4770",
-      "name": "Grau RLM 02",
+      "name": "Grau RLM 02 24226 70.886",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "24226"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.886"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "070"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36148"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0032"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4778",
       "name": "Hellblau RLM 65",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "35352"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.906"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "067"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF23"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36155"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0248"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4780",
       "name": "Schwarzgrün RLM 70",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34052"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.897"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "7022"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Mr. Color",
-          "id": "018"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0241"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4781",
-      "name": "Dunkelgrün RLM 71",
+      "name": "Dunkelgrün RLM",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.888"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "6006"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Mr. Color",
-          "id": "017"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF27"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0242"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4784",
       "name": "Graugrün RLM 74",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36099"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.867"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "068"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF77"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0245"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4785",
       "name": "Grauviolett RLM 75",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36231"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "75"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "70.991"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "H-069"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0246"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4786",
       "name": "Lichtblau RLM 76",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36473"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.907"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "417"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36371"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0247"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4789",
       "name": "Sandgelb RLM 79",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30215"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "79"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "70.843"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "H-067"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36185"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0249"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4795",
-      "name": "Flat Pz. Schwarzgrau RAL 7021",
+      "name": "Flat Pz. Schwarzgrau RAL 70",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36081"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.994"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "7021"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "301"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF63"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0067"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4796",
-      "name": "Flat Panzer Dunkelgelb 1943",
+      "name": "Flat Panzer Dunkelgelb",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "33440"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.978"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF88"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0083"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4797",
-      "name": "Flat Pz. Schokobraun RAL 8017",
+      "name": "Flat Pz. Schokobraun RAL 8",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30045"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.872"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "8017"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF90"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0098"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4798",
-      "name": "Flat Panzer Olivgrün 1943",
+      "name": "Flat Panzer Olivgrün",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34128"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.968"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF89"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0252"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4807",
       "name": "Flat Russian Armor Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34083"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "Green"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "70.894"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "H-420"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36166"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4812",
-      "name": "Flat US Army/Mar. Gulf Arm. Sand",
+      "name": "Flat US Army/Mar.Gulf Arm Sand",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30450"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.912"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "1011"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF59"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36188"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0094"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4842",
-      "name": "Flat Olive Drab Ana 613",
+      "name": "Flat Olive Drab Ana",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34088"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.893"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Gunze Aqueous",
-          "id": "309"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF13"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36187"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0116"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4846",
-      "name": "Flat Dark Earth Ana 617",
+      "name": "Flat Dark Earth Ana",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30140"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "617"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "70.825"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "H-072"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "36187"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4852",
       "name": "Flat Military Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34098"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "Green"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "70.924"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "H-423"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0159"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4853",
-      "name": "Flat Grey Green RLM.66",
+      "name": "Flat Grey Green RLM 66",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36081"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "66"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "70.866"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "H-416"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "XF24"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0123"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4854",
       "name": "Flat Ocean Grey",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "36152"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "Grey"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "70.869"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "C-362"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "XF82"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0106"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4855",
-      "name": "Flat Italian Interior Green",
+      "name": "Flat Italian Interior Green 24449",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "24449"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "Interior"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "24449"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "XF71"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4856",
       "name": "Flat Sky Type’s",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34504"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "Type’s"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "70.885"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "H-074"
-        },
-        {
-          "manufacturer": "Revell",
-          "series": "Revell Aqua Color",
-          "id": "XF21"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0023"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4857",
-      "name": "Flat Green 383",
+      "name": "Flat Green",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34094"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.975"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4858",
-      "name": "Flat Brown 383",
+      "name": "Flat Brown",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "30051"
-        },
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.871"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "8027"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4859",
       "name": "Flat Desert Tan",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "33446"
-        }
-      ]
-    },
-    {
-      "id": "RAL.1002",
-      "name": "Flat Sandgelb",
-      "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "4860AP"
-        }
-      ]
-    },
-    {
-      "id": "4861",
-      "name": "Flat Rubber",
-      "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "26081"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF-85"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0027"
-        }
-      ]
-    },
-    {
-      "id": "4862",
-      "name": "Flat Green",
-      "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Standard",
-          "series": "FS595",
-          "id": "34102"
-        },
-        {
-          "manufacturer": "Gunze",
-          "series": "Mr. Color",
-          "id": "303"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0105"
-        }
-      ]
-    },
-    {
-      "id": "5049",
-      "name": "Thinner",
-      "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.524"
-        }
-      ]
+      "correspondences": []
     },
     {
       "id": "4860",
       "name": "Flat Sandgelb RAL",
       "rgb": "",
-      "correspondences": [
-        {
-          "manufacturer": "Vallejo",
-          "series": "Vallejo Model Color",
-          "id": "70.916"
-        },
-        {
-          "manufacturer": "Standard",
-          "series": "RAL",
-          "id": "1002"
-        },
-        {
-          "manufacturer": "Tamiya",
-          "series": "Tamiya Acrylic",
-          "id": "XF-92"
-        },
-        {
-          "manufacturer": "Humbrol",
-          "series": "Humbrol",
-          "id": "DB0094"
-        }
-      ]
+      "correspondences": []
+    },
+    {
+      "id": "4861",
+      "name": "Flat Rubber 260",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "4862",
+      "name": "Flat Green",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "5049",
+      "name": "Thinner",
+      "rgb": "",
+      "correspondences": []
     }
   ]
 }

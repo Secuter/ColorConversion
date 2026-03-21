@@ -1,255 +1,6762 @@
 {
   "series": "Mr. Color",
-  "manufacturer": "Gunze",
-  "prefixes": ["C", "GX"],
+  "manufacturer": "GSI Creos",
+  "prefixes": [
+    "C"
+  ],
   "default_prefix": "C",
+  "suffixes": [],
+  "default_suffix": "",
   "colors": [
     {
-      "id": "1",
-      "name": "Red",
-      "rgb": "#B80000",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-7" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC015" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "947" }
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Black",
-      "rgb": "#050505",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "X-1" }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Yellow",
-      "rgb": "#E8C800",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-3" }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Blue",
-      "rgb": "#2040A0",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-8" }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Green",
-      "rgb": "#3C8A3C",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-5" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "971" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "039" }
-      ]
-    },
-    {
-      "id": "11",
+      "id": "001",
       "name": "White",
-      "rgb": "#F0F0F0",
+      "rgb": "#E7EBEB",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-2" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC002" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "951" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "001" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.001"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A125"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B125"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C125"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC001"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP001"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "004"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A014"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32104"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36104"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP02"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X02"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X141"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0050"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H001"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N001"
+        }
       ]
     },
     {
-      "id": "12",
-      "name": "Flat Black",
-      "rgb": "#0A0A0A",
+      "id": "002",
+      "name": "Black",
+      "rgb": "#1D1C1D",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-1" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC001" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "950" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "057" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.950"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A125"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B125"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C125"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC002"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP047"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "005"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A012"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32107"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36107"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP01"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X01"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0032"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H002"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N002"
+        }
       ]
     },
     {
-      "id": "13",
-      "name": "Neutral Grey",
-      "rgb": "#787888",
+      "id": "003",
+      "name": "Red",
+      "rgb": "#A80003",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-53" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC019" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "836" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.269"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A276"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B276"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C276"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC006"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP003"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "002"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32131"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36131"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP07"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X07"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0049"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H003"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N003"
+        }
       ]
     },
     {
-      "id": "14",
+      "id": "004",
+      "name": "Yellow",
+      "rgb": "#FFC300",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.078"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A290"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B290"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C290"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP007"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "386"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32112"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP08"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X08"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0048"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H004"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N004"
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "name": "Blue",
+      "rgb": "#002555",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.004"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A220"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B220"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C220"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC010"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP048"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "384"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32152"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP06"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X03"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2031"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0103"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H005"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N005"
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "name": "Green",
+      "rgb": "#303F2C",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.329"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A093"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B093"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C093"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP004"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "385"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32161"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS13"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X05"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2029"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0074"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H006"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N006"
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "name": "Red Brown",
+      "rgb": "#8B311B",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X09"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H007"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N007"
+        }
+      ]
+    },
+    {
+      "id": "008",
+      "name": "Silver",
+      "rgb": "#A4A8AB",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.790"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A003"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B003"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C003"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC074"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMM006"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "003"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32190"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36190"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS12"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP11"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X11"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X038"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0195"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H008"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N008"
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "name": "Gold",
+      "rgb": "#B88340",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.066"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC025"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMC003"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "153"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32194"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36194"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP62"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X12"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0198"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H009"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N009"
+        }
+      ]
+    },
+    {
+      "id": "010",
+      "name": "Copper",
+      "rgb": "#AA6658",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.068"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC078"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMM004"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "154"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32193"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF06"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0199"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H010"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N010"
+        }
+      ]
+    },
+    {
+      "id": "011",
+      "name": "Light Gull Gray",
+      "rgb": "#ABADA8",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.121"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A048"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C048"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP063"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "098"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A063"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0241"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H051"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N051"
+        }
+      ]
+    },
+    {
+      "id": "012",
+      "name": "Olive Drab",
+      "rgb": "#635A4B",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.016"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS06"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X112"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1112"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H052"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N052"
+        }
+      ]
+    },
+    {
+      "id": "013",
+      "name": "Gray",
+      "rgb": "#6F7376",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.051"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A054"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B054"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C054"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP103"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "039"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32174"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS07"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF53"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0239"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H022"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N022"
+        }
+      ]
+    },
+    {
+      "id": "014",
       "name": "Navy Blue",
-      "rgb": "#181828",
+      "rgb": "#2A373E",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-24" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.005"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A171"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B171"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C171"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "281"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS08"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X264"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0227"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H054"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N054"
+        }
       ]
     },
     {
-      "id": "17",
-      "name": "RLM71 Dark Green",
-      "rgb": "#3A5030",
+      "id": "015",
+      "name": "IJN Dark Green",
+      "rgb": "#27372D",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-58" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC009" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "979" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.322"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS01"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF11"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0264"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H059"
+        }
       ]
     },
     {
-      "id": "18",
-      "name": "RLM70 Black Green",
-      "rgb": "#1A2818",
+      "id": "016",
+      "name": "IJA Green",
+      "rgb": "#454A3E",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-27" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.285"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS17"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF13"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X351"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0260"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H060"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N060"
+        }
       ]
     },
     {
-      "id": "25",
-      "name": "Cowling Color",
-      "rgb": "#2A2820",
+      "id": "017",
+      "name": "Dark Green",
+      "rgb": "#525247",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-69" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "862" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.015"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A017"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B017"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C017"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP087"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "061"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A045"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32139"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF26"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2081"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X205"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1205"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0233"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H064"
+        }
       ]
     },
     {
-      "id": "27",
+      "id": "018",
+      "name": "Black Green",
+      "rgb": "#383C37",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.021"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A015"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B015"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C015"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP088"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "060"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A044"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32140"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF27"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2080"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X204"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1204"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0232"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H065"
+        }
+      ]
+    },
+    {
+      "id": "019",
+      "name": "Sandy Brown",
+      "rgb": "#906745",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.278"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "068"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A055"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X224"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1224"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H066"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N066"
+        }
+      ]
+    },
+    {
+      "id": "020",
+      "name": "Light Blue",
+      "rgb": "#00A9CF",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.961"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H045"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N045"
+        }
+      ]
+    },
+    {
+      "id": "021",
+      "name": "Middle Stone",
+      "rgb": "#A7834C",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.031"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A013"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B013"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C013"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP076"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "121"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2052"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X009"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1009"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H071"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N071"
+        }
+      ]
+    },
+    {
+      "id": "022",
+      "name": "Dark Earth",
+      "rgb": "#7F6855",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.323"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A009"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B009"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C009"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP078"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "108"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32182"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS22"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF52"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2054"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X002"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1002"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0070"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H072"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N072"
+        }
+      ]
+    },
+    {
+      "id": "023",
+      "name": "Dark Green 2",
+      "rgb": "#4D4C43"
+    },
+    {
+      "id": "025",
+      "name": "Dark Sea Gray / BSC 638",
+      "rgb": "#747980",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H075"
+        }
+      ]
+    },
+    {
+      "id": "026",
+      "name": "Duck Egg Green",
+      "rgb": "#BDBD94",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.302"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A026"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B026"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C026"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP080"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "118"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32159"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF21"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2049"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X007"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1007"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0244"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H074"
+        }
+      ]
+    },
+    {
+      "id": "027",
       "name": "Interior Green",
-      "rgb": "#6A9048",
+      "rgb": "#746E48",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-5" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC242" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "044" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.137"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A211"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B211"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C211"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP059"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "131"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32360"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X117"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1117"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0220"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H058"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N058"
+        }
       ]
     },
     {
-      "id": "35",
-      "name": "Sail Color",
-      "rgb": "#C0C8D0",
+      "id": "028",
+      "name": "Steel",
+      "rgb": "#636361",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-66" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "052" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.065"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMM002"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "030"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32191"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36191"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP40"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X10"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X502"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0191"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H018"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N018"
+        }
       ]
     },
     {
-      "id": "39",
-      "name": "Dark Yellow",
-      "rgb": "#B09050",
+      "id": "029",
+      "name": "Cocoa Brown / Hull Red",
+      "rgb": "#533936",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-60" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC010" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.038"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS33"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF09"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H017"
+        }
       ]
     },
     {
-      "id": "40",
-      "name": "German Grey",
-      "rgb": "#3A3A3A",
+      "id": "030",
+      "name": "Flat Base",
+      "rgb": "#FFFFFF",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-63" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC018" }
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP22"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X21"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H040"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N040"
+        }
       ]
     },
     {
-      "id": "42",
+      "id": "031",
+      "name": "Haze Gray",
+      "rgb": "#7B7F7A",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS032"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H082"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N082"
+        }
+      ]
+    },
+    {
+      "id": "032",
+      "name": "Dark Gray 2",
+      "rgb": "#555855",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF75"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H083"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N083"
+        }
+      ]
+    },
+    {
+      "id": "033",
+      "name": "Flat Black",
+      "rgb": "#353536",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.057"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A041"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B041"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C041"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC002"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "017"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP03"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF01"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0046"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H012"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N012"
+        }
+      ]
+    },
+    {
+      "id": "034",
+      "name": "Sky Blue",
+      "rgb": "#006DAB",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X14"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H025"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N025"
+        }
+      ]
+    },
+    {
+      "id": "035",
+      "name": "IJN Gray",
+      "rgb": "#A2A69B",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.311"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS02"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF12"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2117"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X354"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0263"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H061"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N061"
+        }
+      ]
+    },
+    {
+      "id": "036",
+      "name": "Dark Gray",
+      "rgb": "#5A5B5A",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.258"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A313"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B313"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C313"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP049"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "064"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A048"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32167"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36167"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS03"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2084"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X206"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1206"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0253"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H068"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N068"
+        }
+      ]
+    },
+    {
+      "id": "037",
+      "name": "Gray Violet",
+      "rgb": "#616263",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.259"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A007"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B007"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C007"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP050"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "065"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A049"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32147"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS04"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2085"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X207"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1207"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0254"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H069"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N069"
+        }
+      ]
+    },
+    {
+      "id": "038",
+      "name": "Olive Drab",
+      "rgb": "#484231",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.889"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP026"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32146"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36146"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF62"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0237"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H078"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N078"
+        }
+      ]
+    },
+    {
+      "id": "039",
+      "name": "Sandy Dark Yellow",
+      "rgb": "#A89173",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.901"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A014"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B014"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C014"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP119"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A056"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32382"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF78"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2088"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X209"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1209"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0222"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H079"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N079"
+        }
+      ]
+    },
+    {
+      "id": "040",
+      "name": "Field Gray / RAL 7021",
+      "rgb": "#2C2E30",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.056"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A224"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C224"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP014"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "034"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A019"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP27"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF63"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2094"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X800"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0008"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H032"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N032"
+        }
+      ]
+    },
+    {
+      "id": "041",
+      "name": "Red Brown",
+      "rgb": "#554A47",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.984"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF64"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H047"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N047"
+        }
+      ]
+    },
+    {
+      "id": "042",
       "name": "Mahogany",
-      "rgb": "#3A2010",
+      "rgb": "#4E3F3A",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-10" }
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H084"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N084"
+        }
       ]
     },
     {
-      "id": "55",
-      "name": "Khaki",
-      "rgb": "#8A8050",
+      "id": "043",
+      "name": "Wood Brown",
+      "rgb": "#7B543D",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-51" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC013" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.293"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A213"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B213"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C213"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP130"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "387"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H037"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N037"
+        }
       ]
     },
     {
-      "id": "56",
-      "name": "IJN Green D1",
-      "rgb": "#3C5430",
+      "id": "044",
+      "name": "Gelbraun",
+      "rgb": "#AD895E",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-13" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC003" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.272"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP017"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF57"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2099"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0013"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H027"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N027"
+        }
       ]
     },
     {
-      "id": "65",
+      "id": "045",
+      "name": "Deck Tan",
+      "rgb": "#BDA98C",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF55"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H085"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N085"
+        }
+      ]
+    },
+    {
+      "id": "046",
+      "name": "Gloss Clear",
+      "rgb": "#FFFFFF",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.058"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC073"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMA006"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "048"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32101"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP09"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X22"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0091"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H030"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N030"
+        }
+      ]
+    },
+    {
+      "id": "047",
+      "name": "Clear Red",
+      "rgb": "#FF0000",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.934"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP167"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP72"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X27"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H090"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N090"
+        }
+      ]
+    },
+    {
+      "id": "048",
+      "name": "Clear Yellow",
+      "rgb": "#FFFF00",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.937"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP69"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X24"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H091"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N091"
+        }
+      ]
+    },
+    {
+      "id": "049",
+      "name": "Clear Orange",
+      "rgb": "#FFA500",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.935"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP171"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP53"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X26"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H092"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N092"
+        }
+      ]
+    },
+    {
+      "id": "050",
+      "name": "Clear Blue",
+      "rgb": "#0000FF",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.938"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP168"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP68"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X23"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H093"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N093"
+        }
+      ]
+    },
+    {
+      "id": "051",
+      "name": "Flesh",
+      "rgb": "#B58E6D",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.843"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP30"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF15"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H044"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N044"
+        }
+      ]
+    },
+    {
+      "id": "052",
+      "name": "Field Gray 2",
+      "rgb": "#575B4F",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS078"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H048"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N048"
+        }
+      ]
+    },
+    {
+      "id": "053",
+      "name": "Light Khaki",
+      "rgb": "#776244"
+    },
+    {
+      "id": "054",
+      "name": "Olive Green",
+      "rgb": "#505545",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.093"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A152"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C152"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP034"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "078"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP58"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF67"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0084"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H080"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N080"
+        }
+      ]
+    },
+    {
+      "id": "055",
+      "name": "Khaki Drill",
+      "rgb": "#776244",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.116"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF49"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H081"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N081"
+        }
+      ]
+    },
+    {
+      "id": "056",
+      "name": "IJA Gray",
+      "rgb": "#ADA788",
+      "correspondences": [
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP107"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS29"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF76"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0262"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H062"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N062"
+        }
+      ]
+    },
+    {
+      "id": "057",
+      "name": "Metallic Blue / Aotake",
+      "rgb": "#007C7B",
+      "correspondences": [
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP113"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS19"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X13"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2119"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X355"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0267"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H063"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N063"
+        }
+      ]
+    },
+    {
+      "id": "058",
+      "name": "Orange Yellow",
+      "rgb": "#EF7B00",
+      "correspondences": [
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2118"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H024"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N024"
+        }
+      ]
+    },
+    {
+      "id": "059",
+      "name": "Orange",
+      "rgb": "#DA572B",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.083"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A704"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B704"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C704"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC005"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A068"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32130"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS12"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X06"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H014"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N014"
+        }
+      ]
+    },
+    {
+      "id": "060",
+      "name": "RLM Gray",
+      "rgb": "#8E8C7F",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.044"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A023"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B023"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C023"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP056"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "050"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A004"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32145"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36145"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF22"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2071"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X201"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1201"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0217"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H070"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N070"
+        }
+      ]
+    },
+    {
+      "id": "061",
+      "name": "Burnt Iron",
+      "rgb": "#5A5553",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.072"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP54"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF84"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0187"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H076"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N076"
+        }
+      ]
+    },
+    {
+      "id": "062",
+      "name": "Flat White",
+      "rgb": "#EFF2F0",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.001"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC001"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP04"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF02"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H011"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N011"
+        }
+      ]
+    },
+    {
+      "id": "063",
+      "name": "Pink",
+      "rgb": "#DB7192",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.994"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS25"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X17"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H019"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N019"
+        }
+      ]
+    },
+    {
+      "id": "064",
+      "name": "Yellow Green",
+      "rgb": "#579400",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.827"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF04"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H016"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N016"
+        }
+      ]
+    },
+    {
+      "id": "065",
+      "name": "Bright Blue",
+      "rgb": "#00508C",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.004"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP06"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS093"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H015"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N015"
+        }
+      ]
+    },
+    {
+      "id": "066",
+      "name": "Bright Green / Dilectric Green",
+      "rgb": "#006C21",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.970"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A327"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B327"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C327"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "032"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS35"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X28"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H026"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N026"
+        }
+      ]
+    },
+    {
+      "id": "067",
+      "name": "Purple",
+      "rgb": "#474574",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.959"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS24"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X16"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0127"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H039"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N039"
+        }
+      ]
+    },
+    {
+      "id": "068",
+      "name": "Red Madder",
+      "rgb": "#AB020A",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H086"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N086"
+        }
+      ]
+    },
+    {
+      "id": "069",
+      "name": "Off White",
+      "rgb": "#DBDCD0",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.270"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H021"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N021"
+        }
+      ]
+    },
+    {
+      "id": "070",
+      "name": "German Green",
+      "rgb": "#21423B"
+    },
+    {
+      "id": "071",
+      "name": "Sea Blue",
+      "rgb": "#1D2D31",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF17"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H055"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N055"
+        }
+      ]
+    },
+    {
+      "id": "072",
       "name": "Intermediate Blue",
-      "rgb": "#485090",
+      "rgb": "#445663",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-8" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "011" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.299"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A027"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B027"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C027"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP071"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "136"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS19"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF18"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X125"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1125"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0228"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H056"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N056"
+        }
       ]
     },
     {
-      "id": "107",
-      "name": "Character Grey",
-      "rgb": "#484840",
+      "id": "073",
+      "name": "Aircraft Gray",
+      "rgb": "#ACAA9F",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-24" }
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H057"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N057"
+        }
+      ]
+    },
+    {
+      "id": "074",
+      "name": "Air Superiority Blue",
+      "rgb": "#88B7CD",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.332"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A155"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B115"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C155"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "240"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0271"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N017"
+        }
+      ]
+    },
+    {
+      "id": "075",
+      "name": "Metallic Red",
+      "rgb": "#A5415E",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.070"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS18"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0188"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H087"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N087"
+        }
+      ]
+    },
+    {
+      "id": "076",
+      "name": "Metallic Blue",
+      "rgb": "#176C90",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.071"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS53"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0196"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H088"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N088"
+        }
+      ]
+    },
+    {
+      "id": "077",
+      "name": "Metallic Green",
+      "rgb": "#007543",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS20"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H089"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N089"
+        }
+      ]
+    },
+    {
+      "id": "078",
+      "name": "Metal Black",
+      "rgb": "#464746",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.073"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP40"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X10"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H028"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N028"
+        }
+      ]
+    },
+    {
+      "id": "079",
+      "name": "Shine Red",
+      "rgb": "#B31919",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.817"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A103"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B103"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C103"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A069"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H023"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N023"
+        }
+      ]
+    },
+    {
+      "id": "080",
+      "name": "Cobalt Blue",
+      "rgb": "#0057B6",
+      "correspondences": [
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X030"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H465"
+        }
+      ]
+    },
+    {
+      "id": "081",
+      "name": "Russet Brown",
+      "rgb": "#7C252C",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H033"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "name": "Wine Red",
+      "rgb": "#A90F35",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.926"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H043"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N043"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "name": "Smoke Gray",
+      "rgb": "#696969",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.939"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP170"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP67"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X19"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H095"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N095"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "Yellow",
+      "rgb": "#EFA200",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.078"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP090"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "051"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A036"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32115"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "36115"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF03"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2072"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X213"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1213"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0125"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H413"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "name": "Red",
+      "rgb": "#9A3435",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.003"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "052"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A037"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF07"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2073"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X217"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1217"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H414"
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "Light Blue",
+      "rgb": "#829B98",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.255"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A029"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B029"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C029"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP057"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "058"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A043"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32149"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF25"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2078"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X202"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1202"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0231"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H067"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N067"
+        }
       ]
     },
     {
       "id": "116",
-      "name": "RLM75 Grey Violet",
-      "rgb": "#6A6878",
+      "name": "Black Gray",
+      "rgb": "#45484B",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-22" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC226" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "034" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.055"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A040"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B040"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C040"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP089"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "059"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A005"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32109"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2079"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X203"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1203"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0218"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H416"
+        }
       ]
     },
     {
       "id": "117",
-      "name": "RLM76 Light Blue",
-      "rgb": "#8898A8",
+      "name": "Light Blue",
+      "rgb": "#98A5A2",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-23" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC227" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "035" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.257"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A038"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B038"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C038"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP051"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "066"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A050"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS05"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF23"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2086"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X208"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1208"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H417"
+        }
       ]
     },
     {
       "id": "118",
-      "name": "RLM74 Grey Green",
-      "rgb": "#5A6050",
+      "name": "Light Blue",
+      "rgb": "#859F9A",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-65" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC225" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "038" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.101"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A314"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B314"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C314"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP055"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "067"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A054"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32155"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2087"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X214"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1214"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0247"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H418"
+        }
       ]
     },
     {
-      "id": "128",
-      "name": "Olive Drab",
-      "rgb": "#4A4A28",
+      "id": "039",
+      "name": "Sandy Dark Yellow",
+      "rgb": "#A89173",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-62" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC004" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "892" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.901"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A014"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B014"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C014"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP119"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A056"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32382"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF78"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2088"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X209"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1209"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0222"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H079"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N079"
+        }
       ]
+    },
+    {
+      "id": "120",
+      "name": "Olive Green",
+      "rgb": "#46483B",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.265"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A053"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B053"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C053"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP120"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "069"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A057"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32142"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2089"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X215"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1215"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H420"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "name": "Brown Violet",
+      "rgb": "#504949",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.264"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A008"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B008"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C008"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP052"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "070"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A059"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2090"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X210"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1210"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0255"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H421"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "name": "Light Green",
+      "rgb": "#586545",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.022"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A020"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B020"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C020"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP053"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "071"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A060"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS23"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF05"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2092"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X225"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1125"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0230"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H422"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Dark Green",
+      "rgb": "#44483A",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.011"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A022"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B022"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C022"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP054"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "072"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A061"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32168"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS24"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF51"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2091"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X226"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1226"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0925"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H423"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "name": "Dark Green",
+      "rgb": "#264030",
+      "correspondences": [
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP112"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS23"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF70"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2116"
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "name": "Cowling Color / N01",
+      "rgb": "#232324",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X18"
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "name": "Interior Green",
+      "rgb": "#52543A",
+      "correspondences": [
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP109"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF71"
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "name": "Interior Green / Nakajima / X08",
+      "rgb": "#A19770"
+    },
+    {
+      "id": "128",
+      "name": "IJA Gray",
+      "rgb": "#A5A18D",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.321"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "name": "Dark Green / Nakajima",
+      "rgb": "#49533D"
+    },
+    {
+      "id": "130",
+      "name": "Dark Green / Kawasaki",
+      "rgb": "#5C5841"
+    },
+    {
+      "id": "131",
+      "name": "Red-Brown / Propeller",
+      "rgb": "#483630",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.040"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP115"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS01"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF64"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "name": "Russian Green",
+      "rgb": "#55713E"
     },
     {
       "id": "136",
       "name": "Russian Green",
-      "rgb": "#3A5028",
+      "rgb": "#4E5640",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-58" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC016" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.022"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF05"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "name": "Tire Black",
+      "rgb": "#3D3D3E",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.315"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP040"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP65"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF85"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0033"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H077"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N077"
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "name": "Clear Green",
+      "rgb": "#008000",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.936"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP169"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X25"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H094"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N094"
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "name": "Italian Red",
+      "rgb": "#D70D19",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS08"
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "name": "Fluorescent Red",
+      "rgb": "#FF000F",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS36"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N101"
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "name": "Fluorescent Yellow",
+      "rgb": "#EAFF00",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H097"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N097"
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "name": "Fluorescent Orange",
+      "rgb": "#FF7370",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.733"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A194"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B194"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C194"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC023"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "194"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32125"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "TS96"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X253"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H098"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N098"
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "name": "Fluorescent Pink",
+      "rgb": "#FF55AB",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H099"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N099"
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "name": "Fluorescent Green",
+      "rgb": "#F4D900",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H100"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N100"
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "name": "Semi-Gloss Clear",
+      "rgb": "#FFFFFF",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP24"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "X35"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H102"
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "name": "Flat Clear",
+      "rgb": "#FFFFFF",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.059"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC027"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMA005"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "127"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32102"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "LP23"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF86"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H020"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N020"
+        }
+      ]
+    },
+    {
+      "id": "301",
+      "name": "Deep Gray",
+      "rgb": "#575756",
+      "correspondences": [
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A030"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B030"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C030"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "241"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF24"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H301"
+        }
+      ]
+    },
+    {
+      "id": "302",
+      "name": "Deep Green",
+      "rgb": "#455148",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.124"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A056"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B056"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C056"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "235"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32363"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF26"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1114"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0238"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H302"
+        }
+      ]
+    },
+    {
+      "id": "303",
+      "name": "Olive Green",
+      "rgb": "#5F6147",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.289"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A021"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B021"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C021"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP028"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "102"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS14"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X116"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1116"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0065"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H303"
+        }
+      ]
+    },
+    {
+      "id": "304",
+      "name": "Olive Drab",
+      "rgb": "#695D4D",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.043"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A018"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B018"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C018"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "234"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X111"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H304"
+        }
+      ]
+    },
+    {
+      "id": "305",
+      "name": "Gunship Gray",
+      "rgb": "#59626A",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.097"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A031"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B031"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C031"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP084"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "040"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A066"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32174"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS27"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0204"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H305"
+        }
+      ]
+    },
+    {
+      "id": "306",
+      "name": "Gray",
+      "rgb": "#7F868A",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.275"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A054"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B053"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C054"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP118"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "039"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A064"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS28"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0211"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H306"
+        }
+      ]
+    },
+    {
+      "id": "307",
+      "name": "Gray",
+      "rgb": "#848E93",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.120"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A035"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B035"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C035"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP074"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "097"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS25"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X135"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1135"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0208"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H307"
+        }
+      ]
+    },
+    {
+      "id": "308",
+      "name": "Gray",
+      "rgb": "#959A9F",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.312"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A037"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B037"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C037"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP073"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "057"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A065"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32143"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS26"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X136"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1136"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0203"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H308"
+        }
+      ]
+    },
+    {
+      "id": "309",
+      "name": "Green",
+      "rgb": "#474B3E",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.294"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A016"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B016"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C016"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP058"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "101"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS13"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF65"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X114"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H309"
+        }
+      ]
+    },
+    {
+      "id": "310",
+      "name": "Sierra Tan",
+      "rgb": "#967560",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.125"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A012"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B012"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C012"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP060"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "103"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS15"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0202"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H310"
+        }
+      ]
+    },
+    {
+      "id": "311",
+      "name": "Gray",
+      "rgb": "#CAC5B8",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.296"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A039"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B039"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C039"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP095"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "104"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS16"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0226"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H311"
+        }
+      ]
+    },
+    {
+      "id": "312",
+      "name": "Green",
+      "rgb": "#728360",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.126"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A091"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B091"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C091"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "227"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H312"
+        }
+      ]
+    },
+    {
+      "id": "313",
+      "name": "Tan",
+      "rgb": "#C0AC91",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.327"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A090"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B090"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C090"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "226"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF59"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0200"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H313"
+        }
+      ]
+    },
+    {
+      "id": "314",
+      "name": "Underside Blue",
+      "rgb": "#C6D3C7",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.328"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A092"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B092"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C092"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "225"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H314"
+        }
+      ]
+    },
+    {
+      "id": "315",
+      "name": "Gray",
+      "rgb": "#D9D3BF",
+      "correspondences": [
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP069"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H315"
+        }
+      ]
+    },
+    {
+      "id": "316",
+      "name": "White",
+      "rgb": "#E5E6DC",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.279"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A049"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B049"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C049"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP104"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "099"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A062"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS20"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X141"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H316"
+        }
+      ]
+    },
+    {
+      "id": "317",
+      "name": "Gray",
+      "rgb": "#757673",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.277"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A044"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B044"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C044"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP064"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "100"
+        },
+        {
+          "manufacturer": "Revell",
+          "series": "Revell",
+          "id": "32378"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X131"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H317"
+        }
+      ]
+    },
+    {
+      "id": "318",
+      "name": "Radome Tan",
+      "rgb": "#DBB891",
+      "correspondences": [
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP070"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "394"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H318"
+        }
+      ]
+    },
+    {
+      "id": "319",
+      "name": "Light Green",
+      "rgb": "#4C6950",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H319"
+        }
+      ]
+    },
+    {
+      "id": "320",
+      "name": "Dark Green",
+      "rgb": "#5A604C",
+      "correspondences": [
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0083"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H320"
+        }
+      ]
+    },
+    {
+      "id": "321",
+      "name": "Deck Tan",
+      "rgb": "#AE9C86",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF55"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H321"
+        }
+      ]
+    },
+    {
+      "id": "322",
+      "name": "Phthalo Cyanne Blue",
+      "rgb": "#00355A",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H322"
+        }
+      ]
+    },
+    {
+      "id": "323",
+      "name": "Light Blue",
+      "rgb": "#38A9C6",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H323"
+        }
+      ]
+    },
+    {
+      "id": "324",
+      "name": "Light Gray",
+      "rgb": "#9A9D97",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H324"
+        }
+      ]
+    },
+    {
+      "id": "325",
+      "name": "Gray",
+      "rgb": "#B7B6AE",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Color",
+          "id": "70.820"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF20"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H325"
+        }
+      ]
+    },
+    {
+      "id": "326",
+      "name": "Blue",
+      "rgb": "#272C35",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.091"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC035"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "300"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X122"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H326"
+        }
+      ]
+    },
+    {
+      "id": "327",
+      "name": "Red",
+      "rgb": "#9A2022",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.084"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A219"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B219"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C219"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP101"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "002"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X103"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H327"
+        }
+      ]
+    },
+    {
+      "id": "328",
+      "name": "Blue",
+      "rgb": "#28425B",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.313"
+        },
+        {
+          "manufacturer": "Lifecolor",
+          "series": "Lifecolor",
+          "id": "LC034"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X123"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H328"
+        }
+      ]
+    },
+    {
+      "id": "329",
+      "name": "Yellow",
+      "rgb": "#FAA800",
+      "correspondences": [
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A066"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B066"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C066"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X106"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H329"
+        }
+      ]
+    },
+    {
+      "id": "330",
+      "name": "Dark Green",
+      "rgb": "#4D4C43",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.324"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP077"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "110"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS09"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF81"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2060"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X001"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1001"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0206"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H330"
+        }
+      ]
+    },
+    {
+      "id": "331",
+      "name": "Dark Sea Gray",
+      "rgb": "#60636A",
+      "correspondences": [
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H331"
+        }
+      ]
+    },
+    {
+      "id": "332",
+      "name": "Light Aircraft Gray",
+      "rgb": "#A19D95",
+      "correspondences": [
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A217"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B217"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C217"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "374"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X015"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1015"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H332"
+        }
+      ]
+    },
+    {
+      "id": "333",
+      "name": "Extra Dark Sea Gray",
+      "rgb": "#4B4F53",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.110"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A140"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B140"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C140"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP138"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "114"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X005"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1005"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H333"
+        }
+      ]
+    },
+    {
+      "id": "334",
+      "name": "Barley Gray",
+      "rgb": "#929795",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF19"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X017"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H334"
+        }
+      ]
+    },
+    {
+      "id": "335",
+      "name": "Medium Sea Gray",
+      "rgb": "#7C8183",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.307"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A141"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B141"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C141"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "112"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS11"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF83"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2058"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X003"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1003"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0246"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H335"
+        }
+      ]
+    },
+    {
+      "id": "336",
+      "name": "Hemp",
+      "rgb": "#9B8F79",
+      "correspondences": [
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF57"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X016"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H336"
+        }
+      ]
+    },
+    {
+      "id": "337",
+      "name": "Gray",
+      "rgb": "#757F82",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.114"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A046"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B046"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C046"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP072"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "105"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X126"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1126"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0210"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H337"
+        }
+      ]
+    },
+    {
+      "id": "338",
+      "name": "Light Gray",
+      "rgb": "#BCBFBC",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.276"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A050"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B050"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C050"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP116"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "364"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X139"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1139"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0209"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H338"
+        }
+      ]
+    },
+    {
+      "id": "339",
+      "name": "Dark Gray",
+      "rgb": "#494B49",
+      "correspondences": [
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A061"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B061"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C061"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP099"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "241"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X129"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1129"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H339"
+        }
+      ]
+    },
+    {
+      "id": "340",
+      "name": "Field Green",
+      "rgb": "#565C47",
+      "correspondences": [
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "236"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H340"
+        }
+      ]
+    },
+    {
+      "id": "361",
+      "name": "Dark Green",
+      "rgb": "#494736",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.324"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP077"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "110"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS09"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF81"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2060"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X001"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1001"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0206"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H073"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N073"
+        }
       ]
     },
     {
       "id": "362",
-      "name": "Dark Grey",
-      "rgb": "#606060",
+      "name": "Ocean Gray",
+      "rgb": "#657077",
       "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-24" }
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.273"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A032"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B032"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C032"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP093"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "115"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS10"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF82"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2057"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X006"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1006"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0245"
+        }
+      ]
+    },
+    {
+      "id": "363",
+      "name": "Medium Sea Gray / BSC 637",
+      "rgb": "#7E898D",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.307"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A141"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C141"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP094"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS32"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF83"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2058"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X003"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1003"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0246"
+        }
+      ]
+    },
+    {
+      "id": "365",
+      "name": "Sea Blue / FS 15042 / ANA 623",
+      "rgb": "#1D2D31",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.300"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A001"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B001"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C001"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP065"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "014"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "A072"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X121"
+        }
+      ]
+    },
+    {
+      "id": "366",
+      "name": "Intermediate Blue",
+      "rgb": "#5C737F",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.299"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A027"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B027"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C027"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP071"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "136"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Lacquer",
+          "id": "AS19"
+        },
+        {
+          "manufacturer": "Tamiya",
+          "series": "Tamiya Acrylic",
+          "id": "XF18"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X125"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour Acrylic",
+          "id": "XA1125"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0228"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "H056"
+        },
+        {
+          "manufacturer": "GSI Creos",
+          "series": "Mr. Hobby Aqueous",
+          "id": "N056"
+        }
+      ]
+    },
+    {
+      "id": "367",
+      "name": "Blue Gray / FS 35189",
+      "rgb": "#628187",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.109"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "A218"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "B218"
+        },
+        {
+          "manufacturer": "Hataka",
+          "series": "Hataka",
+          "id": "C218"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP061"
+        },
+        {
+          "manufacturer": "XtraColour",
+          "series": "XtraColour",
+          "id": "X162"
+        }
+      ]
+    },
+    {
+      "id": "370",
+      "name": "Azure Blue / ANA 609",
+      "rgb": "#6F8DB5",
+      "correspondences": [
+        {
+          "manufacturer": "Vallejo",
+          "series": "Vallejo Model Air",
+          "id": "71.108"
+        },
+        {
+          "manufacturer": "Mission Models",
+          "series": "Mission Models",
+          "id": "MMP092"
+        },
+        {
+          "manufacturer": "Mr. Paint",
+          "series": "Mr. Paint",
+          "id": "143"
+        },
+        {
+          "manufacturer": "Testors",
+          "series": "Testors",
+          "id": "2048"
+        },
+        {
+          "manufacturer": "Ammo",
+          "series": "Ammo by Mig",
+          "id": "0257"
+        }
       ]
     }
   ]

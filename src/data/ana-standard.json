@@ -1,0 +1,11 @@
+{
+  "series": "ANA Standard",
+  "manufacturer": "Color Standard",
+  "prefixes": [
+    "ANA"
+  ],
+  "default_prefix": "ANA",
+  "suffixes": [],
+  "default_suffix": "",
+  "colors": []
+}

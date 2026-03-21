@@ -1,250 +1,1524 @@
 {
   "series": "AK Real Colors",
   "manufacturer": "AK Interactive",
-  "prefixes": ["RC"],
+  "prefixes": [
+    "RC"
+  ],
   "default_prefix": "RC",
+  "suffixes": [],
+  "default_suffix": "",
   "colors": [
     {
-      "id": "001",
-      "name": "Flat Black",
-      "rgb": "#0A0A0A",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-1" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C12" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "950" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "057" }
-      ]
+      "id": "Code;Name;BS/FS/RAL;Mr. Hobby (GSI);Tamiya;Vallejo;Hataka;Humbrol;Model Master;Lifecolor",
+      "name": "Code;Name;BS/FS/RAL;Mr. Hobby (GSI);Tamiya;Vallejo;Hataka;Humbrol;Model Master;Lifecolor",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "002",
-      "name": "Flat White",
-      "rgb": "#F5F5F5",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-2" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C11" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "951" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "001" }
-      ]
+      "id": "001;Flat Black;RAL 9005 (Modern RAL 840 HR);C33/H12;XF-1;71.057;HTK-_100;33;1749/4768;LC02",
+      "name": "RC001;Flat Black;RAL 9005 (Modern RAL 840 HR);C33/H12;XF-1;71.057;HTK-_100;33;1749/4768;LC02",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "003",
-      "name": "IJA Green",
-      "rgb": "#4A5A38",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-13" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C56" }
-      ]
+      "id": "002;Cream White;RAL 9001 (Modern RAL 840 HR);-;-;71.270;HTK-_307;-;-;-",
+      "name": "RC002;Cream White;RAL 9001 (Modern RAL 840 HR);-;-;71.270;HTK-_307;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "004",
-      "name": "US Olive Drab",
-      "rgb": "#504C30",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-62" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C128" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "892" }
-      ]
+      "id": "003;White Grey;RAL 9002 (Modern RAL 840 HR);-;-;71.119;-;-;-;-",
+      "name": "RC003;White Grey;RAL 9002 (Modern RAL 840 HR);-;-;71.119;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "005",
-      "name": "Dark Tan",
-      "rgb": "#9A7850",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-52" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "875" }
-      ]
+      "id": "004;Flat White;RAL 9003 (Modern RAL 840 HR);C62/H11;XF-2;71.001;-;34;1768/4769;LC01",
+      "name": "RC004;Flat White;RAL 9003 (Modern RAL 840 HR);C62/H11;XF-2;71.001;-;34;1768/4769;LC01",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "006",
-      "name": "US Field Drab",
-      "rgb": "#7A6848",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-49" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "921" }
-      ]
+      "id": "005;Signal Red;RAL 3020 (Modern RAL 840 HR);C79/H23;-;71.003;HTK-_103;238;-;-",
+      "name": "RC005;Signal Red;RAL 3020 (Modern RAL 840 HR);C79/H23;-;71.003;HTK-_103;238;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "007",
-      "name": "Earth",
-      "rgb": "#7A5030",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-10" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "872" }
-      ]
+      "id": "006;Red;RAL 3000 (Modern RAL 840 HR);H13;XF-7;71.269;HTK-_132;19;2733;LC06",
+      "name": "RC006;Red;RAL 3000 (Modern RAL 840 HR);H13;XF-7;71.269;HTK-_132;19;2733;LC06",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "008",
-      "name": "Panzer Olive",
-      "rgb": "#4A4A28",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-58" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C42" }
-      ]
+      "id": "007;Yellow;RAL 1003 (Modern RAL 840 HR);C329/H329;X-8;71.135;HTK-_107;-;-;-",
+      "name": "RC007;Yellow;RAL 1003 (Modern RAL 840 HR);C329/H329;X-8;71.135;HTK-_107;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "009",
-      "name": "NATO Green",
-      "rgb": "#404C38",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-67" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C17" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "979" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "055" }
-      ]
+      "id": "008;Maize Yellow;RAL 1006 (Modern RAL 840 HR);H34;-;71.033;-;-;-;-",
+      "name": "RC008;Maize Yellow;RAL 1006 (Modern RAL 840 HR);H34;-;71.033;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "010",
-      "name": "Dark Yellow",
-      "rgb": "#B09050",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-57" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C39" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "819" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "023" }
-      ]
+      "id": "009;Orange;RAL 2004 (Modern RAL 840 HR);C59/H14;X-6;71.083;HTK-_704;18;-;LC05",
+      "name": "RC009;Orange;RAL 2004 (Modern RAL 840 HR);C59/H14;X-6;71.083;HTK-_704;18;-;LC05",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "011",
-      "name": "Dunkelgelb WWII",
-      "rgb": "#C0A050",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-60" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C39" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "882" }
-      ]
+      "id": "010;Pure Blue;RAL 5005 (Modern RAL 840 HR);-;-;70.930;HTK-_102;25;-;-",
+      "name": "RC010;Pure Blue;RAL 5005 (Modern RAL 840 HR);-;-;70.930;HTK-_102;25;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "012",
-      "name": "Feldgrau",
-      "rgb": "#606850",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-65" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C118" }
-      ]
+      "id": "011;Blue;RAL 5001 (Modern RAL 840 HR);-;-;-;-;-;-;-",
+      "name": "RC011;Blue;RAL 5001 (Modern RAL 840 HR);-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "013",
-      "name": "Khaki",
-      "rgb": "#8A8050",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-51" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C55" }
-      ]
+      "id": "012;Pure Green;RAL 6037 (Modern RAL 840 HR);-;-;-;-;-;-;-",
+      "name": "RC012;Pure Green;RAL 6037 (Modern RAL 840 HR);-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "014",
-      "name": "Dark Khaki",
-      "rgb": "#707048",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-49" }
-      ]
+      "id": "013;Off White;-;C69/H21;-;-;-;-;4874;-",
+      "name": "RC013;Off White;-;C69/H21;-;-;-;-;4874;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "015",
-      "name": "Flat Red",
-      "rgb": "#A02020",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-7" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C1" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "947" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "047" }
-      ]
+      "id": "014;Buff;-;C336/H336;XF-57;-;HTK-_262;168;-;-",
+      "name": "RC014;Buff;-;C336/H336;XF-57;-;HTK-_262;168;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "016",
-      "name": "Russian Armor Green",
-      "rgb": "#3A5028",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-58" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C136" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "924" }
-      ]
+      "id": "015;Gun Metal (Metallic);-;C78/H28;X-10;71.073;HTK-_106;201;1795/4681;LC26",
+      "name": "RC015;Gun Metal (Metallic);-;C78/H28;X-10;71.073;HTK-_106;201;1795/4681;LC26",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "017",
-      "name": "USMC Tank Green",
-      "rgb": "#3A4A28",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-67" }
-      ]
+      "id": "016;Ochre;-;-;-;-;-;-;-;LC64",
+      "name": "RC016;Ochre;-;-;-;-;-;-;-;LC64",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "018",
-      "name": "German Grey",
-      "rgb": "#3A3A3A",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-63" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C40" }
-      ]
+      "id": "017;Pale Blue;-;-;-;-;-;-;-;-",
+      "name": "RC017;Pale Blue;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "019",
-      "name": "Steel Grey",
-      "rgb": "#686878",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-53" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C13" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "884" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "053" }
-      ]
+      "id": "018;Pale Sand;-;-;-;70.837;-;-;-;-",
+      "name": "RC018;Pale Sand;-;-;-;70.837;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "020",
-      "name": "Anthracite",
-      "rgb": "#2A2A30",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-24" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C40" }
-      ]
+      "id": "019;Deck Tan;-;C321/H321;XF-55;-;-;-;-;-",
+      "name": "RC019;Deck Tan;-;C321/H321;XF-55;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "023",
-      "name": "Sand",
-      "rgb": "#C0B070",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-57" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "976" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "986" }
-      ]
+      "id": "020;Aluminium (Metallic);-;-;XF-16;71.062;HTK-_078;56;1781/4677;LC24",
+      "name": "RC020;Aluminium (Metallic);-;-;XF-16;71.062;HTK-_078;56;1781/4677;LC24",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "225",
-      "name": "RLM74 Grey Green",
-      "rgb": "#5A6050",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-65" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C118" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "038" }
-      ]
+      "id": "021;Pale Grey;-;-;-;-;-;-;-;-",
+      "name": "RC021;Pale Grey;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "226",
-      "name": "RLM75 Grey Violet",
-      "rgb": "#6A6878",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-22" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C116" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "034" }
-      ]
+      "id": "022;Rubber Black;-;C137/H77;XF-85;71.315;-;-;1583;UA733",
+      "name": "RC022;Rubber Black;-;C137/H77;XF-85;71.315;-;-;1583;UA733",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "227",
-      "name": "RLM76 Light Blue",
-      "rgb": "#8898A8",
-      "correspondences": [
-        { "manufacturer": "Tamiya", "series": "Tamiya Acrylic", "id": "XF-23" },
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C117" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "035" }
-      ]
+      "id": "023;Olive Drab No.9/No.22;-;C12/H52;-;-;HTK-_018;-;2050/4842;-",
+      "name": "RC023;Olive Drab No.9/No.22;-;C12/H52;-;-;HTK-_018;-;2050/4842;-",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "242",
-      "name": "US Interior Green",
-      "rgb": "#7A8A70",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C27" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "044" }
-      ]
+      "id": "024;Olive Drab Faded;-;-;-;-;-;-;-;UA003",
+      "name": "RC024;Olive Drab Faded;-;-;-;-;-;-;-;UA003",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "025;Dark Olive Drab No.31;-;-;-;-;-;-;-;-",
+      "name": "RC025;Dark Olive Drab No.31;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "026;Olive Drab;FS 34087;C304/H304;-;71.043;HTK-_065;155;1711/4728;UA523",
+      "name": "RC026;Olive Drab;FS 34087;C304/H304;-;71.043;HTK-_065;155;1711/4728;UA523",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "027;Forest Green;FS 34079;C309/H309;XF-65;71.294;HTK-_016;116;1710/4726;UA001",
+      "name": "RC027;Forest Green;FS 34079;C309/H309;XF-65;71.294;HTK-_016;116;1710/4726;UA001",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "028;Interior Green;FS 34151;C351/H58;-;71.137;HTK-_211;-;1715/4736;UA004",
+      "name": "RC028;Interior Green;FS 34151;C351/H58;-;71.137;HTK-_211;-;1715/4736;UA004",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "029;No.5 Earth Brown;FS 30099;-;-;71.290;HTK-_256;-;-;UA087",
+      "name": "RC029;No.5 Earth Brown;FS 30099;-;-;71.290;HTK-_256;-;-;UA087",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "030;No.6 Earth Yellow;FS 30257;-;-;71.291;HTK-_212;63;-;UA081",
+      "name": "RC030;No.6 Earth Yellow;FS 30257;-;-;71.291;HTK-_212;63;-;UA081",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "031;No.8 Earth Red;FS 30117;C43/H37;-;71.293;HTK-_213;186;1701/4707;UA306",
+      "name": "RC031;No.8 Earth Red;FS 30117;C43/H37;-;71.293;HTK-_213;186;1701/4707;UA306",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "032;Desert Sand;FS 30279;H346;-;71.140;HTK-_068;250;2053;UA089",
+      "name": "RC032;Desert Sand;FS 30279;H346;-;71.140;HTK-_068;250;2053;UA089",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "033;Khaki Green No.3;-;-;-;71.330;HTK-_064;-;-;-",
+      "name": "RC033;Khaki Green No.3;-;-;-;71.330;HTK-_064;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "034;S.C.C. 1A Brown;-;-;-;71.039;HTK-_077;-;-;UA274",
+      "name": "RC034;S.C.C. 1A Brown;-;-;-;71.039;HTK-_077;-;-;UA274",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "035;S.C.C. 2 Brown;-;-;-;71.038;HTK-_076;-;-;UA273",
+      "name": "RC035;S.C.C. 2 Brown;-;-;-;71.038;HTK-_076;-;-;UA273",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "036;S.C.C. 14 Blue Black;-;-;-;-;-;-;-;UA271",
+      "name": "RC036;S.C.C. 14 Blue Black;-;-;-;-;-;-;-;UA271",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "037;S.C.C. 15 Olive Drab;-;-;-;71.016;HTK-_110;-;-;UA270",
+      "name": "RC037;S.C.C. 15 Olive Drab;-;-;-;71.016;HTK-_110;-;-;UA270",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "038;#VALUE!;BSC No.28 Silver Grey -;-;-;71.401;-;-;-;UA264",
+      "name": "RC038;#VALUE!;BSC No.28 Silver Grey -;-;-;71.401;-;-;-;UA264",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "039;#VALUE!;BSC No.34 Slate -;-;-;71.012;-;-;-;UA265",
+      "name": "RC039;#VALUE!;BSC No.34 Slate -;-;-;71.012;-;-;-;UA265",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "040;#VALUE!;BSC No.61 Light Stone -;-;-;71.143;-;-;-;UA266",
+      "name": "RC040;#VALUE!;BSC No.61 Light Stone -;-;-;71.143;-;-;-;UA266",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "041;#VALUE!;BSC No.64 Portland Stone -;-;-;71.288;-;-;-;UA267",
+      "name": "RC041;#VALUE!;BSC No.64 Portland Stone -;-;-;71.288;-;-;-;UA267",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "042;British Dark Olive Green PFI;-;-;-;-;-;-;-;UA269",
+      "name": "RC042;British Dark Olive Green PFI;-;-;-;-;-;-;-;UA269",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "043;British Desert Pink ZI;-;-;-;71.400;-;-;-;UA268",
+      "name": "RC043;British Desert Pink ZI;-;-;-;71.400;-;-;-;UA268",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "044;British Light Mud;-;-;-;71.284;-;-;-;UA272",
+      "name": "RC044;British Light Mud;-;-;-;71.284;-;-;-;UA272",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "045;#VALUE!;BSC No.49 Light Purple Brown -;-;-;71.402;-;-;-;-",
+      "name": "RC045;#VALUE!;BSC No.49 Light Purple Brown -;-;-;71.402;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "046;Elfenbein – Ivory;RAL 1001;-;-;71.075;HTK-_184;-;2104/4805;-",
+      "name": "RC046;Elfenbein – Ivory;RAL 1001;-;-;71.075;HTK-_184;-;2104/4805;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "047;Olivgrün – Olive Green;RAL 6003;H405;-;71.092;HTK-_169;-;2149/4862;UA206",
+      "name": "RC047;Olivgrün – Olive Green;RAL 6003;H405;-;71.092;HTK-_169;-;2149/4862;UA206",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "048;Feldgray – Field Grey;RAL 6006;-;-;71.268;HTK-_151;-;2148/4860;-",
+      "name": "RC048;Feldgray – Field Grey;RAL 6006;-;-;71.268;HTK-_151;-;2148/4860;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "049;Grün – Green;RAL 6007;-;-;71.019;HTK-_298;-;-;-",
+      "name": "RC049;Grün – Green;RAL 6007;-;-;71.019;HTK-_298;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "050;Dunkelgrün – Dark Green;RAL 6009;-;-;-;-;-;-;-",
+      "name": "RC050;Dunkelgrün – Dark Green;RAL 6009;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "051;Marinegrau – Navy Grey;RAL 7002;-;-;-;-;-;-;-",
+      "name": "RC051;Marinegrau – Navy Grey;RAL 7002;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "052;Grau – Grey;RAL 7003;-;-;-;-;-;-;-",
+      "name": "RC052;Grau – Grey;RAL 7003;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "053;Graugrün – Grey Green;RAL 7008;-;-;71.116;HTK-_304;-;2098;UA212",
+      "name": "RC053;Graugrün – Grey Green;RAL 7008;-;-;71.116;HTK-_304;-;2098;UA212",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "054;Hellgrau – Light Grey;RAL 7009;-;-;-;-;-;-;UA233",
+      "name": "RC054;Hellgrau – Light Grey;RAL 7009;-;-;-;-;-;-;UA233",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "055;Blaugrau – Blue Grey;RAL 7016;-;-;71.115;HTK-_300;-;2101;UA208",
+      "name": "RC055;Blaugrau – Blue Grey;RAL 7016;-;-;71.115;HTK-_300;-;2101;UA208",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "056;Dunkelbraun – Dark Brown;RAL 7017;-;-;-;-;-;-;UA210",
+      "name": "RC056;Dunkelbraun – Dark Brown;RAL 7017;-;-;-;-;-;-;UA210",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "057;Dunkelgrau – Dark Grey;RAL 7021;H401;XF-63;71.056;HTK-_164;67;2094/4795;UA207",
+      "name": "RC057;Dunkelgrau – Dark Grey;RAL 7021;H401;XF-63;71.056;HTK-_164;67;2094/4795;UA207",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "058;Grau – Grey;RAL 7027;H404;-;71.118;HTK-_306;-;2103;UA202",
+      "name": "RC058;Grau – Grey;RAL 7027;H404;-;71.118;HTK-_306;-;2103;UA202",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "059;Dunkelgelb nach Muster;-;-;-;-;HTK-_310;-;-;-",
+      "name": "RC059;Dunkelgelb nach Muster;-;-;-;-;HTK-_310;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "060;Dunkelgelb – Dark Yellow;RAL;7028;H403;XF-60;71.025;HTK-_244;2095/4796;UA204",
+      "name": "RC060;Dunkelgelb – Dark Yellow;RAL;7028;H403;XF-60;71.025;HTK-_244;2095/4796;UA204",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "061;Dunkelgelb Ausgabe 1944 – Dark Yellow 1944 Variant;RAL 7028;-;-;-;HTK-_250;-;-;-",
+      "name": "RC061;Dunkelgelb Ausgabe 1944 – Dark Yellow 1944 Variant;RAL 7028;-;-;-;HTK-_250;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "062;Dunkelgelb – Dark Yellow (variation);RAL;7028;-;-;-;-;-;-",
+      "name": "RC062;Dunkelgelb – Dark Yellow (variation);RAL;7028;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "063;Gelbraun – Yellow Brown;RAL 8000;-;-;71.272;HTK-_303;-;2099;UA203",
+      "name": "RC063;Gelbraun – Yellow Brown;RAL 8000;-;-;71.272;HTK-_303;-;2099;UA203",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "064;Erdgelb – Earth Yellow;RAL 8002;-;-;71.420;HTK-_297;-;2100;UA209",
+      "name": "RC064;Erdgelb – Earth Yellow;RAL 8002;-;-;71.420;HTK-_297;-;2100;UA209",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "065;Braun – Brown;RAL 8010;-;-;71.038;HTK-_299;-;-;-",
+      "name": "RC065;Braun – Brown;RAL 8010;-;-;71.038;HTK-_299;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "066;Rot (Rotbraun) – Red (Red Brown);RAL 8013;-;-;-;-;-;2165;-",
+      "name": "RC066;Rot (Rotbraun) – Red (Red Brown);RAL 8013;-;-;-;-;-;2165;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "067;Rot (Rotbraun) – Red (Red Brown);RAL 8012;C43/H47;-;71.271;HTK-_175;-;2152/4861;UA211",
+      "name": "RC067;Rot (Rotbraun) – Red (Red Brown);RAL 8012;C43/H47;-;71.271;HTK-_175;-;2152/4861;UA211",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "068;Rotbraun – Red Brown;RAL 8017;H406;XF-9;71.041;HTK-_147;160;2096/4797;UA205",
+      "name": "RC068;Rotbraun – Red Brown;RAL 8017;H406;XF-9;71.041;HTK-_147;160;2096/4797;UA205",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "069;Braun – Brown;RAL 8020;H402;-;71.117;HTK-_305;-;2102;UA201",
+      "name": "RC069;Braun – Brown;RAL 8020;H402;-;71.117;HTK-_305;-;2102;UA201",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "070;Common Protective ZO;-;-;-;-;HTK-_316;-;-;-",
+      "name": "RC070;Common Protective ZO;-;-;-;-;HTK-_316;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "071;Black 6RP;-;-;-;-;HTK-_041;-;-;-",
+      "name": "RC071;Black 6RP;-;-;-;-;HTK-_041;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "072;Protective K;-;C511;-;-;-;-;-;-",
+      "name": "RC072;Protective K;-;C511;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "073;Protective 4BO;-;C512;-;71.017;HTK-_251;-;-;UA248",
+      "name": "RC073;Protective 4BO;-;C512;-;71.017;HTK-_251;-;-;UA248",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "074;Dark Brown 6K;-;-;-;71.282;HTK-_317;-;-;-",
+      "name": "RC074;Dark Brown 6K;-;-;-;71.282;HTK-_317;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "075;Sand 7K;-;-;-;71.283;HTK-_318;-;-;UA242",
+      "name": "RC075;Sand 7K;-;-;-;71.283;HTK-_318;-;-;UA242",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "076;Protective Green 1920s – 1930s;-;-;-;-;-;-;-;-",
+      "name": "RC076;Protective Green 1920s – 1930s;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "077;ZB AU Basic Protector;-;-;-;71.281;HTK-_246;-;-;-",
+      "name": "RC077;ZB AU Basic Protector;-;-;-;71.281;HTK-_246;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "078;APC Interior Green;FS 24533;-;XF-21;-;HTK-_239;23;-;-",
+      "name": "RC078;APC Interior Green;FS 24533;-;XF-21;-;HTK-_239;23;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "079;CARC Tan 686A;FS 33446;-;-;71.122;HTK-_238;-;2136/4812;-",
+      "name": "RC079;CARC Tan 686A;FS 33446;-;-;71.122;HTK-_238;-;2136/4812;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "080;NATO Green;RAL 6031-F9;C519;XF-67;71.250;HTK-_152;-;2173;UA303",
+      "name": "RC080;NATO Green;RAL 6031-F9;C519;XF-67;71.250;HTK-_152;-;2173;UA303",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "081;NATO Brown;RAL 8027-F9;C520;XF-68;71.249;HTK-_188;-;2174;UA302",
+      "name": "RC081;NATO Brown;RAL 8027-F9;C520;XF-68;71.249;HTK-_188;-;2174;UA302",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "082;NATO Black;RAL 9021-F9;C521;XF-69;71.251;HTK-_125;-;-;UA301",
+      "name": "RC082;NATO Black;RAL 9021-F9;C521;XF-69;71.251;HTK-_125;-;-;UA301",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "083;Green;FS 34102;C303/H303;-;71.289;HTK-_021;117;1713/4734;UA002",
+      "name": "RC083;Green;FS 34102;C303/H303;-;71.289;HTK-_021;117;1713/4734;UA002",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "084;Sand;FS 30277;-;-;71.138;HTK-_210;187;4711;UA019",
+      "name": "RC084;Sand;FS 30277;-;-;71.138;HTK-_210;187;4711;UA019",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "085;Field Drab;FS 30118;C55/H81;-;71.139;HTK-_209;-;1702/4708;UA016",
+      "name": "RC085;Field Drab;FS 30118;C55/H81;-;71.139;HTK-_209;-;1702/4708;UA016",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "086;Gelboliv Initial;RAL 6014;-;-;-;-;-;-;-",
+      "name": "RC086;Gelboliv Initial;RAL 6014;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "087;Gelboliv Late;RAL 6014 (Modern RAL 840 HR);-;-;-;HTK-_193;-;2175;-",
+      "name": "RC087;Gelboliv Late;RAL 6014 (Modern RAL 840 HR);-;-;-;HTK-_193;-;2175;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "088;Sandbeige;RAL 1039-F9;-;-;71.244;HTK-_278;-;-;-",
+      "name": "RC088;Sandbeige;RAL 1039-F9;-;-;71.244;HTK-_278;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "089;Graubeige – Grey Beige;RAL 1040-F9;-;-;71.245;HTK-_279;-;-;-",
+      "name": "RC089;Graubeige – Grey Beige;RAL 1040-F9;-;-;71.245;HTK-_279;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "090;Helloliv – Light Olive;RAL 6040-F9;-;-;71.247;HTK-_281;-;-;-",
+      "name": "RC090;Helloliv – Light Olive;RAL 6040-F9;-;-;71.247;HTK-_281;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "091;Tarngrau – Camo Grey;RAL 7050-F9;-;-;71.248;HTK-_089;-;-;-",
+      "name": "RC091;Tarngrau – Camo Grey;RAL 7050-F9;-;-;71.248;HTK-_089;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "092;Sandbraun – Sand Brown;RAL 8031-F9;-;-;71.246;HTK-_280;-;-;-",
+      "name": "RC092;Sandbraun – Sand Brown;RAL 8031-F9;-;-;71.246;HTK-_280;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "093;British Sand Yellow;-;-;-;-;-;-;2137/4813;-",
+      "name": "RC093;British Sand Yellow;-;-;-;-;-;-;2137/4813;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "094;IDF Modern Grey;-;C530;-;-;-;-;2138;-",
+      "name": "RC094;IDF Modern Grey;-;C530;-;-;-;-;2138;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "095;IDF Sand Grey 1970;-;C529;-;71.142;-;-;-;UA902",
+      "name": "RC095;IDF Sand Grey 1970;-;C529;-;71.142;-;-;-;UA902",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "096;IDF Early Sand Yellow;-;C528;-;71.141;-;-;-;UA901",
+      "name": "RC096;IDF Early Sand Yellow;-;C528;-;71.141;-;-;-;UA901",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "097;UAE Dull Sand;-;-;-;-;-;-;-;-",
+      "name": "RC097;UAE Dull Sand;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "098;Russian Modern Green;-;-;-;-;-;-;-;-",
+      "name": "RC098;Russian Modern Green;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "099;Russian Greyish Yellow;-;-;-;-;-;-;-;-",
+      "name": "RC099;Russian Greyish Yellow;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "100;Russian Grey Green;-;-;-;-;-;-;-;-",
+      "name": "RC100;Russian Grey Green;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "101;Egyptian Desert Sand;-;-;-;-;-;-;-;-",
+      "name": "RC101;Egyptian Desert Sand;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "102;Syrian Rep. Guard Desert Yellow;-;-;-;-;-;-;-;-",
+      "name": "RC102;Syrian Rep. Guard Desert Yellow;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "103;Libyan Army Desert Grey;-;-;-;-;-;-;-;-",
+      "name": "RC103;Libyan Army Desert Grey;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "104;Iraqi Army Desert Sand;-;-;-;-;-;-;-;-",
+      "name": "RC104;Iraqi Army Desert Sand;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "105;Spanish Green;-;-;-;-;-;-;-;-",
+      "name": "RC105;Spanish Green;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "206;Russian Cockpit Torquise;-;C391;-;71.331;HTK-_047;-;2135;-",
+      "name": "RC206;Russian Cockpit Torquise;-;C391;-;71.331;HTK-_047;-;2135;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "207;Leuchtorange – Luminous Orange;RAL 2005 (Modern RAL 840 HR);H98;-;71.082;HTK-_194;-;-;LC23",
+      "name": "RC207;Leuchtorange – Luminous Orange;RAL 2005 (Modern RAL 840 HR);H98;-;71.082;HTK-_194;-;-;LC23",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "208;Graublau – Grey Blue;RAL 5008 (Modern RAL 840 HR);C14/H54;-;71.005;HTK-_171;-;-;-",
+      "name": "RC208;Graublau – Grey Blue;RAL 5008 (Modern RAL 840 HR);C14/H54;-;71.005;HTK-_171;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "209;Olive Green/USMC Green;RAL 6003 (Modern RAL 840 HR)/FS 34095;-;-;-;HTK-_059;-;1786;-",
+      "name": "RC209;Olive Green/USMC Green;RAL 6003 (Modern RAL 840 HR)/FS 34095;-;-;-;HTK-_059;-;1786;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "210;Silbergrau – Silver Grey;RAL 7001 (Modern RAL 840 HR);-;-;-;HTK-_189;-;2160;-",
+      "name": "RC210;Silbergrau – Silver Grey;RAL 7001 (Modern RAL 840 HR);-;-;-;HTK-_189;-;2160;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "211;Grüngrau – Green Grey;RAL 7009 (Modern RAL 840 HR);-;-;71.020;HTK-_225;-;-;-",
+      "name": "RC211;Grüngrau – Green Grey;RAL 7009 (Modern RAL 840 HR);-;-;71.020;HTK-_225;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "212;Basaltgrau – Basalt Grey;RAL 7012 (Modern RAL 840 HR);-;-;70.869;HTK-_192;79;-;-",
+      "name": "RC212;Basaltgrau – Basalt Grey;RAL 7012 (Modern RAL 840 HR);-;-;70.869;HTK-_192;79;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "213;Steingrau – Stone Grey;RAL 7030 (Modern RAL 840 HR);-;-;-;HTK-_233;-;-;-",
+      "name": "RC213;Steingrau – Stone Grey;RAL 7030 (Modern RAL 840 HR);-;-;-;HTK-_233;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "214;Lichtgrau – Light Grey;RAL 7035 (Modern RAL 840 HR);-;-;-;HTK-_191;196;-;-",
+      "name": "RC214;Lichtgrau – Light Grey;RAL 7035 (Modern RAL 840 HR);-;-;-;HTK-_191;196;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "215;Staubgrau – Dusty Grey;RAL 7037 (Modern RAL 840 HR);-;-;-;HTK-_249;-;-;-",
+      "name": "RC215;Staubgrau – Dusty Grey;RAL 7037 (Modern RAL 840 HR);-;-;-;HTK-_249;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "216;Quarzgrau – Quartz Grey;RAL 7039 (Modern RAL 840 HR);-;-;-;HTK-_248;-;-;-",
+      "name": "RC216;Quarzgrau – Quartz Grey;RAL 7039 (Modern RAL 840 HR);-;-;-;HTK-_248;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "217;Seidengrau – Silk Grey;RAL 7044 (Modern RAL 840 HR);-;-;-;HTK-_173;-;-;-",
+      "name": "RC217;Seidengrau – Silk Grey;RAL 7044 (Modern RAL 840 HR);-;-;-;HTK-_173;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "218;Olivbraun – Olive Brown;RAL 8008 (Modern RAL 840 HR);-;-;71.032;HTK-_172;-;-;-",
+      "name": "RC218;Olivbraun – Olive Brown;RAL 8008 (Modern RAL 840 HR);-;-;71.032;HTK-_172;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "219;MNO 2036 Smalt Khaki Avion;RAL 6013 (Modern RAL 840 HR);-;-;-;HTK-_170;-;-;-",
+      "name": "RC219;MNO 2036 Smalt Khaki Avion;RAL 6013 (Modern RAL 840 HR);-;-;-;HTK-_170;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "220;Light Gull Grey;FS 16440;C315/H315;-;71.121;HTK-_048;129;4692;UA025",
+      "name": "RC220;Light Gull Grey;FS 16440;C315/H315;-;71.121;HTK-_048;129;4692;UA025",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "221;ADC Grey;FS 16473;-;-;71.335;HTK-_045;-;1731/4693;UA041",
+      "name": "RC221;ADC Grey;FS 16473;-;-;71.335;HTK-_045;-;1731/4693;UA041",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "222;Insignia White;FS 17875;C316/H316;X-1;71.279;HTK-_049;22;1745/4696;LC52",
+      "name": "RC222;Insignia White;FS 17875;C316/H316;X-1;71.279;HTK-_049;22;1745/4696;LC52",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "223;Tan;FS 20400;-;-;71.348;HTK-_187;-;2021/4697;UA084",
+      "name": "RC223;Tan;FS 20400;-;-;71.348;HTK-_187;-;2021/4697;UA084",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "224;Brown;FS 30140;-;-;71.035;HTK-_160;-;1754;UA085",
+      "name": "RC224;Brown;FS 30140;-;-;71.035;HTK-_160;-;1754;UA085",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "225;Dark Tan;FS 30219;C310/H310;-;71.125;HTK-_012;118;1742/4709;UA015",
+      "name": "RC225;Dark Tan;FS 30219;C310/H310;-;71.125;HTK-_012;118;1742/4709;UA015",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "226;Sand;FS 33531;C313/H313;XF-59;71.327;HTK-_090;121;1706/4720;-",
+      "name": "RC226;Sand;FS 33531;C313/H313;XF-59;71.327;HTK-_090;121;1706/4720;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "227;Radome Tan;FS;33613;C318/H318;-;71.074;148;1709/4722;-",
+      "name": "RC227;Radome Tan;FS;33613;C318/H318;-;71.074;148;1709/4722;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "228;USMC Sand;FS 33711;-;-;-;HTK-_060;-;-;UA090",
+      "name": "RC228;USMC Sand;FS 33711;-;-;-;HTK-_060;-;-;UA090",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "229;US Army Helo Drab;FS 34031;-;-;-;HTK-_067;-;2024/4723;-",
+      "name": "RC229;US Army Helo Drab;FS 34031;-;-;-;HTK-_067;-;2024/4723;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "230;Dull Dark Green;FS 34092;C302/H302;XF-26;71.124;HTK-_056;149;1764/4729;UA008",
+      "name": "RC230;Dull Dark Green;FS 34092;C302/H302;XF-26;71.124;HTK-_056;149;1764/4729;UA008",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "231;Field Green;FS 34097;C340/H340;-;-;-;-;1712;-",
+      "name": "RC231;Field Green;FS 34097;C340/H340;-;-;-;-;1712;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "232;Pale Green;FS 34227;C312/H312;-;71.126;HTK-_091;120;1716/4739;UA060",
+      "name": "RC232;Pale Green;FS 34227;C312/H312;-;71.126;HTK-_091;120;1716/4739;UA060",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "233;Green;FS 34258;-;-;71.094;HTK-_093;-;2029;UA115",
+      "name": "RC233;Green;FS 34258;-;-;71.094;HTK-_093;-;2029;UA115",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "234;Aggressor Blue;FS 35109;-;-;71.111;HTK-_156;-;2031;UA404",
+      "name": "RC234;Aggressor Blue;FS 35109;-;-;71.111;HTK-_156;-;2031;UA404",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "235;Intermediate Blue;FS 35164;C366/H56;-;71.299;HTK-_027;144;1720/4744;UA045",
+      "name": "RC235;Intermediate Blue;FS 35164;C366/H56;-;71.299;HTK-_027;144;1720/4744;UA045",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "236;Blue;FS 35190;-;-;70.901;-;-;-;-",
+      "name": "RC236;Blue;FS 35190;-;-;70.901;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "237;Medium Grey;FS 35237;C337/H337;-;71.114;HTK-_046;145;1721/4746;UA145",
+      "name": "RC237;Medium Grey;FS 35237;C337/H337;-;71.114;HTK-_046;145;1721/4746;UA145",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "238;Light Blue;FS 35414;-;-;71.008;HTK-_150;-;2033;UA062",
+      "name": "RC238;Light Blue;FS 35414;-;-;71.008;HTK-_150;-;2033;UA062",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "239;Air Superiority Blue;FS 35450;-;-;71.332;HTK-_155;47;-;UA037",
+      "name": "RC239;Air Superiority Blue;FS 35450;-;-;71.332;HTK-_155;47;-;UA037",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "240;Light Sky Blue;FS 35526;-;-;71.337;-;-;-;UA061",
+      "name": "RC240;Light Sky Blue;FS 35526;-;-;71.337;-;-;-;UA061",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "241;Duck Egg Blue;FS 35622;C314/H314;-;71.328;HTK-_092;122;1722/4748;UA139",
+      "name": "RC241;Duck Egg Blue;FS 35622;C314/H314;-;71.328;HTK-_092;122;1722/4748;UA139",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "242;Dark Eggplant Grey;FS 36076;-;-;71.048;HTK-_230;-;2034/4749;-",
+      "name": "RC242;Dark Eggplant Grey;FS 36076;-;-;71.048;HTK-_230;-;2034/4749;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "243;Grey;FS 36081;C301/H301;-;71.314;HTK-_030;32;1788/4750;UA030",
+      "name": "RC243;Grey;FS 36081;C301/H301;-;71.314;HTK-_030;32;1788/4750;UA030",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "244;Medium Gunship Grey;FS 36118;C305/H305;-;71.097;HTK-_031;125;1723/4752;UA022",
+      "name": "RC244;Medium Gunship Grey;FS 36118;C305/H305;-;71.097;HTK-_031;125;1723/4752;UA022",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "245;Have Glass Grey;FS 36170;-;-;-;HTK-_058;-;-;-",
+      "name": "RC245;Have Glass Grey;FS 36170;-;-;-;HTK-_058;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "246;;FS 36176;-;-;71.273;HTK-_158;5;2036/4754;UA029",
+      "name": "RC246;;FS 36176;-;-;71.273;HTK-_158;5;2036/4754;UA029",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "247;Dark Gull Grey;FS 36231;C317/H317;-;71.277;HTK-_044;140;1740/4755;UA033",
+      "name": "RC247;Dark Gull Grey;FS 36231;C317/H317;-;71.277;HTK-_044;140;1740/4755;UA033",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "248;Aggressor Grey;FS 36251;-;-;71.274;HTK-_157;-;-;UA034",
+      "name": "RC248;Aggressor Grey;FS 36251;-;-;71.274;HTK-_157;-;-;UA034",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "249;Medium Grey;FS 36270;C306/H306;-;71.275;HTK-_054;126;1725/4757;UA028",
+      "name": "RC249;Medium Grey;FS 36270;C306/H306;-;71.275;HTK-_054;126;1725/4757;UA028",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "250;Light Sea Grey;FS 36307;C324/H324;-;-;HTK-_266;141;1726/4759;UA113",
+      "name": "RC250;Light Sea Grey;FS 36307;C324/H324;-;-;HTK-_266;141;1726/4759;UA113",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "251;Dark Ghost Grey;FS 36320;C307/H307;-;71.120;HTK-_035;128;1741/4761;UA027",
+      "name": "RC251;Dark Ghost Grey;FS 36320;C307/H307;-;71.120;HTK-_035;128;1741/4761;UA027",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "252;Light Ghost Grey;FS 36375;C308/H308;-;70.615;HTK-_037;127;1728/4762;UA026",
+      "name": "RC252;Light Ghost Grey;FS 36375;C308/H308;-;70.615;HTK-_037;127;1728/4762;UA026",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "253;Light Grey;FS 36495;C338/H338;-;71.276;HTK-_050;147;1732/4765;UA023",
+      "name": "RC253;Light Grey;FS 36495;C338/H338;-;71.276;HTK-_050;147;1732/4765;UA023",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "254;Camouflage Grey;FS 36622;C311/H311;-;71.296;HTK-_039;28;4766;UA021",
+      "name": "RC254;Camouflage Grey;FS 36622;C311/H311;-;71.296;HTK-_039;28;4766;UA021",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "255;;-;-;-;71.298;-;-;-;UA741",
+      "name": "RC255;;-;-;-;71.298;-;-;-;UA741",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "256;;FS 35189;C367;-;71.109;HTK-_218;-;2055/4847;UA038",
+      "name": "RC256;;FS 35189;C367;-;71.109;HTK-_218;-;2055/4847;UA038",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "257;Sea Blue;FS 35042;C71/H55;XF-17;71.295;HTK-_006;-;1718;UA044",
+      "name": "RC257;Sea Blue;FS 35042;C71/H55;XF-17;71.295;HTK-_006;-;1718;UA044",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "258;Dark Sea Blue;FS 35045;C365;-;71.300;HTK-_001;181;1717/4686;UA047",
+      "name": "RC258;Dark Sea Blue;FS 35045;C365;-;71.300;HTK-_001;181;1717/4686;UA047",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "259;Dark Olive Drab 41;FS 33070;C38/H78;XF-62;71.316;HTK-_004;-;-;UA005",
+      "name": "RC259;Dark Olive Drab 41;FS 33070;C38/H78;XF-62;71.316;HTK-_004;-;-;UA005",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "260;Medium Green 42;-;-;-;-;HTK-_019;-;-;-",
+      "name": "RC260;Medium Green 42;-;-;-;-;HTK-_019;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "261;Neutral Grey 43;-;C13/H53;-;71.051;HTK-_033;-;-;UA046",
+      "name": "RC261;Neutral Grey 43;-;C13/H53;-;71.051;HTK-_033;-;-;UA046",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "262;US Interior Yellow Green;-;-;-;-;-;-;-;-",
+      "name": "RC262;US Interior Yellow Green;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "263;Zinc Chromate Yellow;-;C352;-;71.107;-;-;4851;-",
+      "name": "RC263;Zinc Chromate Yellow;-;C352;-;71.107;-;-;4851;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "264;Bronze Green;-;-;-;-;-;-;-;-",
+      "name": "RC264;Bronze Green;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "265;RLM 02 RL;-;C60/H70;XF-20;71.044;HTK-_023;240;2071/4770;UA504",
+      "name": "RC265;RLM 02 RL;-;C60/H70;XF-20;71.044;HTK-_023;240;2071/4770;UA504",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "266;RLM 02 RL;-;-;-;-;-;-;-;-",
+      "name": "RC266;RLM 02 RL;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "267;RLM 04;-;C113/H413;-;71.078;HTK-_066;154;2072/4771;UA140",
+      "name": "RC267;RLM 04;-;C113/H413;-;71.078;HTK-_066;154;2072/4771;UA140",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "268;RLM 61;-;-;-;71.042;HTK-_168;-;2075;-",
+      "name": "RC268;RLM 61;-;-;-;71.042;HTK-_168;-;2075;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "269;RLM 62;-;-;-;71.104;HTK-_169;-;2076;-",
+      "name": "RC269;RLM 62;-;-;-;71.104;HTK-_169;-;2076;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "270;RLM 63;-;-;-;71.260;HTK-_167;-;2077;-",
+      "name": "RC270;RLM 63;-;-;-;71.260;HTK-_167;-;2077;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "271;RLM 65 (1938);-;-;-;-;-;65;-;-",
+      "name": "RC271;RLM 65 (1938);-;-;-;-;-;65;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "272;RLM 65 (1941);-;C115/H67;XF-23;71.255;HTK-_029;-;2078/4778;UA503",
+      "name": "RC272;RLM 65 (1941);-;C115/H67;XF-23;71.255;HTK-_029;-;2078/4778;UA503",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "273;RLM 66 (1941);-;-;-;-;-;-;-;-",
+      "name": "RC273;RLM 66 (1941);-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "274;RLM 70;-;C18/H65;XF-27;71.021;HTK-_015;241;2080/4780;UA501",
+      "name": "RC274;RLM 70;-;C18/H65;XF-27;71.021;HTK-_015;241;2080/4780;UA501",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "275;RLM 71;-;C17/H64;-;71.015;HTK-_017;242;2081/4781;UA502",
+      "name": "RC275;RLM 71;-;C17/H64;-;71.015;HTK-_017;242;2081/4781;UA502",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "276;RLM 72;-;-;-;71.263;HTK-_311;243;2082;-",
+      "name": "RC276;RLM 72;-;-;-;71.263;HTK-_311;243;2082;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "277;RLM 73;-;-;-;71.256;HTK-_312;244;2083;-",
+      "name": "RC277;RLM 73;-;-;-;71.256;HTK-_312;244;2083;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "278;RLM 74;-;C36/H68;-;71.258;HTK-_313;245;2084/4784;UA507",
+      "name": "RC278;RLM 74;-;C36/H68;-;71.258;HTK-_313;245;2084/4784;UA507",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "279;RLM 75;-;C37/H69;-;71.259;HTK-_007;246;2085/4785;UA508",
+      "name": "RC279;RLM 75;-;C37/H69;-;71.259;HTK-_007;246;2085/4785;UA508",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "280;RLM 78 (1941);-;-;-;-;-;-;-;-",
+      "name": "RC280;RLM 78 (1941);-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "281;RLM 78 (1942);-;C118/H418;-;71.101;HTK-_314;248;2087;UA512",
+      "name": "RC281;RLM 78 (1942);-;C118/H418;-;71.101;HTK-_314;248;2087;UA512",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "282;RLM 79 (1941);-;-;-;-;-;-;-;-",
+      "name": "RC282;RLM 79 (1941);-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "283;RLM 79 (1942);-;C119/H66;-;71.278;HTK-_014;249;2088/4789;UA137",
+      "name": "RC283;RLM 79 (1942);-;C119/H66;-;71.278;HTK-_014;249;2088/4789;UA137",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "284;RLM 80;-;C120/H420;-;71.265;HTK-_053;-;2089;UA138",
+      "name": "RC284;RLM 80;-;C120/H420;-;71.265;HTK-_053;-;2089;UA138",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "285;RAF Sky Grey;FS 26373;-;-;71.339;HTK-_302;-;-;UA036",
+      "name": "RC285;RAF Sky Grey;FS 26373;-;-;71.339;HTK-_302;-;-;UA036",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "286;RAF Dark Green;BS381C/241;C330/H330;XF-81;71.324;HTK-_143;163;2060/4849;UA546",
+      "name": "RC286;RAF Dark Green;BS381C/241;C330/H330;XF-81;71.324;HTK-_143;163;2060/4849;UA546",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "287;RAF Dark Earth;-;C369/H72;-;71.323;HTK-_009;29;2054/4846;UA547",
+      "name": "RC287;RAF Dark Earth;-;C369/H72;-;71.323;HTK-_009;29;2054/4846;UA547",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "288;RAF Ocean Grey;-;C362;XF-82;71.273;HTK-_032;106;2057;UA093",
+      "name": "RC288;RAF Ocean Grey;-;C362;XF-82;71.273;HTK-_032;106;2057;UA093",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "289;RAF Medium Sea Grey;BS381C/637;C335/H335;XF-83;71.307;HTK-_034/HTK-_141;165;2058;UA094",
+      "name": "RC289;RAF Medium Sea Grey;BS381C/637;C335/H335;XF-83;71.307;HTK-_034/HTK-_141;165;2058;UA094",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "290;RAF Sky;FS 34424;C368;-;71.321;HTK-_234;-;2049/4840;UA550",
+      "name": "RC290;RAF Sky;FS 34424;C368;-;71.321;HTK-_234;-;2049/4840;UA550",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "291;RAF Azure Blue;-;C370;-;71.108;HTK-_028;157;2048;UA098",
+      "name": "RC291;RAF Azure Blue;-;C370;-;71.108;HTK-_028;157;2048;UA098",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "292;RAF Middle Stone;-;C21/H71;-;71.031;HTK-_013;225;2052;UA097",
+      "name": "RC292;RAF Middle Stone;-;C21/H71;-;71.031;HTK-_013;225;2052;UA097",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "293;RAF Cockpit Gre;-;C364;XF-71;71.305;HTK-_025;78;2062/4850;UA551",
+      "name": "RC293;RAF Cockpit Gre;-;C364;XF-71;71.305;HTK-_025;78;2062/4850;UA551",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "294;RAF Dark Slate Grey;-;-;-;71.309;HTK-_202;224;2056;-",
+      "name": "RC294;RAF Dark Slate Grey;-;-;-;71.309;HTK-_202;224;2056;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "295;RAF Extra Dark Sea Grey;BS381C/640;C333/H333;XF-54;71.110;HTK-_140;123;-;UA109",
+      "name": "RC295;RAF Extra Dark Sea Grey;BS381C/640;C333/H333;XF-54;71.110;HTK-_140;123;-;UA109",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "296;RAF Dark Sea Grey;BS381C/638;C331/H331;XF-77;71.405;HTK-_144;164;2059;-",
+      "name": "RC296;RAF Dark Sea Grey;BS381C/638;C331/H331;XF-77;71.405;HTK-_144;164;2059;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "297;RAF PRU Blue;BS381C/636;C72/H56;XF-18;71.109;HTK-_207;230;2061;-",
+      "name": "RC297;RAF PRU Blue;BS381C/636;C72/H56;XF-18;71.109;HTK-_207;230;2061;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "298;RAF Light Aircraft Grey;BS381C/627;C332/H332;-;-;HTK-_217;166;-;-",
+      "name": "RC298;RAF Light Aircraft Grey;BS381C/627;C332/H332;-;-;HTK-_217;166;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "299;RAF Camouflage (Barley) Grey;BS381C/626;C334/H334;XF-80;-;HTK-_142;167;-;UA079",
+      "name": "RC299;RAF Camouflage (Barley) Grey;BS381C/626;C334/H334;XF-80;-;HTK-_142;167;-;UA079",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "300;RAF Dark Camouflage Grey;BS381C/629;-;-;-;HTK-_214;-;-;-",
+      "name": "RC300;RAF Dark Camouflage Grey;BS381C/629;-;-;-;HTK-_214;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "301;RAF Camouflage Beige (Hemp);BS381C/389;C336/H336;XF-57;-;HTK-_262;168;-;-",
+      "name": "RC301;RAF Camouflage Beige (Hemp);BS381C/389;C336/H336;XF-57;-;HTK-_262;168;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "302;IJN J3 Ha;-;C35/H61;-;-;-;-;-;-",
+      "name": "RC302;IJN J3 Ha;-;C35/H61;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "303;IJN J3 SP (Amber Grey);-;-;-;71.311;-;-;-;-",
+      "name": "RC303;IJN J3 SP (Amber Grey);-;-;-;71.311;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "304;IJN D1 Deep Green Black;-;C15/H59;XF-11;71.325;-;-;-;-",
+      "name": "RC304;IJN D1 Deep Green Black;-;C15/H59;XF-11;71.325;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "305;IJN D2 Green Black;-;-;-;71.322;-;-;-;-",
+      "name": "RC305;IJN D2 Green Black;-;-;-;71.322;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "306;IJN M3(M) Mitsubishi Interior Green;-;C126;-;-;-;-;-;-",
+      "name": "RC306;IJN M3(M) Mitsubishi Interior Green;-;C126;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "307;IJN M3(N) Nakajima Interior Green;-;C127;-;-;-;-;-;-",
+      "name": "RC307;IJN M3(N) Nakajima Interior Green;-;C127;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "308;A;-;-;-;71.414;HTK-_127;-;-;-",
+      "name": "RC308;A;-;-;-;71.414;HTK-_127;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "309;AII Protective (Green);-;-;-;71.410;HTK-_128;-;-;-",
+      "name": "RC309;AII Protective (Green);-;-;-;71.410;HTK-_128;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "310;AII Light Blue;-;-;-;71.317;HTK-_129;-;-;-",
+      "name": "RC310;AII Light Blue;-;-;-;71.317;HTK-_129;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "311;;-;-;-;71.413;-;-;-;-",
+      "name": "RC311;;-;-;-;71.413;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "312;;-;-;-;71.411;-;-;-;-",
+      "name": "RC312;;-;-;-;71.411;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "313;AM;-;-;-;71.320;-;-;-;-",
+      "name": "RC313;AM;-;-;-;71.320;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "314;;-;-;-;71.415;HTK-_074;72;-;UA039",
+      "name": "RC314;;-;-;-;71.415;HTK-_074;72;-;UA039",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "315;AM;-;-;-;71.301;HTK-_073;-;-;-",
+      "name": "RC315;AM;-;-;-;71.301;HTK-_073;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "316;AM;-;-;-;71.318;HTK-_072;-;-;-",
+      "name": "RC316;AM;-;-;-;71.318;HTK-_072;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "317;AM;-;-;-;71.304;HTK-_071;-;-;-",
+      "name": "RC317;AM;-;-;-;71.304;HTK-_071;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "318;AM;-;-;-;71.308;HTK-_070;-;-;-",
+      "name": "RC318;AM;-;-;-;71.308;HTK-_070;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "319;;-;-;-;71.336;-;5;-;-",
+      "name": "RC319;;-;-;-;71.336;-;5;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "320;RLM 76 Version 1;-;-;-;-;-;-;-;-",
+      "name": "RC320;RLM 76 Version 1;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "321;RLM 76 Version 2;-;C117/H417;-;71.257;HTK-_038;247;2086/4786;UA509",
+      "name": "RC321;RLM 76 Version 2;-;C117/H417;-;71.257;HTK-_038;247;2086/4786;UA509",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "322;RLM 76 Late War Variation;-;-;-;71.103;-;-;-;-",
+      "name": "RC322;RLM 76 Late War Variation;-;-;-;71.103;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "323;RLM 81 Version 1;-;C121/H421;XF-51;71.264;HTK-_008;251;2090;UA510",
+      "name": "RC323;RLM 81 Version 1;-;C121/H421;XF-51;71.264;HTK-_008;251;2090;UA510",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "324;RLM 81 Version 2;-;C123/H423;XF-74;71.011;HTK-_022;253;2091;UA132",
+      "name": "RC324;RLM 81 Version 2;-;C123/H423;XF-74;71.011;HTK-_022;253;2091;UA132",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "325;RLM 81 Version 3;-;-;-;-;-;-;-;-",
+      "name": "RC325;RLM 81 Version 3;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "326;RLM 82;-;C122/H422;-;71.022;HTK-_020;252;2092;UA511",
+      "name": "RC326;RLM 82;-;C122/H422;-;71.022;HTK-_020;252;2092;UA511",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "327;RLM 83;-;-;-;-;-;-;-;-",
+      "name": "RC327;RLM 83;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "328;IJAAF #1 Hairyokushoku (Grey Green);-;C56/H62;XF-12;71.326;-;-;-;-",
+      "name": "RC328;IJAAF #1 Hairyokushoku (Grey Green);-;C56/H62;XF-12;71.326;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "329;IJAAF #3 Hairanshoku (Grey Indigo);-;-;-;-;-;77;-;-",
+      "name": "RC329;IJAAF #3 Hairanshoku (Grey Indigo);-;-;-;-;-;77;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "330;IJAAF #7 Ohryoku Nana Go Shoku (Olive Brown);-;-;-;71.286;-;-;-;-",
+      "name": "RC330;IJAAF #7 Ohryoku Nana Go Shoku (Olive Brown);-;-;-;71.286;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "331;IJAAF #21 Midori Iro (Green);-;-;-;-;-;-;-;-",
+      "name": "RC331;IJAAF #21 Midori Iro (Green);-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "332;IJAAF #27 Ao Midori Iro (Blue Green);-;-;-;-;-;-;-;-",
+      "name": "RC332;IJAAF #27 Ao Midori Iro (Blue Green);-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "333;IJAAF #29 Ki Midori Iro (Yellow Green);-;-;-;-;-;-;-;-",
+      "name": "RC333;IJAAF #29 Ki Midori Iro (Yellow Green);-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "334;IJAAF #30 Karekusa Iro (Dry Grass Colour);-;-;-;-;-;-;-;-",
+      "name": "RC334;IJAAF #30 Karekusa Iro (Dry Grass Colour);-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "335;IJAAF #31 Cha Kasshoku (Tea Colour);-;-;-;-;-;-;-;-",
+      "name": "RC335;IJAAF #31 Cha Kasshoku (Tea Colour);-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "336;Mi;-;-;-;-;-;-;-;-",
+      "name": "RC336;Mi;-;-;-;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "337;Mi;-;-;-;-;-;-;2133;-",
+      "name": "RC337;Mi;-;-;-;-;-;-;2133;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "338;Mi;-;-;-;71.340;-;-;2134;-",
+      "name": "RC338;Mi;-;-;-;71.340;-;-;2134;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "339;RLM 66 (1938);-;C116/H416;XF-24;71.055;HTK-_040;-;2079/4779;UA133",
+      "name": "RC339;RLM 66 (1938);-;C116/H416;XF-24;71.055;HTK-_040;-;2079/4779;UA133",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "340;Kenttävihreä – Olive Green;FS 34096;-;-;-;HTK-_301;30;2027;UA142",
+      "name": "RC340;Kenttävihreä – Olive Green;FS 34096;-;-;-;HTK-_301;30;2027;UA142",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "341;Schwarzgrau – Black Grey;RAL 7021 (Modern RAL 840 HR);-;-;-;HTK-_224;-;-;-",
+      "name": "RC341;Schwarzgrau – Black Grey;RAL 7021 (Modern RAL 840 HR);-;-;-;HTK-_224;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "342;Dark Green;FS 34064;-;-;-;HTK-_232;-;-;UA119",
+      "name": "RC342;Dark Green;FS 34064;-;-;-;HTK-_232;-;-;UA119",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "500;Flat Varnish;-;C182/H20;XF-86;70.520;HTK-XP07;49;2015/4636;LC27",
+      "name": "RC500;Flat Varnish;-;C182/H20;XF-86;70.520;HTK-XP07;49;2015/4636;LC27",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "501;Satin Varnish;-;C181;-;70.522;HTK-XP08;135;2016/4637;LC77",
+      "name": "RC501;Satin Varnish;-;C181;-;70.522;HTK-XP08;135;2016/4637;LC77",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "502;Gloss Varnish;-;C46/H30;X-22;70.510;HTK-XP09;35;2017/4638;LC73",
+      "name": "RC502;Gloss Varnish;-;C46/H30;X-22;70.510;HTK-XP09;35;2017/4638;LC73",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "503;Clear Red;-;C47/H90;X-27;-;-;-;4630;-",
+      "name": "RC503;Clear Red;-;C47/H90;X-27;-;-;-;4630;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "504;Clear Blue;-;C50/H93;X-23;-;-;-;4658;-",
+      "name": "RC504;Clear Blue;-;C50/H93;X-23;-;-;-;4658;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "505;Clear Green;-;C138/H94;X-25;-;-;-;4668;-",
+      "name": "RC505;Clear Green;-;C138/H94;X-25;-;-;-;4668;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "506;Clear Orange;-;C49/H92;X-26;-;-;-;4625;-",
+      "name": "RC506;Clear Orange;-;C49/H92;X-26;-;-;-;4625;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "507;Clear Yellow;-;C48/H91;X-24;-;-;-;-;-",
+      "name": "RC507;Clear Yellow;-;C48/H91;X-24;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "508;Clear Smoke;-;C101/H95;X-19;-;-;-;-;-",
+      "name": "RC508;Clear Smoke;-;C101/H95;X-19;-;-;-;-;-",
+      "rgb": "",
+      "correspondences": []
     }
   ]
 }

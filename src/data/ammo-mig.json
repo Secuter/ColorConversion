@@ -1,0 +1,1716 @@
+{
+  "series": "Ammo by Mig",
+  "manufacturer": "Ammo",
+  "prefixes": [
+    "AMIG"
+  ],
+  "default_prefix": "AMIG",
+  "suffixes": [],
+  "default_suffix": "",
+  "colors": [
+    {
+      "id": "ACRYLIC PAINTS 17 mL",
+      "name": "ACRYLIC PAINTS 17 mL",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "CONVERSION CHART",
+      "name": "CONVERSION CHART",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "TABLA DE CONVERSION",
+      "name": "TAVOLA DI CONVERSIONE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "ATVALTASI TABLAZAT",
+      "name": "TABLEAU DE CONVERSION",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "TABELA KONWERSJI BARW",
+      "name": "CPABHMTEJbHAA TABJMLA",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "CONVERSIE TABEL",
+      "name": "FARBVERGLEICHSTABELLE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "AMMQ 6y",
+      "name": "AMMQ 6y",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "nig",
+      "name": "nig",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "MODEL",
+      "name": "Mr",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "17",
+      "name": "17",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "WWW migjimenez.com",
+      "name": "WWW migjimenez.com",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "HOBBY COLOR",
+      "name": "MODEL AIR",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.092",
+      "name": "71.092",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.125",
+      "name": "FS31227-RAL G011",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0004",
+      "name": "RAL 6011",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.116",
+      "name": "RAL 7006",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.248",
+      "name": "RAL 7017",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71055",
+      "name": "RAL 7021",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RAL 7027",
+      "name": "AMIG-000g",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.025",
+      "name": "AMIG-Q010",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "CUNKFLGFLB AUS",
+      "name": "CUNKFLGFLB AUS",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.079",
+      "name": "71.272",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "041",
+      "name": "70.014",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.905",
+      "name": "71.041",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-(O16",
+      "name": "RAL 8020",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "CREMFIFISS",
+      "name": "70.918",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-Q018",
+      "name": "POLZEI GRUN",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.924",
+      "name": "71.017",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.841",
+      "name": "71.282",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.310",
+      "name": "71.253",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-(1d22",
+      "name": "71.281",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "PnOTECTIE GEEM",
+      "name": "AMIG-0023",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0024",
+      "name": "AMIG-0024",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.819",
+      "name": "71.140",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "051",
+      "name": "70.977",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.917",
+      "name": "71.244",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "BFICE",
+      "name": "{1.31",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-(d2g",
+      "name": "AMIG-(d2g",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "SAND YELLOW",
+      "name": "71.143",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.247",
+      "name": "A,MIG-003|",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.051",
+      "name": "70.051",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "0137",
+      "name": "71.315",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.213",
+      "name": "71.050",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "0-42",
+      "name": "70.202",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "OLD WOOD",
+      "name": "71.075",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0d37",
+      "name": "70.321",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-ddag",
+      "name": "70.911",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.901",
+      "name": "71.129",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.010",
+      "name": "AMIG-0041",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.459",
+      "name": "71.010",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.207",
+      "name": "AMIG-(043",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-(d44",
+      "name": "CHIPPINC",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70,06}",
+      "name": "71.072",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "033",
+      "name": "70,950",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.412",
+      "name": "SRTIM WHITE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.002",
+      "name": "AMIG-((48",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "HodEL AIR",
+      "name": "RAL/RLM/FS",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.909",
+      "name": "70.909",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-DDSD",
+      "name": "SO16-RLM 21",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-DD5T",
+      "name": "MELJILM LICHT CREEN",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.970",
+      "name": "AMIG-0052",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0053",
+      "name": "XF-70",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-DD54",
+      "name": "C-C6",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.916",
+      "name": "71.033",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "YF-S1",
+      "name": "70.318",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.326",
+      "name": "AMIG-0057",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "PKHV-512",
+      "name": "PKHV-512",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "ChFy",
+      "name": "FS33251-KHV-1G",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-DLSD",
+      "name": "AMIG-DLSD",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.074",
+      "name": "71.074",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.900",
+      "name": "71.113",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.907",
+      "name": "c-117",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.303",
+      "name": "71.037",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.348",
+      "name": "C-303",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.142",
+      "name": "FADED SINAI GFEY",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0C57",
+      "name": "LICHT SAND CREY",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "IDF GECM",
+      "name": "IDF GECM",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "H-36",
+      "name": "PLUE CREER",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.312",
+      "name": "AMIG-DDZD",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.339",
+      "name": "71.136",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.315",
+      "name": "AMIG-0072",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.874",
+      "name": "AMIG-DDT3",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.326",
+      "name": "71.010",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0075",
+      "name": "STONE GREY",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-DD76",
+      "name": "AMIG-DD76",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-DDIT",
+      "name": "AMIG-DDIT",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-DD7B",
+      "name": "OCHKE EARTH",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0079",
+      "name": "71.034",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.301",
+      "name": "AMIG-O0BO",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.289",
+      "name": "C-304",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.331",
+      "name": "AMIG-D0BZ",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "6-54",
+      "name": "71.093",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71219",
+      "name": "AMIG-D0B5",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "5019",
+      "name": "71.89",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "GELPOLI",
+      "name": "AMIG-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.860",
+      "name": "AMIG-OOPB",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.520",
+      "name": "AMIG-0069",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.522",
+      "name": "AMIG-DDOD",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.51D",
+      "name": "H-3u",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0092",
+      "name": "H-94",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.934",
+      "name": "AMIG-0093",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0094",
+      "name": "CRYSTAL GLASS",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "CRYSTAL SMCKE",
+      "name": "CRYSTAL SMCKE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "COLOR NAME",
+      "name": "HOBBY CDLDR",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "CRYSML OKANGE",
+      "name": "CRYSML OKANGE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "CRYSML LICHTBLUE",
+      "name": "CRYSML LICHTBLUE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "BLACK BLUE",
+      "name": "A.MIG-049",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0102",
+      "name": "70.855",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0103",
+      "name": "MEDIUM BLUE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-0104",
+      "name": "A.MIG-0104",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-0105",
+      "name": "DUST",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "RaL 8020",
+      "name": "WNASHARL",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0107",
+      "name": "A,MIG-0107",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "WASHABLE MUD",
+      "name": "WASHABLE MUD",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "VASHARL",
+      "name": "A.MIG-0109",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "(RKITISH BHOYN",
+      "name": "971-2",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "H-72",
+      "name": "6-22",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0112",
+      "name": "(BOITSH 1944-45 QUVE DRAD;",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.023",
+      "name": "71.023",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.246",
+      "name": "A.MIG-0114",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.837",
+      "name": "71.D7C",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.928",
+      "name": "A,MIG-0116",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.815",
+      "name": "A,MIG-0117",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "DUNNT SAND",
+      "name": "A,MIG-0118",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "COLD GRIY",
+      "name": "70.993",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-0120",
+      "name": "A.MIG-0120",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0121",
+      "name": "F511136-RAL 302",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "PONE",
+      "name": "70.847",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.004",
+      "name": "74.930",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.094",
+      "name": "A,MIG-0124",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70,953",
+      "name": "71.076",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "VICIET",
+      "name": "A.MIG-0125",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-0127",
+      "name": "PURPLE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0128",
+      "name": "CYAN",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0129",
+      "name": "H-14",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0130",
+      "name": "FXDED YELLOW",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.141",
+      "name": "A.MIG-0132",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.301",
+      "name": "71.105",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.984",
+      "name": "71.036",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.112",
+      "name": "A,MIG-0135",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "DESEKT YELLOI",
+      "name": "70.912",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-0139",
+      "name": "71.293",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.073",
+      "name": "A,MIG-0| 87",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.070",
+      "name": "c75",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0109",
+      "name": "METALLIC ORANGE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "74.8D1",
+      "name": "A.MIG-019D",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.065",
+      "name": "A.MIG-0191",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70,865",
+      "name": "A,MIG-0192",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0193",
+      "name": "DLUISH TITANIUM",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-0194",
+      "name": "XF-16",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "FS 17178-ALM 01",
+      "name": "A.MIG-0195",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Color NAME",
+      "name": "HOBBY COLDR",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-(197",
+      "name": "71.057",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "FS 17043",
+      "name": "CJLL",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.068",
+      "name": "AMIG-0 199",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "6-313",
+      "name": "AMIG-0200",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.855",
+      "name": "FS 34424",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.843",
+      "name": "71.125",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.,538",
+      "name": "c-305",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "FS 26231",
+      "name": "71.051",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.291",
+      "name": "71.291",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.959",
+      "name": "XF-19",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "DAnK COMPASS GHOST GRAY",
+      "name": "6-307",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "H-51 /H-338",
+      "name": "71.276",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70,905",
+      "name": "71.304",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.275",
+      "name": "A.MIG-(211",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.119",
+      "name": "A.MIG-(212",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.305",
+      "name": "A.MIG-0213",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.044",
+      "name": "A,MIG-0217",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.055",
+      "name": "A,MIG-0218",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "INTERIOR CREEN",
+      "name": "A.MIG-(219",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.137",
+      "name": "FS 31151",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Zinc CHROWATE YELLOW",
+      "name": "71.107",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.876",
+      "name": "RLM 79",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.,838",
+      "name": "AMIG-0223",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "FS 35260",
+      "name": "70.951",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.296",
+      "name": "AMIG-0226",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(1227",
+      "name": "A.MIG-(1227",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(1228",
+      "name": "70.903",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "DAnK GRAY DLUE",
+      "name": "F815102",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.823",
+      "name": "71.022",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.95",
+      "name": "71.255",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.597",
+      "name": "71.021",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.015",
+      "name": "A.MIG-(233",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "6-32",
+      "name": "71.306",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "631",
+      "name": "A,MIG-0236",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "XD",
+      "name": "A.MIG-0237",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(238",
+      "name": "71.124",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(239",
+      "name": "71.274",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.830",
+      "name": "71.325",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.121",
+      "name": "FS 36440",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "-(242",
+      "name": "FS37886",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.302",
+      "name": "AMIG-(243",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "05216",
+      "name": "71.009",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.273",
+      "name": "AMIG-0245",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "6-335",
+      "name": "70.870",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.972",
+      "name": "AMIG-(247",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.255",
+      "name": "AMIG-(248",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "HOBBY CDLDR",
+      "name": "MODEL AIR",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.306",
+      "name": "A,MIG-0249",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Nichi BLE GKEY",
+      "name": "70.551",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(251",
+      "name": "71.318",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.320",
+      "name": "71.320",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.256",
+      "name": "CRXUGRUN",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.85",
+      "name": "71.259",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.264",
+      "name": "A.MIG-(255",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.103",
+      "name": "A.MIG-(256",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "c-370",
+      "name": "70.902",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-0SO0",
+      "name": "DUNKELGELB SHADOW",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.D3D",
+      "name": "A.MIG-(JS1",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "0-21",
+      "name": "H-71",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.976",
+      "name": "DUNKELGFLR LIGHT RRSE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "DUNKELGELB HIGH LIGHT",
+      "name": "DUNKELGELB HIGH LIGHT",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.344",
+      "name": "DUNKELGELB SHINE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "H-333",
+      "name": "PS GA0",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.333",
+      "name": "71.019",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "CREY PASE",
+      "name": "H-3DI /H-339",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "CREY LIGHT BASE",
+      "name": "H-458",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "6-25",
+      "name": "70.835",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(911",
+      "name": "SHINE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-0912",
+      "name": "A.MIG-0912",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0913",
+      "name": "XF-79",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-0914",
+      "name": "A.MIG-0914",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-0915",
+      "name": "WkK CRFEN",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.827",
+      "name": "CREEM DASE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "LIGHT GnEEN",
+      "name": "LIGHT GnEEN",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(918",
+      "name": "{4.822",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(919",
+      "name": "A.MIG-(919",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0920",
+      "name": "nED FRIMER BASE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-092 |",
+      "name": "A,MIG-092 |",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0922",
+      "name": "nED FRIMER HIGH LIGHTS",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.341",
+      "name": "71.D2C",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(1924",
+      "name": "A.MIG-(1924",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.859",
+      "name": "71.043",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "c-304",
+      "name": "71.286",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-0927",
+      "name": "OVVE DRAD LIGHT BASE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(1928",
+      "name": "71.3",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "70.332",
+      "name": "{1.38",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A,MIG-09J0",
+      "name": "A,MIG-09J0",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.020",
+      "name": "XF-74",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "DUSSIAN DASE",
+      "name": "71.303",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "KUSSIAN LICHT RASE",
+      "name": "KUSSIAN LICHT RASE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "A.MIG-(1934",
+      "name": "KUSSIAN HICHLIGhT",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71.321",
+      "name": "A,MIG-0935",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "AMMO, a truly pioneering model company offers you the best solutions for",
+      "name": "AMMOt",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "the field of producing the highest quality weathering products available:",
+      "name": "mig",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Jimenez",
+      "name": "Jimenez",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Why should",
+      "name": "choose AMMO s range of acrylic paints?",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Because they are high quality easy to apply, non-toxic, and available",
+      "name": "Because they are high quality easy to apply, non-toxic, and available",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "in a wice range of accurate colourS",
+      "name": "in a wice range of accurate colourS",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Where are they made?",
+      "name": "Where are they made?",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "AMMO acrylics and their raw materials are made in Spain, and ex-",
+      "name": "AMMO acrylics and their raw materials are made in Spain, and ex-",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Are",
+      "name": "they safe for my health?",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Our paints are completely safe for your health; the water-based for-",
+      "name": "mula includes natural or synthetc pigments, and are completely free",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Are they easy to clean?",
+      "name": "Who can use them?",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Their unique formulation makes AMMO acrylics easily cleaned with",
+      "name": "They",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "The AMMO range of acrylics teatures more than 220 reterences, which",
+      "name": "The AMMO range of acrylics teatures more than 220 reterences, which",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "allows you to find the exact colour required without having to resort t0",
+      "name": "complex mixes. This comprehensive range includes shades from the",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "This colour conversion chart will allow you to find the equivalent col-",
+      "name": "Imig",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Color) and Vallejo. With this",
+      "name": "guide",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Learn the proper techniques for applying AMMO acrylics with this",
+      "name": "YouTube",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "English version",
+      "name": "English version",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "mg",
+      "name": "mg",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Problems with Acrylics?",
+      "name": "Problems with Acrylics?",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "The first step with acrylic paints is to be sure they are thoroughly mixed by shaking the paints within the bottle. This",
+      "name": "step is S0 important that AMMO is now",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "AIR PRESSURE AND AIRBRUSHING DISTANCE",
+      "name": "AIR PRESSURE AND AIRBRUSHING DISTANCE",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Recommended air pressure is between 20 psi for base coats and 17 psi for details. The recommended distance of lhe airbrush nozzle",
+      "name": "Recommended air pressure is between 20 psi for base coats and 17 psi for details. The recommended distance of lhe airbrush nozzle",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "approximately 10 cm (4\" inches) for an overall spray The nozzle must be moved closer to the surface when applying",
+      "name": "to the surface",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "find what setlings works best for Ihe required",
+      "name": "plece of maleria",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "PRIMING UNTREATED PLASTIC",
+      "name": "PRIMING UNTREATED PLASTIC",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "matte finish, providing an ideal surface for the paints to",
+      "name": "We recommend that you always prime before anything else. Primers have",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "second layer of primer This first layer breaks the surface",
+      "name": "the surface_ Allow this first layer to completely dry before continuing with",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "models are constructed using different matenal",
+      "name": "Another important reason t0 use",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "AIRBRUSHING ACRYLIC PAINTS",
+      "name": "AIRBRUSHING ACRYLIC PAINTS",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "This way",
+      "name": "primer; the best technique",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "few drops ofA MIG-2OOO Acrylic Thinner",
+      "name": "can be diluted with",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "For additional information, please visit:",
+      "name": "For additional information, please visit:",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "EU_",
+      "name": "EU_",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Made in Spain",
+      "name": "Made in Spain",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "mig)",
+      "name": "mig)",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "1",
+      "name": "mig",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Airbrush",
+      "name": "Airbrush",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "AMMO_",
+      "name": "Follow uS:",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "mig",
+      "name": "@AMMOMIG",
+      "rgb": "",
+      "correspondences": []
+    }
+  ]
+}

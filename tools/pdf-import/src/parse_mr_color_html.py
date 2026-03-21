@@ -1,7 +1,7 @@
 """
 Parse Mr. Color Lacquer Conversion HTML table into JSON for the site.
 
-Input:  tools/pdf-import/input/Mr Color Laquer Conversion.html
+Input:  tools/pdf-import/input/MrColor Laquer Conversion.html
 Output: tools/pdf-import/output/mr-color.json  (site-ready format)
 
 HTML structure
@@ -47,7 +47,8 @@ except ImportError:
 
 # ── paths ──────────────────────────────────────────────────────────────────────
 REPO_ROOT = Path(__file__).resolve().parents[3]
-INPUT_HTML = REPO_ROOT / "tools/pdf-import/input/Mr Color Laquer Conversion.html"
+INPUT_HTML = REPO_ROOT / "tools/pdf-import/input/MrColor Laquer Conversion.html"
+LEGACY_INPUT_HTML = REPO_ROOT / "tools/pdf-import/input/Mr Color Laquer Conversion.html"
 OUTPUT_JSON = REPO_ROOT / "tools/pdf-import/output/mr-color.json"
 
 # Number of columns per row
@@ -316,11 +317,12 @@ def parse_html(html_path: Path) -> list[dict]:
 
 
 def main() -> None:
-    if not INPUT_HTML.exists():
+    input_html = INPUT_HTML if INPUT_HTML.exists() else LEGACY_INPUT_HTML
+    if not input_html.exists():
         sys.exit(f"Input file not found: {INPUT_HTML}")
 
-    print(f"Parsing {INPUT_HTML.name} …")
-    colors = parse_html(INPUT_HTML)
+    print(f"Parsing {input_html.name} …")
+    colors = parse_html(input_html)
     print(f"  {len(colors)} Mr. Color entries found")
 
     output: dict = {

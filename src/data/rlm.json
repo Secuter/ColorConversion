@@ -1,0 +1,174 @@
+{
+  "series": "RLM",
+  "manufacturer": "Color Standard",
+  "prefixes": [
+    "RLM"
+  ],
+  "default_prefix": "RLM",
+  "suffixes": [],
+  "default_suffix": "",
+  "colors": [
+    {
+      "id": "01",
+      "name": "191",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "02",
+      "name": "/H70",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "04",
+      "name": "154",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "05",
+      "name": "70.806/ 12",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "21",
+      "name": "XF-2",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "22",
+      "name": "33",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "23",
+      "name": "XF-7",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "24",
+      "name": "70.963/ 57",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "25",
+      "name": "UA055",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "26",
+      "name": "XF-64",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "27",
+      "name": "70.831/ 203",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "28",
+      "name": "73",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "41",
+      "name": "129",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "61",
+      "name": "X-9",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "62",
+      "name": "XF-65",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Hobby Mr.",
+      "name": "(acrylic)",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "enamel/",
+      "name": "(acrylic)*",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "191",
+      "name": "X-11 or",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "XF-16",
+      "name": "171",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "/H70",
+      "name": "92",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "154",
+      "name": "XF-3",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "4771",
+      "name": "15",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "XF-2",
+      "name": "70.951/",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "33",
+      "name": "XF-1",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "XF-7",
+      "name": "70.817/",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "4772",
+      "name": "26",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "4773",
+      "name": "57",
+      "rgb": "",
+      "correspondences": []
+    }
+  ]
+}

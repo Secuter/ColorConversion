@@ -1,368 +1,668 @@
 {
   "series": "Tamiya Acrylic",
   "manufacturer": "Tamiya",
-  "prefixes": ["XF-", "X-", "TS-"],
+  "prefixes": [
+    "XF-",
+    "X-",
+    "XF",
+    "X"
+  ],
   "default_prefix": "XF-",
+  "suffixes": [],
+  "default_suffix": "",
   "colors": [
     {
-      "id": "1",
-      "name": "Flat Black",
-      "rgb": "#0A0A0A",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C12" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC001" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "950" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "057" }
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Flat White",
-      "rgb": "#F0F0F0",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C11" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC002" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "951" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "001" }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Flat Yellow",
-      "rgb": "#D4B800",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C4" }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Yellow Green",
-      "rgb": "#8A9A20",
+      "id": "IJN Dark Green",
+      "name": "0264",
+      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "5",
-      "name": "Flat Green",
-      "rgb": "#3C7A3C",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C6" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "971" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "039" }
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Flat Red",
-      "rgb": "#A82020",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C1" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC015" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "947" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "047" }
-      ]
-    },
-    {
-      "id": "8",
-      "name": "Flat Blue",
-      "rgb": "#2040A0",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C5" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "899" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "011" }
-      ]
-    },
-    {
-      "id": "10",
-      "name": "Flat Brown",
-      "rgb": "#6A4030",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C42" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC007" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "872" }
-      ]
-    },
-    {
-      "id": "11",
-      "name": "JN Grey",
-      "rgb": "#6A7080",
+      "id": "354",
+      "name": "0263",
+      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "13",
-      "name": "JN Green",
-      "rgb": "#3A5A38",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C56" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC003" }
-      ]
+      "id": "206 / XA1206",
+      "name": "0253",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "207 / XA1207",
+      "name": "0254",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "208 / XA1208",
+      "name": "X208 / XA1208",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "111",
+      "name": "X111",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Gray",
+      "name": "0239",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "264",
+      "name": "0227",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "001 / XA1001",
+      "name": "0206",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "003 / XA1003",
+      "name": "0246",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "038",
+      "name": "0195",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "114",
+      "name": "X114",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "116 / XA1116",
+      "name": "0065",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Sierra Tan",
+      "name": "0202",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "351",
+      "name": "0260",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "IJA Light Gray",
+      "name": "IJA Light Gray",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "125 / XA1125",
+      "name": "0228",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "141",
+      "name": "X141",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "353",
+      "name": "0265",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "002 / XA1002",
+      "name": "0070",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "225 / XA1125",
+      "name": "0230",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "226 / XA1226",
+      "name": "0925",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "135 / XA1135",
+      "name": "0208",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "136 / XA1136",
+      "name": "0203",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Gunship Gray",
+      "name": "0204",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "IJA Gray",
+      "name": "0262",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Black",
+      "name": "0032",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Blue",
+      "name": "0103",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "04",
+      "name": "X04",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Green",
+      "name": "0074",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Orange",
+      "name": "Orange",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Red",
+      "name": "0049",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Yellow",
+      "name": "0048",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "09",
+      "name": "X09",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "502",
+      "name": "0191",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Gold",
+      "name": "0198",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "355",
+      "name": "0267",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "14",
+      "name": "X14",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "15",
-      "name": "Flat Flesh",
-      "rgb": "#D4A878",
+      "name": "X15",
+      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "16",
-      "name": "Flat Aluminum",
-      "rgb": "#A0A0A0",
+      "id": "Purple",
+      "name": "0127",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Pink",
+      "name": "Pink",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "18",
+      "name": "X18",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Smoke Gray",
+      "name": "Smoke Gray",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Flat Base",
+      "name": "Flat Base",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Gloss Clear",
+      "name": "0091",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Clear Blue",
+      "name": "Clear Blue",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Clear Yellow",
+      "name": "Clear Yellow",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "25",
+      "name": "X25",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Clear Orange",
+      "name": "Clear Orange",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Clear Red",
+      "name": "Clear Red",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Bright Green / Dilectric Green",
+      "name": "Bright Green / Dilectric Green",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "31",
+      "name": "X31",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "32",
+      "name": "X32",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "33",
+      "name": "X33",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "34",
+      "name": "X34",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Flat Black",
+      "name": "0046",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Flat White",
+      "name": "Flat White",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "03",
+      "name": "0125",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "06",
+      "name": "0199",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "07",
+      "name": "XF07",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "08",
+      "name": "XF08",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Cocoa Brown / Hull Red",
+      "name": "Cocoa Brown / Hull Red",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "10",
+      "name": "0015",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Flesh",
+      "name": "Flesh",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Aluminum",
+      "name": "0194",
+      "rgb": "",
       "correspondences": []
     },
     {
       "id": "17",
-      "name": "Sea Blue",
-      "rgb": "#0A3054",
-      "correspondences": [
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "028" }
-      ]
+      "name": "XF17",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "19",
-      "name": "Sky Grey",
-      "rgb": "#A0A8B0",
-      "correspondences": [
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "884" }
-      ]
+      "name": "XF19",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "20",
+      "name": "XF20",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "21",
+      "name": "0244",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "22",
-      "name": "RLM Grey",
-      "rgb": "#9A9A9A",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C116" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC226" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "034" }
-      ]
-    },
-    {
-      "id": "23",
-      "name": "Light Blue",
-      "rgb": "#8090B0",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C117" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC227" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "035" }
-      ]
+      "name": "0217",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "24",
-      "name": "Dark Grey",
-      "rgb": "#505050",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C14" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC020" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "054" }
-      ]
+      "name": "XF24",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "26",
+      "name": "0238",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "27",
-      "name": "Black Green",
-      "rgb": "#1A2818",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C18" }
-      ]
+      "name": "0232",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "28",
+      "name": "XF28",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "49",
-      "name": "Khaki",
-      "rgb": "#7A6848",
-      "correspondences": [
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC006" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "921" }
-      ]
+      "name": "XF49",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "51",
-      "name": "Khaki Drab",
-      "rgb": "#7A7250",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C55" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC013" }
-      ]
+      "id": "50",
+      "name": "XF50",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "52",
-      "name": "Flat Earth",
-      "rgb": "#8A6840",
-      "correspondences": [
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC005" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "875" }
-      ]
-    },
-    {
-      "id": "53",
-      "name": "Neutral Grey",
-      "rgb": "#706870",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C13" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC019" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "836" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "053" }
-      ]
+      "id": "54",
+      "name": "XF54",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "55",
-      "name": "Deck Tan",
-      "rgb": "#C8B880",
-      "correspondences": [
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "986" }
-      ]
+      "name": "XF55",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "56",
+      "name": "XF56",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "57",
-      "name": "Buff",
-      "rgb": "#C4B070",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C39" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC023" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "976" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "023" }
-      ]
-    },
-    {
-      "id": "58",
-      "name": "Olive Green",
-      "rgb": "#5A6040",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C17" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC009" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "979" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "055" }
-      ]
-    },
-    {
-      "id": "60",
-      "name": "Dark Yellow",
-      "rgb": "#C0A050",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C39" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC011" }
-      ]
-    },
-    {
-      "id": "61",
-      "name": "Dark Green",
-      "rgb": "#3A4A30",
+      "name": "XF57",
+      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "62",
-      "name": "Olive Drab",
-      "rgb": "#4A4A28",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C128" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC004" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "892" }
-      ]
+      "id": "Olive Green",
+      "name": "0084",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "63",
-      "name": "German Grey",
-      "rgb": "#3A3A3A",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C40" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC018" }
-      ]
+      "id": "59",
+      "name": "0200",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "805 / XA1805",
+      "name": "0010",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Dark Green",
+      "name": "0001",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Olive Drab",
+      "name": "Olive Drab",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "262 / XA1800",
+      "name": "0008",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "64",
-      "name": "Red Brown",
-      "rgb": "#7A3020",
+      "name": "XF64",
+      "rgb": "",
       "correspondences": []
-    },
-    {
-      "id": "65",
-      "name": "Field Grey",
-      "rgb": "#507040",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C118" },
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC225" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "038" }
-      ]
     },
     {
       "id": "66",
-      "name": "Light Grey",
-      "rgb": "#B0B8C0",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C35" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "052" }
-      ]
+      "name": "XF66",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "67",
-      "name": "NATO Green",
-      "rgb": "#3A4A30",
-      "correspondences": [
-        { "manufacturer": "AK Interactive", "series": "AK Real Colors", "id": "RC009" }
-      ]
+      "id": "Bronze Green",
+      "name": "0084",
+      "rgb": "",
+      "correspondences": []
     },
     {
-      "id": "69",
-      "name": "NATO Black",
-      "rgb": "#1A1A1A",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C25" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "862" },
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Air", "id": "012" }
-      ]
+      "id": "Lederbraun",
+      "name": "0085",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Teerschwarz",
+      "name": "Teerschwarz",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "71",
+      "name": "XF71",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "72",
-      "name": "JGSDF Brown",
-      "rgb": "#7A5838",
+      "name": "XF72",
+      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "74",
-      "name": "JGSDF OD",
-      "rgb": "#505838",
+      "id": "73",
+      "name": "XF73",
+      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "75",
-      "name": "IJN Grey Green",
-      "rgb": "#6A7460",
+      "id": "Olive Drab JGSDF",
+      "name": "Olive Drab JGSDF",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Kure Gray",
+      "name": "0235",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Sasebo Gray",
+      "name": "Sasebo Gray",
+      "rgb": "",
       "correspondences": []
     },
     {
       "id": "78",
-      "name": "Wooden Deck Tan",
-      "rgb": "#C0A060",
-      "correspondences": [
-        { "manufacturer": "Vallejo", "series": "Vallejo Model Color", "id": "819" }
-      ]
+      "name": "XF78",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Linoleum",
+      "name": "Linoleum",
+      "rgb": "",
+      "correspondences": []
     },
     {
       "id": "80",
-      "name": "Royal Light Grey",
-      "rgb": "#8C8880",
+      "name": "XF80",
+      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "84",
-      "name": "Dark Iron",
-      "rgb": "#4A4A4A",
+      "id": "006 / XA1006",
+      "name": "0245",
+      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "X-1",
-      "name": "Black",
-      "rgb": "#050505",
-      "correspondences": [
-        { "manufacturer": "Gunze", "series": "Mr. Color", "id": "C2" }
-      ]
-    },
-    {
-      "id": "X-2",
-      "name": "White",
-      "rgb": "#FFFFFF",
+      "id": "Burnt Iron",
+      "name": "0187",
+      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "X-7",
-      "name": "Red",
-      "rgb": "#CC0000",
+      "id": "Tire Black",
+      "name": "0033",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Flat Clear",
+      "name": "Flat Clear",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Maizuru Gray",
+      "name": "Maizuru Gray",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "88",
+      "name": "XF88",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "89",
+      "name": "XF89",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "90",
+      "name": "XF90",
+      "rgb": "",
+      "correspondences": []
+    },
+    {
+      "id": "Yokosuka Gray",
+      "name": "Yokosuka Gray",
+      "rgb": "",
       "correspondences": []
     }
   ]
