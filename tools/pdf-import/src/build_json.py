@@ -573,7 +573,10 @@ def step_compare() -> dict[str, Any]:
             "overrides": {},
             "notes": "",
         })
-        if not line_cfg.get("preferred_source") and csv_paths:
+        available_source_names = {p.name for p in csv_paths}
+        if line_cfg.get("preferred_source") not in available_source_names and csv_paths:
+            line_cfg["preferred_source"] = csv_paths[0].name
+        elif not line_cfg.get("preferred_source") and csv_paths:
             line_cfg["preferred_source"] = csv_paths[0].name
 
         resolution["discrepancies"][line_id] = _compare_sources(line_id, csv_paths)
@@ -1205,6 +1208,8 @@ def _build_simple_series_from_source(line_id: str, resolution: dict[str, Any]) -
     for row in rows:
         if not row:
             continue
+        if len(row) == 1 and ";" in row[0]:
+            row = [cell.strip() for cell in row[0].split(";")]
         if _is_header_row(row):
             continue
 
