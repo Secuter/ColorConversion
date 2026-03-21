@@ -259,8 +259,15 @@ def _normalize_delimited_file(path: Path) -> list[list[str]]:
 
     sample = text[:8192]
     delimiter = "\t"
-    if "," in sample and sample.count(",") > sample.count("\t"):
-        delimiter = ","
+    delimiter_counts = {
+        "\t": sample.count("\t"),
+        ",": sample.count(","),
+        ";": sample.count(";"),
+        "|": sample.count("|"),
+    }
+    best_delimiter = max(delimiter_counts, key=delimiter_counts.get)
+    if delimiter_counts[best_delimiter] > 0:
+        delimiter = best_delimiter
 
     reader = csv.reader(text.splitlines(), delimiter=delimiter)
     for row in reader:
@@ -1179,8 +1186,26 @@ def _build_simple_series_from_source(line_id: str, resolution: dict[str, Any]) -
     colors: list[dict[str, Any]] = []
     seen_ids: set[str] = set()
 
+    def _is_header_row(values: list[str]) -> bool:
+        joined = " ".join(v.strip().lower() for v in values if v and v.strip())
+        if not joined:
+            return False
+        header_markers = (
+            "colour name",
+            "color name",
+            "ral/rlm/fs",
+            "revell",
+            "tamiya",
+            "gunze",
+            "humbrol",
+            "italeri",
+        )
+        return any(marker in joined for marker in header_markers)
+
     for row in rows:
         if not row:
+            continue
+        if _is_header_row(row):
             continue
 
         raw_id = row[0].strip()

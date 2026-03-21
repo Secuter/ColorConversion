@@ -9,884 +9,878 @@
   "default_suffix": "",
   "colors": [
     {
-      "id": "Name;Mr.Color;Tamiya;Humbrol;Revell;Testors",
-      "name": "Name;Mr.Color;Tamiya;Humbrol;Revell;Testors",
+      "id": "1",
+      "name": "H1",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss White;H1;X-2;22;4;2720",
-      "name": "Gloss White;H1;X-2;22;4;2720",
+      "id": "2",
+      "name": "H2",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Black;H2;X-1;21;7;1747",
-      "name": "Gloss Black;H2;X-1;21;7;1747",
+      "id": "3",
+      "name": "H3",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Red;H3;X-7;19;31;2718",
-      "name": "Gloss Red;H3;X-7;19;31;2718",
+      "id": "4",
+      "name": "H4",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Yellow;H4;X-8;69;12;2717",
-      "name": "Gloss Yellow;H4;X-8;69;12;2717",
+      "id": "5",
+      "name": "H5",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Blue;H5;X-3;15;52;-",
-      "name": "Gloss Blue;H5;X-3;15;52;-",
+      "id": "6",
+      "name": "H6",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Green;H6;-;3;62;-",
-      "name": "Gloss Green;H6;-;3;62;-",
+      "id": "7",
+      "name": "H7",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Brown;H7;X-9;10;80;-",
-      "name": "Gloss Brown;H7;X-9;10;80;-",
+      "id": "8",
+      "name": "H8",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Silver;H8;X-11;11;90;1546",
-      "name": "Metallic Silver;H8;X-11;11;90;1546",
+      "id": "9",
+      "name": "H9",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Gold;H9;X-12;16;94;1744",
-      "name": "Metallic Gold;H9;X-12;16;94;1744",
+      "id": "10",
+      "name": "H10",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Copper;H10;XF-6;12;93;1551",
-      "name": "Metallic Copper;H10;XF-6;12;93;1551",
+      "id": "11",
+      "name": "H11",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat White;H11;XF-2;33;301/5;1768",
-      "name": "Flat White;H11;XF-2;33;301/5;1768",
+      "id": "12",
+      "name": "H12",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Black;H12;XF-1;34;302/8;1749",
-      "name": "Flat Black;H12;XF-1;34;302/8;1749",
+      "id": "13",
+      "name": "H13",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Red;H13;XF-7;60;-;1550",
-      "name": "Flat Red;H13;XF-7;60;-;1550",
+      "id": "14",
+      "name": "H14",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Orange;H14;X-6;18;30;1595",
-      "name": "Gloss Orange;H14;X-6;18;30;1595",
+      "id": "15",
+      "name": "H15",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Bright Blue;H15;X-4;14;51;1510",
-      "name": "Gloss Bright Blue;H15;X-4;14;51;1510",
+      "id": "16",
+      "name": "H16",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Yellow Green;H16;X-15;38;60;-",
-      "name": "Gloss Yellow Green;H16;X-15;38;60;-",
+      "id": "17",
+      "name": "H17",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Cocoa Brown;H17;XF-10;10;-;1533",
-      "name": "Gloss Cocoa Brown;H17;XF-10;10;-;1533",
+      "id": "18",
+      "name": "H18",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Steel Grey;H18;X-10;53;91;1780",
-      "name": "Metallic Steel Grey;H18;X-10;53;91;1780",
+      "id": "19",
+      "name": "H19",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Pink;H19;X-17;200;-;-",
-      "name": "Gloss Pink;H19;X-17;200;-;-",
+      "id": "20",
+      "name": "H20",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Clear;H20;-;49;2;1560",
-      "name": "Flat Clear;H20;-;49;2;1560",
+      "id": "21",
+      "name": "H21",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Off White;H21;-;-;10;1745",
-      "name": "Gloss Off White;H21;-;-;10;1745",
+      "id": "22",
+      "name": "H22",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Grey;H22;XF-53;5;-;-",
-      "name": "Gloss Grey;H22;XF-53;5;-;-",
+      "id": "23",
+      "name": "H23",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Shine Red;H23;-;60;-;1590",
-      "name": "Gloss Shine Red;H23;-;60;-;1590",
+      "id": "24",
+      "name": "H24",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Orange Yellow;H24;-;197;310;-",
-      "name": "Gloss Orange Yellow;H24;-;197;310;-",
+      "id": "25",
+      "name": "H25",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Sky Blue;H25;X-14;-;50;-",
-      "name": "Gloss Sky Blue;H25;X-14;-;50;-",
+      "id": "26",
+      "name": "H26",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Bright Green;H26;-;2;61;1524",
-      "name": "Gloss Bright Green;H26;-;2;61;1524",
+      "id": "27",
+      "name": "H27",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Tan;H27;-;9;11;-",
-      "name": "Gloss Tan;H27;-;9;11;-",
+      "id": "28",
+      "name": "H28",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Black;H28;-;201;-;2713",
-      "name": "Metallic Black;H28;-;201;-;2713",
+      "id": "29",
+      "name": "H29",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Salmon Pink;H29;-;-;-;-",
-      "name": "Gloss Salmon Pink;H29;-;-;-;-",
+      "id": "30",
+      "name": "H30",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Clear;H30;X-22;35;1;1561",
-      "name": "Gloss Clear;H30;X-22;35;1;1561",
+      "id": "31",
+      "name": "H31",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss White-Green;H31;-;90;-;-",
-      "name": "Gloss White-Green;H31;-;90;-;-",
+      "id": "32",
+      "name": "H32",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss German Field Gray-1;H32;XF-63;67;-;-",
-      "name": "Gloss German Field Gray-1;H32;XF-63;67;-;-",
+      "id": "33",
+      "name": "H33",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Russet;H33;-;107;383;1501",
-      "name": "Gloss Russet;H33;-;107;383;1501",
+      "id": "34",
+      "name": "H34",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Cream Yellow;H34;-;24;311;-",
-      "name": "Gloss Cream Yellow;H34;-;24;311;-",
+      "id": "35",
+      "name": "H35",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Cobalt Blue;H35;-;25;56;-",
-      "name": "Gloss Cobalt Blue;H35;-;25;56;-",
+      "id": "36",
+      "name": "H36",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Dark Green;H36;-;75;-;-",
-      "name": "Gloss Dark Green;H36;-;75;-;-",
+      "id": "37",
+      "name": "H37",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Wood Brown;H37;-;9;85;1735",
-      "name": "Gloss Wood Brown;H37;-;9;85;1735",
+      "id": "38",
+      "name": "H38",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Steel Red;H38;-;-;-;-",
-      "name": "Metallic Steel Red;H38;-;-;-;-",
+      "id": "39",
+      "name": "H39",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Purple;H39;X-16;68;353;-",
-      "name": "Gloss Purple;H39;X-16;68;353;-",
+      "id": "40",
+      "name": "H40",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Base;H40;X-21;206;-;-",
-      "name": "Flat Base;H40;X-21;206;-;-",
+      "id": "41",
+      "name": "H41",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Pale Green;H41;-;-;-;-",
-      "name": "Gloss Pale Green;H41;-;-;-;-",
+      "id": "42",
+      "name": "H42",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Blue Gray;H42;XF-8;144;79;-",
-      "name": "Gloss Blue Gray;H42;XF-8;144;79;-",
+      "id": "43",
+      "name": "H43",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Wine Red;H43;-;20;-;-",
-      "name": "Gloss Wine Red;H43;-;20;-;-",
+      "id": "44",
+      "name": "H44",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Flesh;H44;XF-15;61;35;35",
-      "name": "Semi Gloss Flesh;H44;XF-15;61;35;35",
+      "id": "45",
+      "name": "H45",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Light Blue;H45;-;47;-;1508",
-      "name": "Gloss Light Blue;H45;-;47;-;1508",
+      "id": "46",
+      "name": "H46",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Emerald Green;H46;-;2;-;-",
-      "name": "Gloss Emerald Green;H46;-;2;-;-",
+      "id": "47",
+      "name": "H47",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Red Brown;H47;XF-9;73;32/38;1736",
-      "name": "Gloss Red Brown;H47;XF-9;73;32/38;1736",
+      "id": "48",
+      "name": "H48",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss German Field Gray-2;H48;XF-65;-;-;-",
-      "name": "Gloss German Field Gray-2;H48;XF-65;-;-;-",
+      "id": "49",
+      "name": "H49",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Violet;H49;-;-;-;-",
-      "name": "Gloss Violet;H49;-;-;-;-",
+      "id": "50",
+      "name": "H50",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Lime Green;H50;X-15;38;-;-",
-      "name": "Gloss Lime Green;H50;X-15;38;-;-",
+      "id": "51",
+      "name": "H51",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Light Gull Gray;H51;XF-12/XF19;64;-;-",
-      "name": "Gloss Light Gull Gray;H51;XF-12/XF19;64;-;-",
+      "id": "52",
+      "name": "H52",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Olive Drab-1;H52;XF-62;155;66;1591",
-      "name": "Semi Gloss Olive Drab-1;H52;XF-62;155;66;1591",
+      "id": "53",
+      "name": "H53",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Neutral Grey;H53;XF-66;128;-;-",
-      "name": "Semi Gloss Neutral Grey;H53;XF-66;128;-;-",
+      "id": "54",
+      "name": "H54",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Navy Blue;H54;XF-17;104;-;-",
-      "name": "Semi Gloss Navy Blue;H54;XF-17;104;-;-",
+      "id": "55",
+      "name": "H55",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Moonlight Blue;H55;-;181;-;-",
-      "name": "Gloss Moonlight Blue;H55;-;181;-;-",
+      "id": "56",
+      "name": "H56",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss intermediate Blue;H56;XF-18;144;-;1720",
-      "name": "Semi Gloss intermediate Blue;H56;XF-18;144;-;1720",
+      "id": "57",
+      "name": "H57",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Aircraft Grey;H57;-;147;-;1731",
-      "name": "Gloss Aircraft Grey;H57;-;147;-;1731",
+      "id": "58",
+      "name": "H58",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Interior Green;H58;-;151;-;-",
-      "name": "Semi Gloss Interior Green;H58;-;151;-;-",
+      "id": "59",
+      "name": "H59",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss IJN Green;H59;XF-11;75;-;-",
-      "name": "Gloss IJN Green;H59;XF-11;75;-;-",
+      "id": "60",
+      "name": "H60",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss IJA Green;H60;XF-13;195;363;1571",
-      "name": "Semi Gloss IJA Green;H60;XF-13;195;363;1571",
+      "id": "61",
+      "name": "H61",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss IJN Gray;H61;-;146;70;-",
-      "name": "Gloss IJN Gray;H61;-;146;70;-",
+      "id": "62",
+      "name": "H62",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss IJA Gray;H62;XF-14;147;-;-",
-      "name": "Semi Gloss IJA Gray;H62;XF-14;147;-;-",
+      "id": "63",
+      "name": "H63",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Blue-Green;H63;-;-;-;-",
-      "name": "Metallic Blue-Green;H63;-;-;-;-",
+      "id": "64",
+      "name": "H64",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Green RLM-71;H64;-;116;-;-",
-      "name": "Semi Gloss Dark Green RLM-71;H64;-;116;-;-",
+      "id": "65",
+      "name": "H65",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Black Green RLM-70;H65;-;-;-;-",
-      "name": "Semi Gloss Black Green RLM-70;H65;-;-;-;-",
+      "id": "66",
+      "name": "H66",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Sandy Brown RLM-79;H66;XF-57;63;88;-",
-      "name": "Semi Gloss Sandy Brown RLM-79;H66;XF-57;63;88;-",
+      "id": "67",
+      "name": "H67",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Light Blue RLM-65;H67;-;65;-;-",
-      "name": "Semi Gloss Light Blue RLM-65;H67;-;65;-;-",
+      "id": "68",
+      "name": "H68",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Grey RLM-74;H68;-;27;-;-",
-      "name": "Semi Gloss Dark Grey RLM-74;H68;-;27;-;-",
+      "id": "69",
+      "name": "H69",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Grey RLM-75;H69;-;-;-;-",
-      "name": "Semi Gloss Grey RLM-75;H69;-;-;-;-",
+      "id": "70",
+      "name": "H70",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Grey RLM-02;H70;-;-;-;-",
-      "name": "Semi Gloss Grey RLM-02;H70;-;-;-;-",
+      "id": "71",
+      "name": "H71",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Middle Stone;H71;-;94;-;-",
-      "name": "Semi Gloss Middle Stone;H71;-;94;-;-",
+      "id": "72",
+      "name": "H72",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Earth;H72;-;29;86/380;-",
-      "name": "Semi Gloss Dark Earth;H72;-;29;86/380;-",
+      "id": "73",
+      "name": "H73",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Green;H73;XF-61;30;-;-",
-      "name": "Semi Gloss Dark Green;H73;XF-61;30;-;-",
+      "id": "74",
+      "name": "H74",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Duck Egg Green;H74;-;23;-;-",
-      "name": "Semi Gloss Duck Egg Green;H74;-;23;-;-",
+      "id": "75",
+      "name": "H75",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Sea Gray;H75;XF-54;27;-;-",
-      "name": "Semi Gloss Dark Sea Gray;H75;XF-54;27;-;-",
+      "id": "76",
+      "name": "H76",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Burnt Iron;H76;-;53;-;1795",
-      "name": "Metallic Burnt Iron;H76;-;53;-;1795",
+      "id": "77",
+      "name": "H77",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Tire Black;H77;X-18;85;-;1583",
-      "name": "Flat Tire Black;H77;X-18;85;-;1583",
+      "id": "78",
+      "name": "H78",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Olive Drab(2);H78;XF-58;66;-;-",
-      "name": "Semi Gloss Olive Drab(2);H78;XF-58;66;-;-",
+      "id": "79",
+      "name": "H79",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Sandy Yellow;H79;XF-59;93;16;-",
-      "name": "Semi Gloss Sandy Yellow;H79;XF-59;93;16;-",
+      "id": "80",
+      "name": "H80",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Khaki Green;H80;XF-51;-;-;-",
-      "name": "Flat Khaki Green;H80;XF-51;-;-;-",
+      "id": "81",
+      "name": "H81",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Khaki;H81;XF-49;26;-;-",
-      "name": "Flat Khaki;H81;XF-49;26;-;-",
+      "id": "82",
+      "name": "H82",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Grey(1);H82;XF-20;126;47;-",
-      "name": "Semi Gloss Dark Grey(1);H82;XF-20;126;47;-",
+      "id": "83",
+      "name": "H83",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Grey(2);H83;XF-24;112;57/378;-",
-      "name": "Semi Gloss Dark Grey(2);H83;XF-24;112;57/378;-",
+      "id": "84",
+      "name": "H84",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Mahogany;H84;-;-;-;-",
-      "name": "Semi Gloss Mahogany;H84;-;-;-;-",
+      "id": "85",
+      "name": "H85",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Sail Color;H85;-;-;-;2709",
-      "name": "Flat Sail Color;H85;-;-;-;2709",
+      "id": "86",
+      "name": "H86",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Red Madder;H86;-;-;34;2719",
-      "name": "Gloss Red Madder;H86;-;-;34;2719",
+      "id": "87",
+      "name": "H87",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Red;H87;-;51;96;-",
-      "name": "Metallic Red;H87;-;51;96;-",
+      "id": "88",
+      "name": "H88",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Blue;H88;X-13;52;98;-",
-      "name": "Metallic Blue;H88;X-13;52;98;-",
+      "id": "89",
+      "name": "H89",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Metallic Green;H89;-;50;97;-",
-      "name": "Metallic Green;H89;-;50;97;-",
+      "id": "90",
+      "name": "H90",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Clear Red;H90;X-27;1321;531;-",
-      "name": "Gloss Clear Red;H90;X-27;1321;531;-",
+      "id": "91",
+      "name": "H91",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Clear Yellow;H91;X-24;-;512;-",
-      "name": "Gloss Clear Yellow;H91;X-24;-;512;-",
+      "id": "92",
+      "name": "H92",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Clear Orange;H92;X-26;1322;530;-",
-      "name": "Gloss Clear Orange;H92;X-26;1322;530;-",
+      "id": "93",
+      "name": "H93",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Clear Blue;H93;X-23;-;552;-",
-      "name": "Gloss Clear Blue;H93;X-23;-;552;-",
+      "id": "94",
+      "name": "H94",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Clear Green;H94;X-26;1325;561;-",
-      "name": "Gloss Clear Green;H94;X-26;1325;561;-",
+      "id": "95",
+      "name": "H95",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Smoke Gray;H95;X-19;-;-;-",
-      "name": "Gloss Smoke Gray;H95;X-19;-;-;-",
+      "id": "96",
+      "name": "H96",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Blue Smoke;H96;-;-;-;-",
-      "name": "Gloss Blue Smoke;H96;-;-;-;-",
+      "id": "97",
+      "name": "H97",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Fluo Yellow;H97;-;194;312;-",
-      "name": "Gloss Fluo Yellow;H97;-;194;312;-",
+      "id": "98",
+      "name": "H98",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Fluo Orange;H98;-;209;-;-",
-      "name": "Gloss Fluo Orange;H98;-;209;-;-",
+      "id": "99",
+      "name": "H99",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Fluo Pink;H99;-;207;-;-",
-      "name": "Gloss Fluo Pink;H99;-;207;-;-",
+      "id": "100",
+      "name": "H100",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Fluo Green;H100;-;203;-;-",
-      "name": "Gloss Fluo Green;H100;-;203;-;-",
+      "id": "301",
+      "name": "H301",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Gray FS-36081;H301;-;32;-;-",
-      "name": "Semi Gloss Gray FS-36081;H301;-;32;-;-",
+      "id": "302",
+      "name": "H302",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Green FS-34092;H302;-;149;-;1764",
-      "name": "Semi Gloss Green FS-34092;H302;-;149;-;1764",
+      "id": "303",
+      "name": "H303",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Green FS-34102;H303;-;151;-;1713",
-      "name": "Semi Gloss Green FS-34102;H303;-;151;-;1713",
+      "id": "304",
+      "name": "H304",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Olive Drab FS-34087;H304;-;155;-;1711",
-      "name": "Semi Gloss Olive Drab FS-34087;H304;-;155;-;1711",
+      "id": "305",
+      "name": "H305",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Grey FS-36118;H305;-;125;-;-",
-      "name": "Semi Gloss Grey FS-36118;H305;-;125;-;-",
+      "id": "306",
+      "name": "H306",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Grey FS-36270;H306;-;126;-;-",
-      "name": "Semi Gloss Grey FS-36270;H306;-;126;-;-",
+      "id": "307",
+      "name": "H307",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Grey FS-36320;H307;-;128;-;1741",
-      "name": "Semi Gloss Grey FS-36320;H307;-;128;-;1741",
+      "id": "308",
+      "name": "H308",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Grey FS-36375;H308;-;127;-;1728",
-      "name": "Semi Gloss Grey FS-36375;H308;-;127;-;1728",
+      "id": "309",
+      "name": "H309",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Green FS-34079;H309;-;116;-;1710",
-      "name": "Semi Gloss Green FS-34079;H309;-;116;-;1710",
+      "id": "310",
+      "name": "H310",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Brown FS-30219;H310;XF-52;119;85;1742",
-      "name": "Semi Gloss Brown FS-30219;H310;XF-52;119;85;1742",
+      "id": "311",
+      "name": "H311",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Grey FS-36622;H311;-;28;-;-",
-      "name": "Semi Gloss Grey FS-36622;H311;-;28;-;-",
+      "id": "312",
+      "name": "H312",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Green FS-34227;H312;XF-26;120;-;1716",
-      "name": "Semi Gloss Green FS-34227;H312;XF-26;120;-;1716",
+      "id": "313",
+      "name": "H313",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Yellow FS-33531;H313;XF-60;121;-;1706",
-      "name": "Semi Gloss Yellow FS-33531;H313;XF-60;121;-;1706",
+      "id": "314",
+      "name": "H314",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Blue FS-35622;H314;XF-21;122;-;-",
-      "name": "Semi Gloss Blue FS-35622;H314;XF-21;122;-;-",
+      "id": "315",
+      "name": "H315",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Gray FS-16440;H315;XF-54;183;-;1729",
-      "name": "Gloss Gray FS-16440;H315;XF-54;183;-;1729",
+      "id": "316",
+      "name": "H316",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss White FS-17875;H316;-;22;-;-",
-      "name": "Gloss White FS-17875;H316;-;22;-;-",
+      "id": "317",
+      "name": "H317",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Grey FS- 36231;H317;-;140;-;1740",
-      "name": "Flat Grey FS- 36231;H317;-;140;-;1740",
+      "id": "318",
+      "name": "H318",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Radome;H318;-;148;-;1709",
-      "name": "Semi Gloss Radome;H318;-;148;-;1709",
+      "id": "319",
+      "name": "H319",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Light Green;H319;-;-;-;-",
-      "name": "Semi Gloss Light Green;H319;-;-;-;-",
+      "id": "320",
+      "name": "H320",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Green;H320;XF-27;30;360;-",
-      "name": "Semi Gloss Dark Green;H320;XF-27;30;360;-",
+      "id": "321",
+      "name": "H321",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Light Brown;H321;-;-;-;-",
-      "name": "Semi Gloss Light Brown;H321;-;-;-;-",
+      "id": "322",
+      "name": "H322",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Phthal O Yanne Blue;H322;-;-;53;1594",
-      "name": "Gloss Phthal O Yanne Blue;H322;-;-;53;1594",
+      "id": "323",
+      "name": "H323",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Light Blue;H323;XF-23;-;-;-",
-      "name": "Gloss Light Blue;H323;XF-23;-;-;-",
+      "id": "324",
+      "name": "H324",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Light Grey;H324;-;-;-;-",
-      "name": "Flat Light Grey;H324;-;-;-;-",
+      "id": "325",
+      "name": "H325",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Grey FS-26440;H325;-;129;-;1730",
-      "name": "Semi Gloss Grey FS-26440;H325;-;129;-;1730",
+      "id": "326",
+      "name": "H326",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Blue FS-15044;H326;-;189;-;1719",
-      "name": "Gloss Blue FS-15044;H326;-;189;-;1719",
+      "id": "327",
+      "name": "H327",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Red FS-11136;H327;-;153;-;1705",
-      "name": "Gloss Red FS-11136;H327;-;153;-;1705",
+      "id": "328",
+      "name": "H328",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Blue FS-15050;H328;-;190;350;1772",
-      "name": "Gloss Blue FS-15050;H328;-;190;350;1772",
+      "id": "Gloss Yellow FS-13538 H329",
+      "name": "XF-3",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Yellow FS-13538 H329;XF-3;154;/188;310;1708",
-      "name": "Gloss Yellow FS-13538 H329;XF-3;154;/188;310;1708",
+      "id": "330",
+      "name": "H330",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Green BS381/C641;H330;-;163;-;-",
-      "name": "Semi Gloss Dark Green BS381/C641;H330;-;163;-;-",
+      "id": "331",
+      "name": "H331",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Dark Sea Grey BS381/C638;H331;-;164;-;-",
-      "name": "Semi Gloss Dark Sea Grey BS381/C638;H331;-;164;-;-",
+      "id": "332",
+      "name": "H332",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Light Aircraft Grey BS381/C627;H332;XF-25;166;-;-",
-      "name": "Semi Gloss Light Aircraft Grey BS381/C627;H332;XF-25;166;-;-",
+      "id": "333",
+      "name": "H333",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Extra Dark Sea Gray BS381/C640;H333;-;123;351;-",
-      "name": "Semi Gloss Extra Dark Sea Gray BS381/C640;H333;-;123;351;-",
+      "id": "334",
+      "name": "H334",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Barley Gray BS4800/18B21;H334;-;167;-;-",
-      "name": "Semi Gloss Barley Gray BS4800/18B21;H334;-;167;-;-",
+      "id": "335",
+      "name": "H335",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Medium Sea Gray BS381/C637;H335;-;123;-;-",
-      "name": "Semi Gloss Medium Sea Gray BS381/C637;H335;-;123;-;-",
+      "id": "336",
+      "name": "H336",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Hemp BS4800/10B21;H336;-;168;-;-",
-      "name": "Semi Gloss Hemp BS4800/10B21;H336;-;168;-;-",
+      "id": "337",
+      "name": "H337",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Grayish Blue FS-35237;H337;-;145;79;1721",
-      "name": "Semi Gloss Grayish Blue FS-35237;H337;-;145;79;1721",
+      "id": "338",
+      "name": "H338",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Light Grey FS-36495;H338;-;147;-;-",
-      "name": "Semi Gloss Light Grey FS-36495;H338;-;147;-;-",
+      "id": "339",
+      "name": "H339",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Engine Gray FS-16081;H339;-;123;-;1592",
-      "name": "Gloss Engine Gray FS-16081;H339;-;123;-;1592",
+      "id": "340",
+      "name": "H340",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Semi Gloss Field Green FS-34097;H340;-;-;362;1712",
-      "name": "Semi Gloss Field Green FS-34097;H340;-;-;362;1712",
+      "id": "341",
+      "name": "H341",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Mud;H341;-;-;-;-",
-      "name": "Flat Mud;H341;-;-;-;-",
+      "id": "342",
+      "name": "H342",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Gloss Oil Black;H342;-;-;-;-",
-      "name": "Gloss Oil Black;H342;-;-;-;-",
+      "id": "343",
+      "name": "H343",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Soot;H343;-;33;-;1785",
-      "name": "Flat Soot;H343;-;33;-;1785",
+      "id": "344",
+      "name": "H344",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Rust;H344;-;113;83;-",
-      "name": "Flat Rust;H344;-;113;83;-",
+      "id": "345",
+      "name": "H345",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "Flat Rough Gray;H345;-;-;-;-",
-      "name": "Flat Rough Gray;H345;-;-;-;-",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "Flat Rough Sand;H346;-;93;-;-",
-      "name": "Flat Rough Sand;H346;-;93;-;-",
+      "id": "346",
+      "name": "H346",
       "rgb": "",
       "correspondences": []
     }

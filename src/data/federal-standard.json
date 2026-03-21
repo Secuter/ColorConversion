@@ -9,740 +9,488 @@
   "default_suffix": "",
   "colors": [
     {
-      "id": "Federal Standard;RAL;Description;Italeri;Tamiya;Humbrol;Gunze;Revell;AK Interactive",
-      "name": "Federal Standard;RAL;Description;Italeri;Tamiya;Humbrol;Gunze;Revell;AK Interactive",
+      "id": "F.S.34151",
+      "name": "F.S.34151",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34151;;Flat Interior Grey Green;4301AP;-;150;-;-;",
-      "name": "F.S.34151;;Flat Interior Grey Green;4301AP;-;150;-;-;",
+      "id": "F.S.32197",
+      "name": "F.S.32197",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.32197;;Flat Orange;4302AP;X6;18;H14;36125;",
-      "name": "F.S.32197;;Flat Orange;4302AP;X6;18;H14;36125;",
+      "id": "F.S.30118",
+      "name": "F.S.30118",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30118;;Flat Dark Earth;4303AP;XF52;29;H72;36187;",
-      "name": "F.S.30118;;Flat Dark Earth;4303AP;XF52;29;H72;36187;",
+      "id": "F.S.30266",
+      "name": "F.S.30266",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30266;;Flat Middle Stone;4304AP;-;93;H79;36116;",
-      "name": "F.S.30266;;Flat Middle Stone;4304AP;-;93;H79;36116;",
+      "id": "F.S.30219",
+      "name": "F.S.30219",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30219;;Flat Light Brown;4305AP;-;119;H310;-;",
-      "name": "F.S.30219;;Flat Light Brown;4305AP;-;119;H310;-;",
+      "id": "F.S.30111",
+      "name": "F.S.30111",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30111;;Flat Medium Brown;4306AP;XF68;70;-;36137;",
-      "name": "F.S.30111;;Flat Medium Brown;4306AP;XF68;70;-;36137;",
+      "id": "F.S.35095",
+      "name": "F.S.35095",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.35095;;Flat Medium Blue;4307AP;-;-;-;-;",
-      "name": "F.S.35095;;Flat Medium Blue;4307AP;-;-;-;-;",
+      "id": "F.S.35231",
+      "name": "F.S.35231",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.35231;;Flat Azure Blue;4308AP;-;-;-;-;",
-      "name": "F.S.35231;;Flat Azure Blue;4308AP;-;-;-;-;",
+      "id": "F.S.34230",
+      "name": "F.S.34230",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34230;;Flat Light Green;4309AP;-;-;-;-;",
-      "name": "F.S.34230;;Flat Light Green;4309AP;-;-;-;-;",
+      "id": "F.S.34096",
+      "name": "F.S.34096",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34096;;Flat Dark  Slate Grey - Protective Green;4311AP;XF5 -XF13 - XF58 - XF26;195 - 163 - 105 - 150 - 30;H60 - H330 - H340;363;AK746 - AK750",
-      "name": "F.S.34096;;Flat Dark  Slate Grey - Protective Green;4311AP;XF5 -XF13 - XF58 - XF26;195 - 163 - 105 - 150 - 30;H60 - H330 - H340;363;AK746 - AK750",
+      "id": "F.S.36118",
+      "name": "F.S.36118",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36118;;Flat Extra Dark  Sea Grey;4312AP;XF50;112;H305;-;",
-      "name": "F.S.36118;;Flat Extra Dark  Sea Grey;4312AP;XF50;112;H305;-;",
+      "id": "F.S.36270",
+      "name": "F.S.36270",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36270;;Flat Medium  Sea Grey;4313AP;XF66 - XF20;126;H306;-;",
-      "name": "F.S.36270;;Flat Medium  Sea Grey;4313AP;XF66 - XF20;126;H306;-;",
+      "id": "F.S.34092",
+      "name": "F.S.34092",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34092;;Flat Medium  Green I -WWI French Green #2;4314AP;XF26 - XF61;149 - 30 - 195;H302;36167;AK4055",
-      "name": "F.S.34092;;Flat Medium  Green I -WWI French Green #2;4314AP;XF26 - XF61;149 - 30 - 195;H302;36167;AK4055",
+      "id": "F.S.34088",
+      "name": "RAL 7017",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34088;RAL 7017;Flat Olive Drab -Dunkelbraun;4315AP;XF49 - XF51;155;H304 - H52;36146 - 36166;AK793 - AK754 - AK736",
-      "name": "F.S.34088;RAL 7017;Flat Olive Drab -Dunkelbraun;4315AP;XF49 - XF51;155;H304 - H52;36146 - 36166;AK793 - AK754 - AK736",
+      "id": "F.S.31575",
+      "name": "F.S.31575",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.31575;;Flat Light Flesh;4390AP;XF15;61;H44;36135;",
-      "name": "F.S.31575;;Flat Light Flesh;4390AP;XF15;61;H44;36135;",
+      "id": "F.S.31433",
+      "name": "F.S.31433",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.31575;;Flat Skin Tone Tint Base - Light;4601AP;XF15;61;H44;36135;",
-      "name": "F.S.31575;;Flat Skin Tone Tint Base - Light;4601AP;XF15;61;H44;36135;",
+      "id": "F.S.35042",
+      "name": "F.S.35042",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.31433;;Flat Skin Tone Warm Tint;4603AP;XF15;61;H44;36135;",
-      "name": "F.S.31433;;Flat Skin Tone Warm Tint;4603AP;XF15;61;H44;36135;",
+      "id": "F.S.11302",
+      "name": "F.S.11302",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.35042;;Flat Non Specular Sea Blue - WWI French Uniform Shadow;4604AP;XF17;77;H54;36179;AK3101",
-      "name": "F.S.35042;;Flat Non Specular Sea Blue - WWI French Uniform Shadow;4604AP;XF17;77;H54;36179;AK3101",
+      "id": "F.S.31400",
+      "name": "F.S.31400",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.11302;;Gloss Red;4605AP;X27;132;-;-;",
-      "name": "F.S.11302;;Gloss Red;4605AP;X27;132;-;-;",
+      "id": "F.S.31350",
+      "name": "F.S.31350",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.31400;;Flat Red;4606AP;X7;60;H414;-;",
-      "name": "F.S.31400;;Flat Red;4606AP;X7;60;H414;-;",
+      "id": "-",
+      "name": "-",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.31350;;Flat Guards Red;4632AP;XF7;60;H13;36136;",
-      "name": "F.S.31350;;Flat Guards Red;4632AP;XF7;60;H13;36136;",
+      "id": "F.S.35164",
+      "name": "F.S.35164",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "-;;Flat Clear Acryl 35 ml;4636AP;X21;49;H20;36102;",
-      "name": "-;;Flat Clear Acryl 35 ml;4636AP;X21;49;H20;36102;",
+      "id": "F.S.30109",
+      "name": "F.S.30109",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "-;;Semigloss  Clear  35 ml;4637AP;-;135;-;-;",
-      "name": "-;;Semigloss  Clear  35 ml;4637AP;-;135;-;-;",
+      "id": "F.S.13538",
+      "name": "F.S.13538",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "-;;Gloss Clear Acryl 35 ml;4638AP;X22;35;H30;36101;",
-      "name": "-;;Gloss Clear Acryl 35 ml;4638AP;X22;35;H30;36101;",
+      "id": "F.S.30140",
+      "name": "F.S.30140",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.35164;;Flat Non Specular Interm. Blue;4639AP;-;144;H42;36179;AK2054",
-      "name": "F.S.35164;;Flat Non Specular Interm. Blue;4639AP;-;144;H42;36179;AK2054",
+      "id": "F.S.33434",
+      "name": "F.S.33434",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30109;;Flat Marrone Mimetico 1;4640AP;XF9;73;H13;36137;",
-      "name": "F.S.30109;;Flat Marrone Mimetico 1;4640AP;XF9;73;H13;36137;",
+      "id": "F.S.15200",
+      "name": "F.S.15200",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30118;;Flat Marrone Mimetico 2;4641AP;XF52;29;H72;36187;AK3081",
-      "name": "F.S.30118;;Flat Marrone Mimetico 2;4641AP;XF52;29;H72;36187;AK3081",
+      "id": "F.S.15180",
+      "name": "F.S.15180",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.13538;;Gloss Yellow;4642AP;X24;69;H4;-;",
-      "name": "F.S.13538;;Gloss Yellow;4642AP;X24;69;H4;-;",
+      "id": "F.S.14090",
+      "name": "F.S.14090",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30219;;Flat Nocciola Chiaro;4643AP;XF52;119;H310;36185;",
-      "name": "F.S.30219;;Flat Nocciola Chiaro;4643AP;XF52;119;H310;36185;",
+      "id": "F.S.17043",
+      "name": "F.S.17043",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30140;;Flat Bruno Mimetico;4644AP;XF52;29;H72;36187;AK3081",
-      "name": "F.S.30140;;Flat Bruno Mimetico;4644AP;XF52;29;H72;36187;AK3081",
+      "id": "F.S.30257",
+      "name": "RAL 8023",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.33434;;Flat Giallo Mimetico 3;4645AP;-;7;-;36116;",
-      "name": "F.S.33434;;Flat Giallo Mimetico 3;4645AP;-;7;-;36116;",
+      "id": "F.S.30100",
+      "name": "F.S.30100",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30266;RAL 7028;Flat Giallo Mimetico 4 - New Iraqi Army Sand;4646AP;XF60 - XF55;93 - 121;H79 - H403;36116;AK006 - AK7013 - AK714 - AK725",
-      "name": "F.S.30266;RAL 7028;Flat Giallo Mimetico 4 - New Iraqi Army Sand;4646AP;XF60 - XF55;93 - 121;H79 - H403;36116;AK006 - AK7013 - AK714 - AK725",
+      "id": "F.S.37178",
+      "name": "F.S.37178",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.15200;;Gloss Light Blue;4650AP;X23;-;-;-;",
-      "name": "F.S.15200;;Gloss Light Blue;4650AP;X23;-;-;-;",
+      "id": "F.S.17178",
+      "name": "F.S.17178",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.15180;;Gloss French Blue;4659AP;XF8;14;H45 - H15;36152;",
-      "name": "F.S.15180;;Gloss French Blue;4659AP;XF8;14;H45 - H15;36152;",
+      "id": "F.S.37200",
+      "name": "F.S.37200",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.14090;;Gloss Green;4669AP;X28;-;-;-;",
-      "name": "F.S.14090;;Gloss Green;4669AP;X28;-;-;-;",
+      "id": "F.S.12197",
+      "name": "F.S.12197",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.17043;;Metal. Gloss Gold;4671AP;X12;16;H9;36194;",
-      "name": "F.S.17043;;Metal. Gloss Gold;4671AP;X12;16;H9;36194;",
+      "id": "F.S.15050",
+      "name": "F.S.15050",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "-;;Metal. Gloss Brass;4672AP;-;54;-;36192;",
-      "name": "-;;Metal. Gloss Brass;4672AP;-;54;-;36192;",
+      "id": "F.S.17038",
+      "name": "F.S.17038",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30257;RAL 8023;Flat  Wood;4673AP;XF59;set-63;H37 - H33;36185;-",
-      "name": "F.S.30257;RAL 8023;Flat  Wood;4673AP;XF59;set-63;H37 - H33;36185;-",
+      "id": "F.S.17875",
+      "name": "F.S.17875",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30100;;Flat Leather;4674AP;-;100;H7;-;",
-      "name": "F.S.30100;;Flat Leather;4674AP;-;100;H7;-;",
+      "id": "F.S.30117",
+      "name": "F.S.30117",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30109;;Flat Rust;4675AP;XF9;73;H343;36183;",
-      "name": "F.S.30109;;Flat Rust;4675AP;XF9;73;H343;36183;",
+      "id": "F.S.30277",
+      "name": "RAL 8000",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.37178;;Metal. Flat Aluminum;4677AP;XF56;56;H8;32199;",
-      "name": "F.S.37178;;Metal. Flat Aluminum;4677AP;XF56;56;H8;32199;",
+      "id": "F.S.31136",
+      "name": "F.S.31136",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.17178;;Metal. Gloss Silver;4678AP;XF16 - X11;11;H8;32190;",
-      "name": "F.S.17178;;Metal. Gloss Silver;4678AP;XF16 - X11;11;H8;32190;",
+      "id": "F.S.30475",
+      "name": "F.S.30475",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.37178;;Metal.Flat Steel;4679AP;X31;-;H18;-;",
-      "name": "F.S.37178;;Metal.Flat Steel;4679AP;X31;-;H18;-;",
+      "id": "F.S.33538",
+      "name": "F.S.33538",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.37200;;Flat Gun Metal;4681AP;X10;53;H76 - H18;-;AK798",
-      "name": "F.S.37200;;Flat Gun Metal;4681AP;X10;53;H76 - H18;-;AK798",
+      "id": "F.S.34079",
+      "name": "F.S.34079",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.12197;;Gloss Orange;4682AP;X6;18;H14;36130;",
-      "name": "F.S.12197;;Gloss Orange;4682AP;X6;18;H14;36130;",
+      "id": "F.S.34084",
+      "name": "F.S.34084",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.15050;;Gloss(Blu Angels) Blue;4687AP;X3;190 - 15;H328;36150;",
-      "name": "F.S.15050;;Gloss(Blu Angels) Blue;4687AP;X3;190 - 15;H328;36150;",
+      "id": "F.S.34082",
+      "name": "RAL 6003",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.17038;;Gloss Black;4695AP;X1;21;H2;36107;",
-      "name": "F.S.17038;;Gloss Black;4695AP;X1;21;H2;36107;",
+      "id": "F.S.34272",
+      "name": "RAL 6011",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.17875;;Gloss White;4696AP;X2;22;H21 - H1 - H316;36104;AK2052",
-      "name": "F.S.17875;;Gloss White;4696AP;X2;22;H21 - H1 - H316;36104;AK2052",
+      "id": "F.S.36173",
+      "name": "F.S.36173",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30117;;Flat Earth Red;4707AP;XF64;186 - 160;H47;36185;",
-      "name": "F.S.30117;;Flat Earth Red;4707AP;XF64;186 - 160;H47;36185;",
+      "id": "F.S.36231",
+      "name": "F.S.36231",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30118;;Flat Field Drab;4708AP;XF52;29;H72;36187;AK3081",
-      "name": "F.S.30118;;Flat Field Drab;4708AP;XF52;29;H72;36187;AK3081",
+      "id": "F.S.35237",
+      "name": "F.S.35237",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30219;;Flat Dark Tan;4709AP;XF52;119;H310;36185;",
-      "name": "F.S.30219;;Flat Dark Tan;4709AP;XF52;119;H310;36185;",
+      "id": "F.S.36300",
+      "name": "F.S.36300",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30277;RAL 8000;Flat Armor Sand;4711AP;X41;187;H336;-;AK702",
-      "name": "F.S.30277;RAL 8000;Flat Armor Sand;4711AP;X41;187;H336;-;AK702",
+      "id": "F.S.36622",
+      "name": "RAL 7027",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.31136;;Flat Insignia Red;4714AP;XF7;153;H327;32;AK740",
-      "name": "F.S.31136;;Flat Insignia Red;4714AP;XF7;153;H327;32;AK740",
+      "id": "F.S.36495",
+      "name": "F.S.36495",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.30475;;Flat Sand;4720AP;XF60 - XF78 - XF10;121 - 98;H313;-;",
-      "name": "F.S.30475;;Flat Sand;4720AP;XF60 - XF78 - XF10;121 - 98;H313;-;",
+      "id": "F.S.35189",
+      "name": "F.S.35189",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.33538;;Flat Insignia Yellow;4721AP;XF3;154 / 188 - 99;H329;36115;",
-      "name": "F.S.33538;;Flat Insignia Yellow;4721AP;XF3;154 / 188 - 99;H329;36115;",
+      "id": "F.S.37038",
+      "name": "F.S.37038",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34092;;Flat Verde Mimetico 2 -  Splittermuster Rainmarks;4723AP;XF26 - XF61;30 - 46;H302;66;AK3044",
-      "name": "F.S.34092;;Flat Verde Mimetico 2 -  Splittermuster Rainmarks;4723AP;XF26 - XF61;30 - 46;H302;66;AK3044",
+      "id": "F.S.37875",
+      "name": "F.S.37875",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34079;;Flat Dark Green;4726AP;XF65 - XF13;116;H309;36167;AK755",
-      "name": "F.S.34079;;Flat Dark Green;4726AP;XF65 - XF13;116;H309;36167;AK755",
+      "id": "F.S.24226",
+      "name": "F.S.24226",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34084;;Flat Olive Drab - US Army;4728AP;XF62;66;H17 - H78;36166;AK133 - AK4043",
-      "name": "F.S.34084;;Flat Olive Drab - US Army;4728AP;XF62;66;H17 - H78;36166;AK133 - AK4043",
+      "id": "F.S.35352",
+      "name": "F.S.35352",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34092;;Flat Euro I Dark Green;4729AP;XF26;30;H302;-;",
-      "name": "F.S.34092;;Flat Euro I Dark Green;4729AP;XF26;30;H302;-;",
+      "id": "F.S.34052",
+      "name": "F.S.34052",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34082;RAL 6003;Flat Medium Green II;4734AP;XF11;102;H303 - H80;36145;AK031 - AK752",
-      "name": "F.S.34082;RAL 6003;Flat Medium Green II;4734AP;XF11;102;H303 - H80;36145;AK031 - AK752",
+      "id": "F.S.36099",
+      "name": "F.S.36099",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34151;;Flat Interior Green;4736AP;-;150;-;-;",
-      "name": "F.S.34151;;Flat Interior Green;4736AP;-;150;-;-;",
+      "id": "F.S.36473",
+      "name": "F.S.36473",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34272;RAL 6011;Flat Pale Green;4739AP;XF26;120;H312;-;AK715",
-      "name": "F.S.34272;RAL 6011;Flat Pale Green;4739AP;XF26;120;H312;-;AK715",
+      "id": "F.S.30215",
+      "name": "F.S.30215",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36270;;Flat Medium Gray;4746AP;XF66 - XF20 - XF12;145 - 126 - 64;H337 - H306;36175;",
-      "name": "F.S.36270;;Flat Medium Gray;4746AP;XF66 - XF20 - XF12;145 - 126 - 64;H337 - H306;36175;",
+      "id": "F.S.36081 -F.S.37031",
+      "name": "RAL7021",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36118;;Flat Gunship Gray;4752AP;XF50 - XF24;112 - USN 1;H305;36177;",
-      "name": "F.S.36118;;Flat Gunship Gray;4752AP;XF50 - XF24;112 - USN 1;H305;36177;",
+      "id": "F.S.33440",
+      "name": "F.S.33440",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36173;;Flat Dark Gray;4754AP;XF53;27;H22;-;",
-      "name": "F.S.36173;;Flat Dark Gray;4754AP;XF53;27;H22;-;",
+      "id": "F.S.30045",
+      "name": "RAL 8017",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36231;;Flat Dark Gull Gray -Dunkelgrau High Light;4755AP;XF54;140 - 165;H317 - H75;36157;AK164 - AK165",
-      "name": "F.S.36231;;Flat Dark Gull Gray -Dunkelgrau High Light;4755AP;XF54;140 - 165;H317 - H75;36157;AK164 - AK165",
+      "id": "F.S.34128",
+      "name": "F.S.34128",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.35237;;Flat Dark Ghost Gray;4761AP;XF53;128 - 167 - 128;H307-H337-H53;-;AK2056",
-      "name": "F.S.35237;;Flat Dark Ghost Gray;4761AP;XF53;128 - 167 - 128;H307-H337-H53;-;AK2056",
+      "id": "F.S.34083",
+      "name": "F.S.34083",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36300;;Flat Light Ghost Gray;4762AP;-;127;H308;-;",
-      "name": "F.S.36300;;Flat Light Ghost Gray;4762AP;-;127;H308;-;",
+      "id": "F.S.30450",
+      "name": "F.S.30450",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36622;RAL 7027;Flat Gull Gray;4763AP;XF55;129 - 28 - 129;H325;-;AK701 - AK723",
-      "name": "F.S.36622;RAL 7027;Flat Gull Gray;4763AP;XF55;129 - 28 - 129;H325;-;AK701 - AK723",
+      "id": "F.S.34098",
+      "name": "F.S.34098",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36495;;Flat Light Gray;4765AP;XF19;127 - USN 3;H308;-;",
-      "name": "F.S.36495;;Flat Light Gray;4765AP;XF19;127 - USN 3;H308;-;",
+      "id": "F.S.33446",
+      "name": "F.S.33446",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.35189;;Flat Non Specular Blue Grey;4766AP;-;157;-;-;",
-      "name": "F.S.35189;;Flat Non Specular Blue Grey;4766AP;-;157;-;-;",
+      "id": "F.S.30252",
+      "name": "RAL 8023",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.37038;;Flat Black;4768AP;XF1;33;H12;36108;AK735 - AK3007 - AK3034",
-      "name": "F.S.37038;;Flat Black;4768AP;XF1;33;H12;36108;AK735 - AK3007 - AK3034",
+      "id": "F.S.34086",
+      "name": "RAL 7009",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.37875;;Flat White;4769AP;XF2;34;H11;36105;AK738",
-      "name": "F.S.37875;;Flat White;4769AP;XF2;34;H11;36105;AK738",
+      "id": "F.S.14087",
+      "name": "RAL 7008",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.24226;;Grau RLM 02;4770AP;XF22 - XF71;78;H70;36148;",
-      "name": "F.S.24226;;Grau RLM 02;4770AP;XF22 - XF71;78;H70;36148;",
+      "id": "F.S.30059",
+      "name": "F.S.30059",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.35352;;Hellblau RLM 65 - APC Interior Light Green;4778AP;XF21 - XF23;65 - 90;H67;36155 - 59;AK4012",
-      "name": "F.S.35352;;Hellblau RLM 65 - APC Interior Light Green;4778AP;XF21 - XF23;65 - 90;H67;36155 - 59;AK4012",
+      "id": "F.S.36375",
+      "name": "RAL 7038",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.34052;;Schwarzgrün RLM 70;4780AP;XF11 - XF13 - XF27;75 - 91;H65;40;AK3023",
-      "name": "F.S.34052;;Schwarzgrün RLM 70;4780AP;XF11 - XF13 - XF27;75 - 91;H65;40;AK3023",
+      "id": "F.S.30160",
+      "name": "F.S.30160",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "-;;Dunkelgrün RLM 71;4781AP;XF58;163;H64;-;",
-      "name": "-;;Dunkelgrün RLM 71;4781AP;XF58;163;H64;-;",
+      "id": "F.S.33613",
+      "name": "F.S.33613",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36099;;Graugrün RLM 74;4784AP;XF63;123;H68 - H401;78;AK163",
-      "name": "F.S.36099;;Graugrün RLM 74;4784AP;XF63;123;H68 - H401;78;AK163",
+      "id": "F.S.36307",
+      "name": "F.S.36307",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36231;;Grauviolett RLM 75;4785AP;XF19 - XF54;140;H317;-;",
-      "name": "F.S.36231;;Grauviolett RLM 75;4785AP;XF19 - XF54;140;H317;-;",
+      "id": "F.S.36320",
+      "name": "F.S.36320",
       "rgb": "",
       "correspondences": []
     },
     {
-      "id": "F.S.36473;;Lichtblau RLM 76;4786AP;XF14;147;H417;36371;",
-      "name": "F.S.36473;;Lichtblau RLM 76;4786AP;XF14;147;H417;36371;",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30215;;Sandgelb RLM 79;4789AP;-;62;-;36185 - 36382;AK706",
-      "name": "F.S.30215;;Sandgelb RLM 79;4789AP;-;62;-;36185 - 36382;AK706",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36081 -F.S.37031;RAL7021;Flat Pz. Schwarzgrau RAL 7021",
-      "name": "Dunkelgrau Shadow;4795AP;XF24 - XF63 -XF69;123 - 85;H301 - H77 - H333;set-78;AK161 - AK704 - AK720 - AK3002 - AK3003 - AK3093",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33440;;Flat Panzer Dunkelgelb 1943;4796AP;XF4;81;-;-;",
-      "name": "F.S.33440;;Flat Panzer Dunkelgelb 1943;4796AP;XF4;81;-;-;",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30045;RAL 8017;Flat Pz. Schokobraun RAL 8017;4797AP;XF10;98;H84;-;AK718",
-      "name": "F.S.30045;RAL 8017;Flat Pz. Schokobraun RAL 8017;4797AP;XF10;98;H84;-;AK718",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34128;;Flat Panzer Olivgrün 1943;4798AP;XF26;131;-;-;",
-      "name": "F.S.34128;;Flat Panzer Olivgrün 1943;4798AP;XF26;131;-;-;",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34083;;Flat Russian Armor Green;4807AP;XF62 - XF81;66;H420;36166;",
-      "name": "F.S.34083;;Flat Russian Armor Green;4807AP;XF62 - XF81;66;H420;36166;",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30450;;Flat US Army/Mar.Gulf Arm Sand;4812AP;-;94;-;36188;",
-      "name": "F.S.30450;;Flat US Army/Mar.Gulf Arm Sand;4812AP;-;94;-;36188;",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34088;RAL 6003;Flat Olive Drab Ana 613;4842AP;XF13 - XF65;116;H309;36187 - 361;AK755",
-      "name": "F.S.34088;RAL 6003;Flat Olive Drab Ana 613;4842AP;XF13 - XF65;116;H309;36187 - 361;AK755",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30140;;Flat Dark Earth Ana 617;4846AP;XF52;29;H72;36187;AK3081",
-      "name": "F.S.30140;;Flat Dark Earth Ana 617;4846AP;XF52;29;H72;36187;AK3081",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34098;;Flat Military Green;4852AP;XF4;159;H423;-;AK4013",
-      "name": "F.S.34098;;Flat Military Green;4852AP;XF4;159;H423;-;AK4013",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33446;;OIF & OEF US Vehicles Base colour;-;-;-;-;-;AK122",
-      "name": "F.S.33446;;OIF & OEF US Vehicles Base colour;-;-;-;-;-;AK122",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 9001;RAL Cremeweiss;-;-;-;H338;371;AK092",
-      "name": "-;RAL 9001;RAL Cremeweiss;-;-;-;H338;371;AK092",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30252;RAL 8023;Red Primer High Light;-;-;9;H37;80;AK129",
-      "name": "F.S.30252;RAL 8023;Red Primer High Light;-;-;9;H37;80;AK129",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34086;RAL 7009;Olive Drab Shadow;-;XF74;163;H330;42;AK132",
-      "name": "F.S.34086;RAL 7009;Olive Drab Shadow;-;XF74;163;H330;42;AK132",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.14087;RAL 7008;Olive Drab Base;-;XF49;26 - 72;H81;-;AK134 - AK703 - AK705",
-      "name": "F.S.14087;RAL 7008;Olive Drab Base;-;XF49;26 - 72;H81;-;AK134 - AK703 - AK705",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30059;;Shadow rust;-;XF10;-;-;84;AK710",
-      "name": "F.S.30059;;Shadow rust;-;XF10;-;-;84;AK710",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36375;RAL 7038;Hellgrau - Light Ghost Grey;-;-;127;-;;AK732 - AK2057",
-      "name": "F.S.36375;RAL 7038;Hellgrau - Light Ghost Grey;-;-;127;-;;AK732 - AK2057",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30160;;Yellow;-;-;69;H329;;AK739",
-      "name": "F.S.30160;;Yellow;-;-;69;H329;;AK739",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33613;;Radome Tan;-;-;-;-;-;AK2053",
-      "name": "F.S.33613;;Radome Tan;-;-;-;-;-;AK2053",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36307;;Light Sea Grey;-;-;-;-;-;AK2055",
-      "name": "F.S.36307;;Light Sea Grey;-;-;-;-;-;AK2055",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36320;;Dark Ghost Grey;-;-;-;-;;AK2058",
-      "name": "F.S.36320;;Dark Ghost Grey;-;-;-;-;;AK2058",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33722;;Buff Light Shade;-;-;-;-;-;AK4006",
-      "name": "F.S.33722;;Buff Light Shade;-;-;-;-;-;AK4006",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 8020;GELBBRAUN;-;-;-;-;-;AK700",
-      "name": "-;RAL 8020;GELBBRAUN;-;-;-;-;-;AK700",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 6011B;RESEDAGRÜN;-;-;-;H58;-;AK716",
-      "name": "-;RAL 6011B;RESEDAGRÜN;-;-;-;H58;-;AK716",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 8012;Rotbraun - Red primer base;-;XF9;-;H17;-;AK717 - AK127",
-      "name": "-;RAL 8012;Rotbraun - Red primer base;-;XF9;-;H17;-;AK717 - AK127",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 8013 F9;German sand brown;-;-;-;-;-;AK727",
-      "name": "-;RAL 8013 F9;German sand brown;-;-;-;-;-;AK727",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": ";RAL 8013;Schiffsbodenfarbe III rot 5;-;-;-;-;-;AK731",
-      "name": ";RAL 8013;Schiffsbodenfarbe III rot 5;-;-;-;-;-;AK731",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 1039 F9;German sand beige;-;-;71;-;314;AK728",
-      "name": "-;RAL 1039 F9;German sand beige;-;-;71;-;314;AK728",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 7050 F7;German grey beige;-;-;-;-;-;AK729",
-      "name": "-;RAL 7050 F7;German grey beige;-;-;-;-;-;AK729",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 7037;Dunkelgrau - Dunkelgrau 51;-;XF75 - XF77;126;H416 - H355;77 - 43;AK733 -AK734",
-      "name": "-;RAL 7037;Dunkelgrau - Dunkelgrau 51;-;XF75 - XF77;126;H416 - H355;77 - 43;AK733 -AK734",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 7028;Dunkelgelb (Initial);-;-;-;-;-;AK753",
-      "name": "-;RAL 7028;Dunkelgelb (Initial);-;-;-;-;-;AK753",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;Red Primer Shine;-;-;-;H66;-;AK130",
-      "name": "-;-;Red Primer Shine;-;-;-;H66;-;AK130",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;7K Russian Tan - Buff Dark Shade;-;-;-;H404;-;AK748 - AK4007",
-      "name": "-;-;7K Russian Tan - Buff Dark Shade;-;-;-;H404;-;AK748 - AK4007",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;Weathered Wood;-;-;98;H406;-;AK783",
-      "name": "-;-;Weathered Wood;-;-;98;H406;-;AK783",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;M-44 Light Green Dots;-;-;-;H50;-;AK3024",
-      "name": "-;-;M-44 Light Green Dots;-;-;-;H50;-;AK3024",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;WWI French Milky Coffee;-;-;-;H85;-;AK4051",
-      "name": "-;-;WWI French Milky Coffee;-;-;-;H85;-;AK4051",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;Negro Satinado;-;X18;-;-;302;AK719",
-      "name": "-;-;Negro Satinado;-;X18;-;-;302;AK719",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;RAL 8002;Wood Grain;-;-;113;-;-;AK781",
-      "name": "-;RAL 8002;Wood Grain;-;-;113;-;-;AK781",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;Middle Grey;-;-;-;-;374;AK785",
-      "name": "-;-;Middle Grey;-;-;-;-;374;AK785",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;NATO Green - Splittermuster Light Shade - WWI German Uniform Light;-;XF76;-;-;-;AK796 - AK3045 - AK3092",
-      "name": "-;-;NATO Green - Splittermuster Light Shade - WWI German Uniform Light;-;XF76;-;-;-;AK796 - AK3045 - AK3092",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;Splittermuster Green Spots;-;XF67;75;-;65;AK3043",
-      "name": "-;-;Splittermuster Green Spots;-;XF67;75;-;65;AK3043",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-;-;Thinner 60ml;5049AP;X20A;-;-;-;-",
-      "name": "-;-;Thinner 60ml;5049AP;X20A;-;-;-;-",
+      "id": "F.S.33722",
+      "name": "F.S.33722",
       "rgb": "",
       "correspondences": []
     }

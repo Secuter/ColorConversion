@@ -9,12 +9,6 @@
   "default_suffix": "",
   "colors": [
     {
-      "id": "Nº;Colour NAME;RAL/RLM/FS;RAL;Revell;Tamiya;Gunze;MM Acrylic;MM Enamel;MM Authentic;Humbrol;Italeri",
-      "name": "Nº;Colour NAME;RAL/RLM/FS;RAL;Revell;Tamiya;Gunze;MM Acrylic;MM Enamel;MM Authentic;Humbrol;Italeri",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
       "id": "004;Dunkelgelb shadow;-;-;-;-;-;-;1592;-;-;-",
       "name": "AK004;Dunkelgelb shadow;-;-;-;-;-;-;1592;-;-;-",
       "rgb": "",
