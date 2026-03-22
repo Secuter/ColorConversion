@@ -80,6 +80,33 @@
           <h2>3. Target Paint Line(s)</h2>
         </div>
 
+        <div class="type-filters">
+          <label class="radio">
+            <input type="radio" v-model="targetSelectionMode" value="all" @change="applyTargetSelectionMode" />
+            Select All
+          </label>
+          <label class="radio">
+            <input type="radio" v-model="targetSelectionMode" value="enamel" @change="applyTargetSelectionMode" />
+            Enamels
+          </label>
+          <label class="radio">
+            <input type="radio" v-model="targetSelectionMode" value="acrylic-water" @change="applyTargetSelectionMode" />
+            Acrylic water
+          </label>
+          <label class="radio">
+            <input type="radio" v-model="targetSelectionMode" value="acrylic-alcohol" @change="applyTargetSelectionMode" />
+            Acrylic alcohol
+          </label>
+          <label class="radio">
+            <input type="radio" v-model="targetSelectionMode" value="laquer" @change="applyTargetSelectionMode" />
+            Laquers
+          </label>
+          <label class="radio">
+            <input type="radio" v-model="targetSelectionMode" value="custom" />
+            Custom
+          </label>
+        </div>
+
         <div class="checkbox-list">
           <label class="checkbox checkbox-all">
             <input type="checkbox" v-model="selectAllTargets" @change="toggleSelectAll" />
@@ -131,9 +158,32 @@ const selectedManufacturer = ref('')
 const selectedSourceSeries = ref<PaintSeries | null>(null)
 const selectedTargetManufacturers = ref<string[]>([...allManufacturers])
 const selectAllTargets = ref(true)
+const targetSelectionMode = ref<'all' | 'enamel' | 'acrylic-water' | 'acrylic-alcohol' | 'laquer' | 'custom'>('all')
 const conversionResults = ref<ConversionResult[]>([])
 
 const manufacturerList = computed(() => allManufacturers)
+
+const manufacturersByType = computed<Record<string, string[]>>(() => {
+  const grouped = new Map<string, Set<string>>()
+
+  for (const series of allSeries) {
+    const seriesType = series.type
+    if (!seriesType) continue
+
+    if (!grouped.has(seriesType)) {
+      grouped.set(seriesType, new Set<string>())
+    }
+
+    grouped.get(seriesType)?.add(series.manufacturer)
+  }
+
+  const result: Record<string, string[]> = {}
+  for (const [seriesType, manufacturers] of grouped.entries()) {
+    result[seriesType] = [...manufacturers]
+  }
+
+  return result
+})
 
 function sanitizeInputCode(code: string): string {
   return code.replace(/\s+/g, '').trim()
@@ -209,10 +259,62 @@ const canConvert = computed(() => {
 function toggleSelectAll() {
   if (selectAllTargets.value) {
     selectedTargetManufacturers.value = [...manufacturerList.value]
+    targetSelectionMode.value = 'all'
   } else {
     selectedTargetManufacturers.value = []
+    targetSelectionMode.value = 'custom'
   }
 }
+
+function applyTargetSelectionMode() {
+  if (targetSelectionMode.value === 'custom') {
+    return
+  }
+
+  if (targetSelectionMode.value === 'all') {
+    selectedTargetManufacturers.value = [...manufacturerList.value]
+    return
+  }
+
+  selectedTargetManufacturers.value = [...(manufacturersByType.value[targetSelectionMode.value] ?? [])]
+}
+
+function normalizeManufacturers(values: string[]): string[] {
+  return [...new Set(values)].sort((a, b) => a.localeCompare(b))
+}
+
+function manufacturersMatch(left: string[], right: string[]): boolean {
+  const leftNormalized = normalizeManufacturers(left)
+  const rightNormalized = normalizeManufacturers(right)
+  if (leftNormalized.length !== rightNormalized.length) return false
+  return leftNormalized.every((value, index) => value === rightNormalized[index])
+}
+
+watch(selectedTargetManufacturers, (targets) => {
+  selectAllTargets.value = targets.length > 0 && targets.length === manufacturerList.value.length
+
+  if (manufacturersMatch(targets, manufacturerList.value)) {
+    targetSelectionMode.value = 'all'
+    return
+  }
+
+  const presetModes: Array<'enamel' | 'acrylic-water' | 'acrylic-alcohol' | 'laquer'> = [
+    'enamel',
+    'acrylic-water',
+    'acrylic-alcohol',
+    'laquer',
+  ]
+
+  for (const mode of presetModes) {
+    const manufacturersForMode = manufacturersByType.value[mode] ?? []
+    if (manufacturersMatch(targets, manufacturersForMode)) {
+      targetSelectionMode.value = mode
+      return
+    }
+  }
+
+  targetSelectionMode.value = 'custom'
+})
 
 function performConversion() {
   const codes = normalizedInputCodes.value
@@ -382,6 +484,26 @@ function performConversion() {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
+}
+
+.type-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.radio input {
+  margin-right: 0.5rem;
+  cursor: pointer;
 }
 
 .checkbox-all {

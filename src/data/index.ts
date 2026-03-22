@@ -21,6 +21,7 @@ import paintLines from './paint-lines.json'
 interface PaintLineMeta {
   series: string
   manufacturer: string
+  type?: string
   prefixes?: string[]
   default_prefix?: string
   suffixes?: string[]
@@ -46,6 +47,7 @@ function withPaintLineMeta(series: PaintSeries): PaintSeries {
 
   return {
     ...series,
+    type: meta.type,
     prefixes: meta.prefixes ?? series.prefixes,
     default_prefix: meta.default_prefix ?? series.default_prefix,
     suffixes: meta.suffixes ?? series.suffixes ?? [],
@@ -53,7 +55,7 @@ function withPaintLineMeta(series: PaintSeries): PaintSeries {
   }
 }
 
-export const allSeries: PaintSeries[] = [
+const configuredSeries: PaintSeries[] = [
   withPaintLineMeta(vallejoModelColor as PaintSeries),
   withPaintLineMeta(vallejoModelAir as PaintSeries),
   withPaintLineMeta(akAcrylic as PaintSeries),
@@ -72,6 +74,10 @@ export const allSeries: PaintSeries[] = [
   withPaintLineMeta(tamiyaAcrylic as PaintSeries),
   withPaintLineMeta(italeri as PaintSeries),
 ]
+
+export const allSeries: PaintSeries[] = configuredSeries.filter(series =>
+  paintLineMetaByKey.has(`${series.manufacturer}|${series.series}`),
+)
 
 /** All unique manufacturer names */
 export const allManufacturers: string[] = [...new Set(allSeries.map(s => s.manufacturer))]

@@ -36,6 +36,14 @@ pip install -r tools/pdf-import/requirements.txt
 ```bash
 python tools/pdf-import/src/parse_sources.py
 
+python tools/pdf-import/src/remap_sources.py
+
+python tools/pdf-import/src/extract_csv_headers.py tools/pdf-import/input
+
+python tools/pdf-import/src/extract_csv_headers.py tools/pdf-import/input --print
+
+python tools/pdf-import/src/extract_csv_headers.py tools/pdf-import/input --recursive --text-output tools/pdf-import/output/headers.txt --json-output tools/pdf-import/output/headers-with-sources.json
+
 python tools/pdf-import/src/extract_tables.py
 
 python tools/pdf-import/src/build_json.py --step all
