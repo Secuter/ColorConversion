@@ -136,6 +136,17 @@ Used to import and normalize paint data from PDFs, CSVs and HTML files.
 - Output goes to `tools/pdf-import/output/`; finalized JSONs are copied to `src/data/`
 - Keep **`COMMANDS.md`** up to date whenever scripts are added, renamed, or their arguments change
 
+### Important: Script-Generated Files
+
+**Do NOT manually edit generated files** (e.g., `tools/pdf-import/output/normalized/*.csv`, `tools/pdf-import/mappings/column-headers.json`) when logic or formatting changes are required.
+
+Instead:
+1. Update the Python script to implement the desired logic/formatting change
+2. Re-run the script to regenerate files correctly
+3. Verify outputs and commit the regenerated files
+
+This ensures consistency, prevents accidental regressions, and maintains proper serialization/formatting across the pipeline.
+
 ---
 
 ## Adding a New Paint Line (checklist)
