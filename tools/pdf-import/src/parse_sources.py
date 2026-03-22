@@ -42,7 +42,7 @@ logger = logging.getLogger(__name__)
 # Paths
 SCRIPT_DIR = Path(__file__).parent
 TOOLS_DIR = SCRIPT_DIR.parent
-SOURCES_FILE = TOOLS_DIR / "sources.json"
+SOURCES_FILE = TOOLS_DIR / "sources-config.json"
 HEADERS_CONFIG = TOOLS_DIR / "mappings" / "column-headers.json"
 INPUT_DIR = TOOLS_DIR / "input"
 OUTPUT_DIR = TOOLS_DIR / "output"
@@ -70,15 +70,15 @@ def log_file_status(section, key, filename, status, details=""):
 
 
 def load_sources():
-    """Load sources.json configuration."""
+    """Load sources-config.json configuration."""
     try:
         with open(SOURCES_FILE, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        logger.error(f"sources.json not found at {SOURCES_FILE}")
+        logger.error(f"sources-config.json not found at {SOURCES_FILE}")
         sys.exit(1)
     except json.JSONDecodeError as e:
-        logger.error(f"Invalid JSON in sources.json: {e}")
+        logger.error(f"Invalid JSON in sources-config.json: {e}")
         sys.exit(1)
 
 
@@ -89,7 +89,7 @@ def load_headers_config():
             return json.load(f)
     except FileNotFoundError:
         return {
-            "columnMappings": {},
+            "column_mappings": {},
             "lastUpdated": datetime.now().isoformat()
         }
 
@@ -113,7 +113,7 @@ def find_mapped_header(header, headers_config):
     normalized = normalize_header(header)
     
     # Check if this exact header is already in a mapping
-    for mapped_name, variant in headers_config.get("columnMappings", {}).items():
+    for mapped_name, variant in headers_config.get("column_mappings", {}).items():
         if normalize_header(variant) == normalized:
             return mapped_name
     
@@ -123,13 +123,13 @@ def find_mapped_header(header, headers_config):
 def register_unknown_header(header, headers_config):
     """Register an unknown header for manual review and add identity mapping."""
     normalized = normalize_header(header)
-    column_mappings = headers_config.get("columnMappings", {})
+    column_mappings = headers_config.get("column_mappings", {})
     
     # Check if already registered
     if header not in column_mappings:
         # Add identity mapping (source and destination equal to the found value)
         column_mappings[header] = header
-        headers_config["columnMappings"] = column_mappings
+        headers_config["column_mappings"] = column_mappings
         # logger.warning(f"Unknown column header: '{header}' - added to review list")
         return True
     
@@ -453,7 +453,7 @@ def prepare_rows_with_mapped_headers(rows: list[list[str]], headers_config: dict
 
 
 def process_paint_lines(sources, headers_config, stats):
-    """Process paint lines from sources.json."""
+    """Process paint lines from sources-config.json."""
     paint_lines = sources.get("paintLines", [])
     
     for paint_line in paint_lines:
@@ -523,7 +523,7 @@ def process_paint_lines(sources, headers_config, stats):
 
 
 def process_standards(sources, headers_config, stats):
-    """Process color standards from sources.json."""
+    """Process color standards from sources-config.json."""
     standards = sources.get("standards", [])
     
     for standard in standards:

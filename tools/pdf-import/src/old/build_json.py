@@ -47,7 +47,7 @@ MAPPINGS_DIR = SCRIPT_DIR.parent / "mappings"
 PIPELINE_OUTPUT_DIR = SCRIPT_DIR.parent / "output"
 NORMALIZED_DIR = PIPELINE_OUTPUT_DIR / "normalized"
 SOURCE_RESOLUTION_PATH = MAPPINGS_DIR / "source_resolution.json"
-PIPELINE_SOURCES_CONFIG_PATH = MAPPINGS_DIR / "sources.config.json"
+PIPELINE_SOURCES_CONFIG_PATH = MAPPINGS_DIR / "sources-config.json"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 MAPPINGS_DIR.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,112 @@
+{
+  "general": [
+    {
+      "name": "Vallejo",
+      "columns": [
+        {
+          "name": "Model Air",
+          "prefixes": ["71."]
+        },
+        {
+          "name": "Model Color",
+          "prefixes": ["70."]
+        }
+      ]
+    },
+    {
+      "name": "LC",
+      "columns": [
+        {
+          "name": "Lifecolor",
+          "prefixes": ["LC"]
+        },
+        {
+          "name": "Lifecolor Acrylic",
+          "prefixes": ["UA"]
+        }
+      ]
+    },
+    {
+      "name": "Mr.Color",
+      "columns": [
+        {
+          "name": "Mr.Color",
+          "prefixes": ["C"]
+        },
+        {
+          "name": "Mr.Color Aqueous",
+          "prefixes": ["H","N"]
+        }
+      ]
+    },
+    {
+      "name": "Hataka",
+      "columns": [
+        {
+          "name": "Hataka",
+          "prefixes": ["A","B","C"]
+        }
+      ]
+    },
+    {
+      "name": "MRP",
+      "columns": [
+        {
+          "name": "Mr.Paint Acrylic",
+          "prefixes": ["A"]
+        },
+        {
+          "name": "Mr.Paint",
+          "prefixes": []
+        }
+      ]
+    },
+    {
+      "name": "Tamiya",
+      "columns": [
+        {
+          "name": "Tamiya Flat",
+          "prefixes": ["XF"]
+        },
+        {
+          "name": "Tamiya Gloss",
+          "prefixes": ["X"]
+        }
+      ],
+      "skip": ["TS","AS"]
+    },
+    {
+      "name": "Xtracolor",
+      "columns": [
+        {
+          "name": "Xtracrylix",
+          "prefixes": ["XA"]
+        },
+        {
+          "name": "Xtracolor",
+          "prefixes": ["X"]
+        }
+      ]
+    }
+  ],
+  "RLM Conversion.pdf": {
+    "always_split": [
+      {
+        "name": "Mr.Color",
+        "targets": ["Mr.Color","Mr.Color Aqueous"]
+      },
+      {
+        "name": "Revell",
+        "targets": ["Revell Enamel","Revell Acrylic"]
+      },
+      {
+        "name": "Model Color",
+        "targets": ["Model Color","SKIP"]
+      },
+      {
+        "name": "Xtracolor",
+        "targets": ["Xtracolor","Xtracrylix"]
+      }
+    ]
+  }
+}

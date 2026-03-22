@@ -166,7 +166,9 @@
         {
           "file": "RLM Conversion.pdf",
           "type": "pdf-table",
-          "pages": "1-3"
+          "pages": "1-3",
+          "color_separator": "or",
+          "line_separator": "/"
         }
       ]
     }
