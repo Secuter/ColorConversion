@@ -46,11 +46,31 @@ pip install -r requirements.txt
 python src/extract_tables.py
 ```
 
-### Build JSON from Extracted Data
+### Build JSON from Extracted Data (New 3-Step Pipeline)
 ```bash
-# Convert extracted color data to JSON format
-python src/build_json.py
+# Run the complete pipeline: extract → compare → build
+python src/build_json.py --step all
+
+# Or run individual steps:
+
+# Step 1: Extract and normalize all sources to CSV
+python src/build_json.py --step extract
+
+# Step 2: Compare multi-source paint lines and detect discrepancies
+python src/build_json.py --step compare
+
+# Step 3: Generate final website JSON files
+python src/build_json.py --step build
 ```
+
+**Pipeline Details:**
+- **Extract:** Normalizes CSV/PDF/HTML sources to unified CSV format in `output/normalized/`, handles multiple encodings and delimiters (✓ tab, comma, semicolon, pipe), integrates OCR fallback for image PDFs.
+- **Compare:** Detects discrepancies across multi-source paint lines, persists resolution choices in `mappings/source_resolution.json`.
+- **Build:** Generates final `src/data/*.json` files from configured sources in `mappings/sources.config.json`, applies header filtering and split correction.
+
+**Configuration:**
+- Paint sources and types are defined in: `mappings/sources.config.json`
+- Preferred sources and discrepancy tracking: `mappings/source_resolution.json` (auto-generated)
 
 ### Parse Mr. Color HTML Conversion Table
 ```bash

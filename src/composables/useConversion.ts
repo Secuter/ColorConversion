@@ -82,7 +82,7 @@ export function convertColors(
     const seen = new Set<string>() // deduplicate by "series:id"
 
     // 1. Direct correspondences from the source color
-    for (const corr of sourceColor.correspondences) {
+    for (const corr of (sourceColor.correspondences ?? [])) {
       if (targetManufacturers?.length && !targetManufacturers.includes(corr.manufacturer)) continue
       const targetSeries = allSeries.find(s => s.series === corr.series)
       if (!targetSeries) continue
@@ -100,7 +100,7 @@ export function convertColors(
       if (targetManufacturers?.length && !targetManufacturers.includes(series.manufacturer)) continue
 
       for (const color of series.colors) {
-        for (const corr of color.correspondences) {
+        for (const corr of (color.correspondences ?? [])) {
           const matchesSeries =
             corr.series === sourceSeries.series ||
             corr.manufacturer === sourceSeries.manufacturer

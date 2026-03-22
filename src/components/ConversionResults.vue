@@ -25,7 +25,7 @@
               </td>
             </tr>
             <!-- Result rows for this manufacturer -->
-            <tr v-for="(result, idx) in groupResults" :key="`${manufacturer}-${idx}`" :class="{ 'row-no-match': result.correspondences.length === 0 }">
+            <tr v-for="(result, idx) in groupResults" :key="`${manufacturer}-${idx}`" :class="{ 'row-no-match': (result.correspondences?.length ?? 0) === 0 }">
               <td :class="['col-input', layoutClass]">
                 <div class="color-info">
                   <div class="input-item">
@@ -151,7 +151,7 @@ const groupedAndSortedResults = computed(() => {
 const uniqueTargetSeries = computed(() => {
   const targets = new Set<string>()
   for (const result of props.results) {
-    for (const match of result.correspondences) {
+    for (const match of (result.correspondences ?? [])) {
       targets.add(match.series)
     }
   }
@@ -159,7 +159,7 @@ const uniqueTargetSeries = computed(() => {
 })
 
 const matchCount = computed(() => {
-  return props.results.reduce((sum, r) => sum + r.correspondences.length, 0)
+  return props.results.reduce((sum, r) => sum + (r.correspondences?.length ?? 0), 0)
 })
 
 const inputSeriesName = computed(() => {
@@ -170,7 +170,7 @@ const inputSeriesName = computed(() => {
 })
 
 function getMatchesForSeries(result: ConversionResult, series: string): MatchedCorrespondence[] {
-  return result.correspondences
+  return (result.correspondences ?? [])
     .filter(m => m.series === series)
     .sort((a, b) => formatMatchId(a).localeCompare(formatMatchId(b), undefined, { numeric: true, sensitivity: 'base' }))
 }
