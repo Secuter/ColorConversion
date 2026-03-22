@@ -140,7 +140,8 @@
           "file": "Federal Standard.csv",
           "type": "csv"
         }
-      ]
+      ],
+      "color_separator": "-"
     },
     {
       "line_id": "british-standard",

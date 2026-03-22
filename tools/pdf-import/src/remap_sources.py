@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 Part 2: CSV translation/remapping
-- Reads CSVs from input (for csv sources) or output/normalized (for parsed html/pdf)
+- Reads CSVs from input (for csv sources) or output/parsed (for parsed html/pdf)
 - Applies header mapping, column exclusion, split/merge rules
-- Writes final CSVs to output/normalized
+- Writes final CSVs to output/remapped
 """
 
 from __future__ import annotations
@@ -27,7 +27,8 @@ HEADERS_CONFIG_FILE = TOOLS_DIR / "mappings" / "column-headers.json"
 COLUMN_CONFIG_FILE = TOOLS_DIR / "mappings" / "column-config.json"
 INPUT_DIR = TOOLS_DIR / "input"
 OUTPUT_DIR = TOOLS_DIR / "output"
-NORMALIZED_DIR = OUTPUT_DIR / "normalized"
+PARSED_DIR = OUTPUT_DIR / "parsed"
+REMAPPED_DIR = OUTPUT_DIR / "remapped"
 
 SKIP_HEADER = "__SKIP_COLUMN__"
 
@@ -80,7 +81,7 @@ def normalize_id(value: str) -> str:
 
 
 def build_output_path(source_file_name: str) -> Path:
-    return NORMALIZED_DIR / f"{Path(source_file_name).stem}.csv"
+    return REMAPPED_DIR / f"{Path(source_file_name).stem}.csv"
 
 
 def get_source_config_key(source_filename: str) -> str:
@@ -289,10 +290,17 @@ def apply_column_rules(rows: list[list[str]], source_filename: str, metadata: di
     if has_file_specific_config and line_separator not in split_separators:
         split_separators.append(line_separator)
 
+    # Only apply general split rules to columns explicitly listed in the file's 'split' array
+    file_split_list = [normalize_header(s) for s in source_file_config.get("split", [])]
+
     expanded_headers: list[str] = []
     for column_name in header:
         rule = get_general_rule(column_config, column_name)
         always_targets = get_always_split_targets(column_config, source_filename, column_name)
+
+        # Gate: general rule only applies when column is in the file's split list
+        if rule and normalize_header(column_name) not in file_split_list:
+            rule = None
 
         if always_targets:
             targets = [target for target in always_targets if target != "SKIP"]
@@ -325,6 +333,10 @@ def apply_column_rules(rows: list[list[str]], source_filename: str, metadata: di
 
             rule = get_general_rule(column_config, column_name)
             always_targets = get_always_split_targets(column_config, source_filename, column_name)
+
+            # Gate: general rule only applies when column is in the file's split list
+            if rule and normalize_header(column_name) not in file_split_list:
+                rule = None
             tokens = split_tokens(cell, split_separators)
 
             if always_targets:
@@ -421,6 +433,26 @@ def apply_column_rules(rows: list[list[str]], source_filename: str, metadata: di
     return transformed_rows
 
 
+def apply_config_column_skips(rows: list[list[str]], source_filename: str, column_config: dict) -> list[list[str]]:
+    """Drop columns listed in the file config's 'skip' array."""
+    if not rows:
+        return rows
+    source_key = get_source_config_key(source_filename)
+    file_config = column_config.get(source_key) if isinstance(column_config.get(source_key), dict) else {}
+    skip_list = [normalize_header(s) for s in file_config.get("skip", [])]
+    if not skip_list:
+        return rows
+
+    header = rows[0]
+    keep_indices = [i for i, h in enumerate(header) if normalize_header(h) not in skip_list]
+    if len(keep_indices) == len(header):
+        return rows
+
+    skipped = [header[i] for i in range(len(header)) if i not in keep_indices]
+    logger.debug("Skipping columns %s in %s", skipped, source_filename)
+    return [[row[i] if i < len(row) else "" for i in keep_indices] for row in rows]
+
+
 def clean_rows(rows: list[list[str]]) -> list[list[str]]:
     if not rows:
         return rows
@@ -447,6 +479,75 @@ def clean_rows(rows: list[list[str]]) -> list[list[str]]:
     return cleaned
 
 
+def apply_split_file(rows: list[list[str]], split_file_config: list[dict]) -> dict[str, list[list[str]]]:
+    """Partition rows into named subsets according to split_file rules.
+
+    Each entry specifies a target file name and a filter on one column:
+      - 'value': exact match on the column cell
+      - 'prefix': cell must start with the given prefix
+    
+    If a cell contains multiple values (separated by ;, comma, or whitespace),
+    the row is added to all matching output files.
+    
+    Returns a dict mapping output name -> rows (header + matching data rows).
+    Rows not matched by any entry are silently dropped.
+    """
+    if not rows:
+        return {}
+
+    header = rows[0]
+    data_rows = rows[1:]
+    result: dict[str, list[list[str]]] = {}
+
+    for entry in split_file_config:
+        name = str(entry.get("name", "")).strip()
+        column = str(entry.get("column", "")).strip()
+        match_value: str | None = entry.get("value")
+        match_prefix: str | None = entry.get("prefix")
+
+        if not name or not column:
+            logger.warning("split_file entry missing 'name' or 'column': %s", entry)
+            continue
+
+        col_idx: int | None = None
+        col_norm = normalize_header(column)
+        for i, h in enumerate(header):
+            if normalize_header(h) == col_norm:
+                col_idx = i
+                break
+
+        if col_idx is None:
+            logger.warning("split_file column '%s' not found in headers for '%s'", column, name)
+            continue
+
+        if name not in result:
+            result[name] = [header]
+
+        matched: list[list[str]] = []
+        for row in data_rows:
+            cell = row[col_idx] if col_idx < len(row) else ""
+            
+            # Parse multiple values from the cell (separated by ; , or whitespace)
+            cell_values = [v.strip() for v in re.split(r'[;,\s]+', cell) if v.strip()]
+            
+            # Check if any value matches the filter
+            row_matches = False
+            if match_value is not None:
+                if cell == match_value or match_value in cell_values:
+                    row_matches = True
+            elif match_prefix is not None:
+                if any(val.startswith(match_prefix) for val in cell_values):
+                    row_matches = True
+            
+            if row_matches:
+                matched.append(row)
+
+        result[name].extend(matched)
+        logger.debug("split_file '%s': %d rows matched", name, len(matched))
+
+    return result
+
+
 def prepare_rows_with_mapped_headers(rows: list[list[str]], headers_config: dict, source_filename: str) -> list[list[str]]:
     if not rows:
         return []
@@ -462,10 +563,13 @@ def build_stats() -> dict[str, int]:
 def resolve_input_csv_path(source_type: str, source_filename: str) -> Path:
     if source_type == "csv":
         return INPUT_DIR / source_filename
-    return NORMALIZED_DIR / f"{Path(source_filename).stem}.csv"
+    return PARSED_DIR / f"{Path(source_filename).stem}.csv"
 
 
-def process_sources(sources_config: dict, headers_config: dict, column_config: dict, stats: dict[str, int]) -> None:
+def process_sources(sources_config: dict, headers_config: dict, column_config: dict, stats: dict[str, int]) -> set[str]:
+    """Process sources from config and return set of processed filenames."""
+    processed_files: set[str] = set()
+    
     for line in sources_config.get("lines", []):
         line_id = str(line.get("line_id", "unknown"))
         for source in line.get("sources", []):
@@ -475,6 +579,7 @@ def process_sources(sources_config: dict, headers_config: dict, column_config: d
             output_csv = build_output_path(source_filename)
 
             stats["total"] += 1
+            processed_files.add(source_filename.lower())
 
             if not input_csv.exists():
                 stats["missing"] += 1
@@ -490,29 +595,97 @@ def process_sources(sources_config: dict, headers_config: dict, column_config: d
 
                 rows = prepare_rows_with_mapped_headers(rows, headers_config, source_filename)
                 rows = drop_skipped_columns(rows)
+                rows = apply_config_column_skips(rows, source_filename, column_config)
                 rows = apply_column_rules(rows, source_filename, source, column_config)
                 rows = clean_rows(rows)
 
-                write_csv_rows(rows, output_csv)
-                stats["written"] += 1
-                logger.info("[REMAP] %s | %s | WRITTEN (%s)", line_id, source_filename, output_csv.name)
+                source_key = get_source_config_key(source_filename)
+                file_config = column_config.get(source_key) if isinstance(column_config.get(source_key), dict) else {}
+                split_file_cfg = file_config.get("split_file", [])
+
+                if split_file_cfg:
+                    split_results = apply_split_file(rows, split_file_cfg)
+                    if not split_results:
+                        stats["failed"] += 1
+                        logger.info("[REMAP] %s | %s | FAILED (split_file produced no output)", line_id, source_filename)
+                        continue
+                    for split_name, split_rows in split_results.items():
+                        split_output = REMAPPED_DIR / f"{split_name}.csv"
+                        write_csv_rows(split_rows, split_output)
+                        stats["written"] += 1
+                        logger.info("[REMAP] %s | %s | WRITTEN split->%s", line_id, source_filename, split_output.name)
+                else:
+                    write_csv_rows(rows, output_csv)
+                    stats["written"] += 1
+                    logger.info("[REMAP] %s | %s | WRITTEN (%s)", line_id, source_filename, output_csv.name)
             except Exception as exc:
                 stats["failed"] += 1
                 logger.info("[REMAP] %s | %s | FAILED (%s)", line_id, source_filename, exc)
+    
+    return processed_files
+def process_parsed_csvs(headers_config: dict, column_config: dict, stats: dict[str, int], processed_files: set[str]) -> None:
+    """Process all CSV files in parsed folder that haven't been processed yet."""
+    if not PARSED_DIR.exists():
+        return
+    
+    for csv_file in sorted(PARSED_DIR.glob("*.csv")):
+        source_filename = csv_file.name
+        if source_filename.lower() in processed_files:
+            continue  # Already processed from sources_config
+        
+        output_csv = build_output_path(source_filename)
+        stats["total"] += 1
+        
+        try:
+            rows = read_csv_rows(csv_file)
+            if not rows:
+                stats["failed"] += 1
+                logger.info("[REMAP] auto | %s | FAILED (empty csv)", source_filename)
+                continue
+
+            rows = prepare_rows_with_mapped_headers(rows, headers_config, source_filename)
+            rows = drop_skipped_columns(rows)
+            rows = apply_config_column_skips(rows, source_filename, column_config)
+            rows = apply_column_rules(rows, source_filename, {}, column_config)
+            rows = clean_rows(rows)
+
+            source_key = get_source_config_key(source_filename)
+            file_config = column_config.get(source_key) if isinstance(column_config.get(source_key), dict) else {}
+            split_file_cfg = file_config.get("split_file", [])
+
+            if split_file_cfg:
+                split_results = apply_split_file(rows, split_file_cfg)
+                if not split_results:
+                    stats["failed"] += 1
+                    logger.info("[REMAP] auto | %s | FAILED (split_file produced no output)", source_filename)
+                    continue
+                for split_name, split_rows in split_results.items():
+                    split_output = REMAPPED_DIR / f"{split_name}.csv"
+                    write_csv_rows(split_rows, split_output)
+                    stats["written"] += 1
+                    logger.info("[REMAP] auto | %s | WRITTEN split->%s", source_filename, split_output.name)
+            else:
+                write_csv_rows(rows, output_csv)
+                stats["written"] += 1
+                logger.info("[REMAP] auto | %s | WRITTEN (%s)", source_filename, output_csv.name)
+        except Exception as exc:
+            stats["failed"] += 1
+            logger.info("[REMAP] auto | %s | FAILED (%s)", source_filename, exc)
 
 
 def main() -> None:
     logger.info("=" * 60)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    NORMALIZED_DIR.mkdir(parents=True, exist_ok=True)
+    REMAPPED_DIR.mkdir(parents=True, exist_ok=True)
 
     sources_config = load_sources()
     headers_config = load_headers_config()
     column_config = load_column_config()
 
     stats = build_stats()
-    process_sources(sources_config, headers_config, column_config, stats)
+    processed_files = process_sources(sources_config, headers_config, column_config, stats)
+    process_parsed_csvs(headers_config, column_config, stats, processed_files)
 
     save_headers_config(headers_config)
 

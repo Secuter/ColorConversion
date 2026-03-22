@@ -195,7 +195,8 @@
   },
   "AK Real Colors Conversion": {
     "split": [
-      "RAL/RLM/FS"
+      "RAL/RLM/FS",
+      "MrColor"
     ]
   },
   "Ammo Mig": {
@@ -214,19 +215,19 @@
       }
     ],
     "split": [
-      "AV",
-      "GSI",
-      "HAT",
-      "LC",
-      "MRP",
-      "REV",
-      "TAM",
-      "XTRA"
+      "Vallejo",
+      "MrColor",
+      "Hataka",
+      "Lifecolor",
+      "Mr.Paint",
+      "Revell",
+      "Tamiya",
+      "Xtracolor"
     ]
   },
   "Atom Ammo Mig": {
     "skip": [
-      "NOMBRE DEL COLOR"
+      "Spanish Name"
     ],
     "split": [
       "RAL/RLM/FS"
@@ -246,14 +247,30 @@
   },
   "MrColor Laquer Conversion": {
     "split": [
-      "AV",
-      "GSI",
-      "HAT",
-      "LC",
-      "MRP",
-      "REV",
-      "TAM",
-      "XTRA"
+      "Vallejo",
+      "Hataka",
+      "Lifecolor",
+      "Mr.Paint",
+      "Revell",
+      "Tamiya",
+      "Xtracolor"
+    ],
+    "split_file": [
+      { 
+        "name": "MrColor",
+        "column": "MrColor",
+        "prefix": "C"
+      },
+      {
+        "name": "MrColor Aqueous",
+        "column": "MrColor",
+        "prefix": "H"
+      },
+      {
+        "name": "MrColor Acrysion",
+        "column": "MrColor",
+        "prefix": "N"
+      }
     ]
   },
   "Revell Conversion": {
@@ -316,14 +333,14 @@
   },
   "Tamiya Conversion": {
     "split": [
-      "AV",
-      "GSI",
-      "HAT",
-      "LC",
-      "MRP",
-      "REV",
-      "TAM",
-      "XTRA"
+      "Vallejo",
+      "MrColor",
+      "Hataka",
+      "Lifecolor",
+      "Mr.Paint",
+      "Revell",
+      "Tamiya",
+      "Xtracolor"
     ]
   },
   "Tamiya": {

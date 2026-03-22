@@ -30,7 +30,8 @@ try:
     import pytesseract
 except ImportError:  # pragma: no cover
     pytesseract = None
-
+if pytesseract is not None:
+    pytesseract.pytesseract.tesseract_cmd = r"C:/Program Files/Tesseract-OCR/tesseract.exe"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -40,7 +41,7 @@ TOOLS_DIR = SCRIPT_DIR.parent
 SOURCES_FILE = TOOLS_DIR / "mappings" / "sources-config.json"
 INPUT_DIR = TOOLS_DIR / "input"
 OUTPUT_DIR = TOOLS_DIR / "output"
-NORMALIZED_DIR = OUTPUT_DIR / "normalized"
+PARSED_DIR = OUTPUT_DIR / "parsed"
 
 
 def build_stats() -> dict[str, int]:
@@ -118,11 +119,12 @@ def normalize_table_rows(rows: list[list[str]]) -> list[list[str]]:
 
 
 def build_output_path(source_file: Path) -> Path:
-    return NORMALIZED_DIR / f"{source_file.stem}.csv"
+    return PARSED_DIR / f"{source_file.stem}.csv"
 
 
 def write_csv(rows: list[list[str]], target_path: Path) -> int:
     target_path.parent.mkdir(parents=True, exist_ok=True)
+    PARSED_DIR.mkdir(parents=True, exist_ok=True)
     with target_path.open("w", encoding="utf-8", newline="") as file_handle:
         writer = csv.writer(file_handle, delimiter=";")
         writer.writerows(rows)
@@ -392,7 +394,7 @@ def main() -> None:
     logger.info("=" * 60)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    NORMALIZED_DIR.mkdir(parents=True, exist_ok=True)
+    PARSED_DIR.mkdir(parents=True, exist_ok=True)
 
     sources_config = load_sources()
     stats = build_stats()
