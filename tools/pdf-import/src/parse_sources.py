@@ -64,7 +64,6 @@ def load_headers_config():
         with open(HEADERS_CONFIG, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        # logger.warning(f"column-headers.json not found, creating new")
         return {
             "columnMappings": {},
             "unknownHeaders": [],
@@ -77,7 +76,6 @@ def save_headers_config(config):
     config["lastUpdated"] = datetime.now().isoformat()
     with open(HEADERS_CONFIG, 'w', encoding='utf-8') as f:
         json.dump(config, f, indent=2, ensure_ascii=False)
-    # logger.info(f"Saved column header mappings to {HEADERS_CONFIG}")
 
 
 def normalize_header(header):
@@ -243,16 +241,14 @@ def parse_html_file(filepath, key, metadata, headers_config):
 
 def main():
     """Main entry point."""
-    logger.info("Paint Line Parser")
-    
+    logger.info("="*60)
+
     # Create output directory if needed
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
     # Load configurations
-    logger.info(f"Config: {SOURCES_FILE}")
     sources = load_sources()
     
-    logger.info(f"Header mappings: {HEADERS_CONFIG}")
     headers_config = load_headers_config()
 
     stats = build_stats()
@@ -263,8 +259,8 @@ def main():
     
     # Save updated configurations
     save_headers_config(headers_config)
-    logger.info("Header mappings saved")
 
+    logger.info("="*60)
     logger.info(
         "Summary | total=%s csv=%s html=%s pdf-table=%s pdf-image=%s missing=%s",
         stats["total"],
@@ -274,15 +270,13 @@ def main():
         stats["pdf_image"],
         stats["missing"],
     )
+    logger.info("="*60)
     
     if headers_config.get("unknownHeaders"):
         logger.warning(f"Unknown headers: {len(headers_config['unknownHeaders'])}")
         for header in headers_config["unknownHeaders"]:
             logger.warning(f"  - {header}")
         logger.warning("Review and map them in column-headers.json")
-    
-    logger.info("Processing complete")
-
 
 if __name__ == "__main__":
     main()
