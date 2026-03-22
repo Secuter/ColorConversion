@@ -187,18 +187,62 @@ def normalize_table_rows(rows: list[list[str]]) -> list[list[str]]:
 def map_headers(headers: list[str], headers_config: dict) -> list[str]:
     mapped: list[str] = []
     for idx, header in enumerate(headers):
-        header_text = str(header).strip() or f"column_{idx + 1}"
-        mapped_name = find_mapped_header(header_text, headers_config)
-        if mapped_name:
-            mapped.append(mapped_name)
+        header_text = str(header).strip()
+        if not header_text:
+            # Keep empty headers as empty strings
+            mapped.append("")
         else:
-            register_unknown_header(header_text, headers_config)
-            mapped.append(header_text)
+            mapped_name = find_mapped_header(header_text, headers_config)
+            if mapped_name:
+                mapped.append(mapped_name)
+            else:
+                register_unknown_header(header_text, headers_config)
+                mapped.append(header_text)
     return mapped
 
 
 def build_output_path(source_file: Path) -> Path:
     return NORMALIZED_DIR / f"{slugify(source_file.name)}.csv"
+
+
+def clean_rows(rows: list[list[str]]) -> list[list[str]]:
+    """
+    Clean rows by:
+    - Replacing " / " with "/" in all cells
+    - Excluding rows with first cell "Notes"
+    - Excluding repeated header rows (first cell matches header's first cell, only if header is not empty)
+    """
+    if not rows or len(rows) < 1:
+        return rows
+    
+    header_row = rows[0]
+    header_first_cell = (header_row[0] or "").strip().lower() if header_row else ""
+    
+    cleaned: list[list[str]] = [header_row]
+    
+    for row in rows[1:]:
+        if not row:
+            continue
+        
+        # Clean cells: replace " / " with "/"
+        cleaned_row = [
+            cell.replace(" / ", "/") if cell else cell
+            for cell in row
+        ]
+        
+        # Skip rows with first cell "Notes"
+        first_cell = (cleaned_row[0] or "").strip().lower()
+        if first_cell == "notes":
+            continue
+        
+        # Skip repeated header rows (first cell matches header's first cell)
+        # Only do this check if the header's first cell is not empty
+        if header_first_cell and first_cell == header_first_cell:
+            continue
+        
+        cleaned.append(cleaned_row)
+    
+    return cleaned
 
 
 def write_csv(rows: list[list[str]], target_path: Path) -> int:
@@ -237,26 +281,53 @@ def extract_tables_from_html(filepath: Path) -> list[list[str]]:
                 all_rows.append(header_row)
                 for row in frame.values.tolist():
                     all_rows.append([str(cell).strip() for cell in row])
+            if all_rows:
+                return normalize_table_rows(all_rows)
         except Exception:
             pass
 
     # Fallback for conversion pages that use comment-delimited <div> blocks
-    # e.g. <!-- mrh001 include --> ... <div>...</div> ... <!-- end mrh001 include -->
-    block_pattern = re.compile(
-        r"<!--\s*([a-z0-9_-]+)\s+include\s*-->(.*?)<!--\s*end\s*\1\s+include\s*-->",
-        re.I | re.S,
-    )
     div_pattern = re.compile(r"<div[^>]*>(.*?)</div>", re.I | re.S)
 
-    html_rows: list[list[str]] = []
-    for _, block in block_pattern.findall(html):
-        cells: list[str] = []
-        for raw_cell in div_pattern.findall(block):
-            text = re.sub(r"<br\s*/?>", " / ", raw_cell, flags=re.I)
+    # First, extract headers between two <!-- color_title include --> comments
+    color_title_pattern = re.compile(
+        r"<!--\s*color_title\s+include\s*-->(.*?)<!--\s*color_title\s+include\s*-->",
+        re.I | re.S,
+    )
+    header_row: list[str] = []
+    color_title_match = color_title_pattern.search(html)
+    if color_title_match:
+        header_section = color_title_match.group(1)
+        for raw_cell in div_pattern.findall(header_section):
+            text = re.sub(r"<br\s*/?>", "/", raw_cell, flags=re.I)
             text = re.sub(r"<[^>]+>", "", text)
             text = text.replace("&nbsp;", " ").strip()
+            # Include all cells, even empty ones
+            header_row.append(text)
+
+    html_rows: list[list[str]] = []
+    # If we found headers from color_title, add them first
+    if header_row:
+        html_rows.append(header_row)
+    
+    # Extract all data blocks: <!-- xxxxx include --> ... <!-- end xxxxx include -->
+    block_pattern = re.compile(
+        r"<!--\s*([a-z0-9_]+)\s+include\s*-->(.*?)<!--\s*end\s+\1\s+include\s*-->",
+        re.I | re.S,
+    )
+    for block_name, block in block_pattern.findall(html):
+        # Skip the color_title block since we already processed it
+        if block_name.lower() == "color_title":
+            continue
+        cells: list[str] = []
+        for raw_cell in div_pattern.findall(block):
+            text = re.sub(r"<br\s*/?>", "/", raw_cell, flags=re.I)
+            text = re.sub(r"<[^>]+>", "", text)
+            text = text.replace("&nbsp;", " ").strip()
+            # Include all cells, even empty ones
             cells.append(text)
-        if len(cells) >= 2 and any(cells):
+        # Only add rows that have actual content
+        if any(cells):
             html_rows.append(cells)
 
     if html_rows:
@@ -542,6 +613,7 @@ def parse_pdf_file(filepath, key, metadata, headers_config, pdf_type):
             return False, "no rows extracted"
 
         rows = prepare_rows_with_mapped_headers(rows, headers_config)
+        rows = clean_rows(rows)
         output_path = build_output_path(filepath)
         row_count = write_csv(rows, output_path)
         return True, f"rows={row_count}, out={output_path.name}"
@@ -566,6 +638,7 @@ def parse_html_file(filepath, key, metadata, headers_config):
             return False, "no tables found"
 
         rows = prepare_rows_with_mapped_headers(rows, headers_config)
+        rows = clean_rows(rows)
         output_path = build_output_path(filepath)
         row_count = write_csv(rows, output_path)
         return True, f"rows={row_count}, out={output_path.name}"
