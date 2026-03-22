@@ -33,7 +33,8 @@
       "sources": [
         {
           "file": "Atom Ammo Mig.pdf",
-          "type": "pdf-table"
+          "type": "pdf-table",
+          "pages": "7-9"
         }
       ]
     },
@@ -46,7 +47,8 @@
         },
         {
           "file": "Humbrol Color Conversion.pdf",
-          "type": "pdf-image"
+          "type": "pdf-image",
+          "pages": "8-12"
         }
       ]
     },
@@ -67,12 +69,10 @@
       "line_id": "vallejo-model-air",
       "sources": [
         {
-          "file": "Model Air.pdf",
-          "type": "pdf-table"
-        },
-        {
           "file": "Vallejo Model Air.pdf",
-          "type": "pdf-table"
+          "type": "pdf-table",
+          "pages": "2",
+          "tableTitle": "Model Air equivalences"
         }
       ]
     },
@@ -165,7 +165,8 @@
       "sources": [
         {
           "file": "RLM Conversion.pdf",
-          "type": "pdf-table"
+          "type": "pdf-table",
+          "pages": "1-3"
         }
       ]
     }

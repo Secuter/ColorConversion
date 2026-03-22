@@ -1,51 +1,5 @@
 {
-  "columnMappings": {
-    "id": [
-      "id",
-      "color id",
-      "code",
-      "color code",
-      "paint code",
-      "number",
-      "ref",
-      "reference"
-    ],
-    "name": [
-      "name",
-      "color name",
-      "description",
-      "color description",
-      "paint name"
-    ],
-    "hex": [
-      "hex",
-      "hex code",
-      "hexadecimal",
-      "color hex"
-    ],
-    "rgb": [
-      "rgb",
-      "rgb code"
-    ],
-    "notes": [
-      "notes",
-      "note",
-      "remarks",
-      "comment",
-      "comments"
-    ],
-    "manufacturer": [
-      "manufacturer",
-      "brand",
-      "line"
-    ],
-    "series": [
-      "series",
-      "line",
-      "type",
-      "range"
-    ]
-  },
+  "columnMappings": {},
   "unknownHeaders": [],
-  "lastUpdated": "2026-03-22T11:04:52.307633"
+  "lastUpdated": "2026-03-22T12:25:36.439934"
 }
