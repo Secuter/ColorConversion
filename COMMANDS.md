@@ -40,6 +40,24 @@ cd tools/pdf-import
 pip install -r requirements.txt
 ```
 
+### Parse Sources Configuration
+```bash
+# Analyze and prepare all paint line and color standard sources
+# Manages CSV (pass-through), PDF (table/image), and HTML parsing
+# Updates column header mappings as new headers are encountered
+python src/parse_sources.py
+```
+
+**Configuration Files:**
+- Source definitions: `sources.json` (paint lines and color standards)
+- Column header mappings: `mappings/column-headers.json` (translations and standardization)
+
+**Process:**
+- CSV files are tracked as ready
+- PDF and HTML files are flagged for parsing
+- Unknown column headers are collected for review and mapping
+- All header translations are stored for reuse
+
 ### Extract Tables from PDFs
 ```bash
 # Extract color tables from PDF files

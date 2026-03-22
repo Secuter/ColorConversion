@@ -1,0 +1,108 @@
+{
+  "paintLines": [
+    {
+      "key": "ak-acrylics",
+      "files": [
+        { "name": "AK Acrylics.csv" },
+        { "name": "AK Acrylics Conversion.csv" }
+      ]
+    },
+    {
+      "key": "ak-real-colors",
+      "files": [
+        { "name": "AK Real Colors Conversion.csv" }
+      ]
+    },
+    {
+      "key": "tamiya-acrylic",
+      "files": [
+        { "name": "Tamiya.csv" },
+        { "name": "Tamiya Conversion.html", "format": "html" }
+      ]
+    },
+    {
+      "key": "vallejo-model-color",
+      "files": [
+        { "name": "Vallejo Model Color Conversion.csv" }
+      ]
+    },
+    {
+      "key": "vallejo-model-air",
+      "files": [
+        { "name": "Vallejo Model Air.pdf", "format": "pdf-table", "pages": "2", "tableTitle": "Model Air equivalences" }
+      ]
+    },
+    {
+      "key": "humbrol-enamel",
+      "files": [
+        { "name": "Humbrol.csv" },
+        { "name": "Humbrol Color Conversion.pdf", "format": "pdf-image", "pages": "8-12" }
+      ]
+    },
+    {
+      "key": "mr-color",
+      "files": [
+        { "name": "MrColor Laquer Conversion.html", "format": "html" }
+      ]
+    },
+    {
+      "key": "mr-color-aqueous",
+      "files": [
+        { "name": "MrColor Aqueous.csv" },
+        { "name": "MrColor Aqueous Conversion.csv" }
+      ]
+    },
+    {
+      "key": "revell-acrylic",
+      "files": [
+        { "name": "Revell.csv" },
+        { "name": "Revell Conversion.csv" }
+      ]
+    },
+    {
+      "key": "italeri",
+      "files": [
+        { "name": "Italeri.csv" },
+        { "name": "Italeri Conversion.csv" }
+      ]
+    },
+    {
+      "key": "ammo-mig",
+      "files": [
+        { "name": "Ammo Mig.pdf", "format": "pdf-image", "pages": "2-6" }
+      ]
+    },
+    {
+      "key": "ammo-mig-atom",
+      "files": [
+        { "name": "Atom Ammo Mig.pdf", "format": "pdf-table", "pages": "7-9" }
+      ]
+    }
+  ],
+  "standards": [
+    {
+      "key": "federal-standard",
+      "files": [
+        { "name": "Federal Standard.csv" }
+      ]
+    },
+    {
+      "key": "british-standard",
+      "files": [
+        { "name": "British Standard.csv" }
+      ]
+    },
+    {
+      "key": "ana-standard",
+      "files": [
+        { "name": "ANA Standard.html", "format": "html" }
+      ]
+    },
+    {
+      "key": "rlm",
+      "files": [
+        { "name": "RLM Conversion.pdf", "format": "pdf-table", "pages": "1-3" }
+      ]
+    }
+  ]
+}
