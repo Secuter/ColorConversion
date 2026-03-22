@@ -5,11 +5,15 @@
       "columns": [
         {
           "name": "Model Air",
-          "prefixes": ["71."]
+          "prefixes": [
+            "71."
+          ]
         },
         {
           "name": "Model Color",
-          "prefixes": ["70."]
+          "prefixes": [
+            "70."
+          ]
         }
       ]
     },
@@ -18,11 +22,15 @@
       "columns": [
         {
           "name": "Lifecolor",
-          "prefixes": ["LC"]
+          "prefixes": [
+            "LC"
+          ]
         },
         {
           "name": "Lifecolor Acrylic",
-          "prefixes": ["UA"]
+          "prefixes": [
+            "UA"
+          ]
         }
       ]
     },
@@ -30,12 +38,18 @@
       "name": "Mr.Color",
       "columns": [
         {
-          "name": "Mr.Color",
-          "prefixes": ["C"]
+          "name": "Mr.Color Aqueous",
+          "prefixes": [
+            "H",
+            "N"
+          ]
         },
         {
-          "name": "Mr.Color Aqueous",
-          "prefixes": ["H","N"]
+          "name": "Mr.Color",
+          "prefixes": [
+            "C",
+            ""
+          ]
         }
       ]
     },
@@ -44,7 +58,11 @@
       "columns": [
         {
           "name": "Hataka",
-          "prefixes": ["A","B","C"]
+          "prefixes": [
+            "A",
+            "B",
+            "C"
+          ]
         }
       ]
     },
@@ -53,11 +71,15 @@
       "columns": [
         {
           "name": "Mr.Paint Acrylic",
-          "prefixes": ["A"]
+          "prefixes": [
+            "A"
+          ]
         },
         {
           "name": "Mr.Paint",
-          "prefixes": []
+          "prefixes": [
+            ""
+          ]
         }
       ]
     },
@@ -66,47 +88,258 @@
       "columns": [
         {
           "name": "Tamiya Flat",
-          "prefixes": ["XF"]
+          "prefixes": [
+            "XF"
+          ]
         },
         {
           "name": "Tamiya Gloss",
-          "prefixes": ["X"]
+          "prefixes": [
+            "X"
+          ]
         }
       ],
-      "skip": ["TS","AS"]
+      "skip": [
+        "TS",
+        "AS"
+      ]
     },
     {
       "name": "Xtracolor",
       "columns": [
         {
           "name": "Xtracrylix",
-          "prefixes": ["XA"]
+          "prefixes": [
+            "XA"
+          ]
         },
         {
           "name": "Xtracolor",
-          "prefixes": ["X"]
+          "prefixes": [
+            "X"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RAL/RLM/FS",
+      "columns": [
+        {
+          "name": "RAL",
+          "prefixes": [
+            "RAL",
+            "R.A.L."
+          ]
+        },
+        {
+          "name": "RLM",
+          "prefixes": [
+            "RLM",
+            "R.L.M."
+          ]
+        },
+        {
+          "name": "FS",
+          "prefixes": [
+            "FS",
+            "F.S."
+          ]
+        },
+        {
+          "name": "BS",
+          "prefixes": [
+            "BS",
+            "B.S."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RAL/RLM/FS/BS",
+      "columns": [
+        {
+          "name": "RAL",
+          "prefixes": [
+            "RAL",
+            "R.A.L."
+          ]
+        },
+        {
+          "name": "RLM",
+          "prefixes": [
+            "RLM",
+            "R.L.M."
+          ]
+        },
+        {
+          "name": "FS",
+          "prefixes": [
+            "FS",
+            "F.S."
+          ]
+        },
+        {
+          "name": "BS",
+          "prefixes": [
+            "BS",
+            "B.S."
+          ]
         }
       ]
     }
   ],
-  "RLM Conversion.pdf": {
+  "AK Acrylics": {
+    "split": [
+      "RAL/RLM/FS"
+    ]
+  },
+  "AK Real Colors Conversion": {
+    "split": [
+      "RAL/RLM/FS"
+    ]
+  },
+  "Ammo Mig": {
+    "split": [
+      "RAL/RLM/FS"
+    ]
+  },
+  "ANA Standard": {
+    "always_split": [
+      {
+        "name": "Name",
+        "targets": [
+          "Name",
+          "ANA"
+        ]
+      }
+    ],
+    "split": [
+      "AV",
+      "GSI",
+      "HAT",
+      "LC",
+      "MRP",
+      "REV",
+      "TAM",
+      "XTRA"
+    ]
+  },
+  "Atom Ammo Mig": {
+    "skip": [
+      "NOMBRE DEL COLOR"
+    ],
+    "split": [
+      "RAL/RLM/FS"
+    ]
+  },
+  "British Standard": {},
+  "Federal Standard": {},
+  "Humbrol Color Conversion": {},
+  "Humbrol": {},
+  "Italeri Conversion": {},
+  "Italeri": {},
+  "MrColor Aqueous Conversion": {},
+  "MrColor Aqueous": {
+    "skip": [
+      "Color"
+    ]
+  },
+  "MrColor Laquer Conversion": {
+    "split": [
+      "AV",
+      "GSI",
+      "HAT",
+      "LC",
+      "MRP",
+      "REV",
+      "TAM",
+      "XTRA"
+    ]
+  },
+  "Revell Conversion": {
+    "split_file": [
+      { 
+        "name": "Revell Conversion Enamel",
+        "column": "Type",
+        "value": "Enamel Paint 'Email'"
+      },
+      {
+        "name": "Revell Conversion Acrylic",
+        "column": "Type",
+        "value": "Acrylic Paint 'Aqua'"
+      }
+    ]
+  },
+  "Revell": {
+    "skip": [
+      "Color"
+    ]
+  },
+  "RLM Conversion": {
     "always_split": [
       {
         "name": "Mr.Color",
-        "targets": ["Mr.Color","Mr.Color Aqueous"]
+        "targets": [
+          "Mr.Color",
+          "Mr.Color Aqueous"
+        ]
       },
       {
         "name": "Revell",
-        "targets": ["Revell Enamel","Revell Acrylic"]
+        "targets": [
+          "Revell Enamel",
+          "Revell Acrylic"
+        ]
       },
       {
         "name": "Model Color",
-        "targets": ["Model Color","SKIP"]
+        "targets": [
+          "Model Color",
+          "SKIP"
+        ]
+      },
+      {
+        "name": "Testors",
+        "targets": [
+          "Testors Enamel",
+          "Testors Acryl"
+        ]
       },
       {
         "name": "Xtracolor",
-        "targets": ["Xtracolor","Xtracrylix"]
+        "targets": [
+          "Xtracolor",
+          "Xtracrylix"
+        ]
       }
     ]
-  }
+  },
+  "Tamiya Conversion": {
+    "split": [
+      "AV",
+      "GSI",
+      "HAT",
+      "LC",
+      "MRP",
+      "REV",
+      "TAM",
+      "XTRA"
+    ]
+  },
+  "Tamiya": {
+    "split_file": [
+      { 
+        "name": "Tamiya Flat",
+        "column": "Tamiya",
+        "prefix": "XF-"
+      },
+      {
+        "name": "Tamiya Gloss",
+        "column": "Tamiya",
+        "prefix": "X-"
+      }
+    ]
+  },
+  "Vallejo Model Air": {},
+  "Vallejo Model Color Conversion": {}
 }
