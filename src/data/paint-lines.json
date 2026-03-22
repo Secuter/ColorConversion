@@ -170,11 +170,181 @@
     "default_suffix": ""
   },
   {
-    "id": "tamiya-acrylic",
-    "series": "Tamiya Acrylic",
+    "id": "mr-color-acrysion",
+    "series": "MrColor Acrysion",
+    "manufacturer": "GSI Creos",
+    "type": "acrylic-water",
+    "prefixes": ["N"],
+    "default_prefix": "N",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "hataka",
+    "series": "Hataka",
+    "manufacturer": "Hataka",
+    "type": "acrylic-water",
+    "prefixes": ["A", "B", "C"],
+    "default_prefix": "A",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "lifecolor",
+    "series": "Lifecolor",
+    "manufacturer": "Lifecolor",
+    "type": "enamel",
+    "prefixes": ["LC"],
+    "default_prefix": "LC",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "lifecolor-acrylic",
+    "series": "Lifecolor Acrylic",
+    "manufacturer": "Lifecolor",
+    "type": "acrylic-water",
+    "prefixes": ["UA"],
+    "default_prefix": "UA",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "mission-models",
+    "series": "Mission Models",
+    "manufacturer": "Mission Models",
+    "type": "acrylic-water",
+    "prefixes": ["MMP"],
+    "default_prefix": "MMP",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "mr-paint",
+    "series": "Mr.Paint",
+    "manufacturer": "Mr.Paint",
+    "type": "laquer",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "mr-paint-acrylic",
+    "series": "Mr.Paint Acrylic",
+    "manufacturer": "Mr.Paint",
+    "type": "acrylic-water",
+    "prefixes": ["A"],
+    "default_prefix": "A",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "xtracolor",
+    "series": "Xtracolor",
+    "manufacturer": "Xtracolor",
+    "type": "enamel",
+    "prefixes": ["X"],
+    "default_prefix": "X",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "xtracrylix",
+    "series": "Xtracrylix",
+    "manufacturer": "Xtracolor",
+    "type": "acrylic-water",
+    "prefixes": ["XA"],
+    "default_prefix": "XA",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "testors-enamel",
+    "series": "Testors Enamel",
+    "manufacturer": "Testors",
+    "type": "enamel",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "testors-acryl",
+    "series": "Testors Acryl",
+    "manufacturer": "Testors",
+    "type": "acrylic-water",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "model-master-enamel",
+    "series": "Model Master Enamel",
+    "manufacturer": "Model Master",
+    "type": "enamel",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "model-master-acrylic",
+    "series": "Model Master Acrylic",
+    "manufacturer": "Model Master",
+    "type": "acrylic-water",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "model-master-authentic",
+    "series": "Model Master Authentic",
+    "manufacturer": "Model Master",
+    "type": "enamel",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "polly-scale",
+    "series": "Polly Scale",
+    "manufacturer": "Polly Scale",
+    "type": "acrylic-water",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "white-ensign-models",
+    "series": "White Ensign Models",
+    "manufacturer": "White Ensign Models",
+    "type": "enamel",
+    "prefixes": [],
+    "default_prefix": "",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "tamiya-gloss",
+    "series": "Tamiya Gloss",
     "manufacturer": "Tamiya",
     "type": "acrylic-alcohol",
-    "prefixes": ["XF-", "X-", "XF", "X"],
+    "prefixes": ["X-", "X"],
+    "default_prefix": "X-",
+    "suffixes": [],
+    "default_suffix": ""
+  },
+  {
+    "id": "tamiya-flat",
+    "series": "Tamiya Flat",
+    "manufacturer": "Tamiya",
+    "type": "acrylic-alcohol",
+    "prefixes": ["XF-", "XF" ],
     "default_prefix": "XF-",
     "suffixes": [],
     "default_suffix": ""
