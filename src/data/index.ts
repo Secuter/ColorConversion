@@ -75,9 +75,13 @@ const configuredSeries: PaintSeries[] = [
   withPaintLineMeta(italeri as PaintSeries),
 ]
 
+
+// Filter out hidden paint lines
+const hiddenIds = new Set((paintLines as any[]).filter(pl => pl.hidden).map(pl => `${pl.manufacturer}|${pl.series}`))
 export const allSeries: PaintSeries[] = configuredSeries.filter(series =>
-  paintLineMetaByKey.has(`${series.manufacturer}|${series.series}`),
+  paintLineMetaByKey.has(`${series.manufacturer}|${series.series}`) &&
+  !hiddenIds.has(`${series.manufacturer}|${series.series}`)
 )
 
-/** All unique manufacturer names */
+/** All unique manufacturer names (only visible paint lines) */
 export const allManufacturers: string[] = [...new Set(allSeries.map(s => s.manufacturer))]
