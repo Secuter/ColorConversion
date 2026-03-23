@@ -83,7 +83,7 @@
         <div class="type-filters">
           <label class="radio">
             <input type="radio" v-model="targetSelectionMode" value="all" @change="applyTargetSelectionMode" />
-            Select All
+            All
           </label>
           <label class="radio">
             <input type="radio" v-model="targetSelectionMode" value="enamel" @change="applyTargetSelectionMode" />
@@ -104,12 +104,8 @@
         </div>
 
         <div class="checkbox-list">
-          <label class="checkbox checkbox-all">
-            <input type="checkbox" v-model="selectAllTargets" @change="toggleSelectAll" />
-            <strong>Select All</strong>
-          </label>
           <label v-for="mfr in manufacturerList" :key="mfr" class="checkbox">
-            <input type="checkbox" :value="mfr" v-model="selectedTargetManufacturers" />
+            <input type="checkbox" :value="mfr" v-model="selectedTargetManufacturers" @change="onManualTargetCheckboxChange" />
             {{ mfr }}
           </label>
         </div>
@@ -153,8 +149,7 @@ const autoDetectEnabled = ref(true)
 const selectedManufacturer = ref('')
 const selectedSourceSeries = ref<PaintSeries | null>(null)
 const selectedTargetManufacturers = ref<string[]>([...allManufacturers])
-const selectAllTargets = ref(true)
-const targetSelectionMode = ref<'all' | 'enamel' | 'acrylic-water' | 'acrylic-alcohol' | 'laquer' | 'custom'>('all')
+const targetSelectionMode = ref<'all' | 'enamel' | 'acrylic-water' | 'acrylic-alcohol' | 'laquer'>('all')
 const conversionResults = ref<ConversionResult[]>([])
 
 const manufacturerList = computed(() => allManufacturers)
@@ -252,26 +247,35 @@ const canConvert = computed(() => {
   }
 })
 
-function toggleSelectAll() {
-  if (selectAllTargets.value) {
-    selectedTargetManufacturers.value = [...manufacturerList.value]
-    targetSelectionMode.value = 'all'
-  } else {
-    selectedTargetManufacturers.value = []
-    targetSelectionMode.value = 'custom'
+
+function onManualTargetCheckboxChange() {
+  // If manual selection doesn't match any preset, clear radio selection
+  const presetModes: Array<'all' | 'enamel' | 'acrylic-water' | 'acrylic-alcohol' | 'laquer'> = [
+    'all',
+    'enamel',
+    'acrylic-water',
+    'acrylic-alcohol',
+    'laquer',
+  ]
+  let matched = false
+  for (const mode of presetModes) {
+    const manufacturersForMode = mode === 'all' ? manufacturerList.value : manufacturersByType.value[mode] ?? []
+    if (manufacturersMatch(selectedTargetManufacturers.value, manufacturersForMode)) {
+      targetSelectionMode.value = mode
+      matched = true
+      break
+    }
+  }
+  if (!matched) {
+    targetSelectionMode.value = '' as any // No radio selected
   }
 }
 
 function applyTargetSelectionMode() {
-  if (targetSelectionMode.value === 'custom') {
-    return
-  }
-
   if (targetSelectionMode.value === 'all') {
     selectedTargetManufacturers.value = [...manufacturerList.value]
     return
   }
-
   selectedTargetManufacturers.value = [...(manufacturersByType.value[targetSelectionMode.value] ?? [])]
 }
 
@@ -286,31 +290,7 @@ function manufacturersMatch(left: string[], right: string[]): boolean {
   return leftNormalized.every((value, index) => value === rightNormalized[index])
 }
 
-watch(selectedTargetManufacturers, (targets) => {
-  selectAllTargets.value = targets.length > 0 && targets.length === manufacturerList.value.length
-
-  if (manufacturersMatch(targets, manufacturerList.value)) {
-    targetSelectionMode.value = 'all'
-    return
-  }
-
-  const presetModes: Array<'enamel' | 'acrylic-water' | 'acrylic-alcohol' | 'laquer'> = [
-    'enamel',
-    'acrylic-water',
-    'acrylic-alcohol',
-    'laquer',
-  ]
-
-  for (const mode of presetModes) {
-    const manufacturersForMode = manufacturersByType.value[mode] ?? []
-    if (manufacturersMatch(targets, manufacturersForMode)) {
-      targetSelectionMode.value = mode
-      return
-    }
-  }
-
-  targetSelectionMode.value = 'custom'
-})
+// No need to sync radio from checkboxes here; handled in onManualTargetCheckboxChange
 
 function performConversion() {
   const codes = normalizedInputCodes.value
