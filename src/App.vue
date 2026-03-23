@@ -101,10 +101,6 @@
             <input type="radio" v-model="targetSelectionMode" value="laquer" @change="applyTargetSelectionMode" />
             Laquers
           </label>
-          <label class="radio">
-            <input type="radio" v-model="targetSelectionMode" value="custom" />
-            Custom
-          </label>
         </div>
 
         <div class="checkbox-list">
