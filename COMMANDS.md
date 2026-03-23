@@ -34,13 +34,13 @@ pip install -r tools/pdf-import/requirements.txt
 
 ### Parse Sources Configuration
 ```bash
-python tools/pdf-import/src/parse_sources.py
+python tools/pdf-import/src/1_parse_sources.py
 
-python tools/pdf-import/src/remap_sources.py
+python tools/pdf-import/src/2_remap_sources.py
 
 python tools/pdf-import/src/extract_csv_headers.py tools/pdf-import/input
 
-python tools/pdf-import/src/sort_and_compare.py
+python tools/pdf-import/src/3_sort_csv.py
 ```
 
 ---
