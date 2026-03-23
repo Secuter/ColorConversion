@@ -14,7 +14,6 @@ import mrColor from './mr-color.json'
 import mrColorAqueous from './mr-color-aqueous.json'
 import revellAcrylic from './revell-acrylic.json'
 import revellEnamel from './revell-enamel.json'
-import tamiyaAcrylic from './tamiya-acrylic.json'
 import italeri from './italeri.json'
 import paintLines from './paint-lines.json'
 
@@ -71,7 +70,6 @@ const configuredSeries: PaintSeries[] = [
   withPaintLineMeta(rlm as PaintSeries),
   withPaintLineMeta(mrColor as PaintSeries),
   withPaintLineMeta(mrColorAqueous as PaintSeries),
-  withPaintLineMeta(tamiyaAcrylic as PaintSeries),
   withPaintLineMeta(italeri as PaintSeries),
 ]
 
