@@ -1,732 +1,716 @@
-{
-  "series": "British Standard",
-  "manufacturer": "Color Standard",
-  "prefixes": [
-    "BS"
-  ],
-  "default_prefix": "BS",
-  "suffixes": [],
-  "default_suffix": "",
-  "colors": [
-    {
-      "id": "﻿Id",
-      "name": "Name",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "101",
-      "name": "Sky Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "102",
-      "name": "Turquoise Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "103",
-      "name": "Peacock Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "104",
-      "name": "Azure Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "105",
-      "name": "Oxford blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "106",
-      "name": "Royal Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "107",
-      "name": "Strong Blue / Pacific Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "108",
-      "name": "Aircraft Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "109",
-      "name": "Middle Blue / Anchusa",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "110",
-      "name": "Roundel Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "111",
-      "name": "Sky Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "112",
-      "name": "Arctic Blue / Fiesta Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "113",
-      "name": "Deep Saxe Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "114",
-      "name": "Rail Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "115",
-      "name": "Cobalt Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "166",
-      "name": "French Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "172",
-      "name": "Pale Rundel Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "174",
-      "name": "Orient Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "175",
-      "name": "Light French Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "210",
-      "name": "Sky",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "216",
-      "name": "Eau De Nil",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "217",
-      "name": "Sea Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "218",
-      "name": "Grass Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "220",
-      "name": "Olive Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "221",
-      "name": "Brilliant Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "222",
-      "name": "LightBbronze Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "223",
-      "name": "Middle Bronze Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "224",
-      "name": "Deep Bronze Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "225",
-      "name": "Light Brunswick Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "226",
-      "name": "Mid Brunswick Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "227",
-      "name": "Deep Brunswick Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "228",
-      "name": "Emerald green / Viridian",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "241",
-      "name": "Dark Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "262",
-      "name": "Bold Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "267",
-      "name": "Deep Chrome Green / Traffic Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "275",
-      "name": "Opaline Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "278",
-      "name": "Light Olive Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "280",
-      "name": "Verdigris Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "282",
-      "name": "Forest Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "283",
-      "name": "Aircraft Grey Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "284",
-      "name": "Spruce Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "285",
-      "name": "NATO Green",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "298",
-      "name": "Olive Drab",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "309",
-      "name": "Canary Yellow",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "310",
-      "name": "Primrose",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "315",
-      "name": "Grapefruit",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "320",
-      "name": "Light Brown",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "337",
-      "name": "Very Dark Drab",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "350",
-      "name": "Dark Earth",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "352",
-      "name": "Pale Cream",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "353",
-      "name": "Deep Cream",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "355",
-      "name": "Lemon",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "356",
-      "name": "Golden Yellow",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "358",
-      "name": "Light Buff",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "359",
-      "name": "Middle Buff",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "361",
-      "name": "Light Stone",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "363",
-      "name": "Bold Yellow",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "365",
-      "name": "Vellum",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "366",
-      "name": "Light Beige",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "367",
-      "name": "Manilla",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "369",
-      "name": "Biscuit",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "380",
-      "name": "Camouflage Desert Sand",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "384",
-      "name": "Light Straw",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "388",
-      "name": "Beige",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "389",
-      "name": "Camouflage Beige",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "411",
-      "name": "Middle Brown",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "412",
-      "name": "Dark Brown",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "414",
-      "name": "Golden Brown",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "420",
-      "name": "Dark Camouflage Desert Sand",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "435",
-      "name": "Camouflage Red",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "436",
-      "name": "Dark Camouflage Brown",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "444",
-      "name": "Terracotta",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "445",
-      "name": "Venetian Red",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "446",
-      "name": "Red Oxide",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "447",
-      "name": "Salmon Pink",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "448",
-      "name": "Deep Indian Red",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "449",
-      "name": "Light Purple Brown",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "452",
-      "name": "Dark Crimson",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "453",
-      "name": "Shell Pink",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "454",
-      "name": "Pale Roundel Red",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "460",
-      "name": "Deep Buff",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "473",
-      "name": "Gulf Red",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "489",
-      "name": "Leaf Brown",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "499",
-      "name": "Service Brown",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "537",
-      "name": "Signal Red",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "538",
-      "name": "Post Office Red / Cherry",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "539",
-      "name": "Currant Red",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "540",
-      "name": "Crimson",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "541",
-      "name": "Maroon",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "542",
-      "name": "Ruby",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "557",
-      "name": "Light Orange",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "564",
-      "name": "Bold Red",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "568",
-      "name": "Apricot",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "592",
-      "name": "International Orange",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "593",
-      "name": "Rail red / Azo Orange",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "626",
-      "name": "Camouflage Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "627",
-      "name": "Light AIrcraft Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "629",
-      "name": "Dark Camouflage Grey /  Quacker Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "630",
-      "name": "French Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "631",
-      "name": "Light Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "632",
-      "name": "Dark Admiralty Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "633",
-      "name": "RAF Blue Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "634",
-      "name": "Slate",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "635",
-      "name": "Lead",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "636",
-      "name": "Pru Blue",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "637",
-      "name": "Medium Sea Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "638",
-      "name": "Dark Sea Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "639",
-      "name": "Light Slate Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "640",
-      "name": "Extra Dark Sea Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "642",
-      "name": "Night",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "671",
-      "name": "Middle Graphite",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "676",
-      "name": "Light Weatherwork Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "677",
-      "name": "Dark Weatherwork Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "692",
-      "name": "Smoke Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "693",
-      "name": "Aircraft Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "694",
-      "name": "Dove Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "697",
-      "name": "Light Admiralty Grey",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "796",
-      "name": "Dark Violet",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "797",
-      "name": "Light Violet",
-      "rgb": "",
-      "correspondences": []
-    }
-  ]
-}
+[
+  {
+    "id": "101",
+    "name": "Sky Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "102",
+    "name": "Turquoise Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "103",
+    "name": "Peacock Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "104",
+    "name": "Azure Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "105",
+    "name": "Oxford blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "106",
+    "name": "Royal Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "107",
+    "name": "Strong Blue / Pacific Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "108",
+    "name": "Aircraft Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "109",
+    "name": "Middle Blue / Anchusa",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "110",
+    "name": "Roundel Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "111",
+    "name": "Sky Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "112",
+    "name": "Arctic Blue / Fiesta Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "113",
+    "name": "Deep Saxe Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "114",
+    "name": "Rail Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "115",
+    "name": "Cobalt Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "166",
+    "name": "French Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "172",
+    "name": "Pale Rundel Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "174",
+    "name": "Orient Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "175",
+    "name": "Light French Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "210",
+    "name": "Sky",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "216",
+    "name": "Eau De Nil",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "217",
+    "name": "Sea Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "218",
+    "name": "Grass Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "220",
+    "name": "Olive Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "221",
+    "name": "Brilliant Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "222",
+    "name": "LightBbronze Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "223",
+    "name": "Middle Bronze Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "224",
+    "name": "Deep Bronze Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "225",
+    "name": "Light Brunswick Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "226",
+    "name": "Mid Brunswick Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "227",
+    "name": "Deep Brunswick Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "228",
+    "name": "Emerald green / Viridian",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "241",
+    "name": "Dark Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "262",
+    "name": "Bold Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "267",
+    "name": "Deep Chrome Green / Traffic Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "275",
+    "name": "Opaline Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "278",
+    "name": "Light Olive Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "280",
+    "name": "Verdigris Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "282",
+    "name": "Forest Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "283",
+    "name": "Aircraft Grey Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "284",
+    "name": "Spruce Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "285",
+    "name": "NATO Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "298",
+    "name": "Olive Drab",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "309",
+    "name": "Canary Yellow",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "310",
+    "name": "Primrose",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "315",
+    "name": "Grapefruit",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "320",
+    "name": "Light Brown",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "337",
+    "name": "Very Dark Drab",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "350",
+    "name": "Dark Earth",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "352",
+    "name": "Pale Cream",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "353",
+    "name": "Deep Cream",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "355",
+    "name": "Lemon",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "356",
+    "name": "Golden Yellow",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "358",
+    "name": "Light Buff",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "359",
+    "name": "Middle Buff",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "361",
+    "name": "Light Stone",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "363",
+    "name": "Bold Yellow",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "365",
+    "name": "Vellum",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "366",
+    "name": "Light Beige",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "367",
+    "name": "Manilla",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "369",
+    "name": "Biscuit",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "380",
+    "name": "Camouflage Desert Sand",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "384",
+    "name": "Light Straw",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "388",
+    "name": "Beige",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "389",
+    "name": "Camouflage Beige",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "411",
+    "name": "Middle Brown",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "412",
+    "name": "Dark Brown",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "414",
+    "name": "Golden Brown",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "420",
+    "name": "Dark Camouflage Desert Sand",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "435",
+    "name": "Camouflage Red",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "436",
+    "name": "Dark Camouflage Brown",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "444",
+    "name": "Terracotta",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "445",
+    "name": "Venetian Red",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "446",
+    "name": "Red Oxide",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "447",
+    "name": "Salmon Pink",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "448",
+    "name": "Deep Indian Red",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "449",
+    "name": "Light Purple Brown",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "452",
+    "name": "Dark Crimson",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "453",
+    "name": "Shell Pink",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "454",
+    "name": "Pale Roundel Red",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "460",
+    "name": "Deep Buff",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "473",
+    "name": "Gulf Red",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "489",
+    "name": "Leaf Brown",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "499",
+    "name": "Service Brown",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "537",
+    "name": "Signal Red",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "538",
+    "name": "Post Office Red / Cherry",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "539",
+    "name": "Currant Red",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "540",
+    "name": "Crimson",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "541",
+    "name": "Maroon",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "542",
+    "name": "Ruby",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "557",
+    "name": "Light Orange",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "564",
+    "name": "Bold Red",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "568",
+    "name": "Apricot",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "592",
+    "name": "International Orange",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "593",
+    "name": "Rail red / Azo Orange",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "626",
+    "name": "Camouflage Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "627",
+    "name": "Light AIrcraft Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "629",
+    "name": "Dark Camouflage Grey /  Quacker Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "630",
+    "name": "French Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "631",
+    "name": "Light Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "632",
+    "name": "Dark Admiralty Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "633",
+    "name": "RAF Blue Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "634",
+    "name": "Slate",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "635",
+    "name": "Lead",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "636",
+    "name": "Pru Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "637",
+    "name": "Medium Sea Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "638",
+    "name": "Dark Sea Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "639",
+    "name": "Light Slate Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "640",
+    "name": "Extra Dark Sea Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "642",
+    "name": "Night",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "671",
+    "name": "Middle Graphite",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "676",
+    "name": "Light Weatherwork Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "677",
+    "name": "Dark Weatherwork Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "692",
+    "name": "Smoke Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "693",
+    "name": "Aircraft Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "694",
+    "name": "Dove Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "697",
+    "name": "Light Admiralty Grey",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "796",
+    "name": "Dark Violet",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "797",
+    "name": "Light Violet",
+    "rgb": "",
+    "correspondences": []
+  }
+]

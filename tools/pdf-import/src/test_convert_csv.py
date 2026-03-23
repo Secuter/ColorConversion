@@ -39,9 +39,15 @@ def normalize_id(val, min_digits=0):
         val = val.zfill(min_digits)
     return val
 
+def open_csv_with_fallback(path):
+    try:
+        return open(path, encoding="utf-8-sig")
+    except UnicodeDecodeError:
+        return open(path, encoding="latin1")
+
 def convert_csv_to_json(csv_path, config):
     # Open CSV
-    with open(csv_path, encoding="utf-8-sig") as f:
+    with open_csv_with_fallback(csv_path) as f:
         reader = csv.DictReader(f, delimiter=';')
         rows = list(reader)    
     
@@ -89,19 +95,26 @@ for section in sources:
         if entry.get("skip"):
             print(f"{entry['key']}\t\t: [SKIPPED]")
             continue
+        colors = None
+        config = paint_line_by_id[entry["key"]]
         if entry.get("merged"):
             csv_path = MERGED / entry["merged"]
             if csv_path.exists():
-                print(f"{entry['key']}\t\t: {csv_path}")
-                convert_csv_to_json(csv_path, paint_line_by_id[entry["key"]])
+                print(f"{config['series']}\t\t: {csv_path}")
+                colors = convert_csv_to_json(csv_path, config)
             else:
-                print(f"{entry['key']}\t\t: [NOT FOUND] {csv_path}")
-            
+                print(f"{config['series']}\t\t: [NOT FOUND] {csv_path}")
         files = entry.get("files", [])
         if len(files) == 1:
             csv_path = INPUT / files[0]["name"]
             if csv_path.exists():
-                print(f"{entry['key']}\t\t: {csv_path}")
-                convert_csv_to_json(csv_path, paint_line_by_id[entry["key"]])
+                print(f"{config['series']}\t\t: {csv_path}")
+                colors = convert_csv_to_json(csv_path, config)
             else:
-                print(f"{entry['key']}\t\t: [NOT FOUND] {csv_path}")
+                print(f"{config['series']}\t\t: [NOT FOUND] {csv_path}")
+        # Save colors to file if generated
+        if colors is not None:
+            out_path = DATA / f"{entry['key']}.json"
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(colors, f, ensure_ascii=False, indent=2)
+            print(f"[SAVED] {out_path}")

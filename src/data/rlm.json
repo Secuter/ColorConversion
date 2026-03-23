@@ -1,174 +1,1256 @@
-{
-  "series": "RLM",
-  "manufacturer": "Color Standard",
-  "prefixes": [
-    "RLM"
-  ],
-  "default_prefix": "RLM",
-  "suffixes": [],
-  "default_suffix": "",
-  "colors": [
-    {
-      "id": "01",
-      "name": "191",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "02",
-      "name": "/H70",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "04",
-      "name": "154",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "05",
-      "name": "70.806/ 12",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "21",
-      "name": "XF-2",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "22",
-      "name": "33",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "23",
-      "name": "XF-7",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "24",
-      "name": "70.963/ 57",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "25",
-      "name": "UA055",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "26",
-      "name": "XF-64",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "27",
-      "name": "70.831/ 203",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "28",
-      "name": "73",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "41",
-      "name": "129",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "61",
-      "name": "X-9",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "62",
-      "name": "XF-65",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "Hobby Mr.",
-      "name": "(acrylic)",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "enamel/",
-      "name": "(acrylic)*",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "191",
-      "name": "X-11 or",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "XF-16",
-      "name": "171",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "/H70",
-      "name": "92",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "154",
-      "name": "XF-3",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "4771",
-      "name": "15",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "XF-2",
-      "name": "70.951/",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "33",
-      "name": "XF-1",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "XF-7",
-      "name": "70.817/",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "4772",
-      "name": "26",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "4773",
-      "name": "57",
-      "rgb": "",
-      "correspondences": []
-    }
-  ]
-}
+[
+  {
+    "id": "1",
+    "name": "Silver",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "191"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.997"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-16"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-11"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "216"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1216"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Rlm Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "92"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA504"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H70"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505075"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32362"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-22"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2071"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4770"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 12"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "201"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1201"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "154"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.953"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505017"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36115"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32115/32314"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-3"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2072"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4771"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 21"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "213"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1213"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Cream",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.806"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.951"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505011"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-2"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "33"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.950"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505214"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-1"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.817"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505020"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-7"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2073"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4772"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "217"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1217"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.963"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505023"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36156"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32350"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2074"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4773"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "218"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1218"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Light Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA055"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505026"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36364"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32365"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4774"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-64"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.831"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Maroon",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "73"
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "129"
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "name": "Dark Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505300"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36146"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32146"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-9"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2075"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4775"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 08"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "219"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1219"
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505302"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-65"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2076"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4776"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 09"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "220"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1220"
+      }
+    ]
+  },
+  {
+    "id": "63v.1",
+    "name": "Light Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505304"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32176"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-25"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2077"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4777"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 10"
+      }
+    ]
+  },
+  {
+    "id": "63v.2",
+    "name": "Green Gray",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "64",
+    "name": "Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505306"
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "name": "Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "65"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA503/UA061"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.906"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H67"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505051"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-23"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2078"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4778"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 03"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "202"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1202"
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "name": "Black Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "32"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA133"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.866"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505014"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32109/32169"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2079"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4770"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 16"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "203"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1203"
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "name": "D Ark Olive Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505308"
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "name": "Light Olive Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505310"
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "name": "Light Tan",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505312"
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Black Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "91"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA501/UA051"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.897"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H65"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505055"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32140"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-27"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2080"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4780"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 02"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "204"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1204"
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "name": "Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "30/116"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA502/UA052"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H64"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505056"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32139"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-58/XF-61"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2081"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4781"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 11"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "205"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1205"
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505314"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-26"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2082"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4782"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 04"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "222"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1222"
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "name": "Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505316"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-27"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2083"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4783"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 05"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "223"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1223"
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Gray Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "27"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA507"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.867"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C36"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H68"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505059"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36167"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32167"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-63"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2084"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4784"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 13"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "206"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1206"
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "name": "Gray Violet",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "140?"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA508"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.869"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C37"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H69"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505060"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32147"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2085"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4785"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 14"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "207"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1207"
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA509"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.907"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505061"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2086"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4786"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 15"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "208"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1208"
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "name": "Light Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "testors-acryl",
+        "id": "4787"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 07"
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "name": "Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA512/UA062"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505318"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32155"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-23"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2087"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4788"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 17"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "214"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1214"
+      }
+    ]
+  },
+  {
+    "id": "79v.1",
+    "name": "Sand Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "62"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA505"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H66"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505320"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-60"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2088"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4789"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 18"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "209"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1209"
+      }
+    ]
+  },
+  {
+    "id": "79v.2",
+    "name": "Sand Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.843"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32382"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "224"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1224"
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "name": "Olive Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "155"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA506"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.894"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505322"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32142"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-58/XF-61"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2089"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4790"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 19"
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "name": "Brown Violet",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA510/UA053"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505070"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2090"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4791"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 06"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "210"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1210"
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "80"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA511"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.823"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505071"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32168"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-27"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2091"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4792"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 01"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "211"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1211"
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "name": "Light Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "30"
+      },
+      {
+        "paint_line": "polly-scale",
+        "id": "505072"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2092"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4793"
+      },
+      {
+        "paint_line": "white-ensign-models",
+        "id": "AC LW 20"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "212"
+      },
+      {
+        "paint_line": "xtracrylix",
+        "id": "1212"
+      }
+    ]
+  },
+  {
+    "id": "84v.1",
+    "name": "Gray Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "polly-scale",
+        "id": "505324"
+      },
+      {
+        "paint_line": "testors-acryl",
+        "id": "4794"
+      }
+    ]
+  },
+  {
+    "id": "84v.2",
+    "name": "Green Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-21"
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "name": "Yellow Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "120"
+      }
+    ]
+  }
+]

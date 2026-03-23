@@ -125,8 +125,8 @@ for entry in sources["paintLines"]:
         continue
     # Parse CSV
     colors = parse_csv(csv_path, key, config, paint_line_by_id)
-    # Output: just the array of colors
-    out_path = DATA / f"{key}.json"
+    # Output: just the array of colors, file name from config["key"]
+    out_path = DATA / f"{config['id']}.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(colors, f, ensure_ascii=False, indent=2)
     print(f"Wrote {out_path}")

@@ -1,498 +1,2209 @@
-{
-  "series": "Federal Standard",
-  "manufacturer": "Color Standard",
-  "prefixes": [
-    "FS"
-  ],
-  "default_prefix": "FS",
-  "suffixes": [],
-  "default_suffix": "",
-  "colors": [
-    {
-      "id": "F.S.34151",
-      "name": "F.S.34151",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.32197",
-      "name": "F.S.32197",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30118",
-      "name": "F.S.30118",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30266",
-      "name": "F.S.30266",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30219",
-      "name": "F.S.30219",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30111",
-      "name": "F.S.30111",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.35095",
-      "name": "F.S.35095",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.35231",
-      "name": "F.S.35231",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34230",
-      "name": "F.S.34230",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34096",
-      "name": "F.S.34096",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36118",
-      "name": "F.S.36118",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36270",
-      "name": "F.S.36270",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34092",
-      "name": "F.S.34092",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34088",
-      "name": "RAL 7017",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.31575",
-      "name": "F.S.31575",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.31433",
-      "name": "F.S.31433",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.35042",
-      "name": "F.S.35042",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.11302",
-      "name": "F.S.11302",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.31400",
-      "name": "F.S.31400",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.31350",
-      "name": "F.S.31350",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "-",
-      "name": "-",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.35164",
-      "name": "F.S.35164",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30109",
-      "name": "F.S.30109",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.13538",
-      "name": "F.S.13538",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30140",
-      "name": "F.S.30140",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33434",
-      "name": "F.S.33434",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.15200",
-      "name": "F.S.15200",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.15180",
-      "name": "F.S.15180",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.14090",
-      "name": "F.S.14090",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.17043",
-      "name": "F.S.17043",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30257",
-      "name": "RAL 8023",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30100",
-      "name": "F.S.30100",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.37178",
-      "name": "F.S.37178",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.17178",
-      "name": "F.S.17178",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.37200",
-      "name": "F.S.37200",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.12197",
-      "name": "F.S.12197",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.15050",
-      "name": "F.S.15050",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.17038",
-      "name": "F.S.17038",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.17875",
-      "name": "F.S.17875",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30117",
-      "name": "F.S.30117",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30277",
-      "name": "RAL 8000",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.31136",
-      "name": "F.S.31136",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30475",
-      "name": "F.S.30475",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33538",
-      "name": "F.S.33538",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34079",
-      "name": "F.S.34079",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34084",
-      "name": "F.S.34084",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34082",
-      "name": "RAL 6003",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34272",
-      "name": "RAL 6011",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36173",
-      "name": "F.S.36173",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36231",
-      "name": "F.S.36231",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.35237",
-      "name": "F.S.35237",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36300",
-      "name": "F.S.36300",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36622",
-      "name": "RAL 7027",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36495",
-      "name": "F.S.36495",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.35189",
-      "name": "F.S.35189",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.37038",
-      "name": "F.S.37038",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.37875",
-      "name": "F.S.37875",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.24226",
-      "name": "F.S.24226",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.35352",
-      "name": "F.S.35352",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34052",
-      "name": "F.S.34052",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36099",
-      "name": "F.S.36099",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36473",
-      "name": "F.S.36473",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30215",
-      "name": "F.S.30215",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36081 -F.S.37031",
-      "name": "RAL7021",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33440",
-      "name": "F.S.33440",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30045",
-      "name": "RAL 8017",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34128",
-      "name": "F.S.34128",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34083",
-      "name": "F.S.34083",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30450",
-      "name": "F.S.30450",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34098",
-      "name": "F.S.34098",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33446",
-      "name": "F.S.33446",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30252",
-      "name": "RAL 8023",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.34086",
-      "name": "RAL 7009",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.14087",
-      "name": "RAL 7008",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30059",
-      "name": "F.S.30059",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36375",
-      "name": "RAL 7038",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.30160",
-      "name": "F.S.30160",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33613",
-      "name": "F.S.33613",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36307",
-      "name": "F.S.36307",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.36320",
-      "name": "F.S.36320",
-      "rgb": "",
-      "correspondences": []
-    },
-    {
-      "id": "F.S.33722",
-      "name": "F.S.33722",
-      "rgb": "",
-      "correspondences": []
-    }
-  ]
-}
+[
+  {
+    "id": "11302",
+    "name": "Gloss Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "132"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4605AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-27"
+      }
+    ]
+  },
+  {
+    "id": "12197",
+    "name": "Gloss Orange",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "18"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4682AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H14"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-6"
+      }
+    ]
+  },
+  {
+    "id": "13538",
+    "name": "Gloss Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "69"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4642AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H4"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-24"
+      }
+    ]
+  },
+  {
+    "id": "14087",
+    "name": "Olive Drab Base",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "26/72"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H81"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7008"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-49"
+      }
+    ]
+  },
+  {
+    "id": "14090",
+    "name": "Gloss Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4669AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-28"
+      }
+    ]
+  },
+  {
+    "id": "15050",
+    "name": "Gloss(Blu Angels) Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "190/15"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4687AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H328"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-3"
+      }
+    ]
+  },
+  {
+    "id": "15180",
+    "name": "Gloss French Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "14"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4659AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H45/H15"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-8"
+      }
+    ]
+  },
+  {
+    "id": "15200",
+    "name": "Gloss Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4650AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-23"
+      }
+    ]
+  },
+  {
+    "id": "17038",
+    "name": "Gloss Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "21"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4695AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H2"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-1"
+      }
+    ]
+  },
+  {
+    "id": "17043",
+    "name": "Metal. Gloss Gold",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "16"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4671AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H9"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-12"
+      }
+    ]
+  },
+  {
+    "id": "17178",
+    "name": "Metal. Gloss Silver",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "11"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4678AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H8"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-16"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-11"
+      }
+    ]
+  },
+  {
+    "id": "17875",
+    "name": "Gloss White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "22"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4696AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H21/H1/H316"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-2"
+      }
+    ]
+  },
+  {
+    "id": "24226",
+    "name": "Grau",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "78"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4770AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H70"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-22/XF-71"
+      }
+    ]
+  },
+  {
+    "id": "30045",
+    "name": "Flat Pz. Schokobraun RAL 8017",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "98"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4797AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H84"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8017"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-10"
+      }
+    ]
+  },
+  {
+    "id": "30059",
+    "name": "Shadow rust",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-10"
+      }
+    ]
+  },
+  {
+    "id": "30100",
+    "name": "Flat Leather",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "100"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4674AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H7"
+      }
+    ]
+  },
+  {
+    "id": "30109",
+    "name": "Flat Marrone Mimetico 1",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "73"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4640AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H13"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-9"
+      }
+    ]
+  },
+  {
+    "id": "30109",
+    "name": "Flat Rust",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "73"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4675AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H343"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-9"
+      }
+    ]
+  },
+  {
+    "id": "30111",
+    "name": "Flat Medium Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "70"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4306AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-68"
+      }
+    ]
+  },
+  {
+    "id": "30117",
+    "name": "Flat Earth Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "186/160"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4707AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H47"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-64"
+      }
+    ]
+  },
+  {
+    "id": "30118",
+    "name": "Flat Dark Earth",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "29"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4303AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H72"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      }
+    ]
+  },
+  {
+    "id": "30118",
+    "name": "Flat Marrone Mimetico 2",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "29"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4641AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H72"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      }
+    ]
+  },
+  {
+    "id": "30118",
+    "name": "Flat Field Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "29"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4708AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H72"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      }
+    ]
+  },
+  {
+    "id": "30140",
+    "name": "Flat Bruno Mimetico",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "29"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4644AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H72"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      }
+    ]
+  },
+  {
+    "id": "30140",
+    "name": "Flat Dark Earth Ana 617",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "29"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4846AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H72"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      }
+    ]
+  },
+  {
+    "id": "30160",
+    "name": "Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "69"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H329"
+      }
+    ]
+  },
+  {
+    "id": "30215",
+    "name": "Sandgelb",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "62"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4789AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "30219",
+    "name": "Flat Light Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "119"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4305AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H310"
+      }
+    ]
+  },
+  {
+    "id": "30219",
+    "name": "Flat Nocciola Chiaro",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "119"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4643AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H310"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      }
+    ]
+  },
+  {
+    "id": "30219",
+    "name": "Flat Dark Tan",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "119"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4709AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H310"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      }
+    ]
+  },
+  {
+    "id": "30252",
+    "name": "Red Primer High Light",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "9"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H37"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8023"
+      }
+    ]
+  },
+  {
+    "id": "30257",
+    "name": "Flat Wood",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "9/63"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4673AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H37/H33"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8023"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-59"
+      }
+    ]
+  },
+  {
+    "id": "30266",
+    "name": "Flat Middle Stone",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "93"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4304AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H79"
+      }
+    ]
+  },
+  {
+    "id": "30266",
+    "name": "Flat Giallo Mimetico 4 - New Iraqi Army Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "93/121"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4646AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H79/H403"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7028"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-60/XF-55"
+      }
+    ]
+  },
+  {
+    "id": "30277",
+    "name": "Flat Armor Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "187"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4711AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H336"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8000"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-41"
+      }
+    ]
+  },
+  {
+    "id": "30450",
+    "name": "Flat US Army/Mar.Gulf Arm Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "94"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4812AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "30475",
+    "name": "Flat Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "121/98"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4720AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H313"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-60/XF-78/XF-10"
+      }
+    ]
+  },
+  {
+    "id": "31136",
+    "name": "Flat Insignia Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "153"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4714AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H327"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-7"
+      }
+    ]
+  },
+  {
+    "id": "31350",
+    "name": "Flat Guards Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "60"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4632AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H13"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-7"
+      }
+    ]
+  },
+  {
+    "id": "31400",
+    "name": "Flat Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "60"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4606AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H414"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-7"
+      }
+    ]
+  },
+  {
+    "id": "31433",
+    "name": "Flat Skin Tone Warm Tint",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "61"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4603AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H44"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-15"
+      }
+    ]
+  },
+  {
+    "id": "31575",
+    "name": "Flat Light Flesh",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "61"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4390AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H44"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-15"
+      }
+    ]
+  },
+  {
+    "id": "31575",
+    "name": "Flat Skin Tone Tint Base - Light",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "61"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4601AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H44"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-15"
+      }
+    ]
+  },
+  {
+    "id": "32197",
+    "name": "Flat Orange",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "18"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4302AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H14"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-6"
+      }
+    ]
+  },
+  {
+    "id": "33434",
+    "name": "Flat Giallo Mimetico 3",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "7"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4645AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "33440",
+    "name": "Flat Panzer Dunkelgelb 1943",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "81"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4796AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-4"
+      }
+    ]
+  },
+  {
+    "id": "33446",
+    "name": "OIF & OEF US Vehicles Base colour",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "33538",
+    "name": "Flat Insignia Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "154/188/99"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4721AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H329"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-3"
+      }
+    ]
+  },
+  {
+    "id": "33613",
+    "name": "Radome Tan",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "33722",
+    "name": "Buff Light Shade",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "34052",
+    "name": "Schwarzgrün",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "75/91"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4780AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H65"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-11/XF-13/XF-27"
+      }
+    ]
+  },
+  {
+    "id": "34079",
+    "name": "Flat Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "116"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4726AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H309"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-65/XF-13"
+      }
+    ]
+  },
+  {
+    "id": "34082",
+    "name": "Flat Medium Green II",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "102"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4734AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H303/H80"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6003"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-11"
+      }
+    ]
+  },
+  {
+    "id": "34083",
+    "name": "Flat Russian Armor Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "66"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4807AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H420"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-62/XF-81"
+      }
+    ]
+  },
+  {
+    "id": "34084",
+    "name": "Flat Olive Drab - US Army",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "66"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4728AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H17/H78"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-62"
+      }
+    ]
+  },
+  {
+    "id": "34086",
+    "name": "Olive Drab Shadow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "163"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H330"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7009"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-74"
+      }
+    ]
+  },
+  {
+    "id": "34088",
+    "name": "Flat Olive Drab -Dunkelbraun",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "155"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4315AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H304/H52"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7017"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-49/XF-51"
+      }
+    ]
+  },
+  {
+    "id": "34088",
+    "name": "Flat Olive Drab Ana 613",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "116"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4842AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H309"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6003"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-13/XF-65"
+      }
+    ]
+  },
+  {
+    "id": "34092",
+    "name": "Flat Medium Green I -WWI French Green #2",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "149/30/195"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4314AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H302"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-26/XF-61"
+      }
+    ]
+  },
+  {
+    "id": "34092",
+    "name": "Flat Verde Mimetico 2 - Splittermuster Rainmarks",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "30/46"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4723AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H302"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-26/XF-61"
+      }
+    ]
+  },
+  {
+    "id": "34092",
+    "name": "Flat Euro I Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "30"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4729AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H302"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-26"
+      }
+    ]
+  },
+  {
+    "id": "34096",
+    "name": "Flat Dark Slate Grey -Protective Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "195/163/105/150/30"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4311AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H60/H330/H340"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-5/XF-13/XF-58/XF-26"
+      }
+    ]
+  },
+  {
+    "id": "34098",
+    "name": "Flat Military Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "159"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4852AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H423"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-4"
+      }
+    ]
+  },
+  {
+    "id": "34128",
+    "name": "Flat Panzer Olivgrün 1943",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "131"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4798AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-26"
+      }
+    ]
+  },
+  {
+    "id": "34151",
+    "name": "Flat Interior Grey Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "150"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4301AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "34151",
+    "name": "Flat Interior Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "150"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4736AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "34230",
+    "name": "Flat Light Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4309AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "34272",
+    "name": "Flat Pale Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "120"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4739AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H312"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6011"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-26"
+      }
+    ]
+  },
+  {
+    "id": "35042",
+    "name": "Flat Non Specular Sea Blue -WWI French Uniform Shadow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "77"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4604AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H54"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-17"
+      }
+    ]
+  },
+  {
+    "id": "35095",
+    "name": "Flat Medium Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4307AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "35164",
+    "name": "Flat Non Specular Interm. Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "144"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4639AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H42"
+      }
+    ]
+  },
+  {
+    "id": "35189",
+    "name": "Flat Non Specular Blue Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "157"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4766AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "35231",
+    "name": "Flat Azure Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4308AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "35237",
+    "name": "Flat Dark Ghost Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "128/167/128"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4761AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H307/H337/H53"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-53"
+      }
+    ]
+  },
+  {
+    "id": "35352",
+    "name": "Interior Light Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "65/90"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4778AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H67"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-21/XF-23"
+      }
+    ]
+  },
+  {
+    "id": "36081",
+    "name": "Flat Pz. Schwarzgrau",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "123/85"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4795AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H301/H77/H333"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7021"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-24/XF-63/XF-69"
+      }
+    ]
+  },
+  {
+    "id": "36099",
+    "name": "Graugrün",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "123"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4784AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H68/H401"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-63"
+      }
+    ]
+  },
+  {
+    "id": "36118",
+    "name": "Flat Extra Dark Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "112"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4312AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H305"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-50"
+      }
+    ]
+  },
+  {
+    "id": "36118",
+    "name": "Flat Gunship Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "112/USN 1"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4752AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H305"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-50/XF-24"
+      }
+    ]
+  },
+  {
+    "id": "36173",
+    "name": "Flat Dark Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "27"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4754AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H22"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-53"
+      }
+    ]
+  },
+  {
+    "id": "36231",
+    "name": "Flat Dark Gull Gray -Dunkelgrau High Light",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "140/165"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4755AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H317/H75"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-54"
+      }
+    ]
+  },
+  {
+    "id": "36231",
+    "name": "Grauviolett",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "140"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4785AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H317"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-19/XF-54"
+      }
+    ]
+  },
+  {
+    "id": "36270",
+    "name": "Flat Medium Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "126"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4313AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H306"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-66/XF-20"
+      }
+    ]
+  },
+  {
+    "id": "36270",
+    "name": "Flat Medium Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "145/126/64"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4746AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H337/H306"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-66/XF-20/XF-12"
+      }
+    ]
+  },
+  {
+    "id": "36300",
+    "name": "Flat Light Ghost Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "127"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4762AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H308"
+      }
+    ]
+  },
+  {
+    "id": "36307",
+    "name": "Light Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "36320",
+    "name": "Dark Ghost Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "36375",
+    "name": "Hellgrau -Light Ghost Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "127"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "-000"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7038"
+      }
+    ]
+  },
+  {
+    "id": "36473",
+    "name": "Lichtblau",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "147"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4786AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H417"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-14"
+      }
+    ]
+  },
+  {
+    "id": "36495",
+    "name": "Flat Light Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "127/USN 3"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4765AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H308"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-19"
+      }
+    ]
+  },
+  {
+    "id": "36622",
+    "name": "Flat Gull Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "129/28/129"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4763AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H325"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7027"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-55"
+      }
+    ]
+  },
+  {
+    "id": "37031",
+    "name": "Dunkelgrau Shadow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "123/85"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4795AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H301/H77/H333"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7021"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-24/XF-63/XF-69"
+      }
+    ]
+  },
+  {
+    "id": "37038",
+    "name": "Flat Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "33"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4768AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H12"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-1"
+      }
+    ]
+  },
+  {
+    "id": "37178",
+    "name": "Metal. Flat Aluminum",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "56"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4677AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H8"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-56"
+      }
+    ]
+  },
+  {
+    "id": "37178",
+    "name": "Metal.Flat Steel",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4679AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H18"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-31"
+      }
+    ]
+  },
+  {
+    "id": "37200",
+    "name": "Flat Gun Metal",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "53"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4681AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H76/H18"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-10"
+      }
+    ]
+  },
+  {
+    "id": "37875",
+    "name": "Flat White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "34"
+      },
+      {
+        "paint_line": "italeri",
+        "id": "4769AP"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H11"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-2"
+      }
+    ]
+  }
+]
