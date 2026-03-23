@@ -9,93 +9,94 @@
     {
       "key": "ak-real-colors",
       "files": [
-        { "name": "AK Real Colors Conversion.csv" }
+        { "name": "AK Real Colors Official.csv" }
       ]
     },
     {
       "key": "ammo-mig",
       "files": [
-        { "name": "Ammo Mig.csv" } // TODO
+        { "name": "Ammo Mig Official.csv" }
       ]
     },
     {
       "key": "ammo-mig-atom",
       "files": [
-        { "name": "Atom Ammo Mig.csv" }
+        { "name": "Atom Ammo Mig Official.csv" }
       ]
     },
     {
       "key": "humbrol-enamel",
       "files": [
-        { "name": "Humbrol.csv" }
-        { "name": "Humbrol Color Conversion.csv" } // TODO
+        { "name": "Humbrol.csv" },
+        { "name": "Humbrol Official.csv" }
       ]
     },
     {
       "key": "italeri",
       "files": [
         { "name": "Italeri.csv" },
-        { "name": "Italeri Conversion.csv" }
+        { "name": "Italeri Official.csv" }
       ]
     },
     {
       "key": "mr-color",
       "files": [
-        { "name": "MrColor Laquer Conversion.csv" }
+        { "name": "MrColor Laquer.csv" },
+        { "name": "MrColor Laquer 2.csv" }
       ]
     },
     {
       "key": "mr-color-aqueous",
       "files": [
         { "name": "MrColor Aqueous.csv" },
-        { "name": "MrColor Aqueous Conversion.csv" }
+        { "name": "MrColor Aqueous 2.csv" }
       ]
     },
     {
       "key": "mr-color-acrysion",
       "files": [
         { "name": "MrColor Acrysion.csv" },
-        { "name": "MrColor Acrysion Conversion.csv" }
+        { "name": "MrColor Acrysion 2.csv" }
       ]
     },
     {
       "key": "revell-enamel",
       "files": [
         { "name": "Revell.csv" },
-        { "name": "Revell Enamel Conversion.csv" }
+        { "name": "Revell Enamel Official.csv" }
       ]
     },
     {
       "key": "revell-acrylic",
       "files": [
         { "name": "Revell.csv" },
-        { "name": "Revell Acrylic Conversion.csv" }
+        { "name": "Revell Acrylic Official.csv" }
       ]
     },
     {
       "key": "tamiya-flat",
       "files": [
         { "name": "Tamiya Flat.csv" },
-        { "name": "Tamiya Flat Conversion.csv" }
+        { "name": "Tamiya Flat 2.csv" }
       ]
     },
     {
       "key": "tamiya-gloss",
       "files": [
         { "name": "Tamiya Gloss.csv" },
-        { "name": "Tamiya Gloss Conversion.csv" }
+        { "name": "Tamiya Gloss 2.csv" }
       ]
     },
     {
       "key": "vallejo-model-color",
       "files": [
-        { "name": "Vallejo Model Color Append Conversion.csv" }
+        { "name": "Vallejo Model Color Official.csv" }
       ]
     },
     {
       "key": "vallejo-model-air",
       "files": [
-        { "name": "Vallejo Model Air.csv" }
+        { "name": "Vallejo Model Air Official.csv" }
       ]
     }
   ],
@@ -123,7 +124,7 @@
     {
       "key": "rlm",
       "files": [
-        { "name": "RLM Conversion.csv" }
+        { "name": "RLM.csv" }
       ]
     }
   ]

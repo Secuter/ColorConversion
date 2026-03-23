@@ -40,13 +40,7 @@ python tools/pdf-import/src/remap_sources.py
 
 python tools/pdf-import/src/extract_csv_headers.py tools/pdf-import/input
 
-python tools/pdf-import/src/extract_csv_headers.py tools/pdf-import/input --print
-
-python tools/pdf-import/src/extract_csv_headers.py tools/pdf-import/input --recursive --text-output tools/pdf-import/output/headers.txt --json-output tools/pdf-import/output/headers-with-sources.json
-
-python tools/pdf-import/src/extract_tables.py
-
-python tools/pdf-import/src/build_json.py --step all
+python tools/pdf-import/src/sort_and_compare.py
 ```
 
 ---
