@@ -1,689 +1,2879 @@
-{
-  "series": "Vallejo Model Air",
-  "manufacturer": "Vallejo",
-  "prefixes": [
-    "71."
-  ],
-  "colors": [
-    {
-      "name": "White",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Red RLM23",
-      "correspondences": []
-    },
-    {
-      "name": "Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Grey Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Green",
-      "correspondences": []
-    },
-    {
-      "name": "Pale Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Eau de Nil “D.E.G.”",
-      "correspondences": []
-    },
-    {
-      "name": "Interior Green",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Green RLM83",
-      "correspondences": []
-    },
-    {
-      "name": "Yellow Olive",
-      "correspondences": []
-    },
-    {
-      "name": "Gunship Green",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Green RLM71",
-      "correspondences": []
-    },
-    {
-      "name": "USAF Olive Drab",
-      "correspondences": []
-    },
-    {
-      "name": "Russian Green 4BO",
-      "correspondences": []
-    },
-    {
-      "name": "Camouf. Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "Black Green RLM70",
-      "correspondences": []
-    },
-    {
-      "name": "Light Green RLM82",
-      "correspondences": []
-    },
-    {
-      "name": "Hemp",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "USA Flat Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Brown Green",
-      "correspondences": []
-    },
-    {
-      "name": "Middle Stone",
-      "correspondences": []
-    },
-    {
-      "name": "Yellow Ochre",
-      "correspondences": []
-    },
-    {
-      "name": "Camouf. Pale Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Mahogany",
-      "correspondences": []
-    },
-    {
-      "name": "Cam. Medium Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Hull Red",
-      "correspondences": []
-    },
-    {
-      "name": "Burnt Umber",
-      "correspondences": []
-    },
-    {
-      "name": "Armour Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Brown RLM61",
-      "correspondences": []
-    },
-    {
-      "name": "US Olive Drab",
-      "correspondences": []
-    },
-    {
-      "name": "Grey RLM02",
-      "correspondences": []
-    },
-    {
-      "name": "Cement Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Engine Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Sea Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Light Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Neutral Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Sea Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Grey Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Black Grey RLM66",
-      "correspondences": []
-    },
-    {
-      "name": "Panzer Dark Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Black",
-      "correspondences": []
-    },
-    {
-      "name": "Black + Gloss Varnish",
-      "correspondences": []
-    },
-    {
-      "name": "Aluminium (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Silver RLM01 (Metal.)",
-      "correspondences": []
-    },
-    {
-      "name": "Chrome (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Steel (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Gold (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Copper (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Signal Red (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Gunmetal (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Black (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Beige",
-      "correspondences": []
-    },
-    {
-      "name": "Ivory",
-      "correspondences": []
-    },
-    {
-      "name": "Skin Tone",
-      "correspondences": []
-    },
-    {
-      "name": "Yellow RLM04",
-      "correspondences": []
-    },
-    {
-      "name": "Rust",
-      "correspondences": []
-    },
-    {
-      "name": "Fluorescent Red",
-      "correspondences": []
-    },
-    {
-      "name": "Orange",
-      "correspondences": []
-    },
-    {
-      "name": "Ferrari Red",
-      "correspondences": []
-    },
-    {
-      "name": "Steel Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Deep Sky",
-      "correspondences": []
-    },
-    {
-      "name": "Signal Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Olive",
-      "correspondences": []
-    },
-    {
-      "name": "NATO Green",
-      "correspondences": []
-    },
-    {
-      "name": "Pale Green",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Med. Gunship Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Light Blue RLM78",
-      "correspondences": []
-    },
-    {
-      "name": "Grey Blue RLM84",
-      "correspondences": []
-    },
-    {
-      "name": "Green RLM62",
-      "correspondences": []
-    },
-    {
-      "name": "Brown RLM26",
-      "correspondences": []
-    },
-    {
-      "name": "Ivory RLM05",
-      "correspondences": []
-    },
-    {
-      "name": "UK Azure Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Faded P.R.U. Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Gray",
-      "correspondences": []
-    },
-    {
-      "name": "USAF Light Blue",
-      "correspondences": []
-    },
-    {
-      "name": "IDF Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Blue Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Camouf. Grey Green",
-      "correspondences": []
-    },
-    {
-      "name": "Camouflage Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Camouflage Grey",
-      "correspondences": []
-    },
-    {
-      "name": "White Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Ghost Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Light Gull Gray",
-      "correspondences": []
-    },
-    {
-      "name": "US Desert Armour 686",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Grey RLM42",
-      "correspondences": []
-    },
-    {
-      "name": "USAF Green",
-      "correspondences": []
-    },
-    {
-      "name": "USAF Brown",
-      "correspondences": []
-    },
-    {
-      "name": "IDF/IAF Green",
-      "correspondences": []
-    },
-    {
-      "name": "Gray Violet",
-      "correspondences": []
-    },
-    {
-      "name": "Orange Rust",
-      "correspondences": []
-    },
-    {
-      "name": "Aged White",
-      "correspondences": []
-    },
-    {
-      "name": "IJA Chrome Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "US Light Green",
-      "correspondences": []
-    },
-    {
-      "name": "US Sand",
-      "correspondences": []
-    },
-    {
-      "name": "US Field Drab",
-      "correspondences": []
-    },
-    {
-      "name": "US Desert Sand",
-      "correspondences": []
-    },
-    {
-      "name": "IDF Sand Grey 73",
-      "correspondences": []
-    },
-    {
-      "name": "UK Light Stone",
-      "correspondences": []
-    },
-    {
-      "name": "Sand Beige",
-      "correspondences": []
-    },
-    {
-      "name": "Loam Beige",
-      "correspondences": []
-    },
-    {
-      "name": "Yellow Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Light Olive",
-      "correspondences": []
-    },
-    {
-      "name": "Brown Grey",
-      "correspondences": []
-    },
-    {
-      "name": "NATO Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Bronze Green",
-      "correspondences": []
-    },
-    {
-      "name": "NATO Black",
-      "correspondences": []
-    },
-    {
-      "name": "Light Blue RLM65",
-      "correspondences": []
-    },
-    {
-      "name": "Green RLM73",
-      "correspondences": []
-    },
-    {
-      "name": "Light Blue RLM76",
-      "correspondences": []
-    },
-    {
-      "name": "Grey Green RLM74",
-      "correspondences": []
-    },
-    {
-      "name": "Grey Violet RLM75",
-      "correspondences": []
-    },
-    {
-      "name": "Light Grey RLM63",
-      "correspondences": []
-    },
-    {
-      "name": "Green RLM72",
-      "correspondences": []
-    },
-    {
-      "name": "Brown Violet RLM81",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Green RLM80",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Blue RLM24",
-      "correspondences": []
-    },
-    {
-      "name": "Light Green RLM25",
-      "correspondences": []
-    },
-    {
-      "name": "German Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Red",
-      "correspondences": []
-    },
-    {
-      "name": "Off-White",
-      "correspondences": []
-    },
-    {
-      "name": "German Red Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Germ. Yellow Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Ocean Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Aggressor Gray",
-      "correspondences": []
-    },
-    {
-      "name": "USAF Medium Gray",
-      "correspondences": []
-    },
-    {
-      "name": "USAF Light Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Gull Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Sand Yellow RLM79",
-      "correspondences": []
-    },
-    {
-      "name": "Insignia White",
-      "correspondences": []
-    },
-    {
-      "name": "Camouflage Gray",
-      "correspondences": []
-    },
-    {
-      "name": "6K Russian Brown",
-      "correspondences": []
-    },
-    {
-      "name": "US Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "US Earth Brown",
-      "correspondences": []
-    },
-    {
-      "name": "US Earth Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "US Loam",
-      "correspondences": []
-    },
-    {
-      "name": "US Earth Red",
-      "correspondences": []
-    },
-    {
-      "name": "US Forest Green",
-      "correspondences": []
-    },
-    {
-      "name": "USN Sea Blue",
-      "correspondences": []
-    },
-    {
-      "name": "USN Sea Blue + Satin Varnish",
-      "correspondences": []
-    },
-    {
-      "name": "USAAF Light Gray",
-      "correspondences": []
-    },
-    {
-      "name": "JGSD Brown 3606",
-      "correspondences": []
-    },
-    {
-      "name": "M495 Light Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Intermediate Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Glossy Sea Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Sky Type S",
-      "correspondences": []
-    },
-    {
-      "name": "Interior Grey Green",
-      "correspondences": []
-    },
-    {
-      "name": "Sky Blue",
-      "correspondences": []
-    },
-    {
-      "name": "BS Medium Sea Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Slate Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Mediterran. Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Seaplane Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Tire Black",
-      "correspondences": []
-    },
-    {
-      "name": "IJA Light Grey Green",
-      "correspondences": []
-    },
-    {
-      "name": "BS Dark Earth",
-      "correspondences": []
-    },
-    {
-      "name": "BS Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "IAF Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Light Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Green",
-      "correspondences": []
-    },
-    {
-      "name": "",
-      "correspondences": []
-    },
-    {
-      "name": "Flanker Light Gray",
-      "correspondences": []
-    },
-    {
-      "name": "A-14 Steel Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Flanker Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Russian AF Grey N.3",
-      "correspondences": []
-    },
-    {
-      "name": "Russian AF Grey N.4",
-      "correspondences": []
-    },
-    {
-      "name": "Russ. AF Dark Green",
-      "correspondences": []
-    }
-  ]
-}
+[
+  {
+    "id": "71.001",
+    "name": "White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "37925"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C62"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H11"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9016"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "21"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-2"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2142"
+      }
+    ]
+  },
+  {
+    "id": "71.002",
+    "name": "Medium Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-3"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2011"
+      }
+    ]
+  },
+  {
+    "id": "71.003",
+    "name": "Red RLM23",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C114"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H414"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "23"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2073"
+      }
+    ]
+  },
+  {
+    "id": "71.004",
+    "name": "Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H15"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2012"
+      }
+    ]
+  },
+  {
+    "id": "71.005",
+    "name": "Grey Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "5008"
+      }
+    ]
+  },
+  {
+    "id": "71.007",
+    "name": "Olive Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-11"
+      }
+    ]
+  },
+  {
+    "id": "71.008",
+    "name": "Pale Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35414"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2033"
+      }
+    ]
+  },
+  {
+    "id": "71.009",
+    "name": "Eau de Nil “D.E.G.”",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "216"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C26"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H74"
+      }
+    ]
+  },
+  {
+    "id": "71.010",
+    "name": "Interior Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34098"
+      }
+    ]
+  },
+  {
+    "id": "71.011",
+    "name": "Dark Green RLM83",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C123"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H423"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "83"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2092"
+      }
+    ]
+  },
+  {
+    "id": "71.013",
+    "name": "Yellow Olive",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34052"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6015"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-74"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2025"
+      }
+    ]
+  },
+  {
+    "id": "71.014",
+    "name": "Gunship Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-26"
+      }
+    ]
+  },
+  {
+    "id": "71.015",
+    "name": "Dark Green RLM71",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C17"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H64"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "71"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-51"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2081"
+      }
+    ]
+  },
+  {
+    "id": "71.016",
+    "name": "USAF Olive Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "613"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34088"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C38"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H52"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2050"
+      }
+    ]
+  },
+  {
+    "id": "71.017",
+    "name": "Russian Green 4BO",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34082"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C136"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-81"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2129"
+      }
+    ]
+  },
+  {
+    "id": "71.019",
+    "name": "Camouf. Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34083"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6007"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-61"
+      }
+    ]
+  },
+  {
+    "id": "71.021",
+    "name": "Black Green RLM70",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C18"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H65"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "70"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2080"
+      }
+    ]
+  },
+  {
+    "id": "71.022",
+    "name": "Light Green RLM82",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34095"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C122"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H422"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "82"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-58"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2091"
+      }
+    ]
+  },
+  {
+    "id": "71.023",
+    "name": "Hemp",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34201"
+      }
+    ]
+  },
+  {
+    "id": "71.025",
+    "name": "Dark Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C39"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H403"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7028"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-60"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2095"
+      }
+    ]
+  },
+  {
+    "id": "71.026",
+    "name": "USA Flat Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30215"
+      }
+    ]
+  },
+  {
+    "id": "71.030",
+    "name": "Brown Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-59"
+      }
+    ]
+  },
+  {
+    "id": "71.031",
+    "name": "Middle Stone",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "615"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "362"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30266"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C21"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H71"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2052"
+      }
+    ]
+  },
+  {
+    "id": "71.033",
+    "name": "Yellow Ochre",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "1006"
+      }
+    ]
+  },
+  {
+    "id": "71.035",
+    "name": "Camouf. Pale Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30140"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8025"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      }
+    ]
+  },
+  {
+    "id": "71.036",
+    "name": "Mahogany",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-79"
+      }
+    ]
+  },
+  {
+    "id": "71.038",
+    "name": "Cam. Medium Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30097"
+      }
+    ]
+  },
+  {
+    "id": "71.039",
+    "name": "Hull Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H13"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-9"
+      }
+    ]
+  },
+  {
+    "id": "71.040",
+    "name": "Burnt Umber",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "8014"
+      }
+    ]
+  },
+  {
+    "id": "71.041",
+    "name": "Armour Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "8017"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-10"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2096"
+      }
+    ]
+  },
+  {
+    "id": "71.042",
+    "name": "Dark Brown RLM61",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "37056"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8019"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "61"
+      }
+    ]
+  },
+  {
+    "id": "71.043",
+    "name": "US Olive Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34087"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C304"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H304"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-74"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2051"
+      }
+    ]
+  },
+  {
+    "id": "71.044",
+    "name": "Grey RLM02",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C60"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H70"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "2"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2071"
+      }
+    ]
+  },
+  {
+    "id": "71.045",
+    "name": "Cement Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "7033"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-12"
+      }
+    ]
+  },
+  {
+    "id": "71.047",
+    "name": "Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-75"
+      }
+    ]
+  },
+  {
+    "id": "71.048",
+    "name": "Engine Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36076"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H32"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-63"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2034"
+      }
+    ]
+  },
+  {
+    "id": "71.049",
+    "name": "Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-54"
+      }
+    ]
+  },
+  {
+    "id": "71.050",
+    "name": "Light Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36300"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7046"
+      }
+    ]
+  },
+  {
+    "id": "71.051",
+    "name": "Neutral Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36173"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2035"
+      }
+    ]
+  },
+  {
+    "id": "71.053",
+    "name": "Dark Sea Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36099"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7011"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-50"
+      }
+    ]
+  },
+  {
+    "id": "71.054",
+    "name": "Dark Grey Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "7024"
+      }
+    ]
+  },
+  {
+    "id": "71.055",
+    "name": "Black Grey RLM66",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C116"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H416"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "66"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2079"
+      }
+    ]
+  },
+  {
+    "id": "71.056",
+    "name": "Panzer Dark Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C40"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H401"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7021"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2094"
+      }
+    ]
+  },
+  {
+    "id": "71.057",
+    "name": "Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "604"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "642"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "37038"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C33"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H12"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9004"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "22"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-1"
+      }
+    ]
+  },
+  {
+    "id": "71.057 + 71.510",
+    "name": "Black + Gloss Varnish",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "622"
+      }
+    ]
+  },
+  {
+    "id": "71.062",
+    "name": "Aluminium (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H8"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-16"
+      }
+    ]
+  },
+  {
+    "id": "71.063",
+    "name": "Silver RLM01 (Metal.)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C90"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "1"
+      }
+    ]
+  },
+  {
+    "id": "71.064",
+    "name": "Chrome (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "17178"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C104"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-56"
+      }
+    ]
+  },
+  {
+    "id": "71.065",
+    "name": "Steel (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C28"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H18"
+      }
+    ]
+  },
+  {
+    "id": "71.066",
+    "name": "Gold (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "17043"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C9"
+      }
+    ]
+  },
+  {
+    "id": "71.068",
+    "name": "Copper (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C10"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H10"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-6"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2019"
+      }
+    ]
+  },
+  {
+    "id": "71.070",
+    "name": "Signal Red (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C75"
+      }
+    ]
+  },
+  {
+    "id": "71.072",
+    "name": "Gunmetal (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "37200"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H76"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-10"
+      }
+    ]
+  },
+  {
+    "id": "71.073",
+    "name": "Black (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C78"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H28"
+      }
+    ]
+  },
+  {
+    "id": "71.074",
+    "name": "Beige",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33695"
+      }
+    ]
+  },
+  {
+    "id": "71.075",
+    "name": "Ivory",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "1001"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2021"
+      }
+    ]
+  },
+  {
+    "id": "71.076",
+    "name": "Skin Tone",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C51"
+      }
+    ]
+  },
+  {
+    "id": "71.078",
+    "name": "Yellow RLM04",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "614"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "356"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "33538"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C113"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H413"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "4"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2072"
+      }
+    ]
+  },
+  {
+    "id": "71.080",
+    "name": "Rust",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "435"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30111"
+      }
+    ]
+  },
+  {
+    "id": "71.082",
+    "name": "Fluorescent Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "38903"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C171"
+      },
+      {
+        "paint_line": "ral",
+        "id": "2005"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2041"
+      }
+    ]
+  },
+  {
+    "id": "71.083",
+    "name": "Orange",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C59"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H14"
+      }
+    ]
+  },
+  {
+    "id": "71.085",
+    "name": "Ferrari Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H327"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-7"
+      }
+    ]
+  },
+  {
+    "id": "71.087",
+    "name": "Steel Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "5013"
+      }
+    ]
+  },
+  {
+    "id": "71.090",
+    "name": "Deep Sky",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35056"
+      }
+    ]
+  },
+  {
+    "id": "71.091",
+    "name": "Signal Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "605"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "106"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35044"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C326"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H326"
+      },
+      {
+        "paint_line": "ral",
+        "id": "5004"
+      }
+    ]
+  },
+  {
+    "id": "71.092",
+    "name": "Medium Olive",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H405"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6003"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-62"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2149"
+      }
+    ]
+  },
+  {
+    "id": "71.093",
+    "name": "NATO Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34094"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-65"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2173"
+      }
+    ]
+  },
+  {
+    "id": "71.095",
+    "name": "Pale Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "6011"
+      }
+    ]
+  },
+  {
+    "id": "71.096",
+    "name": "Olive Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-73"
+      }
+    ]
+  },
+  {
+    "id": "71.097",
+    "name": "Med. Gunship Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "603"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36118"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C305"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H305"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-24"
+      }
+    ]
+  },
+  {
+    "id": "71.101",
+    "name": "Light Blue RLM78",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35352"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C118"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H418"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "78"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-23"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2087"
+      }
+    ]
+  },
+  {
+    "id": "71.103",
+    "name": "Grey Blue RLM84",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36559"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "84"
+      }
+    ]
+  },
+  {
+    "id": "71.104",
+    "name": "Green RLM62",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "rlm",
+        "id": "62"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2076"
+      }
+    ]
+  },
+  {
+    "id": "71.105",
+    "name": "Brown RLM26",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "rlm",
+        "id": "26"
+      }
+    ]
+  },
+  {
+    "id": "71.106",
+    "name": "Ivory RLM05",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "rlm",
+        "id": "5"
+      }
+    ]
+  },
+  {
+    "id": "71.108",
+    "name": "UK Azure Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "609"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35231"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2048"
+      }
+    ]
+  },
+  {
+    "id": "71.109",
+    "name": "Faded P.R.U. Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "636"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35189"
+      }
+    ]
+  },
+  {
+    "id": "71.110",
+    "name": "Dark Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "640"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H333"
+      }
+    ]
+  },
+  {
+    "id": "71.111",
+    "name": "USAF Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35109"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2031"
+      }
+    ]
+  },
+  {
+    "id": "71.113",
+    "name": "IDF Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35177"
+      }
+    ]
+  },
+  {
+    "id": "71.114",
+    "name": "Medium Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35237"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C337"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H337"
+      }
+    ]
+  },
+  {
+    "id": "71.115",
+    "name": "Blue Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "7016"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2101"
+      }
+    ]
+  },
+  {
+    "id": "71.116",
+    "name": "Camouf. Grey Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H81"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7008"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-49"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2098"
+      }
+    ]
+  },
+  {
+    "id": "71.117",
+    "name": "Camouflage Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "8020"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2102"
+      }
+    ]
+  },
+  {
+    "id": "71.118",
+    "name": "Camouflage Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "7027"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2103"
+      }
+    ]
+  },
+  {
+    "id": "71.119",
+    "name": "White Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "9002"
+      }
+    ]
+  },
+  {
+    "id": "71.120",
+    "name": "Dark Ghost Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36320"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C307"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H307"
+      }
+    ]
+  },
+  {
+    "id": "71.121",
+    "name": "Light Gull Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "602 -- 620"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36440"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C325"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H325"
+      }
+    ]
+  },
+  {
+    "id": "71.122",
+    "name": "US Desert Armour 686",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33446"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H53"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-53"
+      }
+    ]
+  },
+  {
+    "id": "71.123",
+    "name": "Dark Grey RLM42",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "rlm",
+        "id": "42"
+      }
+    ]
+  },
+  {
+    "id": "71.124",
+    "name": "USAF Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "612"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34092"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C302"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H302"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-57"
+      }
+    ]
+  },
+  {
+    "id": "71.125",
+    "name": "USAF Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "628"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30219"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C310"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H310"
+      }
+    ]
+  },
+  {
+    "id": "71.126",
+    "name": "IDF/IAF Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "283"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34227"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C312"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H312"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-71"
+      }
+    ]
+  },
+  {
+    "id": "71.128",
+    "name": "Gray Violet",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36134"
+      }
+    ]
+  },
+  {
+    "id": "71.130",
+    "name": "Orange Rust",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "2010"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2177"
+      }
+    ]
+  },
+  {
+    "id": "71.132",
+    "name": "Aged White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "37769"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1015"
+      }
+    ]
+  },
+  {
+    "id": "71.135",
+    "name": "IJA Chrome Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33655"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1003"
+      }
+    ]
+  },
+  {
+    "id": "71.137",
+    "name": "US Light Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "611"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34151"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C27"
+      }
+    ]
+  },
+  {
+    "id": "71.138",
+    "name": "US Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30277"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H336"
+      }
+    ]
+  },
+  {
+    "id": "71.139",
+    "name": "US Field Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "617"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30118"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2054"
+      }
+    ]
+  },
+  {
+    "id": "71.140",
+    "name": "US Desert Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "616"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30279"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2053"
+      }
+    ]
+  },
+  {
+    "id": "71.141",
+    "name": "IDF Sand Grey 73",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "testors-enamel",
+        "id": "2138"
+      }
+    ]
+  },
+  {
+    "id": "71.143",
+    "name": "UK Light Stone",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "361"
+      }
+    ]
+  },
+  {
+    "id": "71.244",
+    "name": "Sand Beige",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "1039"
+      }
+    ]
+  },
+  {
+    "id": "71.245",
+    "name": "Loam Beige",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "1040"
+      }
+    ]
+  },
+  {
+    "id": "71.246",
+    "name": "Yellow Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "8031"
+      }
+    ]
+  },
+  {
+    "id": "71.247",
+    "name": "Light Olive",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "6040"
+      }
+    ]
+  },
+  {
+    "id": "71.248",
+    "name": "Brown Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "7050"
+      }
+    ]
+  },
+  {
+    "id": "71.249",
+    "name": "NATO Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30051"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8027"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2174"
+      }
+    ]
+  },
+  {
+    "id": "71.250",
+    "name": "Bronze Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "6031"
+      }
+    ]
+  },
+  {
+    "id": "71.251",
+    "name": "NATO Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "37030"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9021"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-69"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2040"
+      }
+    ]
+  },
+  {
+    "id": "71.255",
+    "name": "Light Blue RLM65",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C115"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H67"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "65"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2078"
+      }
+    ]
+  },
+  {
+    "id": "71.256",
+    "name": "Green RLM73",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "rlm",
+        "id": "73"
+      }
+    ]
+  },
+  {
+    "id": "71.257",
+    "name": "Light Blue RLM76",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C117"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H417"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "76"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2086"
+      }
+    ]
+  },
+  {
+    "id": "71.258",
+    "name": "Grey Green RLM74",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C36"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H68"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "74"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2084"
+      }
+    ]
+  },
+  {
+    "id": "71.259",
+    "name": "Grey Violet RLM75",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C37"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H69"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "75"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2085"
+      }
+    ]
+  },
+  {
+    "id": "71.260",
+    "name": "Light Grey RLM63",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "rlm",
+        "id": "63"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2077"
+      }
+    ]
+  },
+  {
+    "id": "71.263",
+    "name": "Green RLM72",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "rlm",
+        "id": "72"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2082"
+      }
+    ]
+  },
+  {
+    "id": "71.264",
+    "name": "Brown Violet RLM81",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C121"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H421"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "81"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2090"
+      }
+    ]
+  },
+  {
+    "id": "71.265",
+    "name": "Olive Green RLM80",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C120"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H420"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "80"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2089"
+      }
+    ]
+  },
+  {
+    "id": "71.266",
+    "name": "Dark Blue RLM24",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "rlm",
+        "id": "24"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2074"
+      }
+    ]
+  },
+  {
+    "id": "71.267",
+    "name": "Light Green RLM25",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "rlm",
+        "id": "25"
+      }
+    ]
+  },
+  {
+    "id": "71.268",
+    "name": "German Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C52"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6006"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2148"
+      }
+    ]
+  },
+  {
+    "id": "71.269",
+    "name": "Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "3000"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2733"
+      }
+    ]
+  },
+  {
+    "id": "71.270",
+    "name": "Off-White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C69"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H21"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9001"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2104"
+      }
+    ]
+  },
+  {
+    "id": "71.271",
+    "name": "German Red Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C41"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8012"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2152"
+      }
+    ]
+  },
+  {
+    "id": "71.272",
+    "name": "Germ. Yellow Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ral",
+        "id": "8000"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2099"
+      }
+    ]
+  },
+  {
+    "id": "71.273",
+    "name": "Ocean Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "629"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36176"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H42"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2057"
+      }
+    ]
+  },
+  {
+    "id": "71.274",
+    "name": "Aggressor Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36251"
+      }
+    ]
+  },
+  {
+    "id": "71.275",
+    "name": "USAF Medium Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36270"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C306"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H306"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-12"
+      }
+    ]
+  },
+  {
+    "id": "71.276",
+    "name": "USAF Light Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36495"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C338"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H338"
+      }
+    ]
+  },
+  {
+    "id": "71.277",
+    "name": "Dark Gull Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "621"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36231"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C317"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H317"
+      }
+    ]
+  },
+  {
+    "id": "71.278",
+    "name": "Sand Yellow RLM79",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C119"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H66"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "79"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2088"
+      }
+    ]
+  },
+  {
+    "id": "71.279",
+    "name": "Insignia White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "601"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "37875"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C316"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H316"
+      }
+    ]
+  },
+  {
+    "id": "71.280",
+    "name": "Camouflage Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36170"
+      }
+    ]
+  },
+  {
+    "id": "71.282",
+    "name": "6K Russian Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "testors-enamel",
+        "id": "2126"
+      }
+    ]
+  },
+  {
+    "id": "71.289",
+    "name": "US Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34102"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C303"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H303"
+      }
+    ]
+  },
+  {
+    "id": "71.290",
+    "name": "US Earth Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30099"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-10"
+      }
+    ]
+  },
+  {
+    "id": "71.291",
+    "name": "US Earth Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30257"
+      }
+    ]
+  },
+  {
+    "id": "71.292",
+    "name": "US Loam",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34086"
+      }
+    ]
+  },
+  {
+    "id": "71.293",
+    "name": "US Earth Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30117"
+      }
+    ]
+  },
+  {
+    "id": "71.294",
+    "name": "US Forest Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "631"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34079"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C309"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H309"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-13"
+      }
+    ]
+  },
+  {
+    "id": "71.295",
+    "name": "USN Sea Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "607"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35042"
+      }
+    ]
+  },
+  {
+    "id": "71.295 + 71.522",
+    "name": "USN Sea Blue + Satin Varnish",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "606"
+      }
+    ]
+  },
+  {
+    "id": "71.296",
+    "name": "USAAF Light Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36622"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C311"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H311"
+      }
+    ]
+  },
+  {
+    "id": "71.297",
+    "name": "JGSD Brown 3606",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-72"
+      }
+    ]
+  },
+  {
+    "id": "71.298",
+    "name": "M495 Light Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36357"
+      }
+    ]
+  },
+  {
+    "id": "71.299",
+    "name": "Intermediate Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "608"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35164"
+      }
+    ]
+  },
+  {
+    "id": "71.300",
+    "name": "Glossy Sea Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "623"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "15042"
+      }
+    ]
+  },
+  {
+    "id": "71.302",
+    "name": "Sky Type S",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "210"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2049"
+      }
+    ]
+  },
+  {
+    "id": "71.305",
+    "name": "Interior Grey Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34373"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2062"
+      }
+    ]
+  },
+  {
+    "id": "71.306",
+    "name": "Sky Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35550"
+      }
+    ]
+  },
+  {
+    "id": "71.307",
+    "name": "BS Medium Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "637"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C335"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H335"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2058"
+      }
+    ]
+  },
+  {
+    "id": "71.309",
+    "name": "Dark Slate Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "634"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34096"
+      }
+    ]
+  },
+  {
+    "id": "71.313",
+    "name": "Dark Mediterran. Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C328"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H328"
+      }
+    ]
+  },
+  {
+    "id": "71.314",
+    "name": "Seaplane Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "625"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36081"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C301"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H301"
+      }
+    ]
+  },
+  {
+    "id": "71.315",
+    "name": "Tire Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C137"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H77"
+      }
+    ]
+  },
+  {
+    "id": "71.321",
+    "name": "IJA Light Grey Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "610"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34424"
+      }
+    ]
+  },
+  {
+    "id": "71.323",
+    "name": "BS Dark Earth",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "450"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C22"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H72"
+      }
+    ]
+  },
+  {
+    "id": "71.324",
+    "name": "BS Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "241"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C23"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H73"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2060"
+      }
+    ]
+  },
+  {
+    "id": "71.327",
+    "name": "IAF Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33531"
+      }
+    ]
+  },
+  {
+    "id": "71.328",
+    "name": "Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35622"
+      }
+    ]
+  },
+  {
+    "id": "71.329",
+    "name": "Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34159"
+      }
+    ]
+  },
+  {
+    "id": "71.332;\"Unders. Blue \"\"Faded\"\"\";35450;;;;;;;;;",
+    "name": "",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "71.335",
+    "name": "Flanker Light Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36473"
+      }
+    ]
+  },
+  {
+    "id": "71.336",
+    "name": "A-14 Steel Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "26187"
+      }
+    ]
+  },
+  {
+    "id": "71.337",
+    "name": "Flanker Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35526"
+      }
+    ]
+  },
+  {
+    "id": "71.339",
+    "name": "Russian AF Grey N.3",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36373"
+      }
+    ]
+  },
+  {
+    "id": "71.346",
+    "name": "Russian AF Grey N.4",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "26360"
+      }
+    ]
+  },
+  {
+    "id": "71.347",
+    "name": "Russ. AF Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33070"
+      }
+    ]
+  }
+]

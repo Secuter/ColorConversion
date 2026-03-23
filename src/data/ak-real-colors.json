@@ -1,1013 +1,8355 @@
-{
-  "series": "AK Real Colors",
-  "manufacturer": "AK Interactive",
-  "prefixes": [
-    "RC"
-  ],
-  "colors": [
-    {
-      "name": "Flat Black",
-      "correspondences": []
-    },
-    {
-      "name": "Cream White",
-      "correspondences": []
-    },
-    {
-      "name": "White Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Flat White",
-      "correspondences": []
-    },
-    {
-      "name": "Signal Red",
-      "correspondences": []
-    },
-    {
-      "name": "Red",
-      "correspondences": []
-    },
-    {
-      "name": "Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Maize Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Orange",
-      "correspondences": []
-    },
-    {
-      "name": "Pure Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Pure Green",
-      "correspondences": []
-    },
-    {
-      "name": "Off White",
-      "correspondences": []
-    },
-    {
-      "name": "Buff",
-      "correspondences": []
-    },
-    {
-      "name": "Gun Metal (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Ochre",
-      "correspondences": []
-    },
-    {
-      "name": "Pale Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Pale Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Deck Tan",
-      "correspondences": []
-    },
-    {
-      "name": "Aluminium (Metallic)",
-      "correspondences": []
-    },
-    {
-      "name": "Pale Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Rubber Black",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Drab No.9/No.22",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Drab Faded",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Olive Drab No.31",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Drab",
-      "correspondences": []
-    },
-    {
-      "name": "Forest Green",
-      "correspondences": []
-    },
-    {
-      "name": "Interior Green",
-      "correspondences": []
-    },
-    {
-      "name": "No.5 Earth Brown",
-      "correspondences": []
-    },
-    {
-      "name": "No.6 Earth Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "No.8 Earth Red",
-      "correspondences": []
-    },
-    {
-      "name": "Desert Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Khaki Green No.3",
-      "correspondences": []
-    },
-    {
-      "name": "S.C.C. 1A Brown",
-      "correspondences": []
-    },
-    {
-      "name": "S.C.C. 2 Brown",
-      "correspondences": []
-    },
-    {
-      "name": "S.C.C. 14 Blue Black",
-      "correspondences": []
-    },
-    {
-      "name": "S.C.C. 15 Olive Drab",
-      "correspondences": []
-    },
-    {
-      "name": "BSC No.28 Silver Grey",
-      "correspondences": []
-    },
-    {
-      "name": "BSC No.34 Slate",
-      "correspondences": []
-    },
-    {
-      "name": "BSC No.61 Light Stone",
-      "correspondences": []
-    },
-    {
-      "name": "BSC No.64 Portland Stone",
-      "correspondences": []
-    },
-    {
-      "name": "British Dark Olive Green PFI",
-      "correspondences": []
-    },
-    {
-      "name": "British Desert Pink ZI",
-      "correspondences": []
-    },
-    {
-      "name": "British Light Mud",
-      "correspondences": []
-    },
-    {
-      "name": "BSC No.49 Light Purple Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Elfenbein – Ivory",
-      "correspondences": []
-    },
-    {
-      "name": "Olivgrün – Olive Green",
-      "correspondences": []
-    },
-    {
-      "name": "Feldgray – Field Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Grün – Green",
-      "correspondences": []
-    },
-    {
-      "name": "Dunkelgrün – Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "Marinegrau – Navy Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Grau – Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Graugrün – Grey Green",
-      "correspondences": []
-    },
-    {
-      "name": "Hellgrau – Light Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Blaugrau – Blue Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Dunkelbraun – Dark Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Dunkelgrau – Dark Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Grau – Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Dunkelgelb nach Muster",
-      "correspondences": []
-    },
-    {
-      "name": "Dunkelgelb – Dark Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Dunkelgelb Ausgabe 1944 – Dark Yellow 1944 Variant",
-      "correspondences": []
-    },
-    {
-      "name": "Dunkelgelb – Dark Yellow (variation)",
-      "correspondences": []
-    },
-    {
-      "name": "Gelbraun – Yellow Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Erdgelb – Earth Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Braun – Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Rot (Rotbraun) – Red (Red Brown)",
-      "correspondences": []
-    },
-    {
-      "name": "Rot (Rotbraun) – Red (Red Brown)",
-      "correspondences": []
-    },
-    {
-      "name": "Rotbraun – Red Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Braun – Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Common Protective ZO",
-      "correspondences": []
-    },
-    {
-      "name": "Black 6RP",
-      "correspondences": []
-    },
-    {
-      "name": "Protective K",
-      "correspondences": []
-    },
-    {
-      "name": "Protective 4BO",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Brown 6K",
-      "correspondences": []
-    },
-    {
-      "name": "Sand 7K",
-      "correspondences": []
-    },
-    {
-      "name": "Protective Green 1920s – 1930s",
-      "correspondences": []
-    },
-    {
-      "name": "ZB AU Basic Protector",
-      "correspondences": []
-    },
-    {
-      "name": "APC Interior Green",
-      "correspondences": []
-    },
-    {
-      "name": "CARC Tan 686A",
-      "correspondences": []
-    },
-    {
-      "name": "NATO Green",
-      "correspondences": []
-    },
-    {
-      "name": "NATO Brown",
-      "correspondences": []
-    },
-    {
-      "name": "NATO Black",
-      "correspondences": []
-    },
-    {
-      "name": "Green",
-      "correspondences": []
-    },
-    {
-      "name": "Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Field Drab",
-      "correspondences": []
-    },
-    {
-      "name": "Gelboliv Initial",
-      "correspondences": []
-    },
-    {
-      "name": "Gelboliv Late",
-      "correspondences": []
-    },
-    {
-      "name": "Sandbeige",
-      "correspondences": []
-    },
-    {
-      "name": "Graubeige – Grey Beige",
-      "correspondences": []
-    },
-    {
-      "name": "Helloliv – Light Olive",
-      "correspondences": []
-    },
-    {
-      "name": "Tarngrau – Camo Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Sandbraun – Sand Brown",
-      "correspondences": []
-    },
-    {
-      "name": "British Sand Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "IDF Modern Grey",
-      "correspondences": []
-    },
-    {
-      "name": "IDF Sand Grey 1970s-1980s",
-      "correspondences": []
-    },
-    {
-      "name": "IDF Early Sand Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "UAE Dull Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Russian Modern Green",
-      "correspondences": []
-    },
-    {
-      "name": "Russian Greyish Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Russian Grey Green",
-      "correspondences": []
-    },
-    {
-      "name": "Egyptian Desert Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Syrian Rep. Guard Desert Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Libyan Army Desert Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Iraqi Army Desert Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Spanish Green",
-      "correspondences": []
-    },
-    {
-      "name": "Russian Cockpit Torquise",
-      "correspondences": []
-    },
-    {
-      "name": "Leuchtorange – Luminous Orange",
-      "correspondences": []
-    },
-    {
-      "name": "Graublau – Grey Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Green/USMC Green",
-      "correspondences": []
-    },
-    {
-      "name": "Silbergrau – Silver Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Grüngrau – Green Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Basaltgrau – Basalt Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Steingrau – Stone Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Lichtgrau – Light Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Staubgrau – Dusty Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Quarzgrau – Quartz Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Seidengrau – Silk Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Olivbraun – Olive Brown",
-      "correspondences": []
-    },
-    {
-      "name": "MNO 2036 Smalt Khaki Avion",
-      "correspondences": []
-    },
-    {
-      "name": "Light Gull Grey",
-      "correspondences": []
-    },
-    {
-      "name": "ADC Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Insignia White",
-      "correspondences": []
-    },
-    {
-      "name": "Tan",
-      "correspondences": []
-    },
-    {
-      "name": "Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Tan",
-      "correspondences": []
-    },
-    {
-      "name": "Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Radome Tan",
-      "correspondences": []
-    },
-    {
-      "name": "USMC Sand",
-      "correspondences": []
-    },
-    {
-      "name": "US Army Helo Drab",
-      "correspondences": []
-    },
-    {
-      "name": "Dull Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "Field Green",
-      "correspondences": []
-    },
-    {
-      "name": "Pale Green",
-      "correspondences": []
-    },
-    {
-      "name": "Green",
-      "correspondences": []
-    },
-    {
-      "name": "Aggressor Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Intermediate Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Light Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Air Superiority Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Light Sky Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Duck Egg Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Eggplant Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Gunship Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Have Glass Grey",
-      "correspondences": []
-    },
-    {
-      "name": "F-15 Dark Grey (Mod Eagle)",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Gull Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Aggressor Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Light Sea Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Ghost Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Light Ghost Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Light Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Camouflage Grey",
-      "correspondences": []
-    },
-    {
-      "name": "M-485 Light Grey",
-      "correspondences": []
-    },
-    {
-      "name": "M-485 Blue-Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Sea Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Sea Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Olive Drab 41",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Green 42",
-      "correspondences": []
-    },
-    {
-      "name": "Neutral Grey 43",
-      "correspondences": []
-    },
-    {
-      "name": "US Interior Yellow Green",
-      "correspondences": []
-    },
-    {
-      "name": "Zinc Chromate Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Bronze Green",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 02 RLM-Grau (1938)",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 02 RLM-Grau (1941)",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 04",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 61",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 62",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 63",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 65 (1938)",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 65 (1941)",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 66 (1941)",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 70",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 71",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 72",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 73",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 74",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 75",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 78 (1941)",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 78 (1942)",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 79 (1941)",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 79 (1942)",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 80",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Sky Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Dark Earth",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Ocean Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Medium Sea Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Sky",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Azure Blue",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Middle Stone",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Cockpit Grey-Green",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Dark Slate Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Extra Dark Sea Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Dark Sea Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RAF PRU Blue",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Light Aircraft Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Camouflage (Barley) Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Dark Camouflage Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RAF Camouflage Beige (Hemp)",
-      "correspondences": []
-    },
-    {
-      "name": "IJN J3 Hai-Iro (Grey)",
-      "correspondences": []
-    },
-    {
-      "name": "IJN J3 SP (Amber Grey)",
-      "correspondences": []
-    },
-    {
-      "name": "IJN D1 Deep Green Black",
-      "correspondences": []
-    },
-    {
-      "name": "IJN D2 Green Black",
-      "correspondences": []
-    },
-    {
-      "name": "IJN M3(M) Mitsubishi Interior Green",
-      "correspondences": []
-    },
-    {
-      "name": "IJN M3(N) Nakajima Interior Green",
-      "correspondences": []
-    },
-    {
-      "name": "AE-9/AII Light Grey",
-      "correspondences": []
-    },
-    {
-      "name": "AII Protective (Green)",
-      "correspondences": []
-    },
-    {
-      "name": "AII Light Blue",
-      "correspondences": []
-    },
-    {
-      "name": "A-18f Light Blue",
-      "correspondences": []
-    },
-    {
-      "name": "A-19f Green",
-      "correspondences": []
-    },
-    {
-      "name": "AMT-1 Light Brown",
-      "correspondences": []
-    },
-    {
-      "name": "A-21m Light Yellowish Brown",
-      "correspondences": []
-    },
-    {
-      "name": "AMT-4/A-24m Green",
-      "correspondences": []
-    },
-    {
-      "name": "AMT-7 Light Blue",
-      "correspondences": []
-    },
-    {
-      "name": "AMT-11 Blue Grey",
-      "correspondences": []
-    },
-    {
-      "name": "AMT-12 Dark Grey",
-      "correspondences": []
-    },
-    {
-      "name": "A-14 Interior Steel Grey",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 76 Version 1",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 76 Version 2",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 76 Late War Variation",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 81 Version 1",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 81 Version 2",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 81 Version 3",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 82",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 83",
-      "correspondences": []
-    },
-    {
-      "name": "IJAAF #1 Hairyokushoku (Grey Green)",
-      "correspondences": []
-    },
-    {
-      "name": "IJAAF #3 Hairanshoku (Grey Indigo)",
-      "correspondences": []
-    },
-    {
-      "name": "IJAAF #7 Ohryoku Nana Go Shoku (Olive Brown)",
-      "correspondences": []
-    },
-    {
-      "name": "IJAAF #21 Midori Iro (Green)",
-      "correspondences": []
-    },
-    {
-      "name": "IJAAF #27 Ao Midori Iro (Blue Green)",
-      "correspondences": []
-    },
-    {
-      "name": "IJAAF #29 Ki Midori Iro (Yellow Green)",
-      "correspondences": []
-    },
-    {
-      "name": "IJAAF #30 Karekusa Iro (Dry Grass Colour)",
-      "correspondences": []
-    },
-    {
-      "name": "IJAAF #31 Cha Kasshoku (Tea Colour)",
-      "correspondences": []
-    },
-    {
-      "name": "MiG-25/MiG-31 Grey",
-      "correspondences": []
-    },
-    {
-      "name": "MiG-29 Light Grey",
-      "correspondences": []
-    },
-    {
-      "name": "MiG-29 Grey Green",
-      "correspondences": []
-    },
-    {
-      "name": "RLM 66 (1938)",
-      "correspondences": []
-    },
-    {
-      "name": "Kenttävihreä – Olive Green",
-      "correspondences": []
-    },
-    {
-      "name": "Schwarzgrau – Black Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "Flat Varnish",
-      "correspondences": []
-    },
-    {
-      "name": "Satin Varnish",
-      "correspondences": []
-    },
-    {
-      "name": "Gloss Varnish",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Red",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Green",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Orange",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Smoke",
-      "correspondences": []
-    }
-  ]
-}
+[
+  {
+    "id": "RC001",
+    "name": "Flat Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-100"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "33"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC02"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71057"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4768"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1749"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H12"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C33"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9005"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-1"
+      }
+    ]
+  },
+  {
+    "id": "RC002",
+    "name": "Cream White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-307"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71270"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9001"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC003",
+    "name": "White Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71119"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9002"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC004",
+    "name": "Flat White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "34"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC01"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71001"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4769"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1768"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H11"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C62"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9003"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-2"
+      }
+    ]
+  },
+  {
+    "id": "RC005",
+    "name": "Signal Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-103"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "238"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71003"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H23"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C79"
+      },
+      {
+        "paint_line": "ral",
+        "id": "3020"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC006",
+    "name": "Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-132"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "19"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC06"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71269"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2733"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H13"
+      },
+      {
+        "paint_line": "ral",
+        "id": "3000"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-7"
+      }
+    ]
+  },
+  {
+    "id": "RC007",
+    "name": "Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-107"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71135"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H329"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C329"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1003"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-8"
+      }
+    ]
+  },
+  {
+    "id": "RC008",
+    "name": "Maize Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71033"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H34"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1006"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC009",
+    "name": "Orange",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-704"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "18"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC05"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71083"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H14"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C59"
+      },
+      {
+        "paint_line": "ral",
+        "id": "2004"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-6"
+      }
+    ]
+  },
+  {
+    "id": "RC010",
+    "name": "Pure Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-102"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "25"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70930"
+      },
+      {
+        "paint_line": "ral",
+        "id": "5005"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC011",
+    "name": "Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "5001"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC012",
+    "name": "Pure Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6037"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC013",
+    "name": "Off White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4874"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H21"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C69"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC014",
+    "name": "Buff",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-262"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "168"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H336"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C336"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-57"
+      }
+    ]
+  },
+  {
+    "id": "RC015",
+    "name": "Gun Metal (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-106"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "201"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC26"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71073"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4681"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1795"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H28"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C78"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-10"
+      }
+    ]
+  },
+  {
+    "id": "RC016",
+    "name": "Ochre",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC64"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC017",
+    "name": "Pale Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC018",
+    "name": "Pale Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70837"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC019",
+    "name": "Deck Tan",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H321"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C321"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-55"
+      }
+    ]
+  },
+  {
+    "id": "RC020",
+    "name": "Aluminium (Metallic)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-078"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "56"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC24"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71062"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4677"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1781"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-16"
+      }
+    ]
+  },
+  {
+    "id": "RC021",
+    "name": "Pale Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC022",
+    "name": "Rubber Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA733"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71315"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1583"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H77"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C137"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-85"
+      }
+    ]
+  },
+  {
+    "id": "RC023",
+    "name": "Olive Drab No.9/No.22",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-018"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4842"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2050"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H52"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C12"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC024",
+    "name": "Olive Drab Faded",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA003"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC025",
+    "name": "Dark Olive Drab No.31",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC026",
+    "name": "Olive Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34087"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-065"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "155"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA523"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71043"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4728"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1711"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H304"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C304"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC027",
+    "name": "Forest Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34079"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-016"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "116"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA001"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71294"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4726"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1710"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H309"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C309"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-65"
+      }
+    ]
+  },
+  {
+    "id": "RC028",
+    "name": "Interior Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34151"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-211"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA004"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71137"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4736"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1715"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H58"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C351"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC029",
+    "name": "No.5 Earth Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30099"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-256"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA087"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71290"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC030",
+    "name": "No.6 Earth Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30257"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-212"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "63"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA081"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71291"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC031",
+    "name": "No.8 Earth Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30117"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-213"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "186"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA306"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71293"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4707"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1701"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H37"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C43"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC032",
+    "name": "Desert Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30279"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-068"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "250"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA089"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71140"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2053"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H346"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC033",
+    "name": "Khaki Green No.3",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-064"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71330"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC034",
+    "name": "S.C.C. 1A Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-077"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA274"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71039"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC035",
+    "name": "S.C.C. 2 Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-076"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA273"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71038"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC036",
+    "name": "S.C.C. 14 Blue Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA271"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC037",
+    "name": "S.C.C. 15 Olive Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-110"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA270"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71016"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC038",
+    "name": "BSC No.28 Silver Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA264"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71401"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC039",
+    "name": "BSC No.34 Slate",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA265"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71012"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC040",
+    "name": "BSC No.61 Light Stone",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA266"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71143"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC041",
+    "name": "BSC No.64 Portland Stone",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA267"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71288"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC042",
+    "name": "British Dark Olive Green PFI",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA269"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC043",
+    "name": "British Desert Pink ZI",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA268"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71400"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC044",
+    "name": "British Light Mud",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA272"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71284"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC045",
+    "name": "BSC No.49 Light Purple Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71402"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC046",
+    "name": "Elfenbein – Ivory",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-184"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71075"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4805"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2104"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1001"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC047",
+    "name": "Olivgrün – Olive Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-169"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA206"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71092"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4862"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2149"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H405"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6003"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC048",
+    "name": "Feldgray – Field Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-151"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71268"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4860"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2148"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6006"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC049",
+    "name": "Grün – Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-298"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71019"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6007"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC050",
+    "name": "Dunkelgrün – Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6009"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC051",
+    "name": "Marinegrau – Navy Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7002"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC052",
+    "name": "Grau – Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7003"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC053",
+    "name": "Graugrün – Grey Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-304"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA212"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71116"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2098"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7008"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC054",
+    "name": "Hellgrau – Light Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA233"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7009"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC055",
+    "name": "Blaugrau – Blue Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-300"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA208"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71115"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2101"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7016"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC056",
+    "name": "Dunkelbraun – Dark Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA210"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7017"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC057",
+    "name": "Dunkelgrau – Dark Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-164"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "67"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA207"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71056"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4795"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2094"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H401"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7021"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-63"
+      }
+    ]
+  },
+  {
+    "id": "RC058",
+    "name": "Grau – Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-306"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA202"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71118"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2103"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H404"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7027"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC059",
+    "name": "Dunkelgelb nach Muster",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-310"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC060",
+    "name": "Dunkelgelb – Dark Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-244"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA204"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71025"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4796"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2095"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7028"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-60"
+      }
+    ]
+  },
+  {
+    "id": "RC061",
+    "name": "Dunkelgelb Ausgabe 1944 – Dark Yellow 1944 Variant",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-250"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7028"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC062",
+    "name": "Dunkelgelb – Dark Yellow (variation)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7028"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC063",
+    "name": "Gelbraun – Yellow Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-303"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA203"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71272"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2099"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8000"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC064",
+    "name": "Erdgelb – Earth Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-297"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA209"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71420"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2100"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8002"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC065",
+    "name": "Braun – Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-299"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71038"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8010"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC066",
+    "name": "Rot (Rotbraun) – Red (Red Brown)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2165"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8013"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC067",
+    "name": "Rot (Rotbraun) – Red (Red Brown)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-175"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA211"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71271"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4861"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2152"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H47"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C43"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8012"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC068",
+    "name": "Rotbraun – Red Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-147"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "160"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA205"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71041"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4797"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2096"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H406"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8017"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-9"
+      }
+    ]
+  },
+  {
+    "id": "RC069",
+    "name": "Braun – Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-305"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA201"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71117"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2102"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H402"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8020"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC070",
+    "name": "Common Protective ZO",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-316"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC071",
+    "name": "Black 6RP",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-041"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC072",
+    "name": "Protective K",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C511"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC073",
+    "name": "Protective 4BO",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-251"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA248"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71017"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C512"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC074",
+    "name": "Dark Brown 6K",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-317"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71282"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC075",
+    "name": "Sand 7K",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-318"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA242"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71283"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC076",
+    "name": "Protective Green 1920s – 1930s",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC077",
+    "name": "ZB AU Basic Protector",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-246"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71281"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC078",
+    "name": "APC Interior Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "24533"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-239"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "23"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-21"
+      }
+    ]
+  },
+  {
+    "id": "RC079",
+    "name": "CARC Tan 686A",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33446"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-238"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71122"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4812"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2136"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC080",
+    "name": "NATO Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-152"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA303"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71250"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2173"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C519"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6031"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-67"
+      }
+    ]
+  },
+  {
+    "id": "RC081",
+    "name": "NATO Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-188"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA302"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71249"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2174"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C520"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8027"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-68"
+      }
+    ]
+  },
+  {
+    "id": "RC082",
+    "name": "NATO Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-125"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA301"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71251"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C521"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9021"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-69"
+      }
+    ]
+  },
+  {
+    "id": "RC083",
+    "name": "Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34102"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-021"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "117"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA002"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71289"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4734"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1713"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H303"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C303"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC084",
+    "name": "Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30277"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-210"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "187"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA019"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71138"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4711"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC085",
+    "name": "Field Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30118"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-209"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA016"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71139"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4708"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1702"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H81"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C55"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC086",
+    "name": "Gelboliv Initial",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6014"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC087",
+    "name": "Gelboliv Late",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-193"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2175"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6014"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC088",
+    "name": "Sandbeige",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-278"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71244"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1039"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC089",
+    "name": "Graubeige – Grey Beige",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-279"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71245"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1040"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC090",
+    "name": "Helloliv – Light Olive",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-281"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71247"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6040"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC091",
+    "name": "Tarngrau – Camo Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-089"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71248"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7050"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC092",
+    "name": "Sandbraun – Sand Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-280"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71246"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8031"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC093",
+    "name": "British Sand Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4813"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2137"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC094",
+    "name": "IDF Modern Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2138"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C530"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC095",
+    "name": "IDF Sand Grey 1970s-1980s",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA902"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71142"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C529"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC096",
+    "name": "IDF Early Sand Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA901"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71141"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C528"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC097",
+    "name": "UAE Dull Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC098",
+    "name": "Russian Modern Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC099",
+    "name": "Russian Greyish Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC100",
+    "name": "Russian Grey Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC101",
+    "name": "Egyptian Desert Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC102",
+    "name": "Syrian Rep. Guard Desert Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC103",
+    "name": "Libyan Army Desert Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC104",
+    "name": "Iraqi Army Desert Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC105",
+    "name": "Spanish Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC206",
+    "name": "Russian Cockpit Torquise",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-047"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71331"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2135"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C391"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC207",
+    "name": "Leuchtorange – Luminous Orange",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-194"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC23"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71082"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H98"
+      },
+      {
+        "paint_line": "ral",
+        "id": "2005"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC208",
+    "name": "Graublau – Grey Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-171"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71005"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H54"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C14"
+      },
+      {
+        "paint_line": "ral",
+        "id": "5008"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC209",
+    "name": "Olive Green/USMC Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34095"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-059"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1786"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6003"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC210",
+    "name": "Silbergrau – Silver Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-189"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2160"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7001"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC211",
+    "name": "Grüngrau – Green Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-225"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71020"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7009"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC212",
+    "name": "Basaltgrau – Basalt Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-192"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "79"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70869"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7012"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC213",
+    "name": "Steingrau – Stone Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-233"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7030"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC214",
+    "name": "Lichtgrau – Light Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-191"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "196"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7035"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC215",
+    "name": "Staubgrau – Dusty Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-249"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7037"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC216",
+    "name": "Quarzgrau – Quartz Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-248"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7039"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC217",
+    "name": "Seidengrau – Silk Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-173"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7044"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC218",
+    "name": "Olivbraun – Olive Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-172"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71032"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8008"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC219",
+    "name": "MNO 2036 Smalt Khaki Avion",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-170"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6013"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC220",
+    "name": "Light Gull Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "16440"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-048"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "129"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA025"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71121"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4692"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H315"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C315"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC221",
+    "name": "ADC Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "16473"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-045"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA041"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71335"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4693"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1731"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC222",
+    "name": "Insignia White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "17875"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-049"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "22"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC52"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71279"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4696"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1745"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H316"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C316"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-1"
+      }
+    ]
+  },
+  {
+    "id": "RC223",
+    "name": "Tan",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "20400"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-187"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA084"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71348"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4697"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2021"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC224",
+    "name": "Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30140"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-160"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA085"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71035"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1754"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC225",
+    "name": "Dark Tan",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30219"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-012"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "118"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA015"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71125"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4709"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1742"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H310"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C310"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC226",
+    "name": "Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33531"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-090"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "121"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71327"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4720"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1706"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H313"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C313"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-59"
+      }
+    ]
+  },
+  {
+    "id": "RC227",
+    "name": "Radome Tan",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33613"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "148"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71074"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4722"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1709"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC228",
+    "name": "USMC Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33711"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-060"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA090"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC229",
+    "name": "US Army Helo Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34031"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-067"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4723"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2024"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC230",
+    "name": "Dull Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34092"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-056"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "149"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA008"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71124"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4729"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1764"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H302"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C302"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-26"
+      }
+    ]
+  },
+  {
+    "id": "RC231",
+    "name": "Field Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34097"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1712"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H340"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C340"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC232",
+    "name": "Pale Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34227"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-091"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "120"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA060"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71126"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4739"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1716"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H312"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C312"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC233",
+    "name": "Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34258"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-093"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA115"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71094"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2029"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC234",
+    "name": "Aggressor Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35109"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-156"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA404"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71111"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2031"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC235",
+    "name": "Intermediate Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35164"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-027"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "144"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA045"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71299"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4744"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1720"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H56"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C366"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC236",
+    "name": "Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35190"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70901"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC237",
+    "name": "Medium Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35237"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-046"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "145"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA145"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71114"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4746"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1721"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H337"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C337"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC238",
+    "name": "Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35414"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-150"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA062"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71008"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2033"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC239",
+    "name": "Air Superiority Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35450"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-155"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "47"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA037"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71332"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC240",
+    "name": "Light Sky Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35526"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA061"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71337"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC241",
+    "name": "Duck Egg Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35622"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-092"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "122"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA139"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71328"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4748"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1722"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H314"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C314"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC242",
+    "name": "Dark Eggplant Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36076"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-230"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71048"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4749"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2034"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC243",
+    "name": "Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36081"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-030"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "32"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA030"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71314"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4750"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1788"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H301"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C301"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC244",
+    "name": "Medium Gunship Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36118"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-031"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "125"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA022"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71097"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4752"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1723"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H305"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C305"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC245",
+    "name": "Have Glass Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36170"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-058"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC246",
+    "name": "F-15 Dark Grey (Mod Eagle)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36176"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-158"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "5"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA029"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71273"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4754"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2036"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC247",
+    "name": "Dark Gull Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36231"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-044"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "140"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA033"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71277"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4755"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1740"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H317"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C317"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC248",
+    "name": "Aggressor Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36251"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-157"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA034"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71274"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC249",
+    "name": "Medium Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36270"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-054"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "126"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA028"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71275"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4757"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1725"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H306"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C306"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC250",
+    "name": "Light Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36307"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-266"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "141"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA113"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4759"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1726"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H324"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C324"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC251",
+    "name": "Dark Ghost Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36320"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-035"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "128"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA027"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71120"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4761"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1741"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H307"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C307"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC252",
+    "name": "Light Ghost Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36375"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-037"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "127"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA026"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70615"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4762"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1728"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H308"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C308"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC253",
+    "name": "Light Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36495"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-050"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "147"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA023"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71276"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4765"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1732"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H338"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C338"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC254",
+    "name": "Camouflage Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36622"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-039"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "28"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA021"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71296"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4766"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H311"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C311"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC255",
+    "name": "M-485 Light Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA741"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71298"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC256",
+    "name": "M-485 Blue-Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35189"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-218"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA038"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71109"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4847"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2055"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C367"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC257",
+    "name": "Sea Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35042"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-006"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA044"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71295"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1718"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H55"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C71"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-17"
+      }
+    ]
+  },
+  {
+    "id": "RC258",
+    "name": "Dark Sea Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "35045"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-001"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "181"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA047"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71300"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4686"
+      },
+      {
+        "paint_line": "model-master-enamel",
+        "id": "1717"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C365"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC259",
+    "name": "Dark Olive Drab 41",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33070"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-004"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA005"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71316"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H78"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C38"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-62"
+      }
+    ]
+  },
+  {
+    "id": "RC260",
+    "name": "Medium Green 42",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-019"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC261",
+    "name": "Neutral Grey 43",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-033"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA046"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71051"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H53"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C13"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC262",
+    "name": "US Interior Yellow Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC263",
+    "name": "Zinc Chromate Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71107"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4851"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C352"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC264",
+    "name": "Bronze Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC265",
+    "name": "RLM 02 RLM-Grau (1938)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-023"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "240"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA504"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71044"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4770"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2071"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H70"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C60"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-20"
+      }
+    ]
+  },
+  {
+    "id": "RC266",
+    "name": "RLM 02 RLM-Grau (1941)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC267",
+    "name": "RLM 04",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-066"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "154"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA140"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71078"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4771"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2072"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H413"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C113"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC268",
+    "name": "RLM 61",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-168"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71042"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2075"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC269",
+    "name": "RLM 62",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-169"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71104"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2076"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC270",
+    "name": "RLM 63",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-167"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71260"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2077"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC271",
+    "name": "RLM 65 (1938)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "65"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC272",
+    "name": "RLM 65 (1941)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-029"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA503"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71255"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4778"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2078"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H67"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C115"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-23"
+      }
+    ]
+  },
+  {
+    "id": "RC273",
+    "name": "RLM 66 (1941)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC274",
+    "name": "RLM 70",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-015"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "241"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA501"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71021"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4780"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2080"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H65"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C18"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-27"
+      }
+    ]
+  },
+  {
+    "id": "RC275",
+    "name": "RLM 71",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-017"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "242"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA502"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71015"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4781"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2081"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H64"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C17"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC276",
+    "name": "RLM 72",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-311"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "243"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71263"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2082"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC277",
+    "name": "RLM 73",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-312"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "244"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71256"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2083"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC278",
+    "name": "RLM 74",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-313"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "245"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA507"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71258"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4784"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2084"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H68"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C36"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC279",
+    "name": "RLM 75",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-007"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "246"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA508"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71259"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4785"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2085"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H69"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C37"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC280",
+    "name": "RLM 78 (1941)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC281",
+    "name": "RLM 78 (1942)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-314"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "248"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA512"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71101"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2087"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H418"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C118"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC282",
+    "name": "RLM 79 (1941)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC283",
+    "name": "RLM 79 (1942)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-014"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "249"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA137"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71278"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4789"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2088"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H66"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C119"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC284",
+    "name": "RLM 80",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-053"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA138"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71265"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2089"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H420"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C120"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC285",
+    "name": "RAF Sky Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "26373"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-302"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA036"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71339"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC286",
+    "name": "RAF Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-143"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "163"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA546"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71324"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4849"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2060"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H330"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C330"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "241"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-81"
+      }
+    ]
+  },
+  {
+    "id": "RC287",
+    "name": "RAF Dark Earth",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-009"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "29"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA547"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71323"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4846"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2054"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H72"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C369"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC288",
+    "name": "RAF Ocean Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-032"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "106"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA093"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71273"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2057"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C362"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-82"
+      }
+    ]
+  },
+  {
+    "id": "RC289",
+    "name": "RAF Medium Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "637"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-034/HTK-141"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "165"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA094"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71307"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2058"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H335"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C335"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-83"
+      }
+    ]
+  },
+  {
+    "id": "RC290",
+    "name": "RAF Sky",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34424"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-234"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA550"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71321"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4840"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2049"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C368"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC291",
+    "name": "RAF Azure Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-028"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "157"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA098"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71108"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2048"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C370"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC292",
+    "name": "RAF Middle Stone",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-013"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "225"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA097"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71031"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2052"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H71"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C21"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC293",
+    "name": "RAF Cockpit Grey-Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-025"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "78"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA551"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71305"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4850"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2062"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C364"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-71"
+      }
+    ]
+  },
+  {
+    "id": "RC294",
+    "name": "RAF Dark Slate Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-202"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "224"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71309"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2056"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC295",
+    "name": "RAF Extra Dark Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "640"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-140"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "123"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA109"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71110"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H333"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C333"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-54"
+      }
+    ]
+  },
+  {
+    "id": "RC296",
+    "name": "RAF Dark Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "638"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-144"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "164"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71405"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2059"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H331"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C331"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-77"
+      }
+    ]
+  },
+  {
+    "id": "RC297",
+    "name": "RAF PRU Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "636"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-207"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "230"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71109"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2061"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H56"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C72"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-18"
+      }
+    ]
+  },
+  {
+    "id": "RC298",
+    "name": "RAF Light Aircraft Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "627"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-217"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "166"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H332"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C332"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC299",
+    "name": "RAF Camouflage (Barley) Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "626"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-142"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "167"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA079"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H334"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C334"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-80"
+      }
+    ]
+  },
+  {
+    "id": "RC300",
+    "name": "RAF Dark Camouflage Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "629"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-214"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC301",
+    "name": "RAF Camouflage Beige (Hemp)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "british-standard",
+        "id": "389"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-262"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "168"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H336"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C336"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-57"
+      }
+    ]
+  },
+  {
+    "id": "RC302",
+    "name": "IJN J3 Hai-Iro (Grey)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H61"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C35"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC303",
+    "name": "IJN J3 SP (Amber Grey)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71311"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC304",
+    "name": "IJN D1 Deep Green Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71325"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H59"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C15"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-11"
+      }
+    ]
+  },
+  {
+    "id": "RC305",
+    "name": "IJN D2 Green Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71322"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC306",
+    "name": "IJN M3(M) Mitsubishi Interior Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C126"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC307",
+    "name": "IJN M3(N) Nakajima Interior Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C127"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC308",
+    "name": "AE-9/AII Light Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-127"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71414"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC309",
+    "name": "AII Protective (Green)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-128"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71410"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC310",
+    "name": "AII Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-129"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71317"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC311",
+    "name": "A-18f Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71413"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC312",
+    "name": "A-19f Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71411"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC313",
+    "name": "AMT-1 Light Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71320"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC314",
+    "name": "A-21m Light Yellowish Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-074"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "72"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA039"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71415"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC315",
+    "name": "AMT-4/A-24m Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-073"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71301"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC316",
+    "name": "AMT-7 Light Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-072"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71318"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC317",
+    "name": "AMT-11 Blue Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-071"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71304"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC318",
+    "name": "AMT-12 Dark Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-070"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71308"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC319",
+    "name": "A-14 Interior Steel Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "5"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71336"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC320",
+    "name": "RLM 76 Version 1",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC321",
+    "name": "RLM 76 Version 2",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-038"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "247"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA509"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71257"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4786"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2086"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H417"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C117"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC322",
+    "name": "RLM 76 Late War Variation",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71103"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC323",
+    "name": "RLM 81 Version 1",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-008"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "251"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA510"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71264"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2090"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H421"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C121"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-51"
+      }
+    ]
+  },
+  {
+    "id": "RC324",
+    "name": "RLM 81 Version 2",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-022"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "253"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA132"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71011"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2091"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H423"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C123"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-74"
+      }
+    ]
+  },
+  {
+    "id": "RC325",
+    "name": "RLM 81 Version 3",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC326",
+    "name": "RLM 82",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-020"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "252"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA511"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71022"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2092"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H422"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C122"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC327",
+    "name": "RLM 83",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC328",
+    "name": "IJAAF #1 Hairyokushoku (Grey Green)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71326"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H62"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C56"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-12"
+      }
+    ]
+  },
+  {
+    "id": "RC329",
+    "name": "IJAAF #3 Hairanshoku (Grey Indigo)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "77"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC330",
+    "name": "IJAAF #7 Ohryoku Nana Go Shoku (Olive Brown)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71286"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC331",
+    "name": "IJAAF #21 Midori Iro (Green)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC332",
+    "name": "IJAAF #27 Ao Midori Iro (Blue Green)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC333",
+    "name": "IJAAF #29 Ki Midori Iro (Yellow Green)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC334",
+    "name": "IJAAF #30 Karekusa Iro (Dry Grass Colour)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC335",
+    "name": "IJAAF #31 Cha Kasshoku (Tea Colour)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC336",
+    "name": "MiG-25/MiG-31 Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC337",
+    "name": "MiG-29 Light Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2133"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC338",
+    "name": "MiG-29 Grey Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71340"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2134"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC339",
+    "name": "RLM 66 (1938)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-040"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA133"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71055"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4779"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2079"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H416"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C116"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-24"
+      }
+    ]
+  },
+  {
+    "id": "RC340",
+    "name": "Kenttävihreä – Olive Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34096"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-301"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "30"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA142"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2027"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC341",
+    "name": "Schwarzgrau – Black Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HTK-224"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7021"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC342",
+    "name": "Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34064"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-232"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA119"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC500",
+    "name": "Flat Varnish",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-XP07"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "49"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC27"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70520"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4636"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2015"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H20"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C182"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-86"
+      }
+    ]
+  },
+  {
+    "id": "RC501",
+    "name": "Satin Varnish",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-XP08"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "135"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC77"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70522"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4637"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2016"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C181"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "-"
+      }
+    ]
+  },
+  {
+    "id": "RC502",
+    "name": "Gloss Varnish",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HTK-XP09"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "35"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC73"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70510"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4638"
+      },
+      {
+        "paint_line": "model-master-authentic",
+        "id": "2017"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H30"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C46"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-22"
+      }
+    ]
+  },
+  {
+    "id": "RC503",
+    "name": "Clear Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4630"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H90"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C47"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-27"
+      }
+    ]
+  },
+  {
+    "id": "RC504",
+    "name": "Clear Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4658"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H93"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C50"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-23"
+      }
+    ]
+  },
+  {
+    "id": "RC505",
+    "name": "Clear Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4668"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H94"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C138"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-25"
+      }
+    ]
+  },
+  {
+    "id": "RC506",
+    "name": "Clear Orange",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "model-master-acrylic",
+        "id": "4625"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H92"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C49"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-26"
+      }
+    ]
+  },
+  {
+    "id": "RC507",
+    "name": "Clear Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H91"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C48"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-24"
+      }
+    ]
+  },
+  {
+    "id": "RC508",
+    "name": "Clear Smoke",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "-"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "-00"
+      },
+      {
+        "paint_line": "humbrol-enamel",
+        "id": "-"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "H95"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "C101"
+      },
+      {
+        "paint_line": "tamiya-gloss",
+        "id": "X-19"
+      }
+    ]
+  }
+]

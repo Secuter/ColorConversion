@@ -1,733 +1,3578 @@
-{
-  "series": "Ammo Mig Atom",
-  "manufacturer": "Ammo",
-  "prefixes": [
-    "AMT"
-  ],
-  "colors": [
-    {
-      "name": "MATT WHITE",
-      "correspondences": []
-    },
-    {
-      "name": "SATIN WHITE",
-      "correspondences": []
-    },
-    {
-      "name": "CREMEWEISS RAL 9001",
-      "correspondences": []
-    },
-    {
-      "name": "MIDGREY",
-      "correspondences": []
-    },
-    {
-      "name": "WOOD",
-      "correspondences": []
-    },
-    {
-      "name": "DUNKELGELB DG III",
-      "correspondences": []
-    },
-    {
-      "name": "GERMAN SAND BEIGE RAL8031",
-      "correspondences": []
-    },
-    {
-      "name": "DESERT SAND",
-      "correspondences": []
-    },
-    {
-      "name": "IDF SAND GREY ´73",
-      "correspondences": []
-    },
-    {
-      "name": "US DESERT TAN",
-      "correspondences": []
-    },
-    {
-      "name": "DUNKELGELB DG I",
-      "correspondences": []
-    },
-    {
-      "name": "SAND GREY",
-      "correspondences": []
-    },
-    {
-      "name": "DUNKELGELB",
-      "correspondences": []
-    },
-    {
-      "name": "ZINC CHROMATE YELLOW",
-      "correspondences": []
-    },
-    {
-      "name": "OCHRE",
-      "correspondences": []
-    },
-    {
-      "name": "GELBBRAUN 8020",
-      "correspondences": []
-    },
-    {
-      "name": "FADED YELLOW",
-      "correspondences": []
-    },
-    {
-      "name": "LEMON YELLOW",
-      "correspondences": []
-    },
-    {
-      "name": "YELLOW",
-      "correspondences": []
-    },
-    {
-      "name": "SUNNY YELLOW",
-      "correspondences": []
-    },
-    {
-      "name": "GOLD YELLOW",
-      "correspondences": []
-    },
-    {
-      "name": "SAND YELLOW",
-      "correspondences": []
-    },
-    {
-      "name": "MUSTARD",
-      "correspondences": []
-    },
-    {
-      "name": "LIGHT RUST",
-      "correspondences": []
-    },
-    {
-      "name": "SANDGELB RLM 79",
-      "correspondences": []
-    },
-    {
-      "name": "KHAKI GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "BRIGHT ORANGE",
-      "correspondences": []
-    },
-    {
-      "name": "ORANGE",
-      "correspondences": []
-    },
-    {
-      "name": "SCARLET RED",
-      "correspondences": []
-    },
-    {
-      "name": "RED",
-      "correspondences": []
-    },
-    {
-      "name": "IMPERIAL RED",
-      "correspondences": []
-    },
-    {
-      "name": "BLOOD RED",
-      "correspondences": []
-    },
-    {
-      "name": "CARMINE",
-      "correspondences": []
-    },
-    {
-      "name": "MAGENTA",
-      "correspondences": []
-    },
-    {
-      "name": "FUCSIA",
-      "correspondences": []
-    },
-    {
-      "name": "CORAL PINK",
-      "correspondences": []
-    },
-    {
-      "name": "VINTAGE PINK",
-      "correspondences": []
-    },
-    {
-      "name": "DARK NUDE PINK",
-      "correspondences": []
-    },
-    {
-      "name": "GLACIER PINK",
-      "correspondences": []
-    },
-    {
-      "name": "PINK FLESH",
-      "correspondences": []
-    },
-    {
-      "name": "LIGHT PINK FLESH",
-      "correspondences": []
-    },
-    {
-      "name": "BASIC SKIN",
-      "correspondences": []
-    },
-    {
-      "name": "LIGHT SKIN",
-      "correspondences": []
-    },
-    {
-      "name": "WARM SKIN",
-      "correspondences": []
-    },
-    {
-      "name": "BEIGE PINK",
-      "correspondences": []
-    },
-    {
-      "name": "RUST",
-      "correspondences": []
-    },
-    {
-      "name": "ROTBRAUN RAL 8012",
-      "correspondences": []
-    },
-    {
-      "name": "DARK RUST",
-      "correspondences": []
-    },
-    {
-      "name": "CLAY BROWN",
-      "correspondences": []
-    },
-    {
-      "name": "BRITISH UNIFORM",
-      "correspondences": []
-    },
-    {
-      "name": "DARK WOOD",
-      "correspondences": []
-    },
-    {
-      "name": "EARTH",
-      "correspondences": []
-    },
-    {
-      "name": "EARTH BROWN",
-      "correspondences": []
-    },
-    {
-      "name": "RED BRICK",
-      "correspondences": []
-    },
-    {
-      "name": "OLD RUST",
-      "correspondences": []
-    },
-    {
-      "name": "UMBER BROWN",
-      "correspondences": []
-    },
-    {
-      "name": "BURNT BROWN",
-      "correspondences": []
-    },
-    {
-      "name": "BROWN",
-      "correspondences": []
-    },
-    {
-      "name": "LEATHER",
-      "correspondences": []
-    },
-    {
-      "name": "BRAUNVIOLETT RLM 81",
-      "correspondences": []
-    },
-    {
-      "name": "COFFEE BROWN",
-      "correspondences": []
-    },
-    {
-      "name": "NATO BROWN",
-      "correspondences": []
-    },
-    {
-      "name": "SCHOKOBRAUN RAL8017",
-      "correspondences": []
-    },
-    {
-      "name": "BLACK BROWN",
-      "correspondences": []
-    },
-    {
-      "name": "CHIPPING",
-      "correspondences": []
-    },
-    {
-      "name": "DARK OLIVE DRAB",
-      "correspondences": []
-    },
-    {
-      "name": "NATO GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "OLIVGRÜN (RLM 71)",
-      "correspondences": []
-    },
-    {
-      "name": "IJA KAWASAKI GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "OLIVE DRAB",
-      "correspondences": []
-    },
-    {
-      "name": "SINAI GREY",
-      "correspondences": []
-    },
-    {
-      "name": "RUSSIAN GREEN 4BO",
-      "correspondences": []
-    },
-    {
-      "name": "DARK OLIVE GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "YELLOW GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "ZINC CHROMATE GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "HELLGRÜN/CHROMATE GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "IJA NAKAJIMA GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "DUNKELGRÜN RLM 81",
-      "correspondences": []
-    },
-    {
-      "name": "GRAU RLM 02",
-      "correspondences": []
-    },
-    {
-      "name": "OLIVGRÜN",
-      "correspondences": []
-    },
-    {
-      "name": "FIELD GREY",
-      "correspondences": []
-    },
-    {
-      "name": "RESEDAGRÜN (RAL 6011)",
-      "correspondences": []
-    },
-    {
-      "name": "PACIFIC GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "GREEN BASE",
-      "correspondences": []
-    },
-    {
-      "name": "BRIGHT GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "FADED GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "DUCK EGG GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "BILE GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "PISTACHIO",
-      "correspondences": []
-    },
-    {
-      "name": "LIME GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "TROLL GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "FERN GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "DARK GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "FOREST GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "PHTALO GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "IJN MITSUBISHI GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "IJN NAKAJIMA DARK GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "ATLANTIC GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "DEEP GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "RUSSIAN GREEN UNIFORM",
-      "correspondences": []
-    },
-    {
-      "name": "GREEN GREY",
-      "correspondences": []
-    },
-    {
-      "name": "SCHWARTZGRÜN RLM 70",
-      "correspondences": []
-    },
-    {
-      "name": "OCEAN BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "MARINE BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "BLUISH GREY",
-      "correspondences": []
-    },
-    {
-      "name": "FRENCH BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "NAVY BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "UNIFORM BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "PRUSSIAN BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "DEEP CYAN",
-      "correspondences": []
-    },
-    {
-      "name": "BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "CYAN",
-      "correspondences": []
-    },
-    {
-      "name": "BRIGHT BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "GREEN BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "TURQUOISE GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "JADE GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "AQUAMARINE",
-      "correspondences": []
-    },
-    {
-      "name": "DUCK BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "SAPPHIRE BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "AZURE BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "BABY BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "AIR SUPERIORITY BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "LIGHT BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "COLD GRAY",
-      "correspondences": []
-    },
-    {
-      "name": "LIGHT GRAY",
-      "correspondences": []
-    },
-    {
-      "name": "LIGHT GRAY GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "HELLBLAU RLM 78",
-      "correspondences": []
-    },
-    {
-      "name": "HELLBLAU RLM 65",
-      "correspondences": []
-    },
-    {
-      "name": "INTERIOR LIGHT GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "LIGHT GHOST GRAY",
-      "correspondences": []
-    },
-    {
-      "name": "PALE GREY (RLM 76)",
-      "correspondences": []
-    },
-    {
-      "name": "SEAL GREY",
-      "correspondences": []
-    },
-    {
-      "name": "STONE GREY",
-      "correspondences": []
-    },
-    {
-      "name": "DARK GHOST GRAY",
-      "correspondences": []
-    },
-    {
-      "name": "BLUE GRAY",
-      "correspondences": []
-    },
-    {
-      "name": "GREY",
-      "correspondences": []
-    },
-    {
-      "name": "INTERMEDIATE BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "OCEAN GREY",
-      "correspondences": []
-    },
-    {
-      "name": "LIGHT GREY GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "NAKAJIMA INTERIOR GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "SKY GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "IJN ASH GREY",
-      "correspondences": []
-    },
-    {
-      "name": "IJA GREY GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "DUST",
-      "correspondences": []
-    },
-    {
-      "name": "ZIMMERIT",
-      "correspondences": []
-    },
-    {
-      "name": "NEUTRAL GRAY",
-      "correspondences": []
-    },
-    {
-      "name": "DARK GREY",
-      "correspondences": []
-    },
-    {
-      "name": "GRAUVIOLETT RLM 75",
-      "correspondences": []
-    },
-    {
-      "name": "SHADOW GREY",
-      "correspondences": []
-    },
-    {
-      "name": "GREY BROWN",
-      "correspondences": []
-    },
-    {
-      "name": "VIOLET",
-      "correspondences": []
-    },
-    {
-      "name": "PURPLE",
-      "correspondences": []
-    },
-    {
-      "name": "AMETHYST",
-      "correspondences": []
-    },
-    {
-      "name": "ORCHID",
-      "correspondences": []
-    },
-    {
-      "name": "LIGHT PLUM",
-      "correspondences": []
-    },
-    {
-      "name": "MAUVE",
-      "correspondences": []
-    },
-    {
-      "name": "PUTRID FLESH",
-      "correspondences": []
-    },
-    {
-      "name": "GRAUGRÜN RLM 74",
-      "correspondences": []
-    },
-    {
-      "name": "SCHWARZGRAU RLM 66",
-      "correspondences": []
-    },
-    {
-      "name": "RUBBER & TIRES",
-      "correspondences": []
-    },
-    {
-      "name": "DUNKELGRAU RAL7021",
-      "correspondences": []
-    },
-    {
-      "name": "NATO BLACK",
-      "correspondences": []
-    },
-    {
-      "name": "SATIN BLACK",
-      "correspondences": []
-    },
-    {
-      "name": "MATT BLACK",
-      "correspondences": []
-    },
-    {
-      "name": "SILVER",
-      "correspondences": []
-    },
-    {
-      "name": "ALUMINUM",
-      "correspondences": []
-    },
-    {
-      "name": "STEEL",
-      "correspondences": []
-    },
-    {
-      "name": "GUN METAL",
-      "correspondences": []
-    },
-    {
-      "name": "METALLIC BLACK",
-      "correspondences": []
-    },
-    {
-      "name": "BURNT IRON",
-      "correspondences": []
-    },
-    {
-      "name": "COPPER",
-      "correspondences": []
-    },
-    {
-      "name": "GOLD PINK",
-      "correspondences": []
-    },
-    {
-      "name": "GOLD",
-      "correspondences": []
-    },
-    {
-      "name": "BRASS",
-      "correspondences": []
-    },
-    {
-      "name": "METALLIC RED",
-      "correspondences": []
-    },
-    {
-      "name": "AOTAKE GREEN",
-      "correspondences": []
-    },
-    {
-      "name": "AOTAKE BLUE",
-      "correspondences": []
-    },
-    {
-      "name": "WASHABLE WHITE",
-      "correspondences": []
-    },
-    {
-      "name": "WASHABLE DUST",
-      "correspondences": []
-    },
-    {
-      "name": "WASHABLE SAND",
-      "correspondences": []
-    },
-    {
-      "name": "THINNER AND CLEANER",
-      "correspondences": []
-    }
-  ]
-}
+[
+  {
+    "id": "20000",
+    "name": "MATT WHITE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0050"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "37925"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.001"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.951"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C62"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H11/H451"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9016"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "21"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-2"
+      }
+    ]
+  },
+  {
+    "id": "20001",
+    "name": "SATIN WHITE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0047"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.842"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C1"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H1"
+      }
+    ]
+  },
+  {
+    "id": "20002",
+    "name": "CREMEWEISS RAL 9001",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "17/0905"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.270"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.918"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9001"
+      }
+    ]
+  },
+  {
+    "id": "20003",
+    "name": "MIDGREY",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20004",
+    "name": "WOOD",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "36/0038"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71075"
+      }
+    ]
+  },
+  {
+    "id": "20005",
+    "name": "DUNKELGELB DG III",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "12/0057"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7028"
+      }
+    ]
+  },
+  {
+    "id": "20006",
+    "name": "GERMAN SAND BEIGE RAL8031",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0027"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8031"
+      }
+    ]
+  },
+  {
+    "id": "20007",
+    "name": "DESERT SAND",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0029"
+      }
+    ]
+  },
+  {
+    "id": "20008",
+    "name": "IDF SAND GREY ´73",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "67/0122"
+      }
+    ]
+  },
+  {
+    "id": "20009",
+    "name": "US DESERT TAN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "25/0200"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "33446"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71140"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70819"
+      }
+    ]
+  },
+  {
+    "id": "20010",
+    "name": "DUNKELGELB DG I",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0011"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "33440"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70978"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7028"
+      }
+    ]
+  },
+  {
+    "id": "20011",
+    "name": "SAND GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0132"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30277"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71141"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C45"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H85"
+      }
+    ]
+  },
+  {
+    "id": "20012",
+    "name": "DUNKELGELB",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0010"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71025"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H403"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7028"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-60"
+      }
+    ]
+  },
+  {
+    "id": "20013",
+    "name": "ZINC CHROMATE YELLOW",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0221"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "33481"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71107"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C27"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H58"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-4"
+      }
+    ]
+  },
+  {
+    "id": "20014",
+    "name": "OCHRE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0138"
+      }
+    ]
+  },
+  {
+    "id": "20015",
+    "name": "GELBBRAUN 8020",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "16/0061"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8020"
+      }
+    ]
+  },
+  {
+    "id": "20016",
+    "name": "FADED YELLOW",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0130"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C318"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H318"
+      }
+    ]
+  },
+  {
+    "id": "20017",
+    "name": "LEMON YELLOW",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "23785"
+      }
+    ]
+  },
+  {
+    "id": "20018",
+    "name": "YELLOW",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0048"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71002"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70915"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C4"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H4"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1023"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-3"
+      }
+    ]
+  },
+  {
+    "id": "20019",
+    "name": "SUNNY YELLOW",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20020",
+    "name": "GOLD YELLOW",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "13538"
+      }
+    ]
+  },
+  {
+    "id": "20021",
+    "name": "SAND YELLOW",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0030"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "381/361"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71143"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H459"
+      }
+    ]
+  },
+  {
+    "id": "20022",
+    "name": "MUSTARD",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0125"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "33538"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71078"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70953"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C113"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H413"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1003"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "id": "20023",
+    "name": "LIGHT RUST",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0039"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71130"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70911"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C58"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H24"
+      }
+    ]
+  },
+  {
+    "id": "20024",
+    "name": "SANDGELB RLM 79",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0222"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71278"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70876"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C119"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H66"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "79"
+      }
+    ]
+  },
+  {
+    "id": "20025",
+    "name": "KHAKI GREEN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20026",
+    "name": "BRIGHT ORANGE",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20027",
+    "name": "ORANGE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0129"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "32246"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71083"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70956"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C59"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H14"
+      }
+    ]
+  },
+  {
+    "id": "20028",
+    "name": "SCARLET RED",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20029",
+    "name": "RED",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0049"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "31302"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71003"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70909"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C3/C79/C114"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H3/H13/H23/H414"
+      },
+      {
+        "paint_line": "ral",
+        "id": "3020"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "23"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-7"
+      }
+    ]
+  },
+  {
+    "id": "20030",
+    "name": "IMPERIAL RED",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20031",
+    "name": "BLOOD RED",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0121"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "11136"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71084"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70908"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C327"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H327"
+      },
+      {
+        "paint_line": "ral",
+        "id": "3002"
+      }
+    ]
+  },
+  {
+    "id": "20032",
+    "name": "CARMINE",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20033",
+    "name": "MAGENTA",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20034",
+    "name": "FUCSIA",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20035",
+    "name": "CORAL PINK",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20036",
+    "name": "VINTAGE PINK",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "31158"
+      }
+    ]
+  },
+  {
+    "id": "20037",
+    "name": "DARK NUDE PINK",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20038",
+    "name": "GLACIER PINK",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "11630"
+      }
+    ]
+  },
+  {
+    "id": "20039",
+    "name": "PINK FLESH",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "31638"
+      }
+    ]
+  },
+  {
+    "id": "20040",
+    "name": "LIGHT PINK FLESH",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "31668"
+      }
+    ]
+  },
+  {
+    "id": "20041",
+    "name": "BASIC SKIN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0116"
+      }
+    ]
+  },
+  {
+    "id": "20042",
+    "name": "LIGHT SKIN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0115"
+      }
+    ]
+  },
+  {
+    "id": "20043",
+    "name": "WARM SKIN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0117"
+      }
+    ]
+  },
+  {
+    "id": "20044",
+    "name": "BEIGE PINK",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0118"
+      }
+    ]
+  },
+  {
+    "id": "20045",
+    "name": "RUST",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0040"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71129"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70981"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H453"
+      }
+    ]
+  },
+  {
+    "id": "20046",
+    "name": "ROTBRAUN RAL 8012",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "14/0133"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71271"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70814"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C41"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H47/H460"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8012"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-64"
+      }
+    ]
+  },
+  {
+    "id": "20047",
+    "name": "DARK RUST",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "41/0913"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30109"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70818"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C7"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H7"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-79"
+      }
+    ]
+  },
+  {
+    "id": "20048",
+    "name": "CLAY BROWN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0079"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30215"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71034"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C43"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H37"
+      }
+    ]
+  },
+  {
+    "id": "20049",
+    "name": "BRITISH UNIFORM",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20050",
+    "name": "DARK WOOD",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0923"
+      }
+    ]
+  },
+  {
+    "id": "20051",
+    "name": "EARTH",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "73/0202"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71024"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70874"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H457"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-52"
+      }
+    ]
+  },
+  {
+    "id": "20052",
+    "name": "EARTH BROWN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0064"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71037"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70303"
+      }
+    ]
+  },
+  {
+    "id": "20053",
+    "name": "RED BRICK",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0922"
+      }
+    ]
+  },
+  {
+    "id": "20054",
+    "name": "OLD RUST",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0921"
+      }
+    ]
+  },
+  {
+    "id": "20055",
+    "name": "UMBER BROWN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0034"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "435"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30111"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71080"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70343"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C131"
+      }
+    ]
+  },
+  {
+    "id": "20056",
+    "name": "BURNT BROWN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0134"
+      }
+    ]
+  },
+  {
+    "id": "20057",
+    "name": "BROWN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "70/0071"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "450"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30140"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71035"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70312"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H341"
+      }
+    ]
+  },
+  {
+    "id": "20058",
+    "name": "LEATHER",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "42/0912"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71040"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70859"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C29"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H17"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-9"
+      }
+    ]
+  },
+  {
+    "id": "20059",
+    "name": "BRAUNVIOLETT RLM 81",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0255"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71264"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C121"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H421"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "81"
+      }
+    ]
+  },
+  {
+    "id": "20060",
+    "name": "COFFEE BROWN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20061",
+    "name": "NATO BROWN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0085"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30051"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71249"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70871"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8027"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-68"
+      }
+    ]
+  },
+  {
+    "id": "20062",
+    "name": "SCHOKOBRAUN RAL8017",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "15/0043"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30059"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71041"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70985"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H406"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8017"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-10"
+      }
+    ]
+  },
+  {
+    "id": "20063",
+    "name": "BLACK BROWN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0912"
+      }
+    ]
+  },
+  {
+    "id": "20064",
+    "name": "CHIPPING",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "44/0035"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.039"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70304"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C42"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H84"
+      }
+    ]
+  },
+  {
+    "id": "20065",
+    "name": "DARK OLIVE DRAB",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "925/0020"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71043"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70889"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C38"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H78"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "83"
+      }
+    ]
+  },
+  {
+    "id": "20066",
+    "name": "NATO GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "84/248"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34094"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71093"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C54"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H80"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-67"
+      }
+    ]
+  },
+  {
+    "id": "20067",
+    "name": "OLIVGRÜN (RLM 71)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "1/0233"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34096"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70888"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6003"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-61"
+      }
+    ]
+  },
+  {
+    "id": "20068",
+    "name": "IJA KAWASAKI GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "260/0068"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71287"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C130"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H60"
+      }
+    ]
+  },
+  {
+    "id": "20069",
+    "name": "OLIVE DRAB",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "926/0237"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34087"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71286"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C304"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H304"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-62"
+      }
+    ]
+  },
+  {
+    "id": "20070",
+    "name": "SINAI GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "131/0928"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71142"
+      }
+    ]
+  },
+  {
+    "id": "20071",
+    "name": "RUSSIAN GREEN 4BO",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "19/0083"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71017"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70924"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C136"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H320"
+      }
+    ]
+  },
+  {
+    "id": "20072",
+    "name": "DARK OLIVE GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "932/0270"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71303"
+      }
+    ]
+  },
+  {
+    "id": "20073",
+    "name": "YELLOW GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0058"
+      }
+    ]
+  },
+  {
+    "id": "20074",
+    "name": "ZINC CHROMATE GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "4/0270/0220"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34151"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.137"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.850"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C340"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H340"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6011"
+      }
+    ]
+  },
+  {
+    "id": "20075",
+    "name": "HELLGRÜN/CHROMATE GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0230"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34095"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71022"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70823"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C122"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H422"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6020"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "82"
+      }
+    ]
+  },
+  {
+    "id": "20076",
+    "name": "IJA NAKAJIMA GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "261/0915/0065"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34102"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71285"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.348"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C129"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H303"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "62"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-81"
+      }
+    ]
+  },
+  {
+    "id": "20077",
+    "name": "DUNKELGRÜN RLM 81",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "206/0248"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34079"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71294"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70893"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C309/C330"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H309/H330"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "81"
+      }
+    ]
+  },
+  {
+    "id": "20078",
+    "name": "GRAU RLM 02",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0217"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71044"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70886"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C60"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H70"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7002"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "2"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-22"
+      }
+    ]
+  },
+  {
+    "id": "20079",
+    "name": "OLIVGRÜN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "2/0081"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34082"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71092"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70890"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C52"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H48"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6003"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-65"
+      }
+    ]
+  },
+  {
+    "id": "20080",
+    "name": "FIELD GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0266"
+      }
+    ]
+  },
+  {
+    "id": "20081",
+    "name": "RESEDAGRÜN (RAL 6011)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "23/0003"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34227"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.126"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.891"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C312"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H312"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6011"
+      }
+    ]
+  },
+  {
+    "id": "20082",
+    "name": "PACIFIC GREEN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20083",
+    "name": "GREEN BASE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "916/0060"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70827"
+      }
+    ]
+  },
+  {
+    "id": "20084",
+    "name": "BRIGHT GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "80/0124"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71301"
+      }
+    ]
+  },
+  {
+    "id": "20085",
+    "name": "FADED GREEN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20086",
+    "name": "DUCK EGG GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0244"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "216"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34524"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71009"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C26"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H74"
+      }
+    ]
+  },
+  {
+    "id": "20087",
+    "name": "BILE GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "13670"
+      }
+    ]
+  },
+  {
+    "id": "20088",
+    "name": "PISTACHIO",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20089",
+    "name": "LIME GREEN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20090",
+    "name": "TROLL GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "14193"
+      }
+    ]
+  },
+  {
+    "id": "20091",
+    "name": "FERN GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0054"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C66"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H26"
+      }
+    ]
+  },
+  {
+    "id": "20092",
+    "name": "DARK GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0052"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71007"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70970"
+      }
+    ]
+  },
+  {
+    "id": "20093",
+    "name": "FOREST GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "14109"
+      }
+    ]
+  },
+  {
+    "id": "20094",
+    "name": "PHTALO GREEN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20095",
+    "name": "IJN MITSUBISHI GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0265"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71310"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C124"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-70"
+      }
+    ]
+  },
+  {
+    "id": "20096",
+    "name": "IJN NAKAJIMA DARK GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "264/0069"
+      }
+    ]
+  },
+  {
+    "id": "20097",
+    "name": "ATLANTIC GREEN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20098",
+    "name": "DEEP GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0053"
+      }
+    ]
+  },
+  {
+    "id": "20099",
+    "name": "RUSSIAN GREEN UNIFORM",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0238"
+      }
+    ]
+  },
+  {
+    "id": "20100",
+    "name": "GREEN GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0018"
+      }
+    ]
+  },
+  {
+    "id": "20101",
+    "name": "SCHWARTZGRÜN RLM 70",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "232/0112"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34052"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71021"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70897"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C18"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H65"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7022"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "70"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-27"
+      }
+    ]
+  },
+  {
+    "id": "20102",
+    "name": "OCEAN BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0227"
+      },
+      {
+        "paint_line": "ana-standard",
+        "id": "606"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "25042"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71005"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70898"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C14"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H54"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-50"
+      }
+    ]
+  },
+  {
+    "id": "20103",
+    "name": "MARINE BLUE",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20104",
+    "name": "BLUISH GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0250"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70964"
+      }
+    ]
+  },
+  {
+    "id": "20105",
+    "name": "FRENCH BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0062"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35109"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71113"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70900"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C72"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H42"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-18"
+      }
+    ]
+  },
+  {
+    "id": "20106",
+    "name": "NAVY BLUE",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20107",
+    "name": "UNIFORM BLUE",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20108",
+    "name": "PRUSSIAN BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0103"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70839"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C65"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H15"
+      }
+    ]
+  },
+  {
+    "id": "20109",
+    "name": "DEEP CYAN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0128"
+      }
+    ]
+  },
+  {
+    "id": "20110",
+    "name": "BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0086"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "RAL 5019"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71089"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70844"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C323"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H323"
+      }
+    ]
+  },
+  {
+    "id": "20111",
+    "name": "CYAN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20112",
+    "name": "BRIGHT BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0224"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35260"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71317"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70961"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H45"
+      }
+    ]
+  },
+  {
+    "id": "20113",
+    "name": "GREEN BLUE",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20114",
+    "name": "TURQUOISE GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0223"
+      }
+    ]
+  },
+  {
+    "id": "20115",
+    "name": "JADE GREEN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20116",
+    "name": "AQUAMARINE",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20117",
+    "name": "DUCK BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "15125"
+      }
+    ]
+  },
+  {
+    "id": "20118",
+    "name": "SAPPHIRE BLUE",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20119",
+    "name": "AZURE BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0257"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71108"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70902"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C370"
+      }
+    ]
+  },
+  {
+    "id": "20120",
+    "name": "BABY BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0251"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71318"
+      }
+    ]
+  },
+  {
+    "id": "20121",
+    "name": "AIR SUPERIORITY BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0271"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35450"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71332"
+      }
+    ]
+  },
+  {
+    "id": "20122",
+    "name": "LIGHT BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0249"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35550"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71306"
+      }
+    ]
+  },
+  {
+    "id": "20123",
+    "name": "COLD GRAY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0119"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36628"
+      }
+    ]
+  },
+  {
+    "id": "20124",
+    "name": "LIGHT GRAY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0209"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36495"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71276"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C11/C338"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H51/H338"
+      }
+    ]
+  },
+  {
+    "id": "20125",
+    "name": "LIGHT GRAY GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0201"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34424"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70885"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H31"
+      }
+    ]
+  },
+  {
+    "id": "20126",
+    "name": "HELLBLAU RLM 78",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0247"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35414"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71101"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70972"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C118"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H418"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "78"
+      }
+    ]
+  },
+  {
+    "id": "20127",
+    "name": "HELLBLAU RLM 65",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0231"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35352"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71255"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70906"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C115"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H67"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "65"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-25"
+      }
+    ]
+  },
+  {
+    "id": "20128",
+    "name": "INTERIOR LIGHT GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "82/0219"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "283"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34226"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70331"
+      }
+    ]
+  },
+  {
+    "id": "20129",
+    "name": "LIGHT GHOST GRAY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0203"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36375"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70990"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C308"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H308"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7001"
+      }
+    ]
+  },
+  {
+    "id": "20130",
+    "name": "PALE GREY (RLM 76)",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0063"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36480"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71257"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C117"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H417"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "76"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-23"
+      }
+    ]
+  },
+  {
+    "id": "20131",
+    "name": "SEAL GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "207/0211"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "626"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36314"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71046"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70989"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C334"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H334"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-19"
+      }
+    ]
+  },
+  {
+    "id": "20132",
+    "name": "STONE GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0075"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-80"
+      }
+    ]
+  },
+  {
+    "id": "20133",
+    "name": "DARK GHOST GRAY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0208"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36320"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71120"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C307"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H307"
+      }
+    ]
+  },
+  {
+    "id": "20134",
+    "name": "BLUE GRAY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "210/0205"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35237"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71304"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70905"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C337"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H337"
+      }
+    ]
+  },
+  {
+    "id": "20135",
+    "name": "GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "59/0246/0236"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36251"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71050"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H22"
+      }
+    ]
+  },
+  {
+    "id": "20136",
+    "name": "INTERMEDIATE BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0228"
+      },
+      {
+        "paint_line": "ana-standard",
+        "id": "608"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35164"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71299"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70903"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H56"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7031"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-66"
+      }
+    ]
+  },
+  {
+    "id": "20137",
+    "name": "OCEAN GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0245"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "629"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71273"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-82"
+      }
+    ]
+  },
+  {
+    "id": "20138",
+    "name": "LIGHT GREY GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "259/0226"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36622"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.296"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70.883"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C127"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H311"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-71"
+      }
+    ]
+  },
+  {
+    "id": "20139",
+    "name": "NAKAJIMA INTERIOR GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "269/0934"
+      }
+    ]
+  },
+  {
+    "id": "20140",
+    "name": "SKY GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "243/0935"
+      },
+      {
+        "paint_line": "british-standard",
+        "id": "210"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71302"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-21"
+      }
+    ]
+  },
+  {
+    "id": "20141",
+    "name": "IJN ASH GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "262/0256"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71311"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "84"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-12"
+      }
+    ]
+  },
+  {
+    "id": "20142",
+    "name": "IJA GREY GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "241/0258"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36440"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71121"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70986"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C315/C325"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H315/H325"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7038"
+      }
+    ]
+  },
+  {
+    "id": "20143",
+    "name": "DUST",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0072"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70315"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-55"
+      }
+    ]
+  },
+  {
+    "id": "20144",
+    "name": "ZIMMERIT",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0114"
+      }
+    ]
+  },
+  {
+    "id": "20145",
+    "name": "NEUTRAL GRAY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0239"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36122"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71274"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C13"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H53"
+      }
+    ]
+  },
+  {
+    "id": "20146",
+    "name": "DARK GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "235/0910"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36152"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71308"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C32"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H83"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7012"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-75"
+      }
+    ]
+  },
+  {
+    "id": "20147",
+    "name": "GRAUVIOLETT RLM 75",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0254"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71259"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70869"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C37"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H69"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "75"
+      }
+    ]
+  },
+  {
+    "id": "20148",
+    "name": "SHADOW GREY",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0204"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36118"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71047"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70868"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C305"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H305"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-77"
+      }
+    ]
+  },
+  {
+    "id": "20149",
+    "name": "GREY BROWN",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20150",
+    "name": "VIOLET",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0126"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70960"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H49"
+      }
+    ]
+  },
+  {
+    "id": "20151",
+    "name": "PURPLE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0127"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "37142"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70959"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C67"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H39"
+      },
+      {
+        "paint_line": "ral",
+        "id": "4008"
+      }
+    ]
+  },
+  {
+    "id": "20152",
+    "name": "AMETHYST",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20153",
+    "name": "ORCHID",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20154",
+    "name": "LIGHT PLUM",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20155",
+    "name": "MAUVE",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20156",
+    "name": "PUTRID FLESH",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20157",
+    "name": "GRAUGRÜN RLM 74",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0253"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71258"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70867"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C36"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H68"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "74"
+      }
+    ]
+  },
+  {
+    "id": "20158",
+    "name": "SCHWARZGRAU RLM 66",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0218"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71055"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70866"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C116"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H416"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "66"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-63"
+      }
+    ]
+  },
+  {
+    "id": "20159",
+    "name": "RUBBER & TIRES",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0033"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71315"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70306"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C137"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H77"
+      }
+    ]
+  },
+  {
+    "id": "20160",
+    "name": "DUNKELGRAU RAL7021",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "8/0908"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "26081"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71056"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70862"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C301/C339"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H401"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7021"
+      }
+    ]
+  },
+  {
+    "id": "20161",
+    "name": "NATO BLACK",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0278"
+      }
+    ]
+  },
+  {
+    "id": "20162",
+    "name": "SATIN BLACK",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0032"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70861"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C2/C92"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H2"
+      }
+    ]
+  },
+  {
+    "id": "20163",
+    "name": "MATT BLACK",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0046"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "37038"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71057"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70950"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C33"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H12"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9005"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "22"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-1"
+      }
+    ]
+  },
+  {
+    "id": "20164",
+    "name": "SILVER",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71062"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-16"
+      }
+    ]
+  },
+  {
+    "id": "20165",
+    "name": "ALUMINUM",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "20166",
+    "name": "STEEL",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71063"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70997"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C8/C90"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H8"
+      }
+    ]
+  },
+  {
+    "id": "20167",
+    "name": "GUN METAL",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71065"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70864"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C28"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H18"
+      }
+    ]
+  },
+  {
+    "id": "20168",
+    "name": "METALLIC BLACK",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71072"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70863"
+      }
+    ]
+  },
+  {
+    "id": "20169",
+    "name": "BURNT IRON",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71073"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C61"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H76"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-84"
+      }
+    ]
+  },
+  {
+    "id": "20170",
+    "name": "COPPER",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71068"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70999"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C10"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H10"
+      },
+      {
+        "paint_line": "tamiya-flat",
+        "id": "XF-6"
+      }
+    ]
+  },
+  {
+    "id": "20171",
+    "name": "GOLD PINK",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0197"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71066"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70996"
+      }
+    ]
+  },
+  {
+    "id": "20172",
+    "name": "GOLD",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70801"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C9"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H9"
+      }
+    ]
+  },
+  {
+    "id": "20173",
+    "name": "BRASS",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71070"
+      }
+    ]
+  },
+  {
+    "id": "20174",
+    "name": "METALLIC RED",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71417"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C75"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H87"
+      }
+    ]
+  },
+  {
+    "id": "20175",
+    "name": "AOTAKE GREEN",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71419"
+      }
+    ]
+  },
+  {
+    "id": "20176",
+    "name": "AOTAKE BLUE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C57"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H63"
+      }
+    ]
+  },
+  {
+    "id": "20177",
+    "name": "WASHABLE WHITE",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0024"
+      }
+    ]
+  },
+  {
+    "id": "20178",
+    "name": "WASHABLE DUST",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0105"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "RAL 8000"
+      }
+    ]
+  },
+  {
+    "id": "20179",
+    "name": "WASHABLE SAND",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0106"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "RAL 8020"
+      }
+    ]
+  },
+  {
+    "id": "20500",
+    "name": "THINNER AND CLEANER",
+    "rgb": "",
+    "correspondences": []
+  }
+]

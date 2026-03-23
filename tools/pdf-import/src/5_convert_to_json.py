@@ -51,25 +51,61 @@ def get_csv_path(entry):
         return INPUT / files[0]["name"]
     return None
 
-# Helper: parse a CSV file into color dicts
-# (Assumes columns: id, name, rgb, correspondences, etc. Adjust as needed)
-def parse_csv(csv_path):
+
+# Helper: normalize/pad id
+def normalize_id(val, min_digits=0):
+    if val is None:
+        return ""
+    val = str(val).strip()
+    # Remove any non-digit prefix/suffix
+    val = val.lstrip("0") if val.lstrip("0") else val
+    if min_digits > 0:
+        val = val.zfill(min_digits)
+    return val
+
+# Helper: parse a CSV file into color dicts for the new format
+def parse_csv(csv_path, paint_line_key, config, paint_line_by_id):
     with open(csv_path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f, delimiter=';')
         rows = list(reader)
-    # Normalize fields
+    min_digits = config.get("min_digits", 0)
+    # Build header mapping: Id, Name, rest = correspondences
+    headers = reader.fieldnames
+    if not headers:
+        raise Exception(f"No headers found in {csv_path}")
+    id_col = next((h for h in headers if h.lower() == "id"), None)
+    name_col = next((h for h in headers if h.lower() == "name"), None)
+    if not id_col or not name_col:
+        raise Exception(f"Missing Id or Name column in {csv_path}")
+    # All other columns are correspondences
+    correspondence_cols = [h for h in headers if h not in (id_col, name_col)]
+    # Try to map correspondence columns to paint_line keys using alias
+    col_to_paint_line = {}
+    for col in correspondence_cols:
+        norm_col = col.lower().replace(" ", "-").replace("_", "-")
+        for plid, plconf in paint_line_by_id.items():
+            alias = plconf.get("alias", "").lower().replace(" ", "-")
+            if norm_col == plid or norm_col == plconf.get("series", "").lower().replace(" ", "-") or (alias and norm_col == alias):
+                col_to_paint_line[col] = plid
+                break
+        else:
+            print(f"[WARN] Colonna '{col}' non associata a paint line nota (alias/series/id). Da configurare?")
     colors = []
     for row in rows:
-        color = {
-            "id": row.get("id") or row.get("ID") or row.get("code") or row.get("Code"),
-            "name": row.get("name") or row.get("Name"),
-            "rgb": row.get("rgb") or row.get("RGB"),
-            # Correspondences: parse as JSON if present, else empty list
-            "correspondences": json.loads(row["correspondences"]) if row.get("correspondences") else []
-        }
-        # Remove None fields
-        color = {k: v for k, v in color.items() if v is not None}
-        colors.append(color)
+        color_id = normalize_id(row.get(id_col), min_digits)
+        color_name = row.get(name_col, "").strip()
+        correspondences = []
+        for col, plid in col_to_paint_line.items():
+            val = row.get(col, "").strip()
+            if val:
+                corr_id = normalize_id(val, paint_line_by_id.get(plid, {}).get("min_digits", 0))
+                correspondences.append({"paint_line": plid, "id": corr_id})
+        colors.append({
+            "id": color_id,
+            "name": color_name,
+            "rgb": "",
+            "correspondences": correspondences
+        })
     return colors
 
 # Process paint lines
@@ -88,15 +124,9 @@ for entry in sources["paintLines"]:
         print(f"No config for {key} in paint-lines.json, skipping.")
         continue
     # Parse CSV
-    colors = parse_csv(csv_path)
-    # Compose output JSON
-    out_json = {
-        "series": config["series"],
-        "manufacturer": config["manufacturer"],
-        "prefixes": config.get("prefixes", []),
-        "colors": colors
-    }
+    colors = parse_csv(csv_path, key, config, paint_line_by_id)
+    # Output: just the array of colors
     out_path = DATA / f"{key}.json"
     with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(out_json, f, ensure_ascii=False, indent=2)
+        json.dump(colors, f, ensure_ascii=False, indent=2)
     print(f"Wrote {out_path}")

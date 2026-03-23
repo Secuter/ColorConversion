@@ -1,373 +1,1463 @@
-{
-  "series": "Vallejo Model Color",
-  "manufacturer": "Vallejo",
-  "prefixes": [
-    "70."
-  ],
-  "colors": [
-    {
-      "name": "White",
-      "correspondences": []
-    },
-    {
-      "name": "Offwhite",
-      "correspondences": []
-    },
-    {
-      "name": "Cream White",
-      "correspondences": []
-    },
-    {
-      "name": "Deep Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Flat Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Orange",
-      "correspondences": []
-    },
-    {
-      "name": "Carmine Red",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Vermilion",
-      "correspondences": []
-    },
-    {
-      "name": "Flat Red",
-      "correspondences": []
-    },
-    {
-      "name": "Black Red",
-      "correspondences": []
-    },
-    {
-      "name": "Prussian Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Prussian Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Pastel Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Infantry Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Sky Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Sea Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Black Green",
-      "correspondences": []
-    },
-    {
-      "name": "Gunship Green",
-      "correspondences": []
-    },
-    {
-      "name": "German Uniform",
-      "correspondences": []
-    },
-    {
-      "name": "Bronze Green",
-      "correspondences": []
-    },
-    {
-      "name": "Cam. Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Green",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Olive",
-      "correspondences": []
-    },
-    {
-      "name": "Luftwaffe Green",
-      "correspondences": []
-    },
-    {
-      "name": "Military Green",
-      "correspondences": []
-    },
-    {
-      "name": "Pastel Green",
-      "correspondences": []
-    },
-    {
-      "name": "Green Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Ger. Fieldgrey WWII",
-      "correspondences": []
-    },
-    {
-      "name": "German Tank Crew",
-      "correspondences": []
-    },
-    {
-      "name": "Extra Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "Light Mud",
-      "correspondences": []
-    },
-    {
-      "name": "US Dark Green",
-      "correspondences": []
-    },
-    {
-      "name": "Refractive Green",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Cam. Olive Green",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Grey",
-      "correspondences": []
-    },
-    {
-      "name": "German Beige WWII",
-      "correspondences": []
-    },
-    {
-      "name": "Khaki",
-      "correspondences": []
-    },
-    {
-      "name": "Grey Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Canvas",
-      "correspondences": []
-    },
-    {
-      "name": "Burnt Umber",
-      "correspondences": []
-    },
-    {
-      "name": "German Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Green Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "US Olive Drab",
-      "correspondences": []
-    },
-    {
-      "name": "Buff",
-      "correspondences": []
-    },
-    {
-      "name": "Military Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Green Brown",
-      "correspondences": []
-    },
-    {
-      "name": "English Uniform",
-      "correspondences": []
-    },
-    {
-      "name": "Olive Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Beige",
-      "correspondences": []
-    },
-    {
-      "name": "Green Ochre",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Desert Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Old Wood",
-      "correspondences": []
-    },
-    {
-      "name": "Desert Tan",
-      "correspondences": []
-    },
-    {
-      "name": "Tan Earth",
-      "correspondences": []
-    },
-    {
-      "name": "US Field Drab",
-      "correspondences": []
-    },
-    {
-      "name": "BC Dark Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Leather Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Cam. Black Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Desert Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Mustard Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Beige Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Saddle Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Yellow Ochre",
-      "correspondences": []
-    },
-    {
-      "name": "Ochre Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Red Leather",
-      "correspondences": []
-    },
-    {
-      "name": "Cavalry Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Burnt Red",
-      "correspondences": []
-    },
-    {
-      "name": "Hull Red",
-      "correspondences": []
-    },
-    {
-      "name": "Silver Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Light Green Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Pale Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Light Green Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Grey Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Luftwaffe Uniform",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Sky Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Light Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Blue Grey Pale",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Blue Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Sea Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Violet Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Grey Green",
-      "correspondences": []
-    },
-    {
-      "name": "Basalt Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Sea Green",
-      "correspondences": []
-    },
-    {
-      "name": "German Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Black",
-      "correspondences": []
-    },
-    {
-      "name": "Gloss Black",
-      "correspondences": []
-    },
-    {
-      "name": "Silver",
-      "correspondences": []
-    }
-  ]
-}
+[
+  {
+    "id": "70.951",
+    "name": "White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.001"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "21"
+      }
+    ]
+  },
+  {
+    "id": "70.820",
+    "name": "Offwhite",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "601"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "37875"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.279"
+      }
+    ]
+  },
+  {
+    "id": "70.766",
+    "name": "Cream White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.270"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9001"
+      }
+    ]
+  },
+  {
+    "id": "70.915",
+    "name": "Deep Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "505"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.002"
+      }
+    ]
+  },
+  {
+    "id": "70.953",
+    "name": "Flat Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "506"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.078"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "id": "70.956",
+    "name": "Clear Orange",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "508"
+      }
+    ]
+  },
+  {
+    "id": "70.908",
+    "name": "Carmine Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.084"
+      }
+    ]
+  },
+  {
+    "id": "70.947",
+    "name": "Dark Vermilion",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.003"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "23"
+      }
+    ]
+  },
+  {
+    "id": "70.957",
+    "name": "Flat Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "619"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "11136"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.269"
+      },
+      {
+        "paint_line": "ral",
+        "id": "3000"
+      }
+    ]
+  },
+  {
+    "id": "70.859",
+    "name": "Black Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.402"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "49"
+      }
+    ]
+  },
+  {
+    "id": "70.965",
+    "name": "Prussian Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.266"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "24"
+      }
+    ]
+  },
+  {
+    "id": "70.899",
+    "name": "Dark Prussian Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.090"
+      }
+    ]
+  },
+  {
+    "id": "70.901",
+    "name": "Pastel Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "609"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.108"
+      }
+    ]
+  },
+  {
+    "id": "70.925",
+    "name": "Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "501"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "15102"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.088"
+      }
+    ]
+  },
+  {
+    "id": "70.752",
+    "name": "Infantry Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "502"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "15044"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.091"
+      }
+    ]
+  },
+  {
+    "id": "70.961",
+    "name": "Sky Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.317"
+      }
+    ]
+  },
+  {
+    "id": "70.898",
+    "name": "Dark Sea Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "623"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "15042"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.300"
+      }
+    ]
+  },
+  {
+    "id": "70.980",
+    "name": "Black Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.256"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "73"
+      }
+    ]
+  },
+  {
+    "id": "70.895",
+    "name": "Gunship Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.014"
+      }
+    ]
+  },
+  {
+    "id": "70.920",
+    "name": "German Uniform",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "612"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34092"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.124"
+      }
+    ]
+  },
+  {
+    "id": "70.897",
+    "name": "Bronze Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.021"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6006"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "70"
+      }
+    ]
+  },
+  {
+    "id": "70.979",
+    "name": "Cam. Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.019"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6007"
+      }
+    ]
+  },
+  {
+    "id": "70.967",
+    "name": "Olive Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "503"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.006"
+      }
+    ]
+  },
+  {
+    "id": "70.850",
+    "name": "Medium Olive",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.094"
+      }
+    ]
+  },
+  {
+    "id": "70.823",
+    "name": "Luftwaffe Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34094"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.022"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "82"
+      }
+    ]
+  },
+  {
+    "id": "70.975",
+    "name": "Military Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.265"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6031"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "80"
+      }
+    ]
+  },
+  {
+    "id": "70.885",
+    "name": "Pastel Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "610"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.321"
+      }
+    ]
+  },
+  {
+    "id": "70.886",
+    "name": "Green Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.044"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "2"
+      }
+    ]
+  },
+  {
+    "id": "70.830",
+    "name": "Ger. Fieldgrey WWII",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "634"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34086"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.292"
+      }
+    ]
+  },
+  {
+    "id": "70.759",
+    "name": "German Tank Crew",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.258"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "74"
+      }
+    ]
+  },
+  {
+    "id": "70.896",
+    "name": "Extra Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.263"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "72"
+      }
+    ]
+  },
+  {
+    "id": "70.760",
+    "name": "Light Mud",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.284"
+      }
+    ]
+  },
+  {
+    "id": "70.893",
+    "name": "US Dark Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34102"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.289"
+      }
+    ]
+  },
+  {
+    "id": "70.890",
+    "name": "Refractive Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34082"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.092"
+      },
+      {
+        "paint_line": "ral",
+        "id": "6003"
+      }
+    ]
+  },
+  {
+    "id": "70.888",
+    "name": "Olive Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "631"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34079"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.294"
+      }
+    ]
+  },
+  {
+    "id": "70.894",
+    "name": "Cam. Olive Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.011"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "83"
+      }
+    ]
+  },
+  {
+    "id": "70.987",
+    "name": "Medium Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.141"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "73"
+      }
+    ]
+  },
+  {
+    "id": "70.821",
+    "name": "German Beige WWII",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34201"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.023"
+      }
+    ]
+  },
+  {
+    "id": "70.988",
+    "name": "Khaki",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30277"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.138"
+      }
+    ]
+  },
+  {
+    "id": "70.762",
+    "name": "Grey Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.116"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7008"
+      }
+    ]
+  },
+  {
+    "id": "70.763",
+    "name": "Canvas",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "613"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "34088"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.264"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "81"
+      }
+    ]
+  },
+  {
+    "id": "70.941",
+    "name": "Burnt Umber",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30051"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.249"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8027"
+      }
+    ]
+  },
+  {
+    "id": "70.806",
+    "name": "German Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.106"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "5"
+      }
+    ]
+  },
+  {
+    "id": "70.881",
+    "name": "Green Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34151"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.137"
+      }
+    ]
+  },
+  {
+    "id": "70.887",
+    "name": "US Olive Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "34087"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.015"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "71"
+      }
+    ]
+  },
+  {
+    "id": "70.976",
+    "name": "Buff",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33717"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.288"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "64"
+      }
+    ]
+  },
+  {
+    "id": "70.764",
+    "name": "Military Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.025"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7028"
+      }
+    ]
+  },
+  {
+    "id": "70.879",
+    "name": "Green Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.272"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8000"
+      }
+    ]
+  },
+  {
+    "id": "70.921",
+    "name": "English Uniform",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "617"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30118"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.139"
+      }
+    ]
+  },
+  {
+    "id": "70.889",
+    "name": "Olive Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.282"
+      }
+    ]
+  },
+  {
+    "id": "70.917",
+    "name": "Beige",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "507"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "33695"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.074"
+      }
+    ]
+  },
+  {
+    "id": "70.914",
+    "name": "Green Ochre",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "615"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30266"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.031"
+      }
+    ]
+  },
+  {
+    "id": "70.847",
+    "name": "Dark Sand",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.075"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1001"
+      }
+    ]
+  },
+  {
+    "id": "70.767",
+    "name": "Desert Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30400"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.117"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8020"
+      }
+    ]
+  },
+  {
+    "id": "70.761",
+    "name": "Old Wood",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.118"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7027"
+      }
+    ]
+  },
+  {
+    "id": "70.765",
+    "name": "Desert Tan",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "33446"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.122"
+      }
+    ]
+  },
+  {
+    "id": "70.874",
+    "name": "Tan Earth",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "616"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "30279"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.140"
+      }
+    ]
+  },
+  {
+    "id": "70.873",
+    "name": "US Field Drab",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.323"
+      }
+    ]
+  },
+  {
+    "id": "70.768",
+    "name": "BC Dark Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30140"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.035"
+      }
+    ]
+  },
+  {
+    "id": "70.871",
+    "name": "Leather Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30099"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.290"
+      }
+    ]
+  },
+  {
+    "id": "70.822",
+    "name": "Cam. Black Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.042"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "61"
+      }
+    ]
+  },
+  {
+    "id": "70.977",
+    "name": "Desert Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30257"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.291"
+      }
+    ]
+  },
+  {
+    "id": "70.769",
+    "name": "Mustard Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.278"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "79"
+      }
+    ]
+  },
+  {
+    "id": "70.875",
+    "name": "Beige Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30117"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.293"
+      }
+    ]
+  },
+  {
+    "id": "70.940",
+    "name": "Saddle Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "30111"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.080"
+      }
+    ]
+  },
+  {
+    "id": "70.913",
+    "name": "Yellow Ochre",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.107"
+      }
+    ]
+  },
+  {
+    "id": "70.856",
+    "name": "Ochre Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.033"
+      },
+      {
+        "paint_line": "ral",
+        "id": "1006"
+      }
+    ]
+  },
+  {
+    "id": "70.818",
+    "name": "Red Leather",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.034"
+      }
+    ]
+  },
+  {
+    "id": "70.982",
+    "name": "Cavalry Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "618"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.105"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "26"
+      }
+    ]
+  },
+  {
+    "id": "70.814",
+    "name": "Burnt Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.271"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8012"
+      }
+    ]
+  },
+  {
+    "id": "70.985",
+    "name": "Hull Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.041"
+      },
+      {
+        "paint_line": "ral",
+        "id": "8017"
+      }
+    ]
+  },
+  {
+    "id": "70.883",
+    "name": "Silver Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36622"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.119"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9002"
+      }
+    ]
+  },
+  {
+    "id": "70.971",
+    "name": "Light Green Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "610"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36440"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.103"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "84"
+      }
+    ]
+  },
+  {
+    "id": "70.906",
+    "name": "Pale Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36473"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.257"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "76"
+      }
+    ]
+  },
+  {
+    "id": "70.972",
+    "name": "Light Green Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.101"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "78"
+      }
+    ]
+  },
+  {
+    "id": "70.772",
+    "name": "Medium Grey Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.255"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "65"
+      }
+    ]
+  },
+  {
+    "id": "70.816",
+    "name": "Luftwaffe Uniform",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.005"
+      }
+    ]
+  },
+  {
+    "id": "70.994",
+    "name": "Dark Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "607"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "35042"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.295"
+      }
+    ]
+  },
+  {
+    "id": "70.989",
+    "name": "Sky Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36375"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.407"
+      }
+    ]
+  },
+  {
+    "id": "70.990",
+    "name": "Light Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.307"
+      }
+    ]
+  },
+  {
+    "id": "70.905",
+    "name": "Blue Grey Pale",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "federal-standard",
+        "id": "36173"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.114"
+      }
+    ]
+  },
+  {
+    "id": "70.867",
+    "name": "Dark Blue Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.055"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "66"
+      }
+    ]
+  },
+  {
+    "id": "70.870",
+    "name": "Medium Sea Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "621"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36231"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.277"
+      }
+    ]
+  },
+  {
+    "id": "70.773",
+    "name": "Violet Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.259"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "75"
+      }
+    ]
+  },
+  {
+    "id": "70.866",
+    "name": "Grey Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.123"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "42"
+      }
+    ]
+  },
+  {
+    "id": "70.869",
+    "name": "Basalt Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "603"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "36118"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.097"
+      }
+    ]
+  },
+  {
+    "id": "70.868",
+    "name": "Dark Sea Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.115"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7016"
+      }
+    ]
+  },
+  {
+    "id": "70.995",
+    "name": "German Grey",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "513"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "37030"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.056"
+      },
+      {
+        "paint_line": "ral",
+        "id": "7021"
+      }
+    ]
+  },
+  {
+    "id": "70.950",
+    "name": "Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "604"
+      },
+      {
+        "paint_line": "federal-standard",
+        "id": "37038"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.057"
+      },
+      {
+        "paint_line": "ral",
+        "id": "9005"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "22"
+      }
+    ]
+  },
+  {
+    "id": "70.861",
+    "name": "Gloss Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ana-standard",
+        "id": "622"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.057"
+      }
+    ]
+  },
+  {
+    "id": "70.997",
+    "name": "Silver",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71.063"
+      },
+      {
+        "paint_line": "rlm",
+        "id": "1"
+      }
+    ]
+  }
+]

@@ -2,84 +2,92 @@
   {
     "id": "vallejo-model-color",
     "series": "Vallejo Model Color",
+    "alias": "Model Color",
     "manufacturer": "Vallejo",
     "type": "acrylic-water",
     "prefixes": ["70."],
     "default_prefix": "70.",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3"
+    "min_digits": 3
   },
   {
     "id": "vallejo-model-air",
     "series": "Vallejo Model Air",
+    "alias": "Model Air",
     "manufacturer": "Vallejo",
     "type": "acrylic-water",
     "prefixes": ["71."],
     "default_prefix": "71.",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3"
+    "min_digits": 3
   },
   {
     "id": "ak-real-colors",
     "series": "AK Real Colors",
+    "alias": "AK Real Colors",
     "manufacturer": "AK Interactive",
     "type": "laquer",
     "prefixes": ["RC"],
     "default_prefix": "RC",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3"
+    "min_digits": 3
   },
   {
     "id": "ak-acrylic",
     "series": "AK Acrylic",
+    "alias": "AK Acrylic",
     "manufacturer": "AK Interactive",
     "type": "acrylic-water",
     "prefixes": ["AK"],
     "default_prefix": "AK",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3",
+    "min_digits": 3,
     "hidden": true
   },
   {
     "id": "ammo-mig",
     "series": "Ammo by Mig",
+    "alias": "AMMO",
     "manufacturer": "Ammo",
     "prefixes": ["AMIG"],
     "type": "acrylic-water",
     "default_prefix": "AMIG",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "4"
+    "min_digits": 4
   },
   {
     "id": "ammo-mig-atom",
     "series": "Ammo Mig Atom",
+    "alias": "ATOM",
     "manufacturer": "Ammo",
     "type": "acrylic-water",
     "prefixes": ["AMT"],
     "default_prefix": "AMT",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "4"
+    "min_digits": 4
   },
   {
     "id": "italeri-acrylic",
     "series": "Italeri Acrylic",
+    "alias": "Italeri",
     "manufacturer": "Italeri",
     "type": "acrylic-water",
     "prefixes": [],
     "default_prefix": "",
     "suffixes": ["AP"],
     "default_suffix": "AP",
-    "min_digits": "4"
+    "min_digits": 4
   },
   {
     "id": "humbrol-enamel",
     "series": "Humbrol Enamel",
+    "alias": "Humbrol",
     "manufacturer": "Humbrol",
     "type": "enamel",
     "prefixes": [],
@@ -90,6 +98,7 @@
   {
     "id": "revell-acrylic",
     "series": "Revell Acrylic",
+    "alias": "Revell Acrylic",
     "manufacturer": "Revell",
     "type": "acrylic-water",
     "prefixes": ["36"],
@@ -101,6 +110,7 @@
   {
     "id": "revell-enamel",
     "series": "Revell Enamel",
+    "alias": "Revell Enamel",
     "manufacturer": "Revell",
     "type": "enamel",
     "prefixes": ["32"],
@@ -112,6 +122,7 @@
   {
     "id": "federal-standard",
     "series": "Federal Standard",
+    "alias": "FS",
     "manufacturer": "Color Standard",
     "type": "standard",
     "prefixes": ["FS"],
@@ -122,6 +133,7 @@
   {
     "id": "ral",
     "series": "RAL",
+    "alias": "RAL",
     "manufacturer": "Color Standard",
     "type": "standard",
     "prefixes": ["RAL"],
@@ -132,6 +144,7 @@
   {
     "id": "british-standard",
     "series": "British Standard",
+    "alias": "BS",
     "manufacturer": "Color Standard",
     "type": "standard",
     "prefixes": ["BS"],
@@ -142,6 +155,7 @@
   {
     "id": "ana-standard",
     "series": "ANA Standard",
+    "alias": "ANA",
     "manufacturer": "Color Standard",
     "type": "standard",
     "prefixes": ["ANA"],
@@ -152,6 +166,7 @@
   {
     "id": "rlm",
     "series": "RLM",
+    "alias": "RLM",
     "manufacturer": "Color Standard",
     "type": "standard",
     "prefixes": ["RLM"],
@@ -162,6 +177,7 @@
   {
     "id": "mr-color",
     "series": "Mr. Color",
+    "alias": "MrColor",
     "manufacturer": "GSI Creos",
     "type": "laquer",
     "prefixes": ["C"],
@@ -172,6 +188,7 @@
   {
     "id": "mr-color-aqueous",
     "series": "Mr. Color Aqueous",
+    "alias": "MrColor Aqueous",
     "manufacturer": "GSI Creos",
     "type": "acrylic-alcohol",
     "prefixes": ["H"],
@@ -182,6 +199,7 @@
   {
     "id": "mr-color-acrysion",
     "series": "MrColor Acrysion",
+    "alias": "MrColor Acrysion",
     "manufacturer": "GSI Creos",
     "type": "acrylic-water",
     "prefixes": ["N"],
@@ -193,102 +211,111 @@
   {
     "id": "hataka",
     "series": "Hataka",
+    "alias": "Hataka",
     "manufacturer": "Hataka",
     "type": "acrylic-water",
     "prefixes": ["A", "B", "C", "HTK-_"],
     "default_prefix": "HTK-",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3",
+    "min_digits": 3,
     "hidden": true
   },
   {
     "id": "lifecolor",
     "series": "Lifecolor",
+    "alias": "Lifecolor",
     "manufacturer": "Lifecolor",
     "type": "enamel",
     "prefixes": ["LC"],
     "default_prefix": "LC",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3",
+    "min_digits": 3,
     "hidden": true
   },
   {
     "id": "lifecolor-acrylic",
     "series": "Lifecolor Acrylic",
+    "alias": "Lifecolor Acrylic",
     "manufacturer": "Lifecolor",
     "type": "acrylic-water",
     "prefixes": ["UA"],
     "default_prefix": "UA",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3",
+    "min_digits": 3,
     "hidden": true
   },
   {
     "id": "mission-models",
     "series": "Mission Models",
+    "alias": "Mission Models",
     "manufacturer": "Mission Models",
     "type": "acrylic-water",
     "prefixes": ["MMP"],
     "default_prefix": "MMP",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3",
+    "min_digits": 3,
     "hidden": true
   },
   {
     "id": "mr-paint",
     "series": "Mr.Paint",
+    "alias": "MrPaint",
     "manufacturer": "Mr.Paint",
     "type": "laquer",
     "prefixes": [],
     "default_prefix": "",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3",
+    "min_digits": 3,
     "hidden": true
   },
   {
     "id": "mr-paint-acrylic",
     "series": "Mr.Paint Acrylic",
+    "alias": "MrPaint Acrylic",
     "manufacturer": "Mr.Paint",
     "type": "acrylic-water",
     "prefixes": ["A"],
     "default_prefix": "A",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3",
+    "min_digits": 3,
     "hidden": true
   },
   {
     "id": "xtracolor",
     "series": "Xtracolor",
+    "alias": "Xtracolor",
     "manufacturer": "Xtracolor",
     "type": "enamel",
     "prefixes": ["X"],
     "default_prefix": "X",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "3",
+    "min_digits": 3,
     "hidden": true
   },
   {
     "id": "xtracrylix",
     "series": "Xtracrylix",
+    "alias": "Xtracrylix",
     "manufacturer": "Xtracolor",
     "type": "acrylic-water",
     "prefixes": ["XA"],
     "default_prefix": "XA",
     "suffixes": [],
     "default_suffix": "",
-    "min_digits": "4",
+    "min_digits": 4,
     "hidden": true
   },
   {
     "id": "testors-enamel",
     "series": "Testors Enamel",
+    "alias": "Testors",
     "manufacturer": "Testors",
     "type": "enamel",
     "prefixes": [],
@@ -300,6 +327,7 @@
   {
     "id": "testors-acryl",
     "series": "Testors Acryl",
+    "alias": "Testors Acrylic",
     "manufacturer": "Testors",
     "type": "acrylic-water",
     "prefixes": [],
@@ -311,6 +339,7 @@
   {
     "id": "model-master-enamel",
     "series": "Model Master Enamel",
+    "alias": "Model Master Enamel",
     "manufacturer": "Model Master",
     "type": "enamel",
     "prefixes": [],
@@ -322,6 +351,7 @@
   {
     "id": "model-master-acrylic",
     "series": "Model Master Acrylic",
+    "alias": "Model Master Acrylic",
     "manufacturer": "Model Master",
     "type": "acrylic-water",
     "prefixes": [],
@@ -333,6 +363,7 @@
   {
     "id": "model-master-authentic",
     "series": "Model Master Authentic",
+    "alias": "Model Master Authentic",
     "manufacturer": "Model Master",
     "type": "enamel",
     "prefixes": [],
@@ -344,6 +375,7 @@
   {
     "id": "polly-scale",
     "series": "Polly Scale",
+    "alias": "Polly Scale",
     "manufacturer": "Polly Scale",
     "type": "acrylic-water",
     "prefixes": [],
@@ -355,6 +387,7 @@
   {
     "id": "white-ensign-models",
     "series": "White Ensign Models",
+    "alias": "White Ensign Models",
     "manufacturer": "White Ensign Models",
     "type": "enamel",
     "prefixes": [],
@@ -366,6 +399,7 @@
   {
     "id": "tamiya-gloss",
     "series": "Tamiya Gloss",
+    "alias": "Tamiya Gloss",
     "manufacturer": "Tamiya",
     "type": "acrylic-alcohol",
     "prefixes": ["X-", "X"],
@@ -376,6 +410,7 @@
   {
     "id": "tamiya-flat",
     "series": "Tamiya Flat",
+    "alias": "Tamiya Flat",
     "manufacturer": "Tamiya",
     "type": "acrylic-alcohol",
     "prefixes": ["XF-", "XF" ],

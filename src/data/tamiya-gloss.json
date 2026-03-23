@@ -1,138 +1,984 @@
-{
-  "series": "Tamiya Gloss",
-  "manufacturer": "Tamiya",
-  "prefixes": [
-    "X-",
-    "X"
-  ],
-  "colors": [
-    {
-      "name": "Black",
-      "correspondences": []
-    },
-    {
-      "name": "White",
-      "correspondences": []
-    },
-    {
-      "name": "Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Green",
-      "correspondences": []
-    },
-    {
-      "name": "Orange",
-      "correspondences": []
-    },
-    {
-      "name": "Red",
-      "correspondences": []
-    },
-    {
-      "name": "Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Red Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Steel",
-      "correspondences": []
-    },
-    {
-      "name": "Silver",
-      "correspondences": []
-    },
-    {
-      "name": "Silver",
-      "correspondences": []
-    },
-    {
-      "name": "Gold",
-      "correspondences": []
-    },
-    {
-      "name": "Metallic Blue/Aotake",
-      "correspondences": []
-    },
-    {
-      "name": "Sky Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Light Green",
-      "correspondences": []
-    },
-    {
-      "name": "Purple",
-      "correspondences": []
-    },
-    {
-      "name": "Pink",
-      "correspondences": []
-    },
-    {
-      "name": "Cowling Color/N01",
-      "correspondences": []
-    },
-    {
-      "name": "Smoke Gray",
-      "correspondences": []
-    },
-    {
-      "name": "Flat Base",
-      "correspondences": []
-    },
-    {
-      "name": "Gloss Clear",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Green",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Orange",
-      "correspondences": []
-    },
-    {
-      "name": "Clear Red",
-      "correspondences": []
-    },
-    {
-      "name": "Bright Green/Dilectric Green",
-      "correspondences": []
-    },
-    {
-      "name": "Titanium Gold",
-      "correspondences": []
-    },
-    {
-      "name": "Titanium Silver",
-      "correspondences": []
-    },
-    {
-      "name": "Bronze",
-      "correspondences": []
-    },
-    {
-      "name": "Metallic Brown",
-      "correspondences": []
-    }
-  ]
-}
+[
+  {
+    "id": "X-01",
+    "name": "Black",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0032"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HAT-125"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC002"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMP047"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70950"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C002"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N002"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H002"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "005"
+      },
+      {
+        "paint_line": "mr-paint-acrylic",
+        "id": "A012"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36107"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32107"
+      }
+    ]
+  },
+  {
+    "id": "X-02",
+    "name": "White",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0050"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HAT-125"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC001"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMP001"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71001"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C001"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N001"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H001"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "004"
+      },
+      {
+        "paint_line": "mr-paint-acrylic",
+        "id": "A014"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36104"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32104"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "X141"
+      }
+    ]
+  },
+  {
+    "id": "X-03",
+    "name": "Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0103"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HAT-220"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC010"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMP048"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71004"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C005"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N005"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H005"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "384"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32152"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2031"
+      }
+    ]
+  },
+  {
+    "id": "X-04",
+    "name": "Blue",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "X-05",
+    "name": "Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0074"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HAT-093"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA060"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMP004"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71329"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C006"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N006"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H006"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "385"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32161"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2029"
+      }
+    ]
+  },
+  {
+    "id": "X-06",
+    "name": "Orange",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HAT-704"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC005"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71083"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C059"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N014"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H014"
+      },
+      {
+        "paint_line": "mr-paint-acrylic",
+        "id": "A068"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32130"
+      }
+    ]
+  },
+  {
+    "id": "X-07",
+    "name": "Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0049"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HAT-276"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC006"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMP003"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71269"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C003"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N003"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H003"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "002"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36131"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32131"
+      }
+    ]
+  },
+  {
+    "id": "X-08",
+    "name": "Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0048"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HAT-290"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA042"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMP007"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71078"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C004"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N004"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H004"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "386"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32112"
+      }
+    ]
+  },
+  {
+    "id": "X-09",
+    "name": "Red Brown",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C007"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N007"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H007"
+      }
+    ]
+  },
+  {
+    "id": "X-10",
+    "name": "Steel",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0191"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMM002"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71065"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C028"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N018"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H018"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "030"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36191"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32191"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "X502"
+      }
+    ]
+  },
+  {
+    "id": "X-11",
+    "name": "Silver",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0195"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HAT-003"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC074"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMM006"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70790"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C008"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N008"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H008"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "003"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36190"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32190"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "X038"
+      }
+    ]
+  },
+  {
+    "id": "X-11",
+    "name": "Silver",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0195"
+      },
+      {
+        "paint_line": "hataka",
+        "id": "HAT-003"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC074"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMM006"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70790"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C008"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N008"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H008"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "003"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36190"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32190"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "X038"
+      }
+    ]
+  },
+  {
+    "id": "X-12",
+    "name": "Gold",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0198"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC025"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMC003"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71066"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C009"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N009"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H009"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "153"
+      },
+      {
+        "paint_line": "revell-acrylic",
+        "id": "36194"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32194"
+      }
+    ]
+  },
+  {
+    "id": "X-13",
+    "name": "Metallic Blue/Aotake",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0267"
+      },
+      {
+        "paint_line": "lifecolor-acrylic",
+        "id": "UA136"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMP113"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C057"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N063"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H063"
+      },
+      {
+        "paint_line": "testors-enamel",
+        "id": "2119"
+      },
+      {
+        "paint_line": "xtracolor",
+        "id": "X355"
+      }
+    ]
+  },
+  {
+    "id": "X-14",
+    "name": "Sky Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C034"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N025"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H025"
+      }
+    ]
+  },
+  {
+    "id": "X-15",
+    "name": "Light Green",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "X-16",
+    "name": "Purple",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0127"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70959"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C067"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N039"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H039"
+      }
+    ]
+  },
+  {
+    "id": "X-17",
+    "name": "Pink",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70994"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C063"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N019"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H019"
+      }
+    ]
+  },
+  {
+    "id": "X-18",
+    "name": "Cowling Color/N01",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C125"
+      }
+    ]
+  },
+  {
+    "id": "X-19",
+    "name": "Smoke Gray",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mission-models",
+        "id": "MMP170"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70939"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C101"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N095"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H095"
+      }
+    ]
+  },
+  {
+    "id": "X-21",
+    "name": "Flat Base",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mr-color",
+        "id": "C030"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N040"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H040"
+      }
+    ]
+  },
+  {
+    "id": "X-22",
+    "name": "Gloss Clear",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "ammo-mig",
+        "id": "0091"
+      },
+      {
+        "paint_line": "lifecolor",
+        "id": "LC073"
+      },
+      {
+        "paint_line": "mission-models",
+        "id": "MMA006"
+      },
+      {
+        "paint_line": "vallejo-model-air",
+        "id": "71058"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C046"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N030"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H030"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "048"
+      },
+      {
+        "paint_line": "revell-enamel",
+        "id": "32101"
+      }
+    ]
+  },
+  {
+    "id": "X-23",
+    "name": "Clear Blue",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mission-models",
+        "id": "MMP168"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70938"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C050"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N093"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H093"
+      }
+    ]
+  },
+  {
+    "id": "X-24",
+    "name": "Clear Yellow",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70937"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C048"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N091"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H091"
+      }
+    ]
+  },
+  {
+    "id": "X-25",
+    "name": "Clear Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mission-models",
+        "id": "MMP169"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70936"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C138"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N094"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H094"
+      }
+    ]
+  },
+  {
+    "id": "X-26",
+    "name": "Clear Orange",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mission-models",
+        "id": "MMP171"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70935"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C049"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N092"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H092"
+      }
+    ]
+  },
+  {
+    "id": "X-27",
+    "name": "Clear Red",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "mission-models",
+        "id": "MMP167"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70934"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C047"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N090"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H090"
+      }
+    ]
+  },
+  {
+    "id": "X-28",
+    "name": "Bright Green/Dilectric Green",
+    "rgb": "",
+    "correspondences": [
+      {
+        "paint_line": "hataka",
+        "id": "HAT-327"
+      },
+      {
+        "paint_line": "vallejo-model-color",
+        "id": "70970"
+      },
+      {
+        "paint_line": "mr-color",
+        "id": "C066"
+      },
+      {
+        "paint_line": "mr-color-acrysion",
+        "id": "N026"
+      },
+      {
+        "paint_line": "mr-color-aqueous",
+        "id": "H026"
+      },
+      {
+        "paint_line": "mr-paint",
+        "id": "032"
+      }
+    ]
+  },
+  {
+    "id": "X-31",
+    "name": "Titanium Gold",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "X-32",
+    "name": "Titanium Silver",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "X-33",
+    "name": "Bronze",
+    "rgb": "",
+    "correspondences": []
+  },
+  {
+    "id": "X-34",
+    "name": "Metallic Brown",
+    "rgb": "",
+    "correspondences": []
+  }
+]

@@ -16,7 +16,8 @@
       "key": "ammo-mig",
       "files": [
         { "name": "Ammo Mig Official.csv" }
-      ]
+      ],
+      "skip": true
     },
     {
       "key": "ammo-mig-atom",
