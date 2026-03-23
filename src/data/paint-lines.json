@@ -214,7 +214,7 @@
     "alias": "Hataka",
     "manufacturer": "Hataka",
     "type": "acrylic-water",
-    "prefixes": ["A", "B", "C", "HTK-_"],
+    "prefixes": ["A", "B", "C", "HTK-"],
     "default_prefix": "HTK-",
     "suffixes": [],
     "default_suffix": "",
