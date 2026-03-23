@@ -13,7 +13,7 @@ $SearchPairs = @(
     @{ Search = "Italeri Conversion"; Replace = "Italeri Official" },
     @{ Search = "MrColor Aqueous Conversion"; Replace = "MrColor Aqueous 2" },
     @{ Search = "MrColor Acrysion Conversion"; Replace = "MrColor Acrysion 2" },
-    @{ Search = "MrColor Laquer Conversion"; Replace = "MrColor Laquer" },
+    @{ Search = "MrColor Laquer Conversion"; Replace = "MrColor Laquer 2" },
     @{ Search = "Revell Enamel Conversion"; Replace = "Revell Enamel Official" },
     @{ Search = "Revell Acrylic Conversion"; Replace = "Revell Acrylic Official" },
     @{ Search = "Tamiya Gloss Conversion"; Replace = "Tamiya Gloss 2" },
