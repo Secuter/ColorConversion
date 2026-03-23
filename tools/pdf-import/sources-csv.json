@@ -29,28 +29,32 @@
       "files": [
         { "name": "Humbrol.csv" },
         { "name": "Humbrol Official.csv" }
-      ]
+      ],
+      "skip": true
     },
     {
       "key": "italeri",
       "files": [
         { "name": "Italeri.csv" },
         { "name": "Italeri Official.csv" }
-      ]
+      ],
+      "merged": "Italeri Official.csv"
     },
     {
       "key": "mr-color",
       "files": [
         { "name": "MrColor Laquer.csv" },
         { "name": "MrColor Laquer 2.csv" }
-      ]
+      ],
+      "merged": "MrColor Laquer.csv"
     },
     {
       "key": "mr-color-aqueous",
       "files": [
         { "name": "MrColor Aqueous.csv" },
         { "name": "MrColor Aqueous 2.csv" }
-      ]
+      ],
+      "merged": "MrColor Aqueous.csv"
     },
     {
       "key": "mr-color-acrysion",
@@ -64,7 +68,8 @@
       "files": [
         { "name": "Revell.csv" },
         { "name": "Revell Enamel Official.csv" }
-      ]
+      ],
+      "skip": true
     },
     {
       "key": "revell-acrylic",
@@ -78,14 +83,16 @@
       "files": [
         { "name": "Tamiya Flat.csv" },
         { "name": "Tamiya Flat 2.csv" }
-      ]
+      ],
+      "merged": "Tamiya Flat 2.csv"
     },
     {
       "key": "tamiya-gloss",
       "files": [
         { "name": "Tamiya Gloss.csv" },
         { "name": "Tamiya Gloss 2.csv" }
-      ]
+      ],
+      "merged": "Tamiya Gloss 2.csv"
     },
     {
       "key": "vallejo-model-color",

@@ -41,6 +41,8 @@ python tools/pdf-import/src/2_remap_sources.py
 python tools/pdf-import/src/extract_csv_headers.py tools/pdf-import/input
 
 python tools/pdf-import/src/3_sort_csv.py
+
+python tools/pdf-import/src/4_merge_and_report.py
 ```
 
 ---
