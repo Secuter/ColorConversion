@@ -107,7 +107,7 @@ def parse_vallejo(tokens: list[str]) -> list[dict]:
     result = []
     for t in tokens:
         if re.match(r"70\.\d", t):
-            result.append(make_corr("Vallejo", "Vallejo Model Color", t))
+            result.append(make_corr("Vallejo", "Vallejo Model Color Append", t))
         elif re.match(r"71\.\d", t):
             result.append(make_corr("Vallejo", "Vallejo Model Air", t))
     return result
@@ -345,3 +345,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

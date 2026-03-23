@@ -23,7 +23,7 @@
     {
       "key": "vallejo-model-color",
       "files": [
-        { "name": "Vallejo Model Color Conversion.csv" }
+        { "name": "Vallejo Model Color Append Conversion.csv" }
       ]
     },
     {
@@ -106,3 +106,4 @@
     }
   ]
 }
+

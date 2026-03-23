@@ -128,7 +128,7 @@
       "line_id": "vallejo-model-color",
       "sources": [
         {
-          "file": "Vallejo Model Color Conversion.csv",
+          "file": "Vallejo Model Color Append Conversion.csv",
           "type": "csv"
         }
       ]
@@ -175,3 +175,4 @@
     }
   ]
 }
+

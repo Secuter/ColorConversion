@@ -3,8 +3,7 @@
     {
       "key": "ak-acrylics",
       "files": [
-        { "name": "AK Acrylics.csv" },
-        { "name": "AK Acrylics Conversion.csv" }
+        { "name": "AK Acrylics.csv" }
       ]
     },
     {
@@ -14,36 +13,29 @@
       ]
     },
     {
-      "key": "tamiya-flat",
+      "key": "ammo-mig",
       "files": [
-        { "name": "Tamiya Flat.csv" },
-        { "name": "Tamiya Flat Conversion.csv" }
+        { "name": "Ammo Mig.csv" } // TODO
       ]
     },
     {
-      "key": "tamiya-gloss",
+      "key": "ammo-mig-atom",
       "files": [
-        { "name": "Tamiya Gloss.csv" },
-        { "name": "Tamiya Gloss Conversion.csv" }
-      ]
-    },
-    {
-      "key": "vallejo-model-color",
-      "files": [
-        { "name": "Vallejo Model Color Conversion.csv" }
-      ]
-    },
-    {
-      "key": "vallejo-model-air",
-      "files": [
-        { "name": "Vallejo Model Air.csv" }
+        { "name": "Atom Ammo Mig.csv" }
       ]
     },
     {
       "key": "humbrol-enamel",
       "files": [
         { "name": "Humbrol.csv" }
-        //{ "name": "Humbrol Color Conversion.csv" } // TODO
+        { "name": "Humbrol Color Conversion.csv" } // TODO
+      ]
+    },
+    {
+      "key": "italeri",
+      "files": [
+        { "name": "Italeri.csv" },
+        { "name": "Italeri Conversion.csv" }
       ]
     },
     {
@@ -67,29 +59,43 @@
       ]
     },
     {
+      "key": "revell-enamel",
+      "files": [
+        { "name": "Revell.csv" },
+        { "name": "Revell Enamel Conversion.csv" }
+      ]
+    },
+    {
       "key": "revell-acrylic",
       "files": [
         { "name": "Revell.csv" },
-        { "name": "Revell Conversion.csv" }
+        { "name": "Revell Acrylic Conversion.csv" }
       ]
     },
     {
-      "key": "italeri",
+      "key": "tamiya-flat",
       "files": [
-        { "name": "Italeri.csv" },
-        { "name": "Italeri Conversion.csv" }
+        { "name": "Tamiya Flat.csv" },
+        { "name": "Tamiya Flat Conversion.csv" }
       ]
     },
     {
-      "key": "ammo-mig",
+      "key": "tamiya-gloss",
       "files": [
-        //{ "name": "Ammo Mig.csv" } // TODO
+        { "name": "Tamiya Gloss.csv" },
+        { "name": "Tamiya Gloss Conversion.csv" }
       ]
     },
     {
-      "key": "ammo-mig-atom",
+      "key": "vallejo-model-color",
       "files": [
-        { "name": "Atom Ammo Mig.csv" }
+        { "name": "Vallejo Model Color Append Conversion.csv" }
+      ]
+    },
+    {
+      "key": "vallejo-model-air",
+      "files": [
+        { "name": "Vallejo Model Air.csv" }
       ]
     }
   ],
@@ -122,3 +128,4 @@
     }
   ]
 }
+

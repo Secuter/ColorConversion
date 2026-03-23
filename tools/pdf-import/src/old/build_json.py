@@ -127,7 +127,7 @@ DEFAULT_PIPELINE_SOURCES: list[dict[str, Any]] = [
     },
     {
         "line_id": "vallejo-model-color",
-        "sources": [{"file": "Vallejo Model Color Conversion.csv", "type": "csv"}],
+        "sources": [{"file": "Vallejo Model Color Append Conversion.csv", "type": "csv"}],
     },
 ]
 
@@ -180,7 +180,7 @@ OUTPUT_FILENAME_OVERRIDES: dict[str, str] = {
 
 LEGACY_FILE_ALIASES: dict[str, list[str]] = {
     "VMC_Colors.csv": ["Vallejo Model Colors.csv"],
-    "VMC_Conversion.csv": ["Vallejo Model Color Conversion.csv"],
+    "VMC_Conversion.csv": ["Vallejo Model Color Append Conversion.csv"],
     "VMA_Colors.csv": ["Vallejo Model AirColors.csv"],
     "AK_Conversion.csv": ["AK Real Colors Conversion.csv"],
     "Italeri_Colors.csv": ["Italeri Colors.csv", "Italeri.csv"],
@@ -671,7 +671,7 @@ def _remove_line_affixes(
     return text
 
 def _vmc_id(code: str) -> str:
-    """'70.951' -> '951'  (strip configured Vallejo Model Color prefix)"""
+    """'70.951' -> '951'  (strip configured Vallejo Model Color Append prefix)"""
     return _remove_line_affixes(code, "vallejo-model-color", "70.")
 
 
@@ -738,7 +738,7 @@ def _italeri_id(raw: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# 1.  Vallejo Model Color (VMC)
+# 1.  Vallejo Model Color Append (VMC)
 #     Source: VMC_Colors.csv (id/name), VMC_Conversion.csv (cross-refs)
 # ---------------------------------------------------------------------------
 
@@ -801,7 +801,7 @@ def build_vmc() -> dict:
             corrs.append(corr("Standard", "ANA", ana))
 
     return {
-        "series": "Vallejo Model Color",
+        "series": "Vallejo Model Color Append",
         "manufacturer": "Vallejo",
         "prefixes": meta["prefixes"],
         "default_prefix": meta["default_prefix"],
@@ -854,7 +854,7 @@ def build_vma() -> dict:
 
         mc_code = row[0]
         if is_vmc(mc_code):
-            corrs.append(corr("Vallejo", "Vallejo Model Color", mc_code))
+            corrs.append(corr("Vallejo", "Vallejo Model Color Append", mc_code))
 
         ral = row[4] if len(row) > 4 else ""
         if not _dash_or_empty(ral):
@@ -969,7 +969,7 @@ def build_ak() -> dict:
             if _dash_or_empty(v_part):
                 continue
             if is_vmc(v_part):
-                corrs.append(corr("Vallejo", "Vallejo Model Color", v_part))
+                corrs.append(corr("Vallejo", "Vallejo Model Color Append", v_part))
             elif is_vma(v_part):
                 corrs.append(corr("Vallejo", "Vallejo Model Air", v_part))
 
@@ -1099,7 +1099,7 @@ def build_italeri() -> dict:
                 if _dash_or_empty(v_part):
                     continue
                 if is_vmc(v_part):
-                    c = corr("Vallejo", "Vallejo Model Color", v_part)
+                    c = corr("Vallejo", "Vallejo Model Color Append", v_part)
                 elif is_vma(v_part):
                     c = corr("Vallejo", "Vallejo Model Air", v_part)
                 else:
@@ -1339,3 +1339,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
