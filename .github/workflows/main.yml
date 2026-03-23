@@ -22,17 +22,15 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Add SSH host key
-        run: |
-          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
-
       - name: Install SSH keys
         run: |
           mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
           echo "${{ secrets.SSH_DEPLOY_KEY }}" > ~/.ssh/rsync_key
           echo "${{ secrets.SSH_INSTALL_KEY }}" > ~/.ssh/promote_key
           chmod 600 ~/.ssh/rsync_key ~/.ssh/promote_key
           ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
 
       - name: Upload to staging
         run: |
