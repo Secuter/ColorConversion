@@ -7,7 +7,8 @@
     "prefixes": ["70."],
     "default_prefix": "70.",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "min_digits": "3"
   },
   {
     "id": "vallejo-model-air",
@@ -17,7 +18,8 @@
     "prefixes": ["71."],
     "default_prefix": "71.",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "min_digits": "3"
   },
   {
     "id": "ak-real-colors",
@@ -27,7 +29,8 @@
     "prefixes": ["RC"],
     "default_prefix": "RC",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "min_digits": "3"
   },
   {
     "id": "ak-acrylic",
@@ -38,6 +41,7 @@
     "default_prefix": "AK",
     "suffixes": [],
     "default_suffix": "",
+    "min_digits": "3",
     "hidden": true
   },
   {
@@ -48,7 +52,8 @@
     "type": "acrylic-water",
     "default_prefix": "AMIG",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "min_digits": "4"
   },
   {
     "id": "ammo-mig-atom",
@@ -58,7 +63,8 @@
     "prefixes": ["AMT"],
     "default_prefix": "AMT",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "min_digits": "4"
   },
   {
     "id": "italeri-acrylic",
@@ -68,7 +74,8 @@
     "prefixes": [],
     "default_prefix": "",
     "suffixes": ["AP"],
-    "default_suffix": "AP"
+    "default_suffix": "AP",
+    "min_digits": "4"
   },
   {
     "id": "humbrol-enamel",
@@ -192,6 +199,7 @@
     "default_prefix": "HTK-",
     "suffixes": [],
     "default_suffix": "",
+    "min_digits": "3",
     "hidden": true
   },
   {
@@ -203,6 +211,7 @@
     "default_prefix": "LC",
     "suffixes": [],
     "default_suffix": "",
+    "min_digits": "3",
     "hidden": true
   },
   {
@@ -214,6 +223,7 @@
     "default_prefix": "UA",
     "suffixes": [],
     "default_suffix": "",
+    "min_digits": "3",
     "hidden": true
   },
   {
@@ -225,6 +235,7 @@
     "default_prefix": "MMP",
     "suffixes": [],
     "default_suffix": "",
+    "min_digits": "3",
     "hidden": true
   },
   {
@@ -236,6 +247,7 @@
     "default_prefix": "",
     "suffixes": [],
     "default_suffix": "",
+    "min_digits": "3",
     "hidden": true
   },
   {
@@ -247,6 +259,7 @@
     "default_prefix": "A",
     "suffixes": [],
     "default_suffix": "",
+    "min_digits": "3",
     "hidden": true
   },
   {
@@ -258,6 +271,7 @@
     "default_prefix": "X",
     "suffixes": [],
     "default_suffix": "",
+    "min_digits": "3",
     "hidden": true
   },
   {
@@ -269,6 +283,7 @@
     "default_prefix": "XA",
     "suffixes": [],
     "default_suffix": "",
+    "min_digits": "4",
     "hidden": true
   },
   {
