@@ -1,12 +1,12 @@
 [
   {
-    "id": "70.951",
+    "id": "951",
     "name": "White",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.001"
+        "id": "001"
       },
       {
         "paint_line": "rlm",
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "id": "70.820",
+    "id": "820",
     "name": "Offwhite",
     "rgb": "",
     "correspondences": [
@@ -29,18 +29,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.279"
+        "id": "279"
       }
     ]
   },
   {
-    "id": "70.766",
+    "id": "766",
     "name": "Cream White",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.270"
+        "id": "270"
       },
       {
         "paint_line": "ral",
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "id": "70.915",
+    "id": "915",
     "name": "Deep Yellow",
     "rgb": "",
     "correspondences": [
@@ -59,12 +59,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.002"
+        "id": "002"
       }
     ]
   },
   {
-    "id": "70.953",
+    "id": "953",
     "name": "Flat Yellow",
     "rgb": "",
     "correspondences": [
@@ -74,7 +74,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.078"
+        "id": "078"
       },
       {
         "paint_line": "rlm",
@@ -83,7 +83,7 @@
     ]
   },
   {
-    "id": "70.956",
+    "id": "956",
     "name": "Clear Orange",
     "rgb": "",
     "correspondences": [
@@ -94,24 +94,24 @@
     ]
   },
   {
-    "id": "70.908",
+    "id": "908",
     "name": "Carmine Red",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.084"
+        "id": "084"
       }
     ]
   },
   {
-    "id": "70.947",
+    "id": "947",
     "name": "Dark Vermilion",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.003"
+        "id": "003"
       },
       {
         "paint_line": "rlm",
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "id": "70.957",
+    "id": "957",
     "name": "Flat Red",
     "rgb": "",
     "correspondences": [
@@ -134,7 +134,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.269"
+        "id": "269"
       },
       {
         "paint_line": "ral",
@@ -143,13 +143,13 @@
     ]
   },
   {
-    "id": "70.859",
+    "id": "859",
     "name": "Black Red",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.402"
+        "id": "402"
       },
       {
         "paint_line": "rlm",
@@ -158,13 +158,13 @@
     ]
   },
   {
-    "id": "70.965",
+    "id": "965",
     "name": "Prussian Blue",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.266"
+        "id": "266"
       },
       {
         "paint_line": "rlm",
@@ -173,18 +173,18 @@
     ]
   },
   {
-    "id": "70.899",
+    "id": "899",
     "name": "Dark Prussian Blue",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.090"
+        "id": "090"
       }
     ]
   },
   {
-    "id": "70.901",
+    "id": "901",
     "name": "Pastel Blue",
     "rgb": "",
     "correspondences": [
@@ -194,12 +194,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.108"
+        "id": "108"
       }
     ]
   },
   {
-    "id": "70.925",
+    "id": "925",
     "name": "Blue",
     "rgb": "",
     "correspondences": [
@@ -213,12 +213,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.088"
+        "id": "088"
       }
     ]
   },
   {
-    "id": "70.752",
+    "id": "752",
     "name": "Infantry Blue",
     "rgb": "",
     "correspondences": [
@@ -232,23 +232,23 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.091"
+        "id": "091"
       }
     ]
   },
   {
-    "id": "70.961",
+    "id": "961",
     "name": "Sky Blue",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.317"
+        "id": "317"
       }
     ]
   },
   {
-    "id": "70.898",
+    "id": "898",
     "name": "Dark Sea Blue",
     "rgb": "",
     "correspondences": [
@@ -262,18 +262,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.300"
+        "id": "300"
       }
     ]
   },
   {
-    "id": "70.980",
+    "id": "980",
     "name": "Black Green",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.256"
+        "id": "256"
       },
       {
         "paint_line": "rlm",
@@ -282,18 +282,18 @@
     ]
   },
   {
-    "id": "70.895",
+    "id": "895",
     "name": "Gunship Green",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.014"
+        "id": "014"
       }
     ]
   },
   {
-    "id": "70.920",
+    "id": "920",
     "name": "German Uniform",
     "rgb": "",
     "correspondences": [
@@ -307,18 +307,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.124"
+        "id": "124"
       }
     ]
   },
   {
-    "id": "70.897",
+    "id": "897",
     "name": "Bronze Green",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.021"
+        "id": "021"
       },
       {
         "paint_line": "ral",
@@ -331,13 +331,13 @@
     ]
   },
   {
-    "id": "70.979",
+    "id": "979",
     "name": "Cam. Dark Green",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.019"
+        "id": "019"
       },
       {
         "paint_line": "ral",
@@ -346,7 +346,7 @@
     ]
   },
   {
-    "id": "70.967",
+    "id": "967",
     "name": "Olive Green",
     "rgb": "",
     "correspondences": [
@@ -356,23 +356,23 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.006"
+        "id": "006"
       }
     ]
   },
   {
-    "id": "70.850",
+    "id": "850",
     "name": "Medium Olive",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.094"
+        "id": "094"
       }
     ]
   },
   {
-    "id": "70.823",
+    "id": "823",
     "name": "Luftwaffe Green",
     "rgb": "",
     "correspondences": [
@@ -382,7 +382,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.022"
+        "id": "022"
       },
       {
         "paint_line": "rlm",
@@ -391,13 +391,13 @@
     ]
   },
   {
-    "id": "70.975",
+    "id": "975",
     "name": "Military Green",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.265"
+        "id": "265"
       },
       {
         "paint_line": "ral",
@@ -410,7 +410,7 @@
     ]
   },
   {
-    "id": "70.885",
+    "id": "885",
     "name": "Pastel Green",
     "rgb": "",
     "correspondences": [
@@ -420,18 +420,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.321"
+        "id": "321"
       }
     ]
   },
   {
-    "id": "70.886",
+    "id": "886",
     "name": "Green Grey",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.044"
+        "id": "044"
       },
       {
         "paint_line": "rlm",
@@ -440,7 +440,7 @@
     ]
   },
   {
-    "id": "70.830",
+    "id": "830",
     "name": "Ger. Fieldgrey WWII",
     "rgb": "",
     "correspondences": [
@@ -454,18 +454,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.292"
+        "id": "292"
       }
     ]
   },
   {
-    "id": "70.759",
+    "id": "759",
     "name": "German Tank Crew",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.258"
+        "id": "258"
       },
       {
         "paint_line": "rlm",
@@ -474,13 +474,13 @@
     ]
   },
   {
-    "id": "70.896",
+    "id": "896",
     "name": "Extra Dark Green",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.263"
+        "id": "263"
       },
       {
         "paint_line": "rlm",
@@ -489,18 +489,18 @@
     ]
   },
   {
-    "id": "70.760",
+    "id": "760",
     "name": "Light Mud",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.284"
+        "id": "284"
       }
     ]
   },
   {
-    "id": "70.893",
+    "id": "893",
     "name": "US Dark Green",
     "rgb": "",
     "correspondences": [
@@ -510,12 +510,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.289"
+        "id": "289"
       }
     ]
   },
   {
-    "id": "70.890",
+    "id": "890",
     "name": "Refractive Green",
     "rgb": "",
     "correspondences": [
@@ -525,7 +525,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.092"
+        "id": "092"
       },
       {
         "paint_line": "ral",
@@ -534,7 +534,7 @@
     ]
   },
   {
-    "id": "70.888",
+    "id": "888",
     "name": "Olive Grey",
     "rgb": "",
     "correspondences": [
@@ -548,18 +548,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.294"
+        "id": "294"
       }
     ]
   },
   {
-    "id": "70.894",
+    "id": "894",
     "name": "Cam. Olive Green",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.011"
+        "id": "011"
       },
       {
         "paint_line": "rlm",
@@ -568,13 +568,13 @@
     ]
   },
   {
-    "id": "70.987",
+    "id": "987",
     "name": "Medium Grey",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.141"
+        "id": "141"
       },
       {
         "paint_line": "rlm",
@@ -583,7 +583,7 @@
     ]
   },
   {
-    "id": "70.821",
+    "id": "821",
     "name": "German Beige WWII",
     "rgb": "",
     "correspondences": [
@@ -593,12 +593,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.023"
+        "id": "023"
       }
     ]
   },
   {
-    "id": "70.988",
+    "id": "988",
     "name": "Khaki",
     "rgb": "",
     "correspondences": [
@@ -608,18 +608,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.138"
+        "id": "138"
       }
     ]
   },
   {
-    "id": "70.762",
+    "id": "762",
     "name": "Grey Brown",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.116"
+        "id": "116"
       },
       {
         "paint_line": "ral",
@@ -628,7 +628,7 @@
     ]
   },
   {
-    "id": "70.763",
+    "id": "763",
     "name": "Canvas",
     "rgb": "",
     "correspondences": [
@@ -642,7 +642,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.264"
+        "id": "264"
       },
       {
         "paint_line": "rlm",
@@ -651,7 +651,7 @@
     ]
   },
   {
-    "id": "70.941",
+    "id": "941",
     "name": "Burnt Umber",
     "rgb": "",
     "correspondences": [
@@ -661,7 +661,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.249"
+        "id": "249"
       },
       {
         "paint_line": "ral",
@@ -670,13 +670,13 @@
     ]
   },
   {
-    "id": "70.806",
+    "id": "806",
     "name": "German Yellow",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.106"
+        "id": "106"
       },
       {
         "paint_line": "rlm",
@@ -685,7 +685,7 @@
     ]
   },
   {
-    "id": "70.881",
+    "id": "881",
     "name": "Green Yellow",
     "rgb": "",
     "correspondences": [
@@ -695,12 +695,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.137"
+        "id": "137"
       }
     ]
   },
   {
-    "id": "70.887",
+    "id": "887",
     "name": "US Olive Drab",
     "rgb": "",
     "correspondences": [
@@ -710,7 +710,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.015"
+        "id": "015"
       },
       {
         "paint_line": "rlm",
@@ -719,7 +719,7 @@
     ]
   },
   {
-    "id": "70.976",
+    "id": "976",
     "name": "Buff",
     "rgb": "",
     "correspondences": [
@@ -729,7 +729,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.288"
+        "id": "288"
       },
       {
         "paint_line": "rlm",
@@ -738,13 +738,13 @@
     ]
   },
   {
-    "id": "70.764",
+    "id": "764",
     "name": "Military Yellow",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.025"
+        "id": "025"
       },
       {
         "paint_line": "ral",
@@ -753,13 +753,13 @@
     ]
   },
   {
-    "id": "70.879",
+    "id": "879",
     "name": "Green Brown",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.272"
+        "id": "272"
       },
       {
         "paint_line": "ral",
@@ -768,7 +768,7 @@
     ]
   },
   {
-    "id": "70.921",
+    "id": "921",
     "name": "English Uniform",
     "rgb": "",
     "correspondences": [
@@ -782,23 +782,23 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.139"
+        "id": "139"
       }
     ]
   },
   {
-    "id": "70.889",
+    "id": "889",
     "name": "Olive Brown",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.282"
+        "id": "282"
       }
     ]
   },
   {
-    "id": "70.917",
+    "id": "917",
     "name": "Beige",
     "rgb": "",
     "correspondences": [
@@ -812,12 +812,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.074"
+        "id": "074"
       }
     ]
   },
   {
-    "id": "70.914",
+    "id": "914",
     "name": "Green Ochre",
     "rgb": "",
     "correspondences": [
@@ -831,18 +831,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.031"
+        "id": "031"
       }
     ]
   },
   {
-    "id": "70.847",
+    "id": "847",
     "name": "Dark Sand",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.075"
+        "id": "075"
       },
       {
         "paint_line": "ral",
@@ -851,7 +851,7 @@
     ]
   },
   {
-    "id": "70.767",
+    "id": "767",
     "name": "Desert Brown",
     "rgb": "",
     "correspondences": [
@@ -861,7 +861,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.117"
+        "id": "117"
       },
       {
         "paint_line": "ral",
@@ -870,13 +870,13 @@
     ]
   },
   {
-    "id": "70.761",
+    "id": "761",
     "name": "Old Wood",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.118"
+        "id": "118"
       },
       {
         "paint_line": "ral",
@@ -885,7 +885,7 @@
     ]
   },
   {
-    "id": "70.765",
+    "id": "765",
     "name": "Desert Tan",
     "rgb": "",
     "correspondences": [
@@ -895,12 +895,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.122"
+        "id": "122"
       }
     ]
   },
   {
-    "id": "70.874",
+    "id": "874",
     "name": "Tan Earth",
     "rgb": "",
     "correspondences": [
@@ -914,23 +914,23 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.140"
+        "id": "140"
       }
     ]
   },
   {
-    "id": "70.873",
+    "id": "873",
     "name": "US Field Drab",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.323"
+        "id": "323"
       }
     ]
   },
   {
-    "id": "70.768",
+    "id": "768",
     "name": "BC Dark Brown",
     "rgb": "",
     "correspondences": [
@@ -940,12 +940,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.035"
+        "id": "035"
       }
     ]
   },
   {
-    "id": "70.871",
+    "id": "871",
     "name": "Leather Brown",
     "rgb": "",
     "correspondences": [
@@ -955,18 +955,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.290"
+        "id": "290"
       }
     ]
   },
   {
-    "id": "70.822",
+    "id": "822",
     "name": "Cam. Black Brown",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.042"
+        "id": "042"
       },
       {
         "paint_line": "rlm",
@@ -975,7 +975,7 @@
     ]
   },
   {
-    "id": "70.977",
+    "id": "977",
     "name": "Desert Yellow",
     "rgb": "",
     "correspondences": [
@@ -985,18 +985,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.291"
+        "id": "291"
       }
     ]
   },
   {
-    "id": "70.769",
+    "id": "769",
     "name": "Mustard Brown",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.278"
+        "id": "278"
       },
       {
         "paint_line": "rlm",
@@ -1005,7 +1005,7 @@
     ]
   },
   {
-    "id": "70.875",
+    "id": "875",
     "name": "Beige Brown",
     "rgb": "",
     "correspondences": [
@@ -1015,12 +1015,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.293"
+        "id": "293"
       }
     ]
   },
   {
-    "id": "70.940",
+    "id": "940",
     "name": "Saddle Brown",
     "rgb": "",
     "correspondences": [
@@ -1030,29 +1030,29 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.080"
+        "id": "080"
       }
     ]
   },
   {
-    "id": "70.913",
+    "id": "913",
     "name": "Yellow Ochre",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.107"
+        "id": "107"
       }
     ]
   },
   {
-    "id": "70.856",
+    "id": "856",
     "name": "Ochre Brown",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.033"
+        "id": "033"
       },
       {
         "paint_line": "ral",
@@ -1061,18 +1061,18 @@
     ]
   },
   {
-    "id": "70.818",
+    "id": "818",
     "name": "Red Leather",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.034"
+        "id": "034"
       }
     ]
   },
   {
-    "id": "70.982",
+    "id": "982",
     "name": "Cavalry Brown",
     "rgb": "",
     "correspondences": [
@@ -1082,7 +1082,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.105"
+        "id": "105"
       },
       {
         "paint_line": "rlm",
@@ -1091,13 +1091,13 @@
     ]
   },
   {
-    "id": "70.814",
+    "id": "814",
     "name": "Burnt Red",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.271"
+        "id": "271"
       },
       {
         "paint_line": "ral",
@@ -1106,13 +1106,13 @@
     ]
   },
   {
-    "id": "70.985",
+    "id": "985",
     "name": "Hull Red",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.041"
+        "id": "041"
       },
       {
         "paint_line": "ral",
@@ -1121,7 +1121,7 @@
     ]
   },
   {
-    "id": "70.883",
+    "id": "883",
     "name": "Silver Grey",
     "rgb": "",
     "correspondences": [
@@ -1131,7 +1131,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.119"
+        "id": "119"
       },
       {
         "paint_line": "ral",
@@ -1140,7 +1140,7 @@
     ]
   },
   {
-    "id": "70.971",
+    "id": "971",
     "name": "Light Green Grey",
     "rgb": "",
     "correspondences": [
@@ -1154,7 +1154,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.103"
+        "id": "103"
       },
       {
         "paint_line": "rlm",
@@ -1163,7 +1163,7 @@
     ]
   },
   {
-    "id": "70.906",
+    "id": "906",
     "name": "Pale Blue",
     "rgb": "",
     "correspondences": [
@@ -1173,7 +1173,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.257"
+        "id": "257"
       },
       {
         "paint_line": "rlm",
@@ -1182,13 +1182,13 @@
     ]
   },
   {
-    "id": "70.972",
+    "id": "972",
     "name": "Light Green Blue",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.101"
+        "id": "101"
       },
       {
         "paint_line": "rlm",
@@ -1197,13 +1197,13 @@
     ]
   },
   {
-    "id": "70.772",
+    "id": "772",
     "name": "Medium Grey Blue",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.255"
+        "id": "255"
       },
       {
         "paint_line": "rlm",
@@ -1212,18 +1212,18 @@
     ]
   },
   {
-    "id": "70.816",
+    "id": "816",
     "name": "Luftwaffe Uniform",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.005"
+        "id": "005"
       }
     ]
   },
   {
-    "id": "70.994",
+    "id": "994",
     "name": "Dark Grey",
     "rgb": "",
     "correspondences": [
@@ -1237,12 +1237,12 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.295"
+        "id": "295"
       }
     ]
   },
   {
-    "id": "70.989",
+    "id": "989",
     "name": "Sky Grey",
     "rgb": "",
     "correspondences": [
@@ -1252,23 +1252,23 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.407"
+        "id": "407"
       }
     ]
   },
   {
-    "id": "70.990",
+    "id": "990",
     "name": "Light Grey",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.307"
+        "id": "307"
       }
     ]
   },
   {
-    "id": "70.905",
+    "id": "905",
     "name": "Blue Grey Pale",
     "rgb": "",
     "correspondences": [
@@ -1278,18 +1278,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.114"
+        "id": "114"
       }
     ]
   },
   {
-    "id": "70.867",
+    "id": "867",
     "name": "Dark Blue Grey",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.055"
+        "id": "055"
       },
       {
         "paint_line": "rlm",
@@ -1298,7 +1298,7 @@
     ]
   },
   {
-    "id": "70.870",
+    "id": "870",
     "name": "Medium Sea Grey",
     "rgb": "",
     "correspondences": [
@@ -1312,18 +1312,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.277"
+        "id": "277"
       }
     ]
   },
   {
-    "id": "70.773",
+    "id": "773",
     "name": "Violet Grey",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.259"
+        "id": "259"
       },
       {
         "paint_line": "rlm",
@@ -1332,13 +1332,13 @@
     ]
   },
   {
-    "id": "70.866",
+    "id": "866",
     "name": "Grey Green",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.123"
+        "id": "123"
       },
       {
         "paint_line": "rlm",
@@ -1347,7 +1347,7 @@
     ]
   },
   {
-    "id": "70.869",
+    "id": "869",
     "name": "Basalt Grey",
     "rgb": "",
     "correspondences": [
@@ -1361,18 +1361,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.097"
+        "id": "097"
       }
     ]
   },
   {
-    "id": "70.868",
+    "id": "868",
     "name": "Dark Sea Green",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.115"
+        "id": "115"
       },
       {
         "paint_line": "ral",
@@ -1381,7 +1381,7 @@
     ]
   },
   {
-    "id": "70.995",
+    "id": "995",
     "name": "German Grey",
     "rgb": "",
     "correspondences": [
@@ -1395,7 +1395,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.056"
+        "id": "056"
       },
       {
         "paint_line": "ral",
@@ -1404,7 +1404,7 @@
     ]
   },
   {
-    "id": "70.950",
+    "id": "950",
     "name": "Black",
     "rgb": "",
     "correspondences": [
@@ -1418,7 +1418,7 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.057"
+        "id": "057"
       },
       {
         "paint_line": "ral",
@@ -1431,7 +1431,7 @@
     ]
   },
   {
-    "id": "70.861",
+    "id": "861",
     "name": "Gloss Black",
     "rgb": "",
     "correspondences": [
@@ -1441,18 +1441,18 @@
       },
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.057"
+        "id": "057"
       }
     ]
   },
   {
-    "id": "70.997",
+    "id": "997",
     "name": "Silver",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "vallejo-model-air",
-        "id": "71.063"
+        "id": "063"
       },
       {
         "paint_line": "rlm",

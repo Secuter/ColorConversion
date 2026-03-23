@@ -1,6 +1,6 @@
 [
   {
-    "id": "ANA 501",
+    "id": " 501",
     "name": "True Blue",
     "rgb": "",
     "correspondences": [
@@ -22,26 +22,26 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X152"
+        "id": "152"
       }
     ]
   },
   {
-    "id": "ANA 502",
+    "id": " 502",
     "name": "Insignia Blue",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor",
-        "id": "LC035"
+        "id": "035"
       },
       {
         "paint_line": "mr-color",
-        "id": "C326"
+        "id": "326"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H326"
+        "id": "326"
       },
       {
         "paint_line": "mr-paint",
@@ -49,12 +49,12 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X122"
+        "id": "122"
       }
     ]
   },
   {
-    "id": "ANA 503",
+    "id": " 503",
     "name": "Willow Green",
     "rgb": "",
     "correspondences": [
@@ -64,7 +64,7 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA749"
+        "id": "749"
       },
       {
         "paint_line": "mr-paint",
@@ -76,23 +76,23 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X151"
+        "id": "151"
       }
     ]
   },
   {
-    "id": "ANA 504",
+    "id": " 504",
     "name": "Olive Drab",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA523"
+        "id": "523"
       }
     ]
   },
   {
-    "id": "ANA 505",
+    "id": " 505",
     "name": "Lemon Yellow",
     "rgb": "",
     "correspondences": [
@@ -110,12 +110,12 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X108"
+        "id": "108"
       }
     ]
   },
   {
-    "id": "ANA 506",
+    "id": " 506",
     "name": "Orange Yellow",
     "rgb": "",
     "correspondences": [
@@ -125,26 +125,26 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C329"
+        "id": "329"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H329"
+        "id": "329"
       },
       {
         "paint_line": "xtracolor",
-        "id": "X106"
+        "id": "106"
       }
     ]
   },
   {
-    "id": "ANA 507",
+    "id": " 507",
     "name": "Aircraft Cream",
     "rgb": "",
     "correspondences": []
   },
   {
-    "id": "ANA 508",
+    "id": " 508",
     "name": "International Orange",
     "rgb": "",
     "correspondences": [
@@ -158,12 +158,12 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X104"
+        "id": "104"
       }
     ]
   },
   {
-    "id": "ANA 509",
+    "id": " 509",
     "name": "Insignia Red",
     "rgb": "",
     "correspondences": [
@@ -173,11 +173,11 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C327"
+        "id": "327"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H327"
+        "id": "327"
       },
       {
         "paint_line": "mr-paint",
@@ -185,18 +185,18 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X103"
+        "id": "103"
       }
     ]
   },
   {
-    "id": "ANA 510",
+    "id": " 510",
     "name": "Maroon",
     "rgb": "",
     "correspondences": []
   },
   {
-    "id": "ANA 511",
+    "id": " 511",
     "name": "White",
     "rgb": "",
     "correspondences": [
@@ -206,20 +206,20 @@
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP104"
+        "id": "104"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-02"
+        "id": "2"
       },
       {
         "paint_line": "xtracolor",
-        "id": "X141"
+        "id": "141"
       }
     ]
   },
   {
-    "id": "ANA 512",
+    "id": " 512",
     "name": "Aircraft Gray",
     "rgb": "",
     "correspondences": [
@@ -229,11 +229,11 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA041"
+        "id": "041"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP102"
+        "id": "102"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -245,30 +245,30 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X138"
+        "id": "138"
       },
       {
         "paint_line": "xtracrylix",
-        "id": "XA1138"
+        "id": "1138"
       }
     ]
   },
   {
-    "id": "ANA 513",
+    "id": " 513",
     "name": "Engine Gray",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "mission-models",
-        "id": "MMP099"
+        "id": "099"
       },
       {
         "paint_line": "mr-color",
-        "id": "C339"
+        "id": "339"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H339"
+        "id": "339"
       },
       {
         "paint_line": "mr-paint",
@@ -276,33 +276,33 @@
       },
       {
         "paint_line": "xtracrylix",
-        "id": "XA1129"
+        "id": "1129"
       }
     ]
   },
   {
-    "id": "ANA 514",
+    "id": " 514",
     "name": "Instrument Black",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor",
-        "id": "LC072"
+        "id": "072"
       }
     ]
   },
   {
-    "id": "ANA 515",
+    "id": " 515",
     "name": "Black",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor",
-        "id": "LC052"
+        "id": "052"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP047"
+        "id": "047"
       },
       {
         "paint_line": "vallejo-model-color",
@@ -315,7 +315,7 @@
     ]
   },
   {
-    "id": "ANA 601",
+    "id": " 601",
     "name": "Insignia White",
     "rgb": "",
     "correspondences": [
@@ -325,7 +325,7 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA148"
+        "id": "148"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -333,11 +333,11 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C316"
+        "id": "316"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H316"
+        "id": "316"
       },
       {
         "paint_line": "mr-paint",
@@ -346,7 +346,7 @@
     ]
   },
   {
-    "id": "ANA 602",
+    "id": " 602",
     "name": "Light Gray",
     "rgb": "",
     "correspondences": [
@@ -356,7 +356,7 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA113"
+        "id": "113"
       },
       {
         "paint_line": "mr-paint",
@@ -364,12 +364,12 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-53"
+        "id": "53"
       }
     ]
   },
   {
-    "id": "ANA 603",
+    "id": " 603",
     "name": "Sea Gray",
     "rgb": "",
     "correspondences": [
@@ -383,11 +383,11 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA022"
+        "id": "022"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP084"
+        "id": "084"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -395,11 +395,11 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C305"
+        "id": "305"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H305"
+        "id": "305"
       },
       {
         "paint_line": "mr-paint",
@@ -408,7 +408,7 @@
     ]
   },
   {
-    "id": "ANA 604",
+    "id": " 604",
     "name": "Navy #3 Black",
     "rgb": "",
     "correspondences": [
@@ -422,11 +422,11 @@
       },
       {
         "paint_line": "lifecolor",
-        "id": "LC002"
+        "id": "002"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP035"
+        "id": "035"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -434,15 +434,15 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C033"
+        "id": "33"
       },
       {
         "paint_line": "mr-color-acrysion",
-        "id": "N012"
+        "id": "12"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H012"
+        "id": "12"
       },
       {
         "paint_line": "mr-paint",
@@ -451,13 +451,13 @@
     ]
   },
   {
-    "id": "ANA 605",
+    "id": " 605",
     "name": "Insignia Blue",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA207"
+        "id": "207"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -466,7 +466,7 @@
     ]
   },
   {
-    "id": "ANA 606",
+    "id": " 606",
     "name": "Semi-Gloss Sea Blue",
     "rgb": "",
     "correspondences": [
@@ -480,30 +480,30 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C014"
+        "id": "14"
       },
       {
         "paint_line": "mr-color-acrysion",
-        "id": "N054"
+        "id": "54"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H054"
+        "id": "54"
       }
     ]
   },
   {
-    "id": "ANA 607",
+    "id": " 607",
     "name": "Non-Specular Sea Blue",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA044"
+        "id": "044"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP062"
+        "id": "062"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -516,7 +516,7 @@
     ]
   },
   {
-    "id": "ANA 608",
+    "id": " 608",
     "name": "Intermediate Blue",
     "rgb": "",
     "correspondences": [
@@ -530,11 +530,11 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA045"
+        "id": "045"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP071"
+        "id": "071"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -542,15 +542,15 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C072"
+        "id": "72"
       },
       {
         "paint_line": "mr-color-acrysion",
-        "id": "N056"
+        "id": "56"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H056"
+        "id": "56"
       },
       {
         "paint_line": "mr-paint",
@@ -558,30 +558,30 @@
       },
       {
         "paint_line": "mr-paint-acrylic",
-        "id": "A073"
+        "id": "073"
       },
       {
         "paint_line": "xtracolor",
-        "id": "X125"
+        "id": "125"
       },
       {
         "paint_line": "xtracrylix",
-        "id": "XA1125"
+        "id": "1125"
       }
     ]
   },
   {
-    "id": "ANA 609",
+    "id": " 609",
     "name": "Azure Blue",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA098"
+        "id": "098"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP092"
+        "id": "092"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -589,7 +589,7 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C370"
+        "id": "370"
       },
       {
         "paint_line": "mr-paint",
@@ -598,7 +598,7 @@
     ]
   },
   {
-    "id": "ANA 610",
+    "id": " 610",
     "name": "Sky",
     "rgb": "",
     "correspondences": [
@@ -612,7 +612,7 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA095"
+        "id": "095"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -620,7 +620,7 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C368"
+        "id": "368"
       },
       {
         "paint_line": "mr-paint",
@@ -628,12 +628,12 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X166"
+        "id": "166"
       }
     ]
   },
   {
-    "id": "ANA 611",
+    "id": " 611",
     "name": "Interior Green",
     "rgb": "",
     "correspondences": [
@@ -647,11 +647,11 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA004"
+        "id": "004"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP059"
+        "id": "059"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -659,15 +659,15 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C351"
+        "id": "351"
       },
       {
         "paint_line": "mr-color-acrysion",
-        "id": "N058"
+        "id": "58"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H058"
+        "id": "58"
       },
       {
         "paint_line": "mr-paint",
@@ -675,24 +675,24 @@
       },
       {
         "paint_line": "mr-paint-acrylic",
-        "id": "A007"
+        "id": "007"
       },
       {
         "paint_line": "revell-enamel",
-        "id": "32360"
+        "id": "360"
       },
       {
         "paint_line": "xtracolor",
-        "id": "X117"
+        "id": "117"
       },
       {
         "paint_line": "xtracrylix",
-        "id": "XA1117"
+        "id": "1117"
       }
     ]
   },
   {
-    "id": "ANA 612",
+    "id": " 612",
     "name": "Medium Green",
     "rgb": "",
     "correspondences": [
@@ -706,7 +706,7 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA008"
+        "id": "008"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -714,11 +714,11 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C302"
+        "id": "302"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H302"
+        "id": "302"
       },
       {
         "paint_line": "mr-paint",
@@ -726,24 +726,24 @@
       },
       {
         "paint_line": "revell-enamel",
-        "id": "32363"
+        "id": "363"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-67"
+        "id": "67"
       },
       {
         "paint_line": "xtracolor",
-        "id": "X114"
+        "id": "114"
       },
       {
         "paint_line": "xtracrylix",
-        "id": "XA1114"
+        "id": "1114"
       }
     ]
   },
   {
-    "id": "ANA 613",
+    "id": " 613",
     "name": "Olive Drab",
     "rgb": "",
     "correspondences": [
@@ -757,11 +757,11 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA222"
+        "id": "222"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP025"
+        "id": "025"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -769,11 +769,11 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C304"
+        "id": "304"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H304"
+        "id": "304"
       },
       {
         "paint_line": "mr-paint",
@@ -781,16 +781,16 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X112"
+        "id": "112"
       },
       {
         "paint_line": "xtracrylix",
-        "id": "XA1112"
+        "id": "1112"
       }
     ]
   },
   {
-    "id": "ANA 614",
+    "id": " 614",
     "name": "Orange Yellow",
     "rgb": "",
     "correspondences": [
@@ -800,7 +800,7 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA140"
+        "id": "140"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -809,13 +809,13 @@
     ]
   },
   {
-    "id": "ANA 615",
+    "id": " 615",
     "name": "Middle Stone",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA097"
+        "id": "097"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -824,13 +824,13 @@
     ]
   },
   {
-    "id": "ANA 616",
+    "id": " 616",
     "name": "Sand",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA089"
+        "id": "089"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -846,16 +846,16 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X032"
+        "id": "032"
       },
       {
         "paint_line": "xtracrylix",
-        "id": "XA1032"
+        "id": "1032"
       }
     ]
   },
   {
-    "id": "ANA 617",
+    "id": " 617",
     "name": "Dark Earth",
     "rgb": "",
     "correspondences": [
@@ -865,7 +865,7 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA016"
+        "id": "016"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -877,20 +877,20 @@
       },
       {
         "paint_line": "revell-enamel",
-        "id": "32182"
+        "id": "182"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-52"
+        "id": "52"
       },
       {
         "paint_line": "xtracolor",
-        "id": "X101"
+        "id": "101"
       }
     ]
   },
   {
-    "id": "ANA 618",
+    "id": " 618",
     "name": "Dull Red",
     "rgb": "",
     "correspondences": [
@@ -900,7 +900,7 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA088"
+        "id": "088"
       },
       {
         "paint_line": "vallejo-model-color",
@@ -909,17 +909,17 @@
     ]
   },
   {
-    "id": "ANA 619",
+    "id": " 619",
     "name": "Insignia Red",
     "rgb": "",
     "correspondences": [
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA606"
+        "id": "606"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP101"
+        "id": "101"
       },
       {
         "paint_line": "vallejo-model-color",
@@ -928,7 +928,7 @@
     ]
   },
   {
-    "id": "ANA 620",
+    "id": " 620",
     "name": "Light Gull Gray",
     "rgb": "",
     "correspondences": [
@@ -942,11 +942,11 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA025"
+        "id": "025"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP063"
+        "id": "063"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -954,24 +954,24 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C373"
+        "id": "373"
       },
       {
         "paint_line": "mr-color-acrysion",
-        "id": "N051"
+        "id": "51"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H051"
+        "id": "51"
       },
       {
         "paint_line": "xtracolor",
-        "id": "X137"
+        "id": "137"
       }
     ]
   },
   {
-    "id": "ANA 621",
+    "id": " 621",
     "name": "Dark Gull Gray",
     "rgb": "",
     "correspondences": [
@@ -981,11 +981,11 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA033"
+        "id": "033"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP064"
+        "id": "064"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -993,11 +993,11 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C317"
+        "id": "317"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H317"
+        "id": "317"
       },
       {
         "paint_line": "mr-paint",
@@ -1005,12 +1005,12 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X131"
+        "id": "131"
       }
     ]
   },
   {
-    "id": "ANA 622",
+    "id": " 622",
     "name": "Jet Black",
     "rgb": "",
     "correspondences": [
@@ -1021,7 +1021,7 @@
     ]
   },
   {
-    "id": "ANA 623",
+    "id": " 623",
     "name": "Sea Blue",
     "rgb": "",
     "correspondences": [
@@ -1031,11 +1031,11 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA047"
+        "id": "047"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP065"
+        "id": "065"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -1043,7 +1043,7 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C365"
+        "id": "365"
       },
       {
         "paint_line": "mr-paint",
@@ -1051,20 +1051,20 @@
       },
       {
         "paint_line": "mr-paint-acrylic",
-        "id": "A072"
+        "id": "072"
       },
       {
         "paint_line": "xtracolor",
-        "id": "X12"
+        "id": "012"
       },
       {
         "paint_line": "xtracrylix",
-        "id": "XA1121"
+        "id": "1121"
       }
     ]
   },
   {
-    "id": "ANA 625",
+    "id": " 625",
     "name": "Sea Plane Gray",
     "rgb": "",
     "correspondences": [
@@ -1074,7 +1074,7 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA030"
+        "id": "030"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -1082,18 +1082,18 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X129"
+        "id": "129"
       }
     ]
   },
   {
-    "id": "ANA 626",
+    "id": " 626",
     "name": "Semi-Gloss White",
     "rgb": "",
     "correspondences": []
   },
   {
-    "id": "ANA 627",
+    "id": " 627",
     "name": "Field Green",
     "rgb": "",
     "correspondences": [
@@ -1103,11 +1103,11 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C340"
+        "id": "340"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H340"
+        "id": "340"
       },
       {
         "paint_line": "mr-paint",
@@ -1115,12 +1115,12 @@
       },
       {
         "paint_line": "xtracolor",
-        "id": "X261"
+        "id": "261"
       }
     ]
   },
   {
-    "id": "ANA 628",
+    "id": " 628",
     "name": "Sierra Tan",
     "rgb": "",
     "correspondences": [
@@ -1134,11 +1134,11 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA015"
+        "id": "015"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP060"
+        "id": "060"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -1146,11 +1146,11 @@
       },
       {
         "paint_line": "mr-color",
-        "id": "C310"
+        "id": "310"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H310"
+        "id": "310"
       },
       {
         "paint_line": "mr-paint",
@@ -1165,7 +1165,7 @@
     "correspondences": [
       {
         "paint_line": "mission-models",
-        "id": "MMP068"
+        "id": "068"
       },
       {
         "paint_line": "vallejo-model-air",
@@ -1184,15 +1184,15 @@
       },
       {
         "paint_line": "lifecolor-acrylic",
-        "id": "UA134"
+        "id": "134"
       },
       {
         "paint_line": "mission-models",
-        "id": "MMP067"
+        "id": "067"
       },
       {
         "paint_line": "mr-color",
-        "id": "C352"
+        "id": "352"
       },
       {
         "paint_line": "mr-paint",
@@ -1200,7 +1200,7 @@
       },
       {
         "paint_line": "mr-paint-acrylic",
-        "id": "A010"
+        "id": "010"
       }
     ]
   }

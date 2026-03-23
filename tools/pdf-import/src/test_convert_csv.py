@@ -29,11 +29,20 @@ paint_line_by_id = {pl["id"]: pl for pl in paint_lines}
 paint_line_by_alias = {pl["alias"]: pl for pl in paint_lines}
 
 # Helper: normalize/pad id
-def normalize_id(val, min_digits=0):
+def normalize_id(val, min_digits=0, config=None):
     if val is None:
         return ""
     val = str(val).strip()
-    # Remove any non-digit prefix/suffix
+    # Remove prefix if present
+    if config:
+        prefixes = config.get("prefixes", [])
+        for prefix in prefixes:
+            if val.startswith(prefix):
+                val = val[len(prefix):]
+        suffixes = config.get("suffixes", [])
+        for suffix in suffixes:
+            if val.endswith(suffix):
+                val = val[:-len(suffix)]
     val = val.lstrip("0") if val.lstrip("0") else val
     if min_digits > 0:
         val = val.zfill(min_digits)
@@ -74,14 +83,15 @@ def convert_csv_to_json(csv_path, config):
     colors = []
     min_digits=config.get("min_digits", 0)
     for row in rows:
-        color_id = normalize_id(row.get(id_col), min_digits)
+        color_id = normalize_id(row.get(id_col), min_digits, config)
         color_name = row.get(name_col, "").strip()
         correspondences = []
         for col, plid in col_to_paint_line.items():
             val = row.get(col, "").strip()
-            if val:
-                corr_id = normalize_id(val, paint_line_by_id.get(plid, {}).get("min_digits", 0))
-                correspondences.append({"paint_line": plid, "id": corr_id})
+            if not val or val == "-":
+                continue
+            corr_id = normalize_id(val, paint_line_by_id.get(plid, {}).get("min_digits", 0), paint_line_by_id.get(plid, {}))
+            correspondences.append({"paint_line": plid, "id": corr_id})
         colors.append({
             "id": color_id,
             "name": color_name,

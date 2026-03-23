@@ -10,15 +10,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4605AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4605"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-27"
+        "id": "27"
       }
     ]
   },
@@ -33,15 +29,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4682AP"
+        "id": "4682"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H14"
+        "id": "14"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-6"
+        "id": "6"
       }
     ]
   },
@@ -56,15 +52,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4642AP"
+        "id": "4642"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H4"
+        "id": "4"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-24"
+        "id": "24"
       }
     ]
   },
@@ -78,12 +74,8 @@
         "id": "26/72"
       },
       {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
         "paint_line": "mr-color-aqueous",
-        "id": "H81"
+        "id": "81"
       },
       {
         "paint_line": "ral",
@@ -91,7 +83,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-49"
+        "id": "49"
       }
     ]
   },
@@ -101,20 +93,12 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "italeri",
-        "id": "4669AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4669"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-28"
+        "id": "28"
       }
     ]
   },
@@ -129,15 +113,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4687AP"
+        "id": "4687"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H328"
+        "id": "328"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-3"
+        "id": "3"
       }
     ]
   },
@@ -152,15 +136,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4659AP"
+        "id": "4659"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H45/H15"
+        "id": "45/H15"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-8"
+        "id": "8"
       }
     ]
   },
@@ -170,20 +154,12 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "italeri",
-        "id": "4650AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4650"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-23"
+        "id": "23"
       }
     ]
   },
@@ -198,15 +174,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4695AP"
+        "id": "4695"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H2"
+        "id": "2"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-1"
+        "id": "1"
       }
     ]
   },
@@ -221,15 +197,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4671AP"
+        "id": "4671"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H9"
+        "id": "9"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-12"
+        "id": "12"
       }
     ]
   },
@@ -244,19 +220,19 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4678AP"
+        "id": "4678"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H8"
+        "id": "8"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-16"
+        "id": "16"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-11"
+        "id": "11"
       }
     ]
   },
@@ -271,15 +247,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4696AP"
+        "id": "4696"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H21/H1/H316"
+        "id": "21/H1/H316"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-2"
+        "id": "2"
       }
     ]
   },
@@ -294,15 +270,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4770AP"
+        "id": "4770"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H70"
+        "id": "70"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-22/XF-71"
+        "id": "22/XF-71"
       }
     ]
   },
@@ -317,11 +293,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4797AP"
+        "id": "4797"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H84"
+        "id": "84"
       },
       {
         "paint_line": "ral",
@@ -329,7 +305,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-10"
+        "id": "10"
       }
     ]
   },
@@ -339,20 +315,8 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
         "paint_line": "tamiya-flat",
-        "id": "XF-10"
+        "id": "10"
       }
     ]
   },
@@ -367,11 +331,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4674AP"
+        "id": "4674"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H7"
+        "id": "7"
       }
     ]
   },
@@ -386,15 +350,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4640AP"
+        "id": "4640"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H13"
+        "id": "13"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-9"
+        "id": "9"
       }
     ]
   },
@@ -409,15 +373,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4675AP"
+        "id": "4675"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H343"
+        "id": "343"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-9"
+        "id": "9"
       }
     ]
   },
@@ -432,15 +396,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4306AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4306"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-68"
+        "id": "68"
       }
     ]
   },
@@ -455,15 +415,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4707AP"
+        "id": "4707"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H47"
+        "id": "47"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-64"
+        "id": "64"
       }
     ]
   },
@@ -478,15 +438,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4303AP"
+        "id": "4303"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H72"
+        "id": "72"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-52"
+        "id": "52"
       }
     ]
   },
@@ -501,15 +461,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4641AP"
+        "id": "4641"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H72"
+        "id": "72"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-52"
+        "id": "52"
       }
     ]
   },
@@ -524,15 +484,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4708AP"
+        "id": "4708"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H72"
+        "id": "72"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-52"
+        "id": "52"
       }
     ]
   },
@@ -547,15 +507,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4644AP"
+        "id": "4644"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H72"
+        "id": "72"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-52"
+        "id": "52"
       }
     ]
   },
@@ -570,15 +530,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4846AP"
+        "id": "4846"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H72"
+        "id": "72"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-52"
+        "id": "52"
       }
     ]
   },
@@ -592,12 +552,8 @@
         "id": "69"
       },
       {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
         "paint_line": "mr-color-aqueous",
-        "id": "H329"
+        "id": "329"
       }
     ]
   },
@@ -612,11 +568,7 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4789AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4789"
       }
     ]
   },
@@ -631,11 +583,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4305AP"
+        "id": "4305"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H310"
+        "id": "310"
       }
     ]
   },
@@ -650,15 +602,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4643AP"
+        "id": "4643"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H310"
+        "id": "310"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-52"
+        "id": "52"
       }
     ]
   },
@@ -673,15 +625,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4709AP"
+        "id": "4709"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H310"
+        "id": "310"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-52"
+        "id": "52"
       }
     ]
   },
@@ -695,12 +647,8 @@
         "id": "9"
       },
       {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
         "paint_line": "mr-color-aqueous",
-        "id": "H37"
+        "id": "37"
       },
       {
         "paint_line": "ral",
@@ -719,11 +667,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4673AP"
+        "id": "4673"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H37/H33"
+        "id": "37/H33"
       },
       {
         "paint_line": "ral",
@@ -731,7 +679,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-59"
+        "id": "59"
       }
     ]
   },
@@ -746,11 +694,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4304AP"
+        "id": "4304"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H79"
+        "id": "79"
       }
     ]
   },
@@ -765,11 +713,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4646AP"
+        "id": "4646"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H79/H403"
+        "id": "79/H403"
       },
       {
         "paint_line": "ral",
@@ -777,7 +725,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-60/XF-55"
+        "id": "60/XF-55"
       }
     ]
   },
@@ -792,11 +740,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4711AP"
+        "id": "4711"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H336"
+        "id": "336"
       },
       {
         "paint_line": "ral",
@@ -804,7 +752,7 @@
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-41"
+        "id": "41"
       }
     ]
   },
@@ -819,11 +767,7 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4812AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4812"
       }
     ]
   },
@@ -838,15 +782,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4720AP"
+        "id": "4720"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H313"
+        "id": "313"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-60/XF-78/XF-10"
+        "id": "60/XF-78/XF-10"
       }
     ]
   },
@@ -861,15 +805,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4714AP"
+        "id": "4714"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H327"
+        "id": "327"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-7"
+        "id": "7"
       }
     ]
   },
@@ -884,15 +828,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4632AP"
+        "id": "4632"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H13"
+        "id": "13"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-7"
+        "id": "7"
       }
     ]
   },
@@ -907,15 +851,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4606AP"
+        "id": "4606"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H414"
+        "id": "414"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-7"
+        "id": "7"
       }
     ]
   },
@@ -930,15 +874,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4603AP"
+        "id": "4603"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H44"
+        "id": "44"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-15"
+        "id": "15"
       }
     ]
   },
@@ -953,15 +897,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4390AP"
+        "id": "4390"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H44"
+        "id": "44"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-15"
+        "id": "15"
       }
     ]
   },
@@ -976,15 +920,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4601AP"
+        "id": "4601"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H44"
+        "id": "44"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-15"
+        "id": "15"
       }
     ]
   },
@@ -999,15 +943,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4302AP"
+        "id": "4302"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H14"
+        "id": "14"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-6"
+        "id": "6"
       }
     ]
   },
@@ -1022,11 +966,7 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4645AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4645"
       }
     ]
   },
@@ -1041,15 +981,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4796AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4796"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-4"
+        "id": "4"
       }
     ]
   },
@@ -1057,20 +993,7 @@
     "id": "33446",
     "name": "OIF & OEF US Vehicles Base colour",
     "rgb": "",
-    "correspondences": [
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      }
-    ]
+    "correspondences": []
   },
   {
     "id": "33538",
@@ -1083,15 +1006,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4721AP"
+        "id": "4721"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H329"
+        "id": "329"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-3"
+        "id": "3"
       }
     ]
   },
@@ -1099,39 +1022,13 @@
     "id": "33613",
     "name": "Radome Tan",
     "rgb": "",
-    "correspondences": [
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      }
-    ]
+    "correspondences": []
   },
   {
     "id": "33722",
     "name": "Buff Light Shade",
     "rgb": "",
-    "correspondences": [
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      }
-    ]
+    "correspondences": []
   },
   {
     "id": "34052",
@@ -1144,15 +1041,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4780AP"
+        "id": "4780"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H65"
+        "id": "65"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-11/XF-13/XF-27"
+        "id": "11/XF-13/XF-27"
       }
     ]
   },
@@ -1167,15 +1064,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4726AP"
+        "id": "4726"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H309"
+        "id": "309"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-65/XF-13"
+        "id": "65/XF-13"
       }
     ]
   },
@@ -1190,11 +1087,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4734AP"
+        "id": "4734"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H303/H80"
+        "id": "303/H80"
       },
       {
         "paint_line": "ral",
@@ -1202,7 +1099,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-11"
+        "id": "11"
       }
     ]
   },
@@ -1217,15 +1114,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4807AP"
+        "id": "4807"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H420"
+        "id": "420"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-62/XF-81"
+        "id": "62/XF-81"
       }
     ]
   },
@@ -1240,15 +1137,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4728AP"
+        "id": "4728"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H17/H78"
+        "id": "17/H78"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-62"
+        "id": "62"
       }
     ]
   },
@@ -1262,12 +1159,8 @@
         "id": "163"
       },
       {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
         "paint_line": "mr-color-aqueous",
-        "id": "H330"
+        "id": "330"
       },
       {
         "paint_line": "ral",
@@ -1275,7 +1168,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-74"
+        "id": "74"
       }
     ]
   },
@@ -1290,11 +1183,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4315AP"
+        "id": "4315"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H304/H52"
+        "id": "304/H52"
       },
       {
         "paint_line": "ral",
@@ -1302,7 +1195,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-49/XF-51"
+        "id": "49/XF-51"
       }
     ]
   },
@@ -1317,11 +1210,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4842AP"
+        "id": "4842"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H309"
+        "id": "309"
       },
       {
         "paint_line": "ral",
@@ -1329,7 +1222,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-13/XF-65"
+        "id": "13/XF-65"
       }
     ]
   },
@@ -1344,15 +1237,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4314AP"
+        "id": "4314"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H302"
+        "id": "302"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-26/XF-61"
+        "id": "26/XF-61"
       }
     ]
   },
@@ -1367,15 +1260,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4723AP"
+        "id": "4723"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H302"
+        "id": "302"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-26/XF-61"
+        "id": "26/XF-61"
       }
     ]
   },
@@ -1390,15 +1283,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4729AP"
+        "id": "4729"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H302"
+        "id": "302"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-26"
+        "id": "26"
       }
     ]
   },
@@ -1413,15 +1306,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4311AP"
+        "id": "4311"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H60/H330/H340"
+        "id": "60/H330/H340"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-5/XF-13/XF-58/XF-26"
+        "id": "5/XF-13/XF-58/XF-26"
       }
     ]
   },
@@ -1436,15 +1329,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4852AP"
+        "id": "4852"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H423"
+        "id": "423"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-4"
+        "id": "4"
       }
     ]
   },
@@ -1459,15 +1352,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4798AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4798"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-26"
+        "id": "26"
       }
     ]
   },
@@ -1482,11 +1371,7 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4301AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4301"
       }
     ]
   },
@@ -1501,11 +1386,7 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4736AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4736"
       }
     ]
   },
@@ -1515,16 +1396,8 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "italeri",
-        "id": "4309AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4309"
       }
     ]
   },
@@ -1539,11 +1412,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4739AP"
+        "id": "4739"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H312"
+        "id": "312"
       },
       {
         "paint_line": "ral",
@@ -1551,7 +1424,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-26"
+        "id": "26"
       }
     ]
   },
@@ -1566,15 +1439,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4604AP"
+        "id": "4604"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H54"
+        "id": "54"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-17"
+        "id": "17"
       }
     ]
   },
@@ -1584,16 +1457,8 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "italeri",
-        "id": "4307AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4307"
       }
     ]
   },
@@ -1608,11 +1473,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4639AP"
+        "id": "4639"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H42"
+        "id": "42"
       }
     ]
   },
@@ -1627,11 +1492,7 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4766AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4766"
       }
     ]
   },
@@ -1641,16 +1502,8 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "italeri",
-        "id": "4308AP"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "4308"
       }
     ]
   },
@@ -1665,15 +1518,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4761AP"
+        "id": "4761"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H307/H337/H53"
+        "id": "307/H337/H53"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-53"
+        "id": "53"
       }
     ]
   },
@@ -1688,15 +1541,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4778AP"
+        "id": "4778"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H67"
+        "id": "67"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-21/XF-23"
+        "id": "21/XF-23"
       }
     ]
   },
@@ -1711,11 +1564,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4795AP"
+        "id": "4795"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H301/H77/H333"
+        "id": "301/H77/H333"
       },
       {
         "paint_line": "ral",
@@ -1723,7 +1576,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-24/XF-63/XF-69"
+        "id": "24/XF-63/XF-69"
       }
     ]
   },
@@ -1738,15 +1591,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4784AP"
+        "id": "4784"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H68/H401"
+        "id": "68/H401"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-63"
+        "id": "63"
       }
     ]
   },
@@ -1761,15 +1614,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4312AP"
+        "id": "4312"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H305"
+        "id": "305"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-50"
+        "id": "50"
       }
     ]
   },
@@ -1784,15 +1637,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4752AP"
+        "id": "4752"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H305"
+        "id": "305"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-50/XF-24"
+        "id": "50/XF-24"
       }
     ]
   },
@@ -1807,15 +1660,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4754AP"
+        "id": "4754"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H22"
+        "id": "22"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-53"
+        "id": "53"
       }
     ]
   },
@@ -1830,15 +1683,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4755AP"
+        "id": "4755"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H317/H75"
+        "id": "317/H75"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-54"
+        "id": "54"
       }
     ]
   },
@@ -1853,15 +1706,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4785AP"
+        "id": "4785"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H317"
+        "id": "317"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-19/XF-54"
+        "id": "19/XF-54"
       }
     ]
   },
@@ -1876,15 +1729,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4313AP"
+        "id": "4313"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H306"
+        "id": "306"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-66/XF-20"
+        "id": "66/XF-20"
       }
     ]
   },
@@ -1899,15 +1752,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4746AP"
+        "id": "4746"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H337/H306"
+        "id": "337/H306"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-66/XF-20/XF-12"
+        "id": "66/XF-20/XF-12"
       }
     ]
   },
@@ -1922,11 +1775,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4762AP"
+        "id": "4762"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H308"
+        "id": "308"
       }
     ]
   },
@@ -1934,39 +1787,13 @@
     "id": "36307",
     "name": "Light Sea Grey",
     "rgb": "",
-    "correspondences": [
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      }
-    ]
+    "correspondences": []
   },
   {
     "id": "36320",
     "name": "Dark Ghost Grey",
     "rgb": "",
-    "correspondences": [
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      }
-    ]
+    "correspondences": []
   },
   {
     "id": "36375",
@@ -1976,14 +1803,6 @@
       {
         "paint_line": "humbrol-enamel",
         "id": "127"
-      },
-      {
-        "paint_line": "italeri",
-        "id": "-000"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
       },
       {
         "paint_line": "ral",
@@ -2002,15 +1821,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4786AP"
+        "id": "4786"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H417"
+        "id": "417"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-14"
+        "id": "14"
       }
     ]
   },
@@ -2025,15 +1844,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4765AP"
+        "id": "4765"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H308"
+        "id": "308"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-19"
+        "id": "19"
       }
     ]
   },
@@ -2048,11 +1867,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4763AP"
+        "id": "4763"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H325"
+        "id": "325"
       },
       {
         "paint_line": "ral",
@@ -2060,7 +1879,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-55"
+        "id": "55"
       }
     ]
   },
@@ -2075,11 +1894,11 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4795AP"
+        "id": "4795"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H301/H77/H333"
+        "id": "301/H77/H333"
       },
       {
         "paint_line": "ral",
@@ -2087,7 +1906,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-24/XF-63/XF-69"
+        "id": "24/XF-63/XF-69"
       }
     ]
   },
@@ -2102,15 +1921,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4768AP"
+        "id": "4768"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H12"
+        "id": "12"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-1"
+        "id": "1"
       }
     ]
   },
@@ -2125,15 +1944,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4677AP"
+        "id": "4677"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H8"
+        "id": "8"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-56"
+        "id": "56"
       }
     ]
   },
@@ -2143,20 +1962,16 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "italeri",
-        "id": "4679AP"
+        "id": "4679"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H18"
+        "id": "18"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-31"
+        "id": "31"
       }
     ]
   },
@@ -2171,15 +1986,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4681AP"
+        "id": "4681"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H76/H18"
+        "id": "76/H18"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-10"
+        "id": "10"
       }
     ]
   },
@@ -2194,15 +2009,15 @@
       },
       {
         "paint_line": "italeri",
-        "id": "4769AP"
+        "id": "4769"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H11"
+        "id": "11"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-2"
+        "id": "2"
       }
     ]
   }

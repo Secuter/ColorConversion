@@ -14,23 +14,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.833"
+        "id": "833"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H058"
+        "id": "58"
       },
       {
         "paint_line": "ral",
         "id": "6025"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
       }
     ]
   },
@@ -44,24 +36,12 @@
         "id": "32197"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
-        "id": "70.956"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "956"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-7"
+        "id": "7"
       },
       {
         "paint_line": "testors-enamel",
@@ -84,23 +64,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.873"
+        "id": "873"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H072"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "72"
       }
     ]
   },
@@ -119,23 +87,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.824"
+        "id": "824"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H079"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "79"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-59"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "59"
       }
     ]
   },
@@ -154,23 +114,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.874"
+        "id": "874"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H310"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "310"
       }
     ]
   },
@@ -189,23 +137,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.940"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "940"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-52"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "52"
       }
     ]
   },
@@ -224,23 +160,7 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.809"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "809"
       }
     ]
   },
@@ -259,19 +179,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.902"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "902"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-25"
+        "id": "25"
       },
       {
         "paint_line": "testors-enamel",
@@ -289,28 +201,8 @@
         "id": "34230"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
-        "id": "70.857"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "857"
       }
     ]
   },
@@ -329,11 +221,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.892"
+        "id": "892"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H60/H330"
+        "id": "60/H330"
       },
       {
         "paint_line": "ral",
@@ -360,23 +252,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.868"
+        "id": "868"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H305"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "305"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-54"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "54"
       }
     ]
   },
@@ -395,19 +279,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.870"
+        "id": "870"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H306"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "306"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-12"
+        "id": "12"
       },
       {
         "paint_line": "testors-enamel",
@@ -430,19 +310,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.895"
+        "id": "895"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H302"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "302"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-62"
+        "id": "62"
       },
       {
         "paint_line": "testors-enamel",
@@ -465,19 +341,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.887"
+        "id": "887"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H052"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "52"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-58"
+        "id": "58"
       },
       {
         "paint_line": "testors-enamel",
@@ -500,23 +372,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.917"
+        "id": "917"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H044"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "44"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-15"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "15"
       }
     ]
   },
@@ -530,28 +394,8 @@
         "id": "31575"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
-        "id": "70.815"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "815"
       }
     ]
   },
@@ -565,24 +409,8 @@
         "id": "31433"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
-        "id": "70.955"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "955"
       },
       {
         "paint_line": "testors-enamel",
@@ -605,19 +433,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.898"
+        "id": "898"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H054"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "54"
       },
       {
         "paint_line": "testors-enamel",
@@ -637,26 +457,6 @@
       {
         "paint_line": "humbrol-enamel",
         "id": "132"
-      },
-      {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
       }
     ]
   },
@@ -675,23 +475,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.817"
+        "id": "817"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H414"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "414"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-7"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "7"
       }
     ]
   },
@@ -710,19 +502,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.947"
+        "id": "947"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H013"
+        "id": "13"
       },
       {
         "paint_line": "ral",
         "id": "3000"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
       },
       {
         "paint_line": "testors-enamel",
@@ -736,32 +524,12 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "federal-standard",
-        "id": "-"
-      },
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
         "id": "77.520"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H020"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "20"
       }
     ]
   },
@@ -771,32 +539,8 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "federal-standard",
-        "id": "-"
-      },
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
         "id": "77.470"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
       }
     ]
   },
@@ -806,32 +550,20 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "federal-standard",
-        "id": "-"
-      },
-      {
         "paint_line": "humbrol-enamel",
         "id": "35"
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.510"
+        "id": "510"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H030"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "30"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-22"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "22"
       }
     ]
   },
@@ -845,28 +577,12 @@
         "id": "35164"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
-        "id": "70.903"
+        "id": "903"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H042"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "42"
       }
     ]
   },
@@ -885,23 +601,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.982"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "982"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-9"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "9"
       }
     ]
   },
@@ -920,23 +624,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.873"
+        "id": "873"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H072"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "72"
       }
     ]
   },
@@ -950,24 +642,12 @@
         "id": "13538"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
         "paint_line": "mr-color-aqueous",
-        "id": "H004"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "4"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-8"
+        "id": "8"
       },
       {
         "paint_line": "testors-enamel",
@@ -990,19 +670,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.874"
+        "id": "874"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H310"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "310"
       },
       {
         "paint_line": "testors-enamel",
@@ -1025,23 +697,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.825"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "825"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-55"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "55"
       }
     ]
   },
@@ -1060,23 +720,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.913"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "913"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-59"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "59"
       }
     ]
   },
@@ -1095,19 +743,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.824"
+        "id": "824"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H079"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "79"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-59"
+        "id": "59"
       },
       {
         "paint_line": "testors-enamel",
@@ -1125,28 +769,8 @@
         "id": "15200"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
         "paint_line": "tamiya-gloss",
-        "id": "X-14"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "14"
       }
     ]
   },
@@ -1160,24 +784,12 @@
         "id": "15180"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
         "paint_line": "mr-color-aqueous",
-        "id": "H015"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "15"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-23"
+        "id": "23"
       },
       {
         "paint_line": "testors-enamel",
@@ -1193,30 +805,6 @@
       {
         "paint_line": "federal-standard",
         "id": "14090"
-      },
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
       }
     ]
   },
@@ -1235,19 +823,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.996"
+        "id": "996"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H009"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "9"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-12"
+        "id": "12"
       },
       {
         "paint_line": "testors-enamel",
@@ -1261,32 +845,12 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "federal-standard",
-        "id": "-"
-      },
-      {
         "paint_line": "humbrol-enamel",
         "id": "54"
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.801"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "801"
       }
     ]
   },
@@ -1305,19 +869,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.977"
+        "id": "977"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H037"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "37"
       },
       {
         "paint_line": "testors-enamel",
@@ -1340,23 +896,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.818"
+        "id": "818"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H007"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "7"
       }
     ]
   },
@@ -1375,19 +919,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.982"
+        "id": "982"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H453"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "453"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-9"
+        "id": "9"
       },
       {
         "paint_line": "testors-enamel",
@@ -1410,15 +950,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.864"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "864"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-56"
+        "id": "56"
       },
       {
         "paint_line": "testors-enamel",
@@ -1441,19 +977,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.997"
+        "id": "997"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H008"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "8"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-11"
+        "id": "11"
       },
       {
         "paint_line": "testors-enamel",
@@ -1476,19 +1008,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.865"
+        "id": "865"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H018"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "18"
       },
       {
         "paint_line": "testors-enamel",
@@ -1511,19 +1035,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.863"
+        "id": "863"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H076"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "76"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-10"
+        "id": "10"
       },
       {
         "paint_line": "testors-enamel",
@@ -1541,24 +1061,8 @@
         "id": "12197"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
         "paint_line": "mr-color-aqueous",
-        "id": "H014"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "14"
       },
       {
         "paint_line": "testors-enamel",
@@ -1574,26 +1078,6 @@
       {
         "paint_line": "federal-standard",
         "id": "15050"
-      },
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
       },
       {
         "paint_line": "testors-enamel",
@@ -1616,19 +1100,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.861"
+        "id": "861"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H002"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "2"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-1"
+        "id": "1"
       },
       {
         "paint_line": "testors-enamel",
@@ -1651,19 +1131,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.842"
+        "id": "842"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H001"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "1"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-2"
+        "id": "2"
       },
       {
         "paint_line": "testors-enamel",
@@ -1686,19 +1162,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.983"
+        "id": "983"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H047"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "47"
       },
       {
         "paint_line": "testors-enamel",
@@ -1721,19 +1189,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.873"
+        "id": "873"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H072"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "72"
       },
       {
         "paint_line": "testors-enamel",
@@ -1756,19 +1216,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.874"
+        "id": "874"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H310"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "310"
       },
       {
         "paint_line": "testors-enamel",
@@ -1791,19 +1243,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.988"
+        "id": "988"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H459"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "459"
       },
       {
         "paint_line": "testors-enamel",
@@ -1826,19 +1270,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.957"
+        "id": "957"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H327"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "327"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-7"
+        "id": "7"
       },
       {
         "paint_line": "testors-enamel",
@@ -1861,11 +1301,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.819"
+        "id": "819"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H313"
+        "id": "313"
       },
       {
         "paint_line": "ral",
@@ -1892,19 +1332,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.915"
+        "id": "915"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H329"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "329"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-3"
+        "id": "3"
       },
       {
         "paint_line": "testors-enamel",
@@ -1927,23 +1363,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.895"
+        "id": "895"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H302"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "302"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-73"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "73"
       }
     ]
   },
@@ -1962,19 +1390,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.893"
+        "id": "893"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H309"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "309"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-13"
+        "id": "13"
       },
       {
         "paint_line": "testors-enamel",
@@ -1997,23 +1421,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.889"
+        "id": "889"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H405"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "405"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-62"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "62"
       }
     ]
   },
@@ -2032,23 +1448,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.895"
+        "id": "895"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H302"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "302"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-57"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "57"
       }
     ]
   },
@@ -2067,23 +1475,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.890"
+        "id": "890"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H303"
+        "id": "303"
       },
       {
         "paint_line": "ral",
         "id": "6003"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
       }
     ]
   },
@@ -2102,23 +1502,7 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.881"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "881"
       }
     ]
   },
@@ -2137,19 +1521,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.974"
+        "id": "974"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H312"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "312"
       },
       {
         "paint_line": "testors-enamel",
@@ -2172,19 +1548,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.870"
+        "id": "870"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H306"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "306"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-12"
+        "id": "12"
       },
       {
         "paint_line": "testors-enamel",
@@ -2207,19 +1579,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.868"
+        "id": "868"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H305"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "305"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-54"
+        "id": "54"
       },
       {
         "paint_line": "testors-enamel",
@@ -2242,19 +1610,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.992"
+        "id": "992"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H513"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "513"
       },
       {
         "paint_line": "testors-enamel",
@@ -2277,19 +1637,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.991"
+        "id": "991"
       },
       {
         "paint_line": "mr-color",
-        "id": "C317"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "317"
       },
       {
         "paint_line": "testors-enamel",
@@ -2312,19 +1664,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.905"
+        "id": "905"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H337"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "337"
       },
       {
         "paint_line": "testors-enamel",
@@ -2347,11 +1691,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.990"
+        "id": "990"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H308"
+        "id": "308"
       },
       {
         "paint_line": "ral",
@@ -2359,11 +1703,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-19"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "19"
       }
     ]
   },
@@ -2382,19 +1722,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.883"
+        "id": "883"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H325"
+        "id": "325"
       },
       {
         "paint_line": "ral",
         "id": "9002"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
       },
       {
         "paint_line": "testors-enamel",
@@ -2417,19 +1753,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.993"
+        "id": "993"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H308"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "308"
       },
       {
         "paint_line": "tamiya-gloss",
-        "id": "X-21"
+        "id": "21"
       },
       {
         "paint_line": "testors-enamel",
@@ -2452,19 +1784,7 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.904"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "904"
       },
       {
         "paint_line": "testors-enamel",
@@ -2487,11 +1807,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.950"
+        "id": "950"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H012"
+        "id": "12"
       },
       {
         "paint_line": "ral",
@@ -2499,7 +1819,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-1"
+        "id": "1"
       },
       {
         "paint_line": "testors-enamel",
@@ -2522,11 +1842,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.951"
+        "id": "951"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H011"
+        "id": "11"
       },
       {
         "paint_line": "ral",
@@ -2534,7 +1854,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-2"
+        "id": "2"
       },
       {
         "paint_line": "testors-enamel",
@@ -2557,23 +1877,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.886"
+        "id": "886"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H070"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "70"
       },
       {
         "paint_line": "rlm",
         "id": "2"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
       },
       {
         "paint_line": "testors-enamel",
@@ -2596,15 +1908,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.906"
+        "id": "906"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H067"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "67"
       },
       {
         "paint_line": "rlm",
@@ -2612,7 +1920,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-23"
+        "id": "23"
       },
       {
         "paint_line": "testors-enamel",
@@ -2635,11 +1943,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.897"
+        "id": "897"
       },
       {
         "paint_line": "mr-color",
-        "id": "C18"
+        "id": "18"
       },
       {
         "paint_line": "ral",
@@ -2648,10 +1956,6 @@
       {
         "paint_line": "rlm",
         "id": "70"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
       },
       {
         "paint_line": "testors-enamel",
@@ -2665,20 +1969,16 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "federal-standard",
-        "id": "-"
-      },
-      {
         "paint_line": "humbrol-enamel",
         "id": "242"
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.888"
+        "id": "888"
       },
       {
         "paint_line": "mr-color",
-        "id": "C17"
+        "id": "17"
       },
       {
         "paint_line": "ral",
@@ -2690,7 +1990,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-27"
+        "id": "27"
       },
       {
         "paint_line": "testors-enamel",
@@ -2713,15 +2013,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.867"
+        "id": "867"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H068"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "68"
       },
       {
         "paint_line": "rlm",
@@ -2729,7 +2025,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-77"
+        "id": "77"
       },
       {
         "paint_line": "testors-enamel",
@@ -2752,15 +2048,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.991"
+        "id": "991"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H069"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "69"
       },
       {
         "paint_line": "rlm",
@@ -2787,23 +2079,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.907"
+        "id": "907"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H417"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "417"
       },
       {
         "paint_line": "rlm",
         "id": "76"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
       },
       {
         "paint_line": "testors-enamel",
@@ -2830,7 +2114,7 @@
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H67"
+        "id": "67"
       },
       {
         "paint_line": "ral",
@@ -2861,7 +2145,7 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.994"
+        "id": "994"
       },
       {
         "paint_line": "ral",
@@ -2869,7 +2153,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-63"
+        "id": "63"
       },
       {
         "paint_line": "testors-enamel",
@@ -2892,15 +2176,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.978"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "978"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-88"
+        "id": "88"
       },
       {
         "paint_line": "testors-enamel",
@@ -2923,7 +2203,7 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.872"
+        "id": "872"
       },
       {
         "paint_line": "ral",
@@ -2931,7 +2211,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-90"
+        "id": "90"
       },
       {
         "paint_line": "testors-enamel",
@@ -2954,15 +2234,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.968"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "968"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-89"
+        "id": "89"
       },
       {
         "paint_line": "testors-enamel",
@@ -2980,16 +2256,8 @@
         "id": "34083"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
-        "id": "70.894"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "894"
       },
       {
         "paint_line": "testors-enamel",
@@ -3012,7 +2280,7 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.912"
+        "id": "912"
       },
       {
         "paint_line": "ral",
@@ -3020,7 +2288,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-59"
+        "id": "59"
       },
       {
         "paint_line": "testors-enamel",
@@ -3047,15 +2315,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.893"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "893"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-13"
+        "id": "13"
       },
       {
         "paint_line": "testors-enamel",
@@ -3073,16 +2337,12 @@
         "id": "617"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
         "id": "30140"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H072"
+        "id": "72"
       },
       {
         "paint_line": "ral",
@@ -3109,19 +2369,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.924"
+        "id": "924"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H423"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "testors-enamel",
-        "id": "-"
+        "id": "423"
       }
     ]
   },
@@ -3139,10 +2391,6 @@
         "id": "36081"
       },
       {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
         "paint_line": "ral",
         "id": "70.866"
       },
@@ -3152,7 +2400,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-24"
+        "id": "24"
       }
     ]
   },
@@ -3171,11 +2419,11 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.869"
+        "id": "869"
       },
       {
         "paint_line": "mr-color",
-        "id": "C362"
+        "id": "362"
       },
       {
         "paint_line": "ral",
@@ -3183,7 +2431,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-82"
+        "id": "82"
       }
     ]
   },
@@ -3197,24 +2445,8 @@
         "id": "24449"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
         "paint_line": "tamiya-flat",
-        "id": "XF-71"
+        "id": "71"
       }
     ]
   },
@@ -3233,19 +2465,15 @@
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.885"
+        "id": "885"
       },
       {
         "paint_line": "mr-color-aqueous",
-        "id": "H074"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
+        "id": "74"
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF-21"
+        "id": "21"
       }
     ]
   },
@@ -3259,24 +2487,8 @@
         "id": "34094"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
-        "id": "70.975"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "975"
       }
     ]
   },
@@ -3290,24 +2502,12 @@
         "id": "30051"
       },
       {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
-        "id": "70.871"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "871"
       },
       {
         "paint_line": "ral",
         "id": "8027"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
       }
     ]
   },
@@ -3319,26 +2519,6 @@
       {
         "paint_line": "federal-standard",
         "id": "33446"
-      },
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
       }
     ]
   },
@@ -3348,20 +2528,12 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "federal-standard",
-        "id": "-"
-      },
-      {
         "paint_line": "humbrol-enamel",
         "id": "94"
       },
       {
         "paint_line": "vallejo-model-color",
-        "id": "70.916"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
+        "id": "916"
       },
       {
         "paint_line": "ral",
@@ -3369,7 +2541,7 @@
       },
       {
         "paint_line": "tamiya-flat",
-        "id": "XF--92"
+        "id": "-92"
       }
     ]
   },
@@ -3387,20 +2559,8 @@
         "id": "27"
       },
       {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
         "paint_line": "tamiya-flat",
-        "id": "XF--85"
+        "id": "-85"
       }
     ]
   },
@@ -3418,20 +2578,8 @@
         "id": "105"
       },
       {
-        "paint_line": "vallejo-model-color",
-        "id": "-00"
-      },
-      {
         "paint_line": "mr-color",
-        "id": "C303"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "303"
       }
     ]
   },
@@ -3441,28 +2589,8 @@
     "rgb": "",
     "correspondences": [
       {
-        "paint_line": "federal-standard",
-        "id": "-"
-      },
-      {
-        "paint_line": "humbrol-enamel",
-        "id": "-"
-      },
-      {
         "paint_line": "vallejo-model-color",
-        "id": "70.524"
-      },
-      {
-        "paint_line": "mr-color-aqueous",
-        "id": "-"
-      },
-      {
-        "paint_line": "ral",
-        "id": "-"
-      },
-      {
-        "paint_line": "tamiya-gloss",
-        "id": "-"
+        "id": "524"
       }
     ]
   }
