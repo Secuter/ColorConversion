@@ -4,1514 +4,1009 @@
   "prefixes": [
     "RC"
   ],
-  "default_prefix": "RC",
-  "suffixes": [],
-  "default_suffix": "",
   "colors": [
     {
-      "id": "001",
       "name": "Flat Black",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "002",
       "name": "Cream White",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "003",
       "name": "White Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "004",
       "name": "Flat White",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "005",
       "name": "Signal Red",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "006",
       "name": "Red",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "007",
       "name": "Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "008",
       "name": "Maize Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "009",
       "name": "Orange",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "010",
       "name": "Pure Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "011",
       "name": "Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "012",
       "name": "Pure Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "013",
       "name": "Off White",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "014",
       "name": "Buff",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "015",
       "name": "Gun Metal (Metallic)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "016",
       "name": "Ochre",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "017",
       "name": "Pale Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "018",
       "name": "Pale Sand",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "019",
       "name": "Deck Tan",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "020",
       "name": "Aluminium (Metallic)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "021",
       "name": "Pale Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "022",
       "name": "Rubber Black",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "023",
       "name": "Olive Drab No.9/No.22",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "024",
       "name": "Olive Drab Faded",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "025",
       "name": "Dark Olive Drab No.31",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "026",
       "name": "Olive Drab",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "027",
       "name": "Forest Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "028",
       "name": "Interior Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "029",
       "name": "No.5 Earth Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "030",
       "name": "No.6 Earth Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "031",
       "name": "No.8 Earth Red",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "032",
       "name": "Desert Sand",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "033",
       "name": "Khaki Green No.3",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "034",
       "name": "S.C.C. 1A Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "035",
       "name": "S.C.C. 2 Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "036",
       "name": "S.C.C. 14 Blue Black",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "037",
       "name": "S.C.C. 15 Olive Drab",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "038",
       "name": "BSC No.28 Silver Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "039",
       "name": "BSC No.34 Slate",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "040",
       "name": "BSC No.61 Light Stone",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "041",
       "name": "BSC No.64 Portland Stone",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "042",
       "name": "British Dark Olive Green PFI",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "043",
       "name": "British Desert Pink ZI",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "044",
       "name": "British Light Mud",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "045",
       "name": "BSC No.49 Light Purple Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "046",
       "name": "Elfenbein – Ivory",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "047",
       "name": "Olivgrün – Olive Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "048",
       "name": "Feldgray – Field Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "049",
       "name": "Grün – Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "050",
       "name": "Dunkelgrün – Dark Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "051",
       "name": "Marinegrau – Navy Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "052",
       "name": "Grau – Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "053",
       "name": "Graugrün – Grey Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "054",
       "name": "Hellgrau – Light Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "055",
       "name": "Blaugrau – Blue Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "056",
       "name": "Dunkelbraun – Dark Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "057",
       "name": "Dunkelgrau – Dark Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "058",
       "name": "Grau – Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "059",
       "name": "Dunkelgelb nach Muster",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "060",
       "name": "Dunkelgelb – Dark Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "061",
       "name": "Dunkelgelb Ausgabe 1944 – Dark Yellow 1944 Variant",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "062",
       "name": "Dunkelgelb – Dark Yellow (variation)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "063",
       "name": "Gelbraun – Yellow Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "064",
       "name": "Erdgelb – Earth Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "065",
       "name": "Braun – Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "066",
       "name": "Rot (Rotbraun) – Red (Red Brown)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "067",
       "name": "Rot (Rotbraun) – Red (Red Brown)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "068",
       "name": "Rotbraun – Red Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "069",
       "name": "Braun – Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "070",
       "name": "Common Protective ZO",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "071",
       "name": "Black 6RP",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "072",
       "name": "Protective K",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "073",
       "name": "Protective 4BO",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "074",
       "name": "Dark Brown 6K",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "075",
       "name": "Sand 7K",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "076",
       "name": "Protective Green 1920s – 1930s",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "077",
       "name": "ZB AU Basic Protector",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "078",
       "name": "APC Interior Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "079",
       "name": "CARC Tan 686A",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "080",
       "name": "NATO Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "081",
       "name": "NATO Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "082",
       "name": "NATO Black",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "083",
       "name": "Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "084",
       "name": "Sand",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "085",
       "name": "Field Drab",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "086",
       "name": "Gelboliv Initial",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "087",
       "name": "Gelboliv Late",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "088",
       "name": "Sandbeige",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "089",
       "name": "Graubeige – Grey Beige",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "090",
       "name": "Helloliv – Light Olive",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "091",
       "name": "Tarngrau – Camo Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "092",
       "name": "Sandbraun – Sand Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "093",
       "name": "British Sand Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "094",
       "name": "IDF Modern Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "095",
       "name": "IDF Sand Grey 1970s-1980s",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "096",
       "name": "IDF Early Sand Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "097",
       "name": "UAE Dull Sand",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "098",
       "name": "Russian Modern Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "099",
       "name": "Russian Greyish Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "100",
       "name": "Russian Grey Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "101",
       "name": "Egyptian Desert Sand",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "102",
       "name": "Syrian Rep. Guard Desert Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "103",
       "name": "Libyan Army Desert Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "104",
       "name": "Iraqi Army Desert Sand",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "105",
       "name": "Spanish Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "206",
       "name": "Russian Cockpit Torquise",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "207",
       "name": "Leuchtorange – Luminous Orange",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "208",
       "name": "Graublau – Grey Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "209",
       "name": "Olive Green/USMC Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "210",
       "name": "Silbergrau – Silver Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "211",
       "name": "Grüngrau – Green Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "212",
       "name": "Basaltgrau – Basalt Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "213",
       "name": "Steingrau – Stone Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "214",
       "name": "Lichtgrau – Light Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "215",
       "name": "Staubgrau – Dusty Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "216",
       "name": "Quarzgrau – Quartz Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "217",
       "name": "Seidengrau – Silk Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "218",
       "name": "Olivbraun – Olive Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "219",
       "name": "MNO 2036 Smalt Khaki Avion",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "220",
       "name": "Light Gull Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "221",
       "name": "ADC Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "222",
       "name": "Insignia White",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "223",
       "name": "Tan",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "224",
       "name": "Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "225",
       "name": "Dark Tan",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "226",
       "name": "Sand",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "227",
       "name": "Radome Tan",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "228",
       "name": "USMC Sand",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "229",
       "name": "US Army Helo Drab",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "230",
       "name": "Dull Dark Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "231",
       "name": "Field Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "232",
       "name": "Pale Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "233",
       "name": "Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "234",
       "name": "Aggressor Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "235",
       "name": "Intermediate Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "236",
       "name": "Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "237",
       "name": "Medium Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "238",
       "name": "Light Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "239",
       "name": "Air Superiority Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "240",
       "name": "Light Sky Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "241",
       "name": "Duck Egg Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "242",
       "name": "Dark Eggplant Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "243",
       "name": "Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "244",
       "name": "Medium Gunship Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "245",
       "name": "Have Glass Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "246",
       "name": "F-15 Dark Grey (Mod Eagle)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "247",
       "name": "Dark Gull Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "248",
       "name": "Aggressor Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "249",
       "name": "Medium Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "250",
       "name": "Light Sea Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "251",
       "name": "Dark Ghost Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "252",
       "name": "Light Ghost Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "253",
       "name": "Light Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "254",
       "name": "Camouflage Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "255",
       "name": "M-485 Light Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "256",
       "name": "M-485 Blue-Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "257",
       "name": "Sea Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "258",
       "name": "Dark Sea Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "259",
       "name": "Dark Olive Drab 41",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "260",
       "name": "Medium Green 42",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "261",
       "name": "Neutral Grey 43",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "262",
       "name": "US Interior Yellow Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "263",
       "name": "Zinc Chromate Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "264",
       "name": "Bronze Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "265",
       "name": "RLM 02 RLM-Grau (1938)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "266",
       "name": "RLM 02 RLM-Grau (1941)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "267",
       "name": "RLM 04",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "268",
       "name": "RLM 61",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "269",
       "name": "RLM 62",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "270",
       "name": "RLM 63",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "271",
       "name": "RLM 65 (1938)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "272",
       "name": "RLM 65 (1941)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "273",
       "name": "RLM 66 (1941)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "274",
       "name": "RLM 70",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "275",
       "name": "RLM 71",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "276",
       "name": "RLM 72",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "277",
       "name": "RLM 73",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "278",
       "name": "RLM 74",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "279",
       "name": "RLM 75",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "280",
       "name": "RLM 78 (1941)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "281",
       "name": "RLM 78 (1942)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "282",
       "name": "RLM 79 (1941)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "283",
       "name": "RLM 79 (1942)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "284",
       "name": "RLM 80",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "285",
       "name": "RAF Sky Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "286",
-      "name": "#VALUE!",
-      "rgb": "",
+      "name": "RAF Dark Green",
       "correspondences": []
     },
     {
-      "id": "287",
       "name": "RAF Dark Earth",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "288",
       "name": "RAF Ocean Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "289",
-      "name": "#VALUE!",
-      "rgb": "",
+      "name": "RAF Medium Sea Grey",
       "correspondences": []
     },
     {
-      "id": "290",
       "name": "RAF Sky",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "291",
       "name": "RAF Azure Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "292",
       "name": "RAF Middle Stone",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "293",
       "name": "RAF Cockpit Grey-Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "294",
       "name": "RAF Dark Slate Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "295",
-      "name": "RAF Extra Dark Sea Grey BS381C/640 C333/H333 XF-54 71.110 HTK-_140 123",
-      "rgb": "",
+      "name": "RAF Extra Dark Sea Grey",
       "correspondences": []
     },
     {
-      "id": "296",
-      "name": "#VALUE!",
-      "rgb": "",
+      "name": "RAF Dark Sea Grey",
       "correspondences": []
     },
     {
-      "id": "297",
-      "name": "#VALUE!",
-      "rgb": "",
+      "name": "RAF PRU Blue",
       "correspondences": []
     },
     {
-      "id": "298",
-      "name": "RAF Light Aircraft Grey BS381C/627 C332/H332",
-      "rgb": "",
+      "name": "RAF Light Aircraft Grey",
       "correspondences": []
     },
     {
-      "id": "299",
-      "name": "RAF Camouflage (Barley) Grey BS381C/626 C334/H334 XF-80",
-      "rgb": "",
+      "name": "RAF Camouflage (Barley) Grey",
       "correspondences": []
     },
     {
-      "id": "300",
-      "name": "RAF Dark Camouflage Grey BS381C/629",
-      "rgb": "",
+      "name": "RAF Dark Camouflage Grey",
       "correspondences": []
     },
     {
-      "id": "301",
-      "name": "RAF Camouflage Beige (Hemp) BS381C/389 C336/H336 XF-57",
-      "rgb": "",
+      "name": "RAF Camouflage Beige (Hemp)",
       "correspondences": []
     },
     {
-      "id": "302",
       "name": "IJN J3 Hai-Iro (Grey)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "303",
       "name": "IJN J3 SP (Amber Grey)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "304",
       "name": "IJN D1 Deep Green Black",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "305",
       "name": "IJN D2 Green Black",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "306",
       "name": "IJN M3(M) Mitsubishi Interior Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "307",
       "name": "IJN M3(N) Nakajima Interior Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "308",
       "name": "AE-9/AII Light Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "309",
       "name": "AII Protective (Green)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "310",
       "name": "AII Light Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "311",
       "name": "A-18f Light Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "312",
       "name": "A-19f Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "313",
       "name": "AMT-1 Light Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "314",
       "name": "A-21m Light Yellowish Brown",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "315",
       "name": "AMT-4/A-24m Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "316",
       "name": "AMT-7 Light Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "317",
       "name": "AMT-11 Blue Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "318",
       "name": "AMT-12 Dark Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "319",
       "name": "A-14 Interior Steel Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "320",
       "name": "RLM 76 Version 1",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "321",
       "name": "RLM 76 Version 2",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "322",
       "name": "RLM 76 Late War Variation",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "323",
       "name": "RLM 81 Version 1",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "324",
       "name": "RLM 81 Version 2",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "325",
       "name": "RLM 81 Version 3",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "326",
       "name": "RLM 82",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "327",
       "name": "RLM 83",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "328",
       "name": "IJAAF #1 Hairyokushoku (Grey Green)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "329",
       "name": "IJAAF #3 Hairanshoku (Grey Indigo)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "330",
       "name": "IJAAF #7 Ohryoku Nana Go Shoku (Olive Brown)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "331",
       "name": "IJAAF #21 Midori Iro (Green)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "332",
       "name": "IJAAF #27 Ao Midori Iro (Blue Green)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "333",
       "name": "IJAAF #29 Ki Midori Iro (Yellow Green)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "334",
       "name": "IJAAF #30 Karekusa Iro (Dry Grass Colour)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "335",
       "name": "IJAAF #31 Cha Kasshoku (Tea Colour)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "336",
       "name": "MiG-25/MiG-31 Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "337",
       "name": "MiG-29 Light Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "338",
       "name": "MiG-29 Grey Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "339",
       "name": "RLM 66 (1938)",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "340",
       "name": "Kenttävihreä – Olive Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "341",
       "name": "Schwarzgrau – Black Grey",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "342",
       "name": "Dark Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "500",
       "name": "Flat Varnish",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "501",
       "name": "Satin Varnish",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "502",
       "name": "Gloss Varnish",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "503",
       "name": "Clear Red",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "504",
       "name": "Clear Blue",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "505",
       "name": "Clear Green",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "506",
       "name": "Clear Orange",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "507",
       "name": "Clear Yellow",
-      "rgb": "",
       "correspondences": []
     },
     {
-      "id": "508",
       "name": "Clear Smoke",
-      "rgb": "",
       "correspondences": []
     }
   ]

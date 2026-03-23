@@ -37,7 +37,8 @@
     "prefixes": ["AK"],
     "default_prefix": "AK",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "ammo-mig",
@@ -87,7 +88,8 @@
     "prefixes": ["36"],
     "default_prefix": "36",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "revell-enamel",
@@ -97,7 +99,8 @@
     "prefixes": ["32"],
     "default_prefix": "32",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "federal-standard",
@@ -177,7 +180,8 @@
     "prefixes": ["N"],
     "default_prefix": "N",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "hataka",
@@ -187,7 +191,8 @@
     "prefixes": ["A", "B", "C", "HTK-_"],
     "default_prefix": "HTK-",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "lifecolor",
@@ -197,7 +202,8 @@
     "prefixes": ["LC"],
     "default_prefix": "LC",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "lifecolor-acrylic",
@@ -207,7 +213,8 @@
     "prefixes": ["UA"],
     "default_prefix": "UA",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "mission-models",
@@ -217,7 +224,8 @@
     "prefixes": ["MMP"],
     "default_prefix": "MMP",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "mr-paint",
@@ -227,7 +235,8 @@
     "prefixes": [],
     "default_prefix": "",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "mr-paint-acrylic",
@@ -237,7 +246,8 @@
     "prefixes": ["A"],
     "default_prefix": "A",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "xtracolor",
@@ -247,7 +257,8 @@
     "prefixes": ["X"],
     "default_prefix": "X",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "xtracrylix",
@@ -257,7 +268,8 @@
     "prefixes": ["XA"],
     "default_prefix": "XA",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "testors-enamel",
@@ -267,7 +279,8 @@
     "prefixes": [],
     "default_prefix": "",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "testors-acryl",
@@ -277,7 +290,8 @@
     "prefixes": [],
     "default_prefix": "",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "model-master-enamel",
@@ -287,7 +301,8 @@
     "prefixes": [],
     "default_prefix": "",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "model-master-acrylic",
@@ -297,7 +312,8 @@
     "prefixes": [],
     "default_prefix": "",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "model-master-authentic",
@@ -307,7 +323,8 @@
     "prefixes": [],
     "default_prefix": "",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "polly-scale",
@@ -317,7 +334,8 @@
     "prefixes": [],
     "default_prefix": "",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "white-ensign-models",
@@ -327,7 +345,8 @@
     "prefixes": [],
     "default_prefix": "",
     "suffixes": [],
-    "default_suffix": ""
+    "default_suffix": "",
+    "hidden": true
   },
   {
     "id": "tamiya-gloss",

@@ -43,6 +43,8 @@ python tools/pdf-import/src/extract_csv_headers.py tools/pdf-import/input
 python tools/pdf-import/src/3_sort_csv.py
 
 python tools/pdf-import/src/4_merge_and_report.py
+
+python tools/pdf-import/src/5_convert_to_json.py
 ```
 
 ---

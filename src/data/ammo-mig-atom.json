@@ -4,554 +4,729 @@
   "prefixes": [
     "AMT"
   ],
-  "default_prefix": "AMT",
-  "suffixes": [],
-  "default_suffix": "",
   "colors": [
     {
-      "id": "C-62",
-      "name": "XF-2",
-      "rgb": "",
+      "name": "MATT WHITE",
       "correspondences": []
     },
     {
-      "id": "H-1",
-      "name": "C-1",
-      "rgb": "",
+      "name": "SATIN WHITE",
       "correspondences": []
     },
     {
-      "id": "70.918",
-      "name": "71.270",
-      "rgb": "",
+      "name": "CREMEWEISS RAL 9001",
       "correspondences": []
     },
     {
-      "id": "70819",
-      "name": "71140",
-      "rgb": "",
+      "name": "MIDGREY",
       "correspondences": []
     },
     {
-      "id": "H-85",
-      "name": "C-45",
-      "rgb": "",
+      "name": "WOOD",
       "correspondences": []
     },
     {
-      "id": "H-403",
-      "name": "XF-60",
-      "rgb": "",
+      "name": "DUNKELGELB DG III",
       "correspondences": []
     },
     {
-      "id": "H-58",
-      "name": "C-27",
-      "rgb": "",
+      "name": "GERMAN SAND BEIGE RAL8031",
       "correspondences": []
     },
     {
-      "id": "H-318",
-      "name": "C-318",
-      "rgb": "",
+      "name": "DESERT SAND",
       "correspondences": []
     },
     {
-      "id": "H-4",
-      "name": "C-4",
-      "rgb": "",
+      "name": "IDF SAND GREY ´73",
       "correspondences": []
     },
     {
-      "id": "H-459",
-      "name": "71143",
-      "rgb": "",
+      "name": "US DESERT TAN",
       "correspondences": []
     },
     {
-      "id": "H-413",
-      "name": "C-113",
-      "rgb": "",
+      "name": "DUNKELGELB DG I",
       "correspondences": []
     },
     {
-      "id": "H-24",
-      "name": "C-58",
-      "rgb": "",
+      "name": "SAND GREY",
       "correspondences": []
     },
     {
-      "id": "H-66",
-      "name": "C-119",
-      "rgb": "",
+      "name": "DUNKELGELB",
       "correspondences": []
     },
     {
-      "id": "H-14",
-      "name": "C-59",
-      "rgb": "",
+      "name": "ZINC CHROMATE YELLOW",
       "correspondences": []
     },
     {
-      "id": "XF-7",
-      "name": "70909",
-      "rgb": "",
+      "name": "OCHRE",
       "correspondences": []
     },
     {
-      "id": "H-327",
-      "name": "C-327",
-      "rgb": "",
+      "name": "GELBBRAUN 8020",
       "correspondences": []
     },
     {
-      "id": "H-453",
-      "name": "70981",
-      "rgb": "",
+      "name": "FADED YELLOW",
       "correspondences": []
     },
     {
-      "id": "C-41",
-      "name": "XF-64",
-      "rgb": "",
+      "name": "LEMON YELLOW",
       "correspondences": []
     },
     {
-      "id": "H-7",
-      "name": "C-7",
-      "rgb": "",
+      "name": "YELLOW",
       "correspondences": []
     },
     {
-      "id": "H-37",
-      "name": "C-43",
-      "rgb": "",
+      "name": "SUNNY YELLOW",
       "correspondences": []
     },
     {
-      "id": "H-457",
-      "name": "XF-52",
-      "rgb": "",
+      "name": "GOLD YELLOW",
       "correspondences": []
     },
     {
-      "id": "70303",
-      "name": "71037",
-      "rgb": "",
+      "name": "SAND YELLOW",
       "correspondences": []
     },
     {
-      "id": "C-131",
-      "name": "70343",
-      "rgb": "",
+      "name": "MUSTARD",
       "correspondences": []
     },
     {
-      "id": "H-341",
-      "name": "70312",
-      "rgb": "",
+      "name": "LIGHT RUST",
       "correspondences": []
     },
     {
-      "id": "H-17",
-      "name": "C-29",
-      "rgb": "",
+      "name": "SANDGELB RLM 79",
       "correspondences": []
     },
     {
-      "id": "H-421",
-      "name": "C-121",
-      "rgb": "",
+      "name": "KHAKI GREEN",
       "correspondences": []
     },
     {
-      "id": "XF-68",
-      "name": "70871",
-      "rgb": "",
+      "name": "BRIGHT ORANGE",
       "correspondences": []
     },
     {
-      "id": "H-406",
-      "name": "XF-10",
-      "rgb": "",
+      "name": "ORANGE",
       "correspondences": []
     },
     {
-      "id": "H-84",
-      "name": "C-42",
-      "rgb": "",
+      "name": "SCARLET RED",
       "correspondences": []
     },
     {
-      "id": "H-78",
-      "name": "C-38",
-      "rgb": "",
+      "name": "RED",
       "correspondences": []
     },
     {
-      "id": "H-80",
-      "name": "C-54",
-      "rgb": "",
+      "name": "IMPERIAL RED",
       "correspondences": []
     },
     {
-      "id": "XF-61",
-      "name": "70888",
-      "rgb": "",
+      "name": "BLOOD RED",
       "correspondences": []
     },
     {
-      "id": "H-60",
-      "name": "C-130",
-      "rgb": "",
+      "name": "CARMINE",
       "correspondences": []
     },
     {
-      "id": "H-304",
-      "name": "C-304",
-      "rgb": "",
+      "name": "MAGENTA",
       "correspondences": []
     },
     {
-      "id": "H-320",
-      "name": "C-136",
-      "rgb": "",
+      "name": "FUCSIA",
       "correspondences": []
     },
     {
-      "id": "H-340",
-      "name": "C-340",
-      "rgb": "",
+      "name": "CORAL PINK",
       "correspondences": []
     },
     {
-      "id": "H-422",
-      "name": "C-122",
-      "rgb": "",
+      "name": "VINTAGE PINK",
       "correspondences": []
     },
     {
-      "id": "H-303",
-      "name": "C-129",
-      "rgb": "",
+      "name": "DARK NUDE PINK",
       "correspondences": []
     },
     {
-      "id": "70893",
-      "name": "71294",
-      "rgb": "",
+      "name": "GLACIER PINK",
       "correspondences": []
     },
     {
-      "id": "H-70",
-      "name": "C-60",
-      "rgb": "",
+      "name": "PINK FLESH",
       "correspondences": []
     },
     {
-      "id": "H-48",
-      "name": "C-52",
-      "rgb": "",
+      "name": "LIGHT PINK FLESH",
       "correspondences": []
     },
     {
-      "id": "H-312",
-      "name": "C-312",
-      "rgb": "",
+      "name": "BASIC SKIN",
       "correspondences": []
     },
     {
-      "id": "H-74",
-      "name": "C-26",
-      "rgb": "",
+      "name": "LIGHT SKIN",
       "correspondences": []
     },
     {
-      "id": "H-26",
-      "name": "C-66",
-      "rgb": "",
+      "name": "WARM SKIN",
       "correspondences": []
     },
     {
-      "id": "70970",
-      "name": "71007",
-      "rgb": "",
+      "name": "BEIGE PINK",
       "correspondences": []
     },
     {
-      "id": "C-124",
-      "name": "XF-70",
-      "rgb": "",
+      "name": "RUST",
       "correspondences": []
     },
     {
-      "id": "H-65",
-      "name": "C-18",
-      "rgb": "",
+      "name": "ROTBRAUN RAL 8012",
       "correspondences": []
     },
     {
-      "id": "H-54",
-      "name": "C-14",
-      "rgb": "",
+      "name": "DARK RUST",
       "correspondences": []
     },
     {
-      "id": "H-42",
-      "name": "C-72",
-      "rgb": "",
+      "name": "CLAY BROWN",
       "correspondences": []
     },
     {
-      "id": "H-15",
-      "name": "C-65",
-      "rgb": "",
+      "name": "BRITISH UNIFORM",
       "correspondences": []
     },
     {
-      "id": "H-323",
-      "name": "C-323",
-      "rgb": "",
+      "name": "DARK WOOD",
       "correspondences": []
     },
     {
-      "id": "H-45",
-      "name": "70961",
-      "rgb": "",
+      "name": "EARTH",
       "correspondences": []
     },
     {
-      "id": "C-370",
-      "name": "70902",
-      "rgb": "",
+      "name": "EARTH BROWN",
       "correspondences": []
     },
     {
-      "id": "H-31",
-      "name": "70885",
-      "rgb": "",
+      "name": "RED BRICK",
       "correspondences": []
     },
     {
-      "id": "H-418",
-      "name": "C-118",
-      "rgb": "",
+      "name": "OLD RUST",
       "correspondences": []
     },
     {
-      "id": "H-67",
-      "name": "C-115",
-      "rgb": "",
+      "name": "UMBER BROWN",
       "correspondences": []
     },
     {
-      "id": "H-308",
-      "name": "C-308",
-      "rgb": "",
+      "name": "BURNT BROWN",
       "correspondences": []
     },
     {
-      "id": "H-417",
-      "name": "C-117",
-      "rgb": "",
+      "name": "BROWN",
       "correspondences": []
     },
     {
-      "id": "H-334",
-      "name": "C-334",
-      "rgb": "",
+      "name": "LEATHER",
       "correspondences": []
     },
     {
-      "id": "H-307",
-      "name": "C-307",
-      "rgb": "",
+      "name": "BRAUNVIOLETT RLM 81",
       "correspondences": []
     },
     {
-      "id": "H-337",
-      "name": "C-337",
-      "rgb": "",
+      "name": "COFFEE BROWN",
       "correspondences": []
     },
     {
-      "id": "H-22",
-      "name": "71050",
-      "rgb": "",
+      "name": "NATO BROWN",
       "correspondences": []
     },
     {
-      "id": "H-56",
-      "name": "XF-66",
-      "rgb": "",
+      "name": "SCHOKOBRAUN RAL8017",
       "correspondences": []
     },
     {
-      "id": "XF-82",
-      "name": "71273",
-      "rgb": "",
+      "name": "BLACK BROWN",
       "correspondences": []
     },
     {
-      "id": "H-311",
-      "name": "C-127",
-      "rgb": "",
+      "name": "CHIPPING",
       "correspondences": []
     },
     {
-      "id": "XF-21",
-      "name": "71302",
-      "rgb": "",
+      "name": "DARK OLIVE DRAB",
       "correspondences": []
     },
     {
-      "id": "XF-12",
-      "name": "71311",
-      "rgb": "",
+      "name": "NATO GREEN",
       "correspondences": []
     },
     {
-      "id": "70986",
-      "name": "71121",
-      "rgb": "",
+      "name": "OLIVGRÜN (RLM 71)",
       "correspondences": []
     },
     {
-      "id": "XF-55",
-      "name": "70315",
-      "rgb": "",
+      "name": "IJA KAWASAKI GREEN",
       "correspondences": []
     },
     {
-      "id": "H-53",
-      "name": "C-13",
-      "rgb": "",
+      "name": "OLIVE DRAB",
       "correspondences": []
     },
     {
-      "id": "H-83",
-      "name": "C-32",
-      "rgb": "",
+      "name": "SINAI GREY",
       "correspondences": []
     },
     {
-      "id": "H-69",
-      "name": "C-37",
-      "rgb": "",
+      "name": "RUSSIAN GREEN 4BO",
       "correspondences": []
     },
     {
-      "id": "H-305",
-      "name": "C-305",
-      "rgb": "",
+      "name": "DARK OLIVE GREEN",
       "correspondences": []
     },
     {
-      "id": "H-49",
-      "name": "70960",
-      "rgb": "",
+      "name": "YELLOW GREEN",
       "correspondences": []
     },
     {
-      "id": "H-39",
-      "name": "C-67",
-      "rgb": "",
+      "name": "ZINC CHROMATE GREEN",
       "correspondences": []
     },
     {
-      "id": "H-68",
-      "name": "C-36",
-      "rgb": "",
+      "name": "HELLGRÜN/CHROMATE GREEN",
       "correspondences": []
     },
     {
-      "id": "H-416",
-      "name": "C-116",
-      "rgb": "",
+      "name": "IJA NAKAJIMA GREEN",
       "correspondences": []
     },
     {
-      "id": "H-77",
-      "name": "C-137",
-      "rgb": "",
+      "name": "DUNKELGRÜN RLM 81",
       "correspondences": []
     },
     {
-      "id": "H-401",
-      "name": "70862",
-      "rgb": "",
+      "name": "GRAU RLM 02",
       "correspondences": []
     },
     {
-      "id": "H-2",
-      "name": "70861",
-      "rgb": "",
+      "name": "OLIVGRÜN",
       "correspondences": []
     },
     {
-      "id": "H-12",
-      "name": "C-33",
-      "rgb": "",
+      "name": "FIELD GREY",
       "correspondences": []
     },
     {
-      "id": "XF-16",
-      "name": "71062",
-      "rgb": "",
+      "name": "RESEDAGRÜN (RAL 6011)",
       "correspondences": []
     },
     {
-      "id": "H-8",
-      "name": "70997",
-      "rgb": "",
+      "name": "PACIFIC GREEN",
       "correspondences": []
     },
     {
-      "id": "H-18",
-      "name": "C-28",
-      "rgb": "",
+      "name": "GREEN BASE",
       "correspondences": []
     },
     {
-      "id": "70863",
-      "name": "71072",
-      "rgb": "",
+      "name": "BRIGHT GREEN",
       "correspondences": []
     },
     {
-      "id": "H-76",
-      "name": "C-61",
-      "rgb": "",
+      "name": "FADED GREEN",
       "correspondences": []
     },
     {
-      "id": "H-10",
-      "name": "C-10",
-      "rgb": "",
+      "name": "DUCK EGG GREEN",
       "correspondences": []
     },
     {
-      "id": "70996",
-      "name": "71066",
-      "rgb": "",
+      "name": "BILE GREEN",
       "correspondences": []
     },
     {
-      "id": "H-9",
-      "name": "C-9",
-      "rgb": "",
+      "name": "PISTACHIO",
       "correspondences": []
     },
     {
-      "id": "H-87",
-      "name": "C-75",
-      "rgb": "",
+      "name": "LIME GREEN",
       "correspondences": []
     },
     {
-      "id": "H-63",
-      "name": "C-57",
-      "rgb": "",
+      "name": "TROLL GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "FERN GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "DARK GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "FOREST GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "PHTALO GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "IJN MITSUBISHI GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "IJN NAKAJIMA DARK GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "ATLANTIC GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "DEEP GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "RUSSIAN GREEN UNIFORM",
+      "correspondences": []
+    },
+    {
+      "name": "GREEN GREY",
+      "correspondences": []
+    },
+    {
+      "name": "SCHWARTZGRÜN RLM 70",
+      "correspondences": []
+    },
+    {
+      "name": "OCEAN BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "MARINE BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "BLUISH GREY",
+      "correspondences": []
+    },
+    {
+      "name": "FRENCH BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "NAVY BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "UNIFORM BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "PRUSSIAN BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "DEEP CYAN",
+      "correspondences": []
+    },
+    {
+      "name": "BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "CYAN",
+      "correspondences": []
+    },
+    {
+      "name": "BRIGHT BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "GREEN BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "TURQUOISE GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "JADE GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "AQUAMARINE",
+      "correspondences": []
+    },
+    {
+      "name": "DUCK BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "SAPPHIRE BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "AZURE BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "BABY BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "AIR SUPERIORITY BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "LIGHT BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "COLD GRAY",
+      "correspondences": []
+    },
+    {
+      "name": "LIGHT GRAY",
+      "correspondences": []
+    },
+    {
+      "name": "LIGHT GRAY GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "HELLBLAU RLM 78",
+      "correspondences": []
+    },
+    {
+      "name": "HELLBLAU RLM 65",
+      "correspondences": []
+    },
+    {
+      "name": "INTERIOR LIGHT GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "LIGHT GHOST GRAY",
+      "correspondences": []
+    },
+    {
+      "name": "PALE GREY (RLM 76)",
+      "correspondences": []
+    },
+    {
+      "name": "SEAL GREY",
+      "correspondences": []
+    },
+    {
+      "name": "STONE GREY",
+      "correspondences": []
+    },
+    {
+      "name": "DARK GHOST GRAY",
+      "correspondences": []
+    },
+    {
+      "name": "BLUE GRAY",
+      "correspondences": []
+    },
+    {
+      "name": "GREY",
+      "correspondences": []
+    },
+    {
+      "name": "INTERMEDIATE BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "OCEAN GREY",
+      "correspondences": []
+    },
+    {
+      "name": "LIGHT GREY GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "NAKAJIMA INTERIOR GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "SKY GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "IJN ASH GREY",
+      "correspondences": []
+    },
+    {
+      "name": "IJA GREY GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "DUST",
+      "correspondences": []
+    },
+    {
+      "name": "ZIMMERIT",
+      "correspondences": []
+    },
+    {
+      "name": "NEUTRAL GRAY",
+      "correspondences": []
+    },
+    {
+      "name": "DARK GREY",
+      "correspondences": []
+    },
+    {
+      "name": "GRAUVIOLETT RLM 75",
+      "correspondences": []
+    },
+    {
+      "name": "SHADOW GREY",
+      "correspondences": []
+    },
+    {
+      "name": "GREY BROWN",
+      "correspondences": []
+    },
+    {
+      "name": "VIOLET",
+      "correspondences": []
+    },
+    {
+      "name": "PURPLE",
+      "correspondences": []
+    },
+    {
+      "name": "AMETHYST",
+      "correspondences": []
+    },
+    {
+      "name": "ORCHID",
+      "correspondences": []
+    },
+    {
+      "name": "LIGHT PLUM",
+      "correspondences": []
+    },
+    {
+      "name": "MAUVE",
+      "correspondences": []
+    },
+    {
+      "name": "PUTRID FLESH",
+      "correspondences": []
+    },
+    {
+      "name": "GRAUGRÜN RLM 74",
+      "correspondences": []
+    },
+    {
+      "name": "SCHWARZGRAU RLM 66",
+      "correspondences": []
+    },
+    {
+      "name": "RUBBER & TIRES",
+      "correspondences": []
+    },
+    {
+      "name": "DUNKELGRAU RAL7021",
+      "correspondences": []
+    },
+    {
+      "name": "NATO BLACK",
+      "correspondences": []
+    },
+    {
+      "name": "SATIN BLACK",
+      "correspondences": []
+    },
+    {
+      "name": "MATT BLACK",
+      "correspondences": []
+    },
+    {
+      "name": "SILVER",
+      "correspondences": []
+    },
+    {
+      "name": "ALUMINUM",
+      "correspondences": []
+    },
+    {
+      "name": "STEEL",
+      "correspondences": []
+    },
+    {
+      "name": "GUN METAL",
+      "correspondences": []
+    },
+    {
+      "name": "METALLIC BLACK",
+      "correspondences": []
+    },
+    {
+      "name": "BURNT IRON",
+      "correspondences": []
+    },
+    {
+      "name": "COPPER",
+      "correspondences": []
+    },
+    {
+      "name": "GOLD PINK",
+      "correspondences": []
+    },
+    {
+      "name": "GOLD",
+      "correspondences": []
+    },
+    {
+      "name": "BRASS",
+      "correspondences": []
+    },
+    {
+      "name": "METALLIC RED",
+      "correspondences": []
+    },
+    {
+      "name": "AOTAKE GREEN",
+      "correspondences": []
+    },
+    {
+      "name": "AOTAKE BLUE",
+      "correspondences": []
+    },
+    {
+      "name": "WASHABLE WHITE",
+      "correspondences": []
+    },
+    {
+      "name": "WASHABLE DUST",
+      "correspondences": []
+    },
+    {
+      "name": "WASHABLE SAND",
+      "correspondences": []
+    },
+    {
+      "name": "THINNER AND CLEANER",
       "correspondences": []
     }
   ]

@@ -1,40 +1,37 @@
 {
-  "series": "Vallejo Model Color",
-  "manufacturer": "Vallejo",
+  "series": "Tamiya Flat",
+  "manufacturer": "Tamiya",
   "prefixes": [
-    "70."
+    "XF-",
+    "XF"
   ],
   "colors": [
     {
-      "name": "White",
+      "name": "Flat Black",
       "correspondences": []
     },
     {
-      "name": "Offwhite",
+      "name": "Flat White",
       "correspondences": []
     },
     {
-      "name": "Cream White",
+      "name": "Yellow",
       "correspondences": []
     },
     {
-      "name": "Deep Yellow",
+      "name": "Yellow Green",
       "correspondences": []
     },
     {
-      "name": "Flat Yellow",
+      "name": "Light Green",
       "correspondences": []
     },
     {
-      "name": "Clear Orange",
+      "name": "Light Green",
       "correspondences": []
     },
     {
-      "name": "Carmine Red",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Vermilion",
+      "name": "Copper",
       "correspondences": []
     },
     {
@@ -42,35 +39,103 @@
       "correspondences": []
     },
     {
-      "name": "Black Red",
+      "name": "Flat Blue",
       "correspondences": []
     },
     {
-      "name": "Prussian Blue",
+      "name": "Cocoa Brown/Hull Red",
       "correspondences": []
     },
     {
-      "name": "Dark Prussian Blue",
+      "name": "Dark Brown",
       "correspondences": []
     },
     {
-      "name": "Pastel Blue",
+      "name": "IJN Dark Green",
       "correspondences": []
     },
     {
-      "name": "Blue",
+      "name": "IJN Dark Green",
       "correspondences": []
     },
     {
-      "name": "Infantry Blue",
+      "name": "IJN Gray",
       "correspondences": []
     },
     {
-      "name": "Sky Blue",
+      "name": "IJN Gray",
       "correspondences": []
     },
     {
-      "name": "Dark Sea Blue",
+      "name": "IJA Green",
+      "correspondences": []
+    },
+    {
+      "name": "IJA Green",
+      "correspondences": []
+    },
+    {
+      "name": "IJA Light Gray",
+      "correspondences": []
+    },
+    {
+      "name": "IJA Light Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Flesh",
+      "correspondences": []
+    },
+    {
+      "name": "Aluminum",
+      "correspondences": []
+    },
+    {
+      "name": "Sea Blue",
+      "correspondences": []
+    },
+    {
+      "name": "Intermediate Blue",
+      "correspondences": []
+    },
+    {
+      "name": "Intermediate Blue",
+      "correspondences": []
+    },
+    {
+      "name": "Barley Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Duck Egg Green",
+      "correspondences": []
+    },
+    {
+      "name": "RLM Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Light Blue",
+      "correspondences": []
+    },
+    {
+      "name": "Light Blue",
+      "correspondences": []
+    },
+    {
+      "name": "Deep Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Light Sea Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Deep Green",
       "correspondences": []
     },
     {
@@ -78,19 +143,91 @@
       "correspondences": []
     },
     {
-      "name": "Gunship Green",
+      "name": "Dark Copper",
       "correspondences": []
     },
     {
-      "name": "German Uniform",
+      "name": "Signalbraun",
       "correspondences": []
     },
     {
-      "name": "Bronze Green",
+      "name": "Field Blue",
       "correspondences": []
     },
     {
-      "name": "Cam. Dark Green",
+      "name": "Dark Green",
+      "correspondences": []
+    },
+    {
+      "name": "Dark Green",
+      "correspondences": []
+    },
+    {
+      "name": "Dark Earth",
+      "correspondences": []
+    },
+    {
+      "name": "Dark Earth",
+      "correspondences": []
+    },
+    {
+      "name": "Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Dark Sea Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Deck Tan",
+      "correspondences": []
+    },
+    {
+      "name": "Metallic Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Hemp",
+      "correspondences": []
+    },
+    {
+      "name": "Tan",
+      "correspondences": []
+    },
+    {
+      "name": "Dark Yellow",
+      "correspondences": []
+    },
+    {
+      "name": "Dark Green",
+      "correspondences": []
+    },
+    {
+      "name": "Olive Drab",
+      "correspondences": []
+    },
+    {
+      "name": "Panzer Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Red Brown",
+      "correspondences": []
+    },
+    {
+      "name": "Green",
+      "correspondences": []
+    },
+    {
+      "name": "Green",
+      "correspondences": []
+    },
+    {
+      "name": "Light Gray",
       "correspondences": []
     },
     {
@@ -98,275 +235,115 @@
       "correspondences": []
     },
     {
-      "name": "Medium Olive",
+      "name": "Bronze Green",
       "correspondences": []
     },
     {
-      "name": "Luftwaffe Green",
+      "name": "Lederbraun",
       "correspondences": []
     },
     {
-      "name": "Military Green",
+      "name": "Teerschwarz",
       "correspondences": []
     },
     {
-      "name": "Pastel Green",
+      "name": "Dark Green",
       "correspondences": []
     },
     {
-      "name": "Green Grey",
+      "name": "Interior Green",
       "correspondences": []
     },
     {
-      "name": "Ger. Fieldgrey WWII",
+      "name": "Brown JGSDF",
       "correspondences": []
     },
     {
-      "name": "German Tank Crew",
+      "name": "Green JGSDF",
       "correspondences": []
     },
     {
-      "name": "Extra Dark Green",
+      "name": "Olive Drab JGSDF",
       "correspondences": []
     },
     {
-      "name": "Light Mud",
+      "name": "Kure Gray",
       "correspondences": []
     },
     {
-      "name": "US Dark Green",
+      "name": "IJA Gray",
       "correspondences": []
     },
     {
-      "name": "Refractive Green",
+      "name": "IJA Gray",
       "correspondences": []
     },
     {
-      "name": "Olive Grey",
+      "name": "Sasebo Gray",
       "correspondences": []
     },
     {
-      "name": "Cam. Olive Green",
+      "name": "Wooden Deck Tan",
       "correspondences": []
     },
     {
-      "name": "Medium Grey",
+      "name": "Linoleum",
       "correspondences": []
     },
     {
-      "name": "German Beige WWII",
+      "name": "Light Gray",
       "correspondences": []
     },
     {
-      "name": "Khaki",
+      "name": "Dark Green",
       "correspondences": []
     },
     {
-      "name": "Grey Brown",
+      "name": "Dark Green",
       "correspondences": []
     },
     {
-      "name": "Canvas",
+      "name": "Ocean Gray",
       "correspondences": []
     },
     {
-      "name": "Burnt Umber",
+      "name": "Medium Sea Gray",
       "correspondences": []
     },
     {
-      "name": "German Yellow",
+      "name": "Medium Sea Gray",
       "correspondences": []
     },
     {
-      "name": "Green Yellow",
+      "name": "Burnt Iron",
       "correspondences": []
     },
     {
-      "name": "US Olive Drab",
+      "name": "Tire Black",
       "correspondences": []
     },
     {
-      "name": "Buff",
+      "name": "Flat Clear",
       "correspondences": []
     },
     {
-      "name": "Military Yellow",
+      "name": "Maizuru Gray",
       "correspondences": []
     },
     {
-      "name": "Green Brown",
+      "name": "Dark Yellow 2",
       "correspondences": []
     },
     {
-      "name": "English Uniform",
+      "name": "Dark Green 2",
       "correspondences": []
     },
     {
-      "name": "Olive Brown",
+      "name": "Red Brown 2",
       "correspondences": []
     },
     {
-      "name": "Beige",
-      "correspondences": []
-    },
-    {
-      "name": "Green Ochre",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Sand",
-      "correspondences": []
-    },
-    {
-      "name": "Desert Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Old Wood",
-      "correspondences": []
-    },
-    {
-      "name": "Desert Tan",
-      "correspondences": []
-    },
-    {
-      "name": "Tan Earth",
-      "correspondences": []
-    },
-    {
-      "name": "US Field Drab",
-      "correspondences": []
-    },
-    {
-      "name": "BC Dark Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Leather Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Cam. Black Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Desert Yellow",
-      "correspondences": []
-    },
-    {
-      "name": "Mustard Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Beige Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Saddle Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Yellow Ochre",
-      "correspondences": []
-    },
-    {
-      "name": "Ochre Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Red Leather",
-      "correspondences": []
-    },
-    {
-      "name": "Cavalry Brown",
-      "correspondences": []
-    },
-    {
-      "name": "Burnt Red",
-      "correspondences": []
-    },
-    {
-      "name": "Hull Red",
-      "correspondences": []
-    },
-    {
-      "name": "Silver Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Light Green Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Pale Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Light Green Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Grey Blue",
-      "correspondences": []
-    },
-    {
-      "name": "Luftwaffe Uniform",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Sky Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Light Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Blue Grey Pale",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Blue Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Medium Sea Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Violet Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Grey Green",
-      "correspondences": []
-    },
-    {
-      "name": "Basalt Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Dark Sea Green",
-      "correspondences": []
-    },
-    {
-      "name": "German Grey",
-      "correspondences": []
-    },
-    {
-      "name": "Black",
-      "correspondences": []
-    },
-    {
-      "name": "Gloss Black",
-      "correspondences": []
-    },
-    {
-      "name": "Silver",
+      "name": "Yokosuka Gray",
       "correspondences": []
     }
   ]

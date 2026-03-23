@@ -1,0 +1,138 @@
+{
+  "series": "Tamiya Gloss",
+  "manufacturer": "Tamiya",
+  "prefixes": [
+    "X-",
+    "X"
+  ],
+  "colors": [
+    {
+      "name": "Black",
+      "correspondences": []
+    },
+    {
+      "name": "White",
+      "correspondences": []
+    },
+    {
+      "name": "Blue",
+      "correspondences": []
+    },
+    {
+      "name": "Blue",
+      "correspondences": []
+    },
+    {
+      "name": "Green",
+      "correspondences": []
+    },
+    {
+      "name": "Orange",
+      "correspondences": []
+    },
+    {
+      "name": "Red",
+      "correspondences": []
+    },
+    {
+      "name": "Yellow",
+      "correspondences": []
+    },
+    {
+      "name": "Red Brown",
+      "correspondences": []
+    },
+    {
+      "name": "Steel",
+      "correspondences": []
+    },
+    {
+      "name": "Silver",
+      "correspondences": []
+    },
+    {
+      "name": "Silver",
+      "correspondences": []
+    },
+    {
+      "name": "Gold",
+      "correspondences": []
+    },
+    {
+      "name": "Metallic Blue/Aotake",
+      "correspondences": []
+    },
+    {
+      "name": "Sky Blue",
+      "correspondences": []
+    },
+    {
+      "name": "Light Green",
+      "correspondences": []
+    },
+    {
+      "name": "Purple",
+      "correspondences": []
+    },
+    {
+      "name": "Pink",
+      "correspondences": []
+    },
+    {
+      "name": "Cowling Color/N01",
+      "correspondences": []
+    },
+    {
+      "name": "Smoke Gray",
+      "correspondences": []
+    },
+    {
+      "name": "Flat Base",
+      "correspondences": []
+    },
+    {
+      "name": "Gloss Clear",
+      "correspondences": []
+    },
+    {
+      "name": "Clear Blue",
+      "correspondences": []
+    },
+    {
+      "name": "Clear Yellow",
+      "correspondences": []
+    },
+    {
+      "name": "Clear Green",
+      "correspondences": []
+    },
+    {
+      "name": "Clear Orange",
+      "correspondences": []
+    },
+    {
+      "name": "Clear Red",
+      "correspondences": []
+    },
+    {
+      "name": "Bright Green/Dilectric Green",
+      "correspondences": []
+    },
+    {
+      "name": "Titanium Gold",
+      "correspondences": []
+    },
+    {
+      "name": "Titanium Silver",
+      "correspondences": []
+    },
+    {
+      "name": "Bronze",
+      "correspondences": []
+    },
+    {
+      "name": "Metallic Brown",
+      "correspondences": []
+    }
+  ]
+}
