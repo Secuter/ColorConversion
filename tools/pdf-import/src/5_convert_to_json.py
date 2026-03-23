@@ -1,17 +1,3 @@
-"""
-5_convert_to_json.py
-
-Converts CSVs for each paint line to the JSON format required by the Vue website.
-
-- Paint line configuration is read from src/data/paint-lines.json
-- CSV source files are determined by tools/pdf-import/sources-csv.json:
-    - If "skip": true, skip this paint line
-    - If "merged" is set, use that CSV from output/merged/
-    - If not, and only one file in "files", use that from input/
-- Output JSON is written to src/data/<paint-line>.json (where <paint-line> is the paint line key)
-
-Usage: python 5_convert_to_json.py
-"""
 import json
 import csv
 import os
@@ -39,36 +25,41 @@ with open(SOURCES_CSV_JSON, encoding="utf-8") as f:
 
 # Build a lookup for paint line config by id
 paint_line_by_id = {pl["id"]: pl for pl in paint_lines}
-
-# Helper: get CSV path for a paint line entry
-def get_csv_path(entry):
-    if entry.get("skip"):
-        return None
-    if "merged" in entry:
-        return MERGED / entry["merged"]
-    files = entry.get("files", [])
-    if len(files) == 1:
-        return INPUT / files[0]["name"]
-    return None
-
+# Build a lookup for paint line config by alias
+paint_line_by_alias = {pl["alias"]: pl for pl in paint_lines}
 
 # Helper: normalize/pad id
-def normalize_id(val, min_digits=0):
+def normalize_id(val, min_digits=0, config=None):
     if val is None:
         return ""
     val = str(val).strip()
-    # Remove any non-digit prefix/suffix
+    # Remove prefix if present
+    if config:
+        prefixes = config.get("prefixes", [])
+        for prefix in prefixes:
+            if val.startswith(prefix):
+                val = val[len(prefix):]
+        suffixes = config.get("suffixes", [])
+        for suffix in suffixes:
+            if val.endswith(suffix):
+                val = val[:-len(suffix)]
     val = val.lstrip("0") if val.lstrip("0") else val
     if min_digits > 0:
         val = val.zfill(min_digits)
     return val
 
-# Helper: parse a CSV file into color dicts for the new format
-def parse_csv(csv_path, paint_line_key, config, paint_line_by_id):
-    with open(csv_path, encoding="utf-8-sig") as f:
+def open_csv_with_fallback(path):
+    try:
+        return open(path, encoding="utf-8-sig")
+    except UnicodeDecodeError:
+        return open(path, encoding="latin1")
+
+def convert_csv_to_json(csv_path, config):
+    # Open CSV
+    with open_csv_with_fallback(csv_path) as f:
         reader = csv.DictReader(f, delimiter=';')
-        rows = list(reader)
-    min_digits = config.get("min_digits", 0)
+        rows = list(reader)    
+    
     # Build header mapping: Id, Name, rest = correspondences
     headers = reader.fieldnames
     if not headers:
@@ -77,29 +68,30 @@ def parse_csv(csv_path, paint_line_key, config, paint_line_by_id):
     name_col = next((h for h in headers if h.lower() == "name"), None)
     if not id_col or not name_col:
         raise Exception(f"Missing Id or Name column in {csv_path}")
-    # All other columns are correspondences
-    correspondence_cols = [h for h in headers if h not in (id_col, name_col)]
+
     # Try to map correspondence columns to paint_line keys using alias
+    correspondence_cols = [h for h in headers if h not in (id_col, name_col)]
     col_to_paint_line = {}
     for col in correspondence_cols:
-        norm_col = col.lower().replace(" ", "-").replace("_", "-")
-        for plid, plconf in paint_line_by_id.items():
-            alias = plconf.get("alias", "").lower().replace(" ", "-")
-            if norm_col == plid or norm_col == plconf.get("series", "").lower().replace(" ", "-") or (alias and norm_col == alias):
-                col_to_paint_line[col] = plid
-                break
+        alias = col.strip()
+        paint_line = paint_line_by_alias.get(alias)
+        if paint_line:
+            col_to_paint_line[col] = paint_line["id"]
         else:
-            print(f"[WARN] Colonna '{col}' non associata a paint line nota (alias/series/id). Da configurare?")
+            print(f"[WARN] No paint line found for column '{col}' in {csv_path}")
+    
     colors = []
+    min_digits=config.get("min_digits", 0)
     for row in rows:
-        color_id = normalize_id(row.get(id_col), min_digits)
+        color_id = normalize_id(row.get(id_col), min_digits, config)
         color_name = row.get(name_col, "").strip()
         correspondences = []
         for col, plid in col_to_paint_line.items():
             val = row.get(col, "").strip()
-            if val:
-                corr_id = normalize_id(val, paint_line_by_id.get(plid, {}).get("min_digits", 0))
-                correspondences.append({"paint_line": plid, "id": corr_id})
+            if not val or val == "-":
+                continue
+            corr_id = normalize_id(val, paint_line_by_id.get(plid, {}).get("min_digits", 0), paint_line_by_id.get(plid, {}))
+            correspondences.append({"paint_line": plid, "id": corr_id})
         colors.append({
             "id": color_id,
             "name": color_name,
@@ -108,25 +100,31 @@ def parse_csv(csv_path, paint_line_key, config, paint_line_by_id):
         })
     return colors
 
-# Process paint lines
-for entry in sources["paintLines"]:
-    key = entry["key"]
-    if entry.get("skip"):
-        print(f"Skipping {key}")
-        continue
-    csv_path = get_csv_path(entry)
-    if not csv_path or not csv_path.exists():
-        print(f"No CSV found for {key}, skipping.")
-        continue
-    # Find config for this paint line
-    config = paint_line_by_id.get(key)
-    if not config:
-        print(f"No config for {key} in paint-lines.json, skipping.")
-        continue
-    # Parse CSV
-    colors = parse_csv(csv_path, key, config, paint_line_by_id)
-    # Output: just the array of colors, file name from config["key"]
-    out_path = DATA / f"{config['id']}.json"
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(colors, f, ensure_ascii=False, indent=2)
-    print(f"Wrote {out_path}")
+for section in sources:
+    for entry in sources[section]:
+        if entry.get("skip"):
+            print(f"{entry['key']}\t\t: [SKIPPED]")
+            continue
+        colors = None
+        config = paint_line_by_id[entry["key"]]
+        if entry.get("merged"):
+            csv_path = MERGED / entry["merged"]
+            if csv_path.exists():
+                print(f"{config['series']}\t\t: {csv_path}")
+                colors = convert_csv_to_json(csv_path, config)
+            else:
+                print(f"{config['series']}\t\t: [NOT FOUND] {csv_path}")
+        files = entry.get("files", [])
+        if len(files) == 1:
+            csv_path = INPUT / files[0]["name"]
+            if csv_path.exists():
+                print(f"{config['series']}\t\t: {csv_path}")
+                colors = convert_csv_to_json(csv_path, config)
+            else:
+                print(f"{config['series']}\t\t: [NOT FOUND] {csv_path}")
+        # Save colors to file if generated
+        if colors is not None:
+            out_path = DATA / f"{entry['key']}.json"
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(colors, f, ensure_ascii=False, indent=2)
+            print(f"[SAVED] {out_path}")
