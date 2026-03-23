@@ -75,8 +75,6 @@ def collect_headers_with_files(folder: Path, delimiter: str, recursive: bool) ->
 def build_headers_json_payload(headers_with_files: dict[str, set[str]]) -> dict:
     sorted_headers = sorted(headers_with_files.keys(), key=lambda value: value.casefold())
     return {
-        "total_headers": len(sorted_headers),
-        "headers": sorted_headers,
         "header_sources": [
             {
                 "header": header,
@@ -106,25 +104,15 @@ def main() -> None:
     if not folder.exists() or not folder.is_dir():
         parser.error(f"Folder does not exist or is not a directory: {folder}")
 
-    headers = collect_unique_headers(folder, args.delimiter, args.recursive)
     headers_with_files = collect_headers_with_files(folder, args.delimiter, args.recursive)
 
-    text_output: Path = args.text_output or (folder / "headers.txt")
     json_output: Path = args.json_output or (folder / "headers-with-sources.json")
-
-    text_output.parent.mkdir(parents=True, exist_ok=True)
-    text_output.write_text("\n".join(headers) + "\n", encoding="utf-8")
 
     json_payload = build_headers_json_payload(headers_with_files)
     json_output.parent.mkdir(parents=True, exist_ok=True)
     json_output.write_text(json.dumps(json_payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    print(f"Saved {len(headers)} headers to {text_output}")
     print(f"Saved JSON header source map to {json_output}")
-
-    if args.print:
-        for header in headers:
-            print(header)
 
 
 if __name__ == "__main__":
