@@ -134,7 +134,7 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import type { PaintSeries } from './types'
-import { allSeries, allManufacturers } from './data/index'
+import { allSeries, allManufacturers, nonStandardSeries } from './data/index'
 import { autoDetectFromInput, detectSeries } from './composables/useColorDetection'
 import { convertColors, convertColorsMultipleSeries } from './composables/useConversion'
 import ConversionResults from './components/ConversionResults.vue'
@@ -152,27 +152,20 @@ const selectedTargetManufacturers = ref<string[]>([...allManufacturers])
 const targetSelectionMode = ref<'all' | 'enamel' | 'acrylic-water' | 'acrylic-alcohol' | 'laquer'>('all')
 const conversionResults = ref<ConversionResult[]>([])
 
-const manufacturerList = computed(() => allManufacturers)
+const manufacturerList = computed(() => [...new Set(nonStandardSeries.map(s => s.manufacturer))])
 
 const manufacturersByType = computed<Record<string, string[]>>(() => {
   const grouped = new Map<string, Set<string>>()
-
-  for (const series of allSeries) {
+  for (const series of nonStandardSeries) {
     const seriesType = series.type
     if (!seriesType) continue
-
-    if (!grouped.has(seriesType)) {
-      grouped.set(seriesType, new Set<string>())
-    }
-
-    grouped.get(seriesType)?.add(series.manufacturer)
+    if (!grouped.has(seriesType)) grouped.set(seriesType, new Set<string>())
+    grouped.get(seriesType)!.add(series.manufacturer)
   }
-
   const result: Record<string, string[]> = {}
   for (const [seriesType, manufacturers] of grouped.entries()) {
     result[seriesType] = [...manufacturers]
   }
-
   return result
 })
 
