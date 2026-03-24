@@ -54,32 +54,50 @@ function withPaintLineMeta(series: PaintSeries): PaintSeries {
   }
 }
 
+
+function makePaintSeries(id: string, colors: any[]): PaintSeries {
+  const meta = paintLineMetaByKey.get(id)
+  if (!meta) {
+    throw new Error(`Missing paint line metadata for id: ${id}`)
+  }
+  return {
+    series: meta.series,
+    manufacturer: meta.manufacturer,
+    type: meta.type,
+    prefixes: meta.prefixes ?? [],
+    default_prefix: meta.default_prefix,
+    suffixes: meta.suffixes ?? [],
+    default_suffix: meta.default_suffix,
+    colors: colors as any, // PaintColor[]
+  }
+}
+
 const configuredSeries: PaintSeries[] = [
-  withPaintLineMeta(vallejoModelColor as unknown as PaintSeries),
-  withPaintLineMeta(vallejoModelAir as unknown as PaintSeries),
-  withPaintLineMeta(akAcrylic as unknown as PaintSeries),
-  withPaintLineMeta(akRealColors as unknown as PaintSeries),
-  withPaintLineMeta(ammoMig as unknown as PaintSeries),
-  withPaintLineMeta(ammoMigAtom as unknown as PaintSeries),
-  withPaintLineMeta(humbrolEnamel as unknown as PaintSeries),
-  withPaintLineMeta(revellAcrylic as unknown as PaintSeries),
-  withPaintLineMeta(revellEnamel as unknown as PaintSeries),
-  withPaintLineMeta(federalStandard as unknown as PaintSeries),
-  withPaintLineMeta(britishStandard as unknown as PaintSeries),
-  withPaintLineMeta(anaStandard as unknown as PaintSeries),
-  withPaintLineMeta(rlm as unknown as PaintSeries),
-  withPaintLineMeta(mrColor as unknown as PaintSeries),
-  withPaintLineMeta(mrColorAqueous as unknown as PaintSeries),
-  withPaintLineMeta(italeri as unknown as PaintSeries),
+  makePaintSeries('vallejo-model-color', vallejoModelColor),
+  makePaintSeries('vallejo-model-air', vallejoModelAir),
+  makePaintSeries('ak-acrylic', akAcrylic),
+  makePaintSeries('ak-real-colors', akRealColors),
+  makePaintSeries('ammo-mig', ammoMig),
+  makePaintSeries('ammo-mig-atom', ammoMigAtom),
+  makePaintSeries('humbrol-enamel', humbrolEnamel),
+  makePaintSeries('revell-acrylic', revellAcrylic),
+  makePaintSeries('revell-enamel', revellEnamel),
+  makePaintSeries('federal-standard', federalStandard),
+  makePaintSeries('british-standard', britishStandard),
+  makePaintSeries('ana-standard', anaStandard),
+  makePaintSeries('rlm', rlm),
+  makePaintSeries('mr-color', mrColor),
+  makePaintSeries('mr-color-aqueous', mrColorAqueous),
+  makePaintSeries('italeri', italeri),
 ]
 
 
 // Filter out hidden paint lines
-const hiddenIds = new Set((paintLines as any[]).filter(pl => pl.hidden).map(pl => `${pl.manufacturer}|${pl.series}`))
-export const allSeries: PaintSeries[] = configuredSeries.filter(series =>
-  paintLineMetaByKey.has(`${series.manufacturer}|${series.series}`) &&
-  !hiddenIds.has(`${series.manufacturer}|${series.series}`)
-)
+const hiddenIds = new Set((paintLines as any[]).filter(pl => pl.hidden).map(pl => pl.id))
+export const allSeries: PaintSeries[] = configuredSeries.filter(series => {
+  const meta = (paintLines as any[]).find(pl => pl.series === series.series && pl.manufacturer === series.manufacturer)
+  return meta && meta.id && paintLineMetaByKey.has(meta.id) && !hiddenIds.has(meta.id)
+})
 
 /** All unique manufacturer names (only visible paint lines) */
 export const allManufacturers: string[] = [...new Set(allSeries.map(s => s.manufacturer))]
