@@ -104,8 +104,10 @@ export function convertColors(
           const matchesSeries =
             corr.series === sourceSeries.series ||
             corr.manufacturer === sourceSeries.manufacturer
-          const corrNormUpper = normalizeId(corr.id, sourceSeries).toUpperCase()
-          if (matchesSeries && corrNormUpper === normalizedIdUpper) {
+          // Patch: normalize the correspondence id using the TARGET series' rules, not the source
+          const corrNormUpper = normalizeId(corr.id, series).toUpperCase()
+          const inputNormUpper = normalizeId(code, series).toUpperCase()
+          if (matchesSeries && corrNormUpper === inputNormUpper) {
             const key = `${series.manufacturer}|${series.series}|${normalizeId(color.id, series).toUpperCase()}`
             if (seen.has(key)) continue
             seen.add(key)

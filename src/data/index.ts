@@ -74,6 +74,9 @@ function makePaintSeries(id: string, colors: any[]): PaintSeries {
   }
 }
 
+import tamiyaFlat from './tamiya-flat.json'
+import tamiyaGloss from './tamiya-gloss.json'
+
 const configuredSeries: PaintSeries[] = [
   makePaintSeries('vallejo-model-color', vallejoModelColor),
   makePaintSeries('vallejo-model-air', vallejoModelAir),
@@ -91,6 +94,8 @@ const configuredSeries: PaintSeries[] = [
   makePaintSeries('mr-color', mrColor),
   makePaintSeries('mr-color-aqueous', mrColorAqueous),
   makePaintSeries('italeri', italeri),
+  makePaintSeries('tamiya-flat', tamiyaFlat),
+  makePaintSeries('tamiya-gloss', tamiyaGloss),
 ]
 
 
