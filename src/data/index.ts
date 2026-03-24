@@ -55,22 +55,22 @@ function withPaintLineMeta(series: PaintSeries): PaintSeries {
 }
 
 const configuredSeries: PaintSeries[] = [
-  withPaintLineMeta(vallejoModelColor as PaintSeries),
-  withPaintLineMeta(vallejoModelAir as PaintSeries),
-  withPaintLineMeta(akAcrylic as PaintSeries),
-  withPaintLineMeta(akRealColors as PaintSeries),
-  withPaintLineMeta(ammoMig as PaintSeries),
-  withPaintLineMeta(ammoMigAtom as PaintSeries),
-  withPaintLineMeta(humbrolEnamel as PaintSeries),
-  withPaintLineMeta(revellAcrylic as PaintSeries),
-  withPaintLineMeta(revellEnamel as PaintSeries),
-  withPaintLineMeta(federalStandard as PaintSeries),
-  withPaintLineMeta(britishStandard as PaintSeries),
-  withPaintLineMeta(anaStandard as PaintSeries),
-  withPaintLineMeta(rlm as PaintSeries),
-  withPaintLineMeta(mrColor as PaintSeries),
-  withPaintLineMeta(mrColorAqueous as PaintSeries),
-  withPaintLineMeta(italeri as PaintSeries),
+  withPaintLineMeta(vallejoModelColor as unknown as PaintSeries),
+  withPaintLineMeta(vallejoModelAir as unknown as PaintSeries),
+  withPaintLineMeta(akAcrylic as unknown as PaintSeries),
+  withPaintLineMeta(akRealColors as unknown as PaintSeries),
+  withPaintLineMeta(ammoMig as unknown as PaintSeries),
+  withPaintLineMeta(ammoMigAtom as unknown as PaintSeries),
+  withPaintLineMeta(humbrolEnamel as unknown as PaintSeries),
+  withPaintLineMeta(revellAcrylic as unknown as PaintSeries),
+  withPaintLineMeta(revellEnamel as unknown as PaintSeries),
+  withPaintLineMeta(federalStandard as unknown as PaintSeries),
+  withPaintLineMeta(britishStandard as unknown as PaintSeries),
+  withPaintLineMeta(anaStandard as unknown as PaintSeries),
+  withPaintLineMeta(rlm as unknown as PaintSeries),
+  withPaintLineMeta(mrColor as unknown as PaintSeries),
+  withPaintLineMeta(mrColorAqueous as unknown as PaintSeries),
+  withPaintLineMeta(italeri as unknown as PaintSeries),
 ]
 
 
