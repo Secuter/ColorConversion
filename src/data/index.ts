@@ -18,9 +18,11 @@ import italeri from './italeri.json'
 import paintLines from './paint-lines.json'
 
 interface PaintLineMeta {
+  id: string
   series: string
+  alias: string
   manufacturer: string
-  type?: string
+  type: string
   prefixes?: string[]
   default_prefix?: string
   suffixes?: string[]
@@ -95,8 +97,8 @@ const configuredSeries: PaintSeries[] = [
 // Filter out hidden paint lines
 const hiddenIds = new Set((paintLines as any[]).filter(pl => pl.hidden).map(pl => pl.id))
 export const allSeries: PaintSeries[] = configuredSeries.filter(series => {
-  const meta = (paintLines as any[]).find(pl => pl.series === series.series && pl.manufacturer === series.manufacturer)
-  return meta && meta.id && paintLineMetaByKey.has(meta.id) && !hiddenIds.has(meta.id)
+  const meta = (paintLines as PaintLineMeta[]).find(pl => pl.series === series.series && pl.manufacturer === series.manufacturer)
+  return meta && paintLineMetaByKey.has(meta.id) && !hiddenIds.has(meta.id)
 })
 
 /** All unique manufacturer names (only visible paint lines) */
