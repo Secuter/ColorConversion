@@ -101,5 +101,12 @@ export const allSeries: PaintSeries[] = configuredSeries.filter(series => {
   return meta && paintLineMetaByKey.has(meta.id) && !hiddenIds.has(meta.id)
 })
 
+
 /** All unique manufacturer names (only visible paint lines) */
 export const allManufacturers: string[] = [...new Set(allSeries.map(s => s.manufacturer))]
+
+/** Paint lines that are standards (for auto-detect/source, not for targets) */
+export const standardSeries: PaintSeries[] = allSeries.filter(s => (paintLines as any[]).find(pl => pl.series === s.series && pl.manufacturer === s.manufacturer)?.type === 'standard')
+
+/** Paint lines that are NOT standards (for target selection) */
+export const nonStandardSeries: PaintSeries[] = allSeries.filter(s => (paintLines as any[]).find(pl => pl.series === s.series && pl.manufacturer === s.manufacturer)?.type !== 'standard')
