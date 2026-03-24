@@ -31,7 +31,7 @@ interface PaintLineMeta {
 
 const paintLineMetaByKey = new Map(
   (paintLines as PaintLineMeta[]).map(line => [
-    `${line.manufacturer}|${line.series}`,
+    line.id,
     line,
   ]),
 )
